@@ -200,11 +200,11 @@ margin: 20px;
  font-size: $lt-font-size-text-h3;
  line-height: $lt-font-size-text-h3;
 }
-.contact-block .frm-contact input,select,option {
+.contact-block .frm-contact input, select, option {
  background-color:$home-air;
  width: 90%;
  height: auto;
- min-height: 80px;
+//  min-height: 80px;
  margin: 20px;
  border-radius: 15px;
  box-sizing: border-box;
