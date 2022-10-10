@@ -1,0 +1,130 @@
+.home6 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, $finner 0%, $third 100%);
+    position: relative;
+}
+
+.home6 .all-home6 {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.home6 .all-home6 .top-content {
+    margin: $space-margin-top-bottom-l 0;
+    padding-left: calc((100% - 1200px) / 2);
+    padding-right: calc((100% - 1200px) / 2);
+    }
+
+.home6 .all-home6 .top-content h2 {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: $lt-font-size-text-h2;
+    line-height: $lt-line-height-text-h2;
+    color: $font-home5;
+    // transform: translateY(-30%);
+}
+
+.home6 .all-home6 .all-flexbox-home6 {
+    width: 100%;
+    height: auto;
+}
+.home6 .all-home6 .all-flexbox-home6 .sld-home6{
+    width: 100%;
+    height: 400px;
+    padding-left: calc((100% - 1200px) / 2);
+    padding-right: calc((100% - 1200px) / 2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home6 .all-home6 .all-flexbox-home6 .sld-home6 .container-sld-home6 {
+    width: calc(100% - 30px) ;
+    height: 100%;
+    padding-left: calc((100% - 1200px) / 2);
+    padding-right: calc((100% - 1200px) / 2);
+    position: relative;
+    overflow: hidden;
+}
+.home6 .all-home6 .all-flexbox-home6 .sld-home6 .container-sld-home6 .slide-home6 {
+    width: calc(200% + 15px);
+height: 100%;
+position: absolute;
+transition: all 1s ease-in-out;
+display: flex;
+align-items: center;
+gap: 15px;
+}
+.home6 .all-home6 .all-flexbox-home6 .sld-pagination {
+    display: flex;
+    margin: $space-margin-top-bottom-l 0;
+    padding-left: calc((100% - 1200px) / 2);
+    padding-right: calc((100% - 1200px) / 2);
+    align-items: center;
+    justify-content: center;
+}
+.home6 .all-home6 .all-flexbox-home6 .sld-pagination .cur-page{
+    width: 10px;
+    height: 10px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.1);
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #fff;
+    margin: 0 5px;
+}
+.home6 .all-home6 .all-flexbox-home6 .sld-pagination .cur-page-active {
+    background-color: black !important;
+}
+
+.home6 .flex-item .top-item {
+    width: 280px;
+    height: 261px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.home6 .flex-item .bottom-item {
+    width: 280px;
+    height: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: $white-contact;
+    cursor: pointer;
+}
+
+.flexbox-home6 .bottom-item h5 {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: $lt-font-size-text-h5;
+    line-height: $lt-line-height-text-h5;
+    color: $font-home5;
+}
+
+.flexbox-home6 .bottom-item span {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 400;
+    font-size: $lt-font-size-text-m;
+    line-height: $line-height-text-m;
+    color: $font-auto;
+}
+
+.home6  #item1 {
+    background: url(../images/item1-home6.png) center center/cover;
+}
+
+.home6  #item2 {
+    background: url(../images/item2-home6.png) center center/cover;
+}
+
+.home6  #item3 {
+    background: url(../images/item3-home6.png) center center/cover;
+}
+
+.home6  #item4 {
+    background: url(../images/item4-home6.png) center center/cover;
+}

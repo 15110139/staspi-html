@@ -1,0 +1,57 @@
+.hiring2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.hiring2 .all-hiring2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
+}
+
+.hiring2 .all-hiring2 .left-square {
+    flex: 1;
+}
+
+.hiring2 .left-square .square-hiring2 {
+    width: 450px;
+    height: 450px;
+    background: url(../images/image1-hiring.png)center center/cover;
+    border-radius: 50%;
+}
+
+.hiring2 .all-hiring2 .cotent-right {
+    flex: 1;
+}
+
+.hiring2 .content-right h1 {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: $lt-font-size-text-h1;
+    line-height: $line-height-text-h1;
+    margin-bottom: $space-margin-top-bottom-l;
+    color: $font-home5;
+    margin-left: 50px;
+}
+
+.hiring2 .content-right p {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 400;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
+    color: $second-primary;  
+    margin-left: 50px;
+    text-align: justify;
+}
+
+
+.auto-navs {
+    border-bottom: 1px solid $color-hiring2;
+}
+

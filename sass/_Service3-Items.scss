@@ -1,0 +1,67 @@
+.Service3-Items {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: $space-margin-top-bottom-l 0;
+}
+
+.Service3-Items .all-Service3-Items {
+    width: 100%;
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
+}
+
+.Service3-Items .all-Service3-Items .bottom-Service3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Service3-Items .flex-Service3 {
+    flex: 33.33%;
+}
+
+.Service3-Items .bottom-Service3 .flex-Service3-item {
+    background-color: $white-contact;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 300px;
+    margin-top: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 9px 5px $font-service2-color;
+    border-radius: 20px;
+    max-height: 300px;
+}
+
+.Service3-Items .all-Service3-Items .content-top-Service3 {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: $lt-font-size-text-h1;
+    line-height: $lt-font-size-text-h1;
+    text-align: center;
+    color: $font-home5;
+    margin: $space-margin-top-bottom-l 0;
+    margin-top: 0;
+}
+
+.Service3-Items .flex-Service3-item p {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+    font-size: $lt-font-size-text-l;
+    line-height: 25px;
+    color: $font-black;
+}
+
+.Service3-Items .flex-Service3-item img {
+    width: 40%;
+}
+
+.Service3-Items .flex-Service3-item .all-flex-icon-content {
+    display: flex;
+    align-items: center;
+}

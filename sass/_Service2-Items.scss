@@ -1,0 +1,98 @@
+.Service2-Items {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.Service2-Items .all-Service2-Items {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: $space-margin-top-bottom-l 0;
+    background-color: $primary;
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
+}
+
+.Service2-Items .all-Service2-Items .left-Service2-Items {
+    flex: 1;
+}
+
+.Service2-Items .all-Service2-Items .right-Service2-Items {
+    flex: 1;
+    gap: 10px;
+}
+
+.Service2-Items .all-Service2-Items .right-Service2-Items {
+    display: flex;
+    justify-content: center;
+}
+
+.Service2-Items .right-Service2-Items .square-service2 {
+    border-radius: 21px;
+    background-color: $white-contact;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin-left: 20px;
+    text-align: center;;
+    margin-top: 20px;
+}
+
+.Service2-Items .square-service2 img {
+    width: 50%;
+}
+
+.Service2-Items .left-Service2-Items .top-content {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: $lt-font-size-text-h3;
+    line-height: $lt-font-size-text-h3;
+    color: $white-contact;
+}
+
+.Service2-Items .left-Service2-Items .center-content {
+    font-style: normal;
+    font-weight: 700;
+    font-size: $lt-font-size-text-h2;
+    line-height: $lt-line-height-text-h2;
+    color: $white-contact;
+    font-family: $font-text;
+    margin-top: $space-margin-top-bottom-l;
+}
+
+.Service2-Items .left-Service2-Items .bottom-content {
+    font-style: normal;
+    font-weight: 600;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
+    color: $white-contact;
+    font-family: $font-text;
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.Service2-Items .bottom-button button {
+    background: $white-contact;
+    border-radius: 11px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    font-weight: 500;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
+    color: $primary;
+    margin-top: $space-margin-top-bottom-l;
+    font-family: $font-text;
+}
+
+.Service2-Items .right-Service2-Items p {
+    font-weight: 600;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
+    color: $font-black;
+    font-family: $font-text;
+    padding-top: 30px;
+}
