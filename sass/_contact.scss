@@ -95,7 +95,7 @@ width: 100%;
   flex: 50%;
   height: auto;
   position: relative;
-  padding: 2em;
+  // padding: 2em;
   // font-size:25px;
   display: flex;
   flex-direction: column;
@@ -200,11 +200,11 @@ margin: 20px;
  font-size: $lt-font-size-text-h3;
  line-height: $lt-font-size-text-h3;
 }
-.contact-block .frm-contact input,select,option {
+.contact-block .frm-contact input, select, option {
  background-color:$home-air;
  width: 90%;
  height: auto;
- min-height: 80px;
+//  min-height: 80px;
  margin: 20px;
  border-radius: 15px;
  box-sizing: border-box;
@@ -248,3 +248,7 @@ background-color:$home-air;
 .frm-contact input::placeholder{
  padding:10px;
 }
+//h1
+//h1
+// test
+//test
