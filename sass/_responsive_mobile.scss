@@ -949,7 +949,7 @@
 
        //Blog
        .topics .item-topic {
-        flex: 25%;
+        flex: 100% !important;
 
     }
     .topics .topic-container .item-topic .title-mobile {
@@ -963,6 +963,9 @@
     }
     .topics .topic-container .item-topic .image-item {
         height: 200px;
+    }
+    .topics .pagination {
+        margin: 10px;
     }
     .topics .pagination .pre-page ,.topics .pagination .nxt-page , .topics .pagination .cur-page {
         font-size: 35px;
@@ -988,6 +991,7 @@
         // line-height: 52px;
         // color: red;
       }
+      
       .topics .pagination .dots a {
         font-family: $font-text;
         font-style: normal;
@@ -1008,6 +1012,11 @@
       .topics .pagination .page-number .cur-page:hover{
         width: 10px;
       }
+
+       //blog
+    .banner_blog .search-bar {
+        width: 90%;
+    }
 
       //CONTACT
       .banner_contact h1 {
