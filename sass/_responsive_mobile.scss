@@ -1004,6 +1004,12 @@
         flex: 100% !important;
 
     }
+    .topics .topic-container .item-topic{
+        height: auto;
+    }
+    .topics .topic-container .item-topic .show-more {
+        display: none;
+    }
     .topics .topic-container .item-topic .title-mobile {
         display: flex;
     }
