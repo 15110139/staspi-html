@@ -11,7 +11,7 @@
     align-items: center;
     height: 100%;
     justify-content: center;
-    padding: 70px;
+    padding: 0 70px;
 }
 
 .home2-all {
@@ -77,14 +77,15 @@
 
 .home2 .flexbox-item .flex-item p {
     font-family: $font-text;
-    font-weight: 300;
-    font-size: $lt-font-size-text-m;
-    line-height: $lt-font-size-text-m;
+    font-weight: 400;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
 }
 
 .home2 .flexbox-service .flexbox-item {
     padding: 10px;
     flex: 25%;
+    min-height: 373px;
 }
 
 
