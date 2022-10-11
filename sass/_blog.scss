@@ -33,6 +33,7 @@ letter-spacing: -0.005em;
 color: $font-home5;
 text-shadow: 3px -1px 1px $font-input-hiring4;
 text-align: center;
+animation: slideLeft 1.5s ease;
 }
 .banner_blog .search-bar {
   width: 50%;
@@ -49,6 +50,7 @@ text-align: center;
   // margin-left: calc((100% - 1200px) / 2);
   // margin-right: calc((100% - 1200px) / 2);
   margin-top: 50px;
+  animation: slideLeft 1.5s ease;
 }
 .banner_blog .search-bar input {
   flex: 80%;
