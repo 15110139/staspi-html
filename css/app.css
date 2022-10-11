@@ -396,26 +396,6 @@ html {
     opacity: 1;
   }
 }
-@keyframes slideLeft {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes slideRight {
-  0% {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
 .home2 {
   width: 100%;
   height: auto;
@@ -3041,26 +3021,6 @@ html {
   display: none;
 }
 
-@keyframes slideLeft {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes slideRight {
-  0% {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
 .service1 {
   width: 100%;
   height: 100vh;
@@ -3867,26 +3827,6 @@ html {
   animation: slideLeft 1.5s ease;
 }
 
-@keyframes slideLeft {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes slideRight {
-  0% {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
 .main-contact {
   width: 100%;
   height: auto;
@@ -4224,20 +4164,23 @@ html {
 
 .topics .topic-container .item-topic {
   position: relative;
-  flex: 33.3%;
+  flex: 30%;
   display: flex;
   height: auto;
   max-width: 650px;
   min-width: 330px;
   box-sizing: border-box;
   flex-direction: column;
+  overflow: hidden;
+  margin: 15px;
+  height: 230px;
 }
 
 .topics .topic-container .item-topic .image-item {
   background-color: rgb(232, 233, 235);
   display: block;
   width: 100%;
-  height: 300px;
+  height: 230px;
 }
 
 .topics .topic-container .item-topic .overlay-item {
@@ -4245,7 +4188,7 @@ html {
   top: 0;
   left: 0;
   width: 100%;
-  height: 300px;
+  height: 100%;
   background: rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
@@ -4321,6 +4264,7 @@ html {
 
 .topics .topic-container .item-topic a {
   text-decoration: none;
+  height: 100%;
 }
 
 .topics .topic-container .item-topic .content-mobile {
@@ -4334,7 +4278,6 @@ html {
 
 .topics .pagination {
   text-align: center;
-  margin: 90px 30px 60px;
   user-select: none;
   display: flex;
   align-items: center;
@@ -4412,6 +4355,17 @@ html {
 
 .topics .topic-container .item-topic:nth-child(odd) .overlay-item {
   background: rgba(254, 255, 255, 0.8);
+  transform: translateY(100%);
+  transition: 0.5s;
+}
+
+.topics .topic-container .item-topic:nth-child(even) .overlay-item {
+  transform: translateY(100%);
+  transition: 0.5s;
+}
+
+.topics .topic-container .item-topic:hover .overlay-item {
+  transform: translateY(0);
 }
 
 .topics .topic-container .item-topic:nth-child(odd) .overlay-item .title-item {
@@ -4438,26 +4392,6 @@ html {
   color: #fff;
 }
 
-@keyframes slideLeft {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes slideRight {
-  0% {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
 .banner-child-blog {
   width: 100%;
   height: 40vh;
@@ -6747,6 +6681,13 @@ html {
 @media (max-width: 829px) {
   .service01 {
     display: flex;
+    height: auto;
+  }
+  .service01 .all-service01 {
+    margin-top: 50px;
+  }
+  .service01 .square-service01 {
+    display: none;
   }
   .navbar .nav {
     padding: 0 20px;
@@ -7042,6 +6983,10 @@ html {
   .home7 .button-home7 {
     display: none;
   }
+  .footer-items-home7 > h2 {
+    font-size: 30px;
+    margin: 5px 0;
+  }
   .home7 .all-home7 .title-home7 {
     font-size: 25px;
     line-height: 35px;
@@ -7211,6 +7156,10 @@ html {
   .aboutus_2 .first .right-oval {
     width: 350px;
     height: 350px;
+    margin-bottom: 10px;
+  }
+  .aboutus_2 .second .left-image {
+    margin-bottom: 10px;
   }
   .aboutus_2 .second .left-image .image-oval {
     width: 300px !important;
@@ -7220,9 +7169,15 @@ html {
     width: 250px;
     height: 250px;
   }
+  .aboutus_2 .third .image-left {
+    margin-bottom: 10px;
+  }
   .aboutus_2 .four .left-image {
     width: 200px;
     height: 200px;
+  }
+  .aboutus_2 .four .block-img {
+    margin-bottom: 10px;
   }
   .aboutus_2 .all-aboutus_2 .all-aboutus_2-item {
     padding-left: calc((100% - 350px) / 2);
@@ -7243,8 +7198,16 @@ html {
   .aboutus_2 .all-footer-items-aboutus2 {
     height: 80px;
   }
+  .aboutus_2 .first .content-left h2 {
+    font-size: 28px;
+    line-height: 43px;
+  }
+  .aboutus_2 .content-right h3 {
+    font-size: 28px;
+    line-height: 43px;
+  }
   .hiring1 {
-    margin-top: 0px;
+    margin-top: 100px;
   }
   .hiring1 .all-hiring1 {
     flex-direction: column;
@@ -7252,20 +7215,23 @@ html {
     padding-right: calc((100% - 350px) / 2);
   }
   .hiring1 .left-hiring1 .content-hiring .space {
-    font-size: 60px;
-    line-height: 135px;
+    font-size: 46px;
+    line-height: 50.2px;
   }
   .hiring1 .left-hiring1 .content-hiring .space1 {
-    font-size: 60px;
-    line-height: 135px;
+    font-size: 46px;
+    line-height: 50.2px;
     margin-left: 20px;
   }
   .hiring1 .left-hiring1 .content-hiring h1 {
-    font-size: 100px;
-    line-height: 40px;
+    font-size: 46px;
+    line-height: 50.2px;
   }
   .hiring1 .all-hiring1 .left-hiring1 {
-    transform: translateY(30%);
+    margin: 25px 0;
+  }
+  .hiring1 .left-hiring1 .square-hiring {
+    transform: translateX(40px);
   }
   .hiring1 .square-hiring .oval-yelow {
     width: 60px;
@@ -7275,6 +7241,10 @@ html {
     flex-wrap: wrap-reverse;
     padding-left: calc((100% - 350px) / 2);
     padding-right: calc((100% - 350px) / 2);
+  }
+  .hiring2 .content-right h1 {
+    margin: 0;
+    text-align: center;
   }
   .hiring2 .left-square .square-hiring2 {
     width: 300px;
@@ -7380,8 +7350,20 @@ html {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  .service1-items-none .square-service1-items-none {
+    left: 0;
+  }
   .Service1-Items {
     display: none;
+  }
+  .service1-items-none .content-service1-items-none {
+    bottom: 15%;
+  }
+  .service1-items-none .img-service1-items-none img {
+    max-height: 500px;
+  }
+  .section-service4 {
+    margin-top: 100px;
   }
   .Service4-Items {
     height: auto;
@@ -7417,7 +7399,7 @@ html {
   }
   .Service2-Items .right-Service2-Items .square-service2 {
     width: 160px;
-    height: 160px;
+    height: 200px;
     padding: 20px;
     margin-left: 0px;
     padding: 5px;
@@ -7461,7 +7443,7 @@ html {
     padding-right: calc((100% - 350px) / 2);
   }
   .Service5-Items .input-Service5 input {
-    width: 100%;
+    width: 49%;
     display: inherit;
     margin-top: 10px;
   }
@@ -7470,6 +7452,7 @@ html {
   }
   .Service5-Items .all-form textarea {
     width: 100%;
+    height: 150px;
   }
   .Service5-Items .all-Service5-Items .right-Service5-Items {
     text-align: center;
