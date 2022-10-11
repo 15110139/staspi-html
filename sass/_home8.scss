@@ -64,7 +64,7 @@
   
   .feedback .container-slider .slide .item-slider {
     width: 25%;
-    height: 380px;
+    height: 400px;
     border-radius: 25px;
     background-color: $feedback-color;
     display: flex;
@@ -172,7 +172,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: $lt-font-size-text-l;
-    line-height: 22px;
+    line-height: $lt-line-height-text-l;
     letter-spacing: -0.005em;
     color: $font-back-home8;
     text-align: justify;

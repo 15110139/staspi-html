@@ -595,15 +595,15 @@
   
   transition: opacity 0.25s;
 }
-.overlay-item > *{
+.post .overlay-item > *{
   transform: translateY(250px);
   transition: transform 0.25s;
 }
-.overlay-item:hover {
+.post .overlay-item:hover {
   opacity: 1;
 }
 
-.overlay-item:hover > * {
+.post .overlay-item:hover > * {
   transform: translateY(0);
 }
 .posts .overlay-item .title-item {
@@ -647,7 +647,6 @@
   min-width: 250px;
 
 }
-
 .pagination li {
   display: inline-block;
   margin: 5px;

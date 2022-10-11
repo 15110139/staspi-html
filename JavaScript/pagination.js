@@ -148,16 +148,20 @@ function renderTopic(topic) {
             html += "</a>"
             html +=
                 "<div " +
-                "onclick =" +
-                "location.href=" +
-                item.link +
+                // "onclick =" +
+                // "location.href=" +
+                // item.link +
                 " class = " +
                 "'" +
                 "overlay-item" +
                 "'" +
                 ">";
-            html += '<div class = "title-item">' + item.title + "</div>";
+            html += '<div class = "title-item">'+'<h4>' + item.title + '</h4>'+ "</div>";
             html += '<p class = "content-item">' + item.content + "</p>";
+            html += '<a class = ' + "'navigation'" + 'href =' + item.link;
+            html += '>'
+            html += 'Xem chi tiết'
+            html += '</a>'
             html += "</div>";
             html += "<a href =" + item.link  + ">";
             html += '<div class = "title-mobile" >' + item.title + "</div>";
