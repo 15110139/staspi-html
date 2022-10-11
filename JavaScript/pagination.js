@@ -146,6 +146,9 @@ function renderTopic(topic) {
                 "'" +
                 ">";
             html += "</a>"
+            html += "<div class = 'show-more'>";
+            html += "xem thêm";
+            html += "</div>";
             html +=
                 "<div " +
                 // "onclick =" +
