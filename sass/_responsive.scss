@@ -500,7 +500,7 @@ padding-right: calc((100% - 940px) / 2);
     // HIRING4
 
     .hiring4 .all-hiring4 .sub-form {
-        padding-top: 50px;
+        padding-top: 25px;
         padding-left: calc(calc(100% - 1700px)/2);
         padding-right: calc(calc(100% - 1700px)/2);
     }
@@ -677,7 +677,7 @@ padding-right: calc((100% - 940px) / 2);
     }
 
     .Service1-Items .content-items h1 {
-        font-size:150px;;
+        font-size:80px;
     }
 
     .Service1-Items .content-Service1-Items p {
@@ -870,8 +870,9 @@ padding-right: calc((100% - 940px) / 2);
     }
 
     .home2 .flexbox-service .flexbox-item {
-        padding: 6px;
+        padding: 0 10px;
         flex: 25%;
+        padding-bottom: 10px;
     }
 
     .home2 .img_flex img {
@@ -916,10 +917,10 @@ padding-right: calc((100% - 940px) / 2);
         transform: translateY(-48px);
     }
 
-    .home2 .flexbox-service .flexbox-item {
-        padding: 16px;
-        flex: 25%;
-    }
+    // .home2 .flexbox-service .flexbox-item {
+    //     padding: 0 10px;
+    //     flex: 25%;
+    // }
 
     .home2 .img_flex img {
         width: 40%;
@@ -1268,11 +1269,14 @@ padding-right: calc((100% - 940px) / 2);
         padding-left: calc(calc(100% - 940px)/2);
         padding-right: calc(calc(100% - 940px)/2);
     }
-
-    .feedback .home8>h2{
-        font-size: 37px;
-        transform: translateY(250%);
+    .feedback .slider {
+        height: 300px;
     }
+
+    // .feedback .home8>h2{
+    //     font-size: 37px;
+    //     transform: translateY(250%);
+    // }
 
     .feedback .container-slider .slide .item-slider {
         width: 600px;
@@ -1562,7 +1566,7 @@ align-items: center;
     // HIRING4
 
     .hiring4 .all-hiring4 .sub-form {
-        padding-top: 50px;
+        padding-top: 25px;
         padding-left: calc(calc(100% - 940px)/2);
         padding-right: calc(calc(100% - 940px)/2);
     }
@@ -1711,7 +1715,7 @@ align-items: center;
     }
 
     .Service1-Items .content-items h1 {
-        font-size:85px;;
+        font-size:50px;
     }
 
     .Service1-Items .content-Service1-Items p {
