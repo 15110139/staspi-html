@@ -3474,7 +3474,7 @@ html {
   line-height: 29.1px;
   color: #000000;
   font-family: "Inter", sans-serif;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .Service3-Items {
@@ -4067,6 +4067,10 @@ html {
   line-height: 18px;
   resize: none;
   padding: 10px;
+}
+
+.contact-block .frm-contact select {
+  color: rgb(99, 99, 99);
 }
 
 .contact-block .frm-contact option {
