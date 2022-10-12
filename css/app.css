@@ -904,6 +904,7 @@ html {
   height: 261px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  border-bottom: 1px black solid;
 }
 
 .home6 .flex-item .bottom-item {
@@ -913,6 +914,10 @@ html {
   border-bottom-right-radius: 10px;
   background: #FFFFFF;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .flexbox-home6 .bottom-item h5 {
@@ -5404,9 +5409,6 @@ html {
   .home6 .all-home6 .top-content {
     font-size: 64px;
     line-height: 130px;
-  }
-  .home6 .flex-item .bottom-item {
-    padding-top: 30px;
   }
   .flexbox-home6 .bottom-item span {
     font-size: 20px;
