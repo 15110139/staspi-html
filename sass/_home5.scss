@@ -35,7 +35,7 @@
 }
 
 .home5 .left-home5 p {
-    padding-top: 50px;
+    padding-top: 25px;
     font-family: $font-text;
     font-style: normal;
     font-weight: 500;
@@ -95,6 +95,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+    padding: 20px 0;
 }
 
 .home5 .all-home5-item {
@@ -114,6 +115,7 @@
     height: 20%;
     background-color: $white-contact;
     margin:$space-margin-top-bottom-l 0;
+    margin-top: 0;
 }
 .home5 .all-home5-item > h2{
     display: flex;
@@ -127,4 +129,5 @@
     padding-right: calc((100% - 1200px) / 2);
     color: $font-home5;
     font-weight: 600;
+    margin-bottom: 0;
 }

@@ -193,7 +193,7 @@ min-height: 130px;
  flex-direction: column;
  align-items: center;
  justify-content: center;
- font-family: $font-text;;
+ font-family: $font-text;
  font-style: normal;
 }
 // fix to h3
@@ -216,6 +216,10 @@ min-height: 130px;
  line-height: $lt-font-size-text-l;
  resize: none;
  padding: 10px;
+//  font-weight: 400;
+}
+.contact-block .frm-contact option {
+  font-weight: 100 !important;
 }
 .contact-block .frm-contact textarea {
 background-color:$home-air;

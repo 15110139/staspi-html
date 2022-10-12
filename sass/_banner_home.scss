@@ -50,7 +50,7 @@
 
 .banner .banner-content .button-banner{
     position: absolute;
-    width: 200px;
+    width: 150px;
     height: 40px;
     background: $white-contact;
     border-radius: 10px;
@@ -125,14 +125,16 @@
     animation: slideLeft 1.5s ease;
 }
 
+.hiring1 .left-hiring1 .square-hiring {
+    margin-left: 20%;
+    //  animation: slideLeft 1.5s ease;
+}
+
 .hiring1 .right-hiring1 img {
     animation: slideRight 1.5s ease;
 }
 
-.hiring1 .left-hiring1 .square-hiring {
-    animation: slideRight 1.5s ease;
-    margin-left: 20%;
-}
+
 
 
 @keyframes slideCenter {

@@ -126,6 +126,7 @@
     font-style: italic;
     align-self: center;
     margin: 10px 0;
+    text-align: center;
 }
 
 .component-post .main-post .main-post-container .content ul > li{
@@ -214,9 +215,9 @@
     align-items: center;
 }
 .component-post .main-post .main-post-container .block-owner .avt span {
-    width: 140px;
-    height: 140px;
-    font-size: 140px;
+    // width: 140px;
+    // height: 140px;
+    font-size: 100px;
 }
 .component-post .main-post .main-post-container .block-owner .right-block {
     width: 70%;
