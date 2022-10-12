@@ -239,7 +239,8 @@
         border-radius: 23px;
         margin: 5px;
         height: 390px;
-        padding: 10px;
+        padding: 0 10px;
+        padding-bottom: 10px;
     }
 
     .home2 .flexbox-item .flex-content {
@@ -684,16 +685,16 @@
         padding-right: calc(calc(100% - 350px)/2);
     }
 
-    .hiring1 .left-hiring1 .content-hiring .space{
-        font-size: $lt-font-size-text-h1;
-        line-height: $lt-line-height-text-h1;
-    }
+    // .hiring1 .left-hiring1 .content-hiring .space{
+    //     font-size: $lt-font-size-text-h1;
+    //     line-height: $lt-line-height-text-h1;
+    // }
 
-    .hiring1 .left-hiring1 .content-hiring .space1{
-        font-size: $lt-font-size-text-h1;
-        line-height: $lt-line-height-text-h1;
-        margin-left: 20px;
-    }
+    // .hiring1 .left-hiring1 .content-hiring .space1{
+    //     font-size: $lt-font-size-text-h1;
+    //     line-height: $lt-line-height-text-h1;
+    //     margin-left: 20px;
+    // }
 
     .hiring1 .left-hiring1 .content-hiring h1{
         font-size: $lt-font-size-text-h1;
@@ -701,7 +702,7 @@
     }
 
     .hiring1 .all-hiring1 .left-hiring1 {
-        // transform: translateY(30%);
+        transform: translateX(-36%);
         margin: 25px 0;
     }
     .hiring1 .left-hiring1 .square-hiring{

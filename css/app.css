@@ -304,7 +304,7 @@ html {
 
 .banner .banner-content .button-banner {
   position: absolute;
-  width: 200px;
+  width: 150px;
   height: 40px;
   background: #FFFFFF;
   border-radius: 10px;
@@ -377,13 +377,12 @@ html {
   animation: slideLeft 1.5s ease;
 }
 
-.hiring1 .right-hiring1 img {
-  animation: slideRight 1.5s ease;
+.hiring1 .left-hiring1 .square-hiring {
+  margin-left: 20%;
 }
 
-.hiring1 .left-hiring1 .square-hiring {
+.hiring1 .right-hiring1 img {
   animation: slideRight 1.5s ease;
-  margin-left: 20%;
 }
 
 @keyframes slideCenter {
@@ -447,7 +446,7 @@ html {
   font-size: 40px;
   line-height: 55px;
   color: #000000;
-  transform: translateY(20%);
+  margin: 25px 0;
 }
 
 .home2 .flexbox-service {
@@ -456,7 +455,6 @@ html {
   height: 100%;
   padding-left: calc((100% - 1200px) / 2);
   padding-right: calc((100% - 1200px) / 2);
-  padding-top: 50px;
   flex-wrap: wrap;
 }
 
@@ -479,9 +477,10 @@ html {
 }
 
 .home2 .flexbox-service .flexbox-item {
-  padding: 10px;
+  padding: 0 10px;
   flex: 25%;
   min-height: 373px;
+  padding-bottom: 10px;
 }
 
 .fix {
@@ -536,7 +535,7 @@ html {
   font-size: 40px;
   line-height: 44px;
   color: #151A3C;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 .home3 .home3-left .btn-home3 {
@@ -666,7 +665,7 @@ html {
   font-size: 40px;
   line-height: 44px;
   color: #151A3C;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .home4 .title-home4 p {
@@ -716,7 +715,7 @@ html {
 }
 
 .home5 .left-home5 p {
-  padding-top: 50px;
+  padding-top: 25px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -775,6 +774,7 @@ html {
   flex: none;
   order: 0;
   flex-grow: 0;
+  padding: 20px 0;
 }
 
 .home5 .all-home5-item {
@@ -794,6 +794,7 @@ html {
   height: 20%;
   background-color: #FFFFFF;
   margin: 25px 0;
+  margin-top: 0;
 }
 
 .home5 .all-home5-item > h2 {
@@ -808,6 +809,7 @@ html {
   padding-right: calc((100% - 1200px) / 2);
   color: #202857;
   font-weight: 600;
+  margin-bottom: 0;
 }
 
 .home6 {
@@ -1150,7 +1152,7 @@ html {
   display: flex;
   align-self: center;
   text-align: center;
-  margin: 50px 0;
+  margin: 25px 0;
   font-family: "Inter", sans-serif;
   font-size: 40px;
   line-height: 44px;
@@ -1298,7 +1300,7 @@ html {
 .feedback .block_customer .infomation h5 {
   font-weight: 700;
   font-size: 20px;
-  line-height: 22.2px;
+  line-height: 44px;
   max-height: 132px;
   text-align: start;
   padding-left: 10px;
@@ -1399,8 +1401,8 @@ html {
 }
 
 .home9 .all-home9 .form-field h1 {
-  font-size: 30px;
-  line-height: 162%;
+  font-size: 40px;
+  line-height: 44px;
 }
 
 .home9 .form-field .form-label {
@@ -1628,7 +1630,7 @@ html {
   line-height: 44px;
   text-align: center;
   color: #151A3C;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .home11 .img-home11 img {
@@ -2752,7 +2754,7 @@ html {
 
 .hiring4 .all-hiring4 .sub-form {
   display: flex;
-  padding-top: 50px;
+  padding-top: 25px;
   justify-content: center;
   padding-left: calc((100% - 1200px) / 2);
   padding-right: calc((100% - 1200px) / 2);
@@ -3288,7 +3290,8 @@ html {
 }
 
 .Service1-Items .content-items h1 {
-  font-size: 46px;
+  font-size: 60px;
+  line-height: 130%;
 }
 
 .Service1-Items .content-Service1-Items p {
@@ -3637,7 +3640,7 @@ html {
   background-color: #FFFFFF;
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 18px;
   border: none;
   line-height: 29px;
@@ -3652,7 +3655,7 @@ html {
   background-color: #FFFFFF;
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 18px;
   line-height: 29.1px;
   border: none;
@@ -3667,7 +3670,7 @@ html {
   padding: 10px;
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 18px;
   line-height: 29.1px;
   border: none;
@@ -3681,8 +3684,8 @@ html {
   padding: 15px;
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 18px;
   letter-spacing: -0.065em;
   color: #202857;
   margin-top: 10px;
@@ -4037,6 +4040,10 @@ html {
   line-height: 18px;
   resize: none;
   padding: 10px;
+}
+
+.contact-block .frm-contact option {
+  font-weight: 100 !important;
 }
 
 .contact-block .frm-contact textarea {
@@ -5613,7 +5620,7 @@ html {
     height: 700px;
   }
   .hiring4 .all-hiring4 .sub-form {
-    padding-top: 50px;
+    padding-top: 25px;
     padding-left: calc((100% - 1700px) / 2);
     padding-right: calc((100% - 1700px) / 2);
   }
@@ -5764,7 +5771,7 @@ html {
     line-height: 140px;
   }
   .Service1-Items .content-items h1 {
-    font-size: 150px;
+    font-size: 80px;
   }
   .Service1-Items .content-Service1-Items p {
     font-size: 20px;
@@ -5909,8 +5916,9 @@ html {
     margin-top: 48px;
   }
   .home2 .flexbox-service .flexbox-item {
-    padding: 6px;
+    padding: 0 10px;
     flex: 25%;
+    padding-bottom: 10px;
   }
   .home2 .img_flex img {
     width: 40%;
@@ -5941,10 +5949,6 @@ html {
   .all-build {
     margin-top: 47px;
     transform: translateY(-48px);
-  }
-  .home2 .flexbox-service .flexbox-item {
-    padding: 16px;
-    flex: 25%;
   }
   .home2 .img_flex img {
     width: 40%;
@@ -6216,9 +6220,8 @@ html {
     padding-left: calc((100% - 940px) / 2);
     padding-right: calc((100% - 940px) / 2);
   }
-  .feedback .home8 > h2 {
-    font-size: 37px;
-    transform: translateY(250%);
+  .feedback .slider {
+    height: 300px;
   }
   .feedback .container-slider .slide .item-slider {
     width: 600px;
@@ -6440,7 +6443,7 @@ html {
     line-height: 96px;
   }
   .hiring4 .all-hiring4 .sub-form {
-    padding-top: 50px;
+    padding-top: 25px;
     padding-left: calc((100% - 940px) / 2);
     padding-right: calc((100% - 940px) / 2);
   }
@@ -6551,7 +6554,7 @@ html {
     line-height: 70px;
   }
   .Service1-Items .content-items h1 {
-    font-size: 85px;
+    font-size: 50px;
   }
   .Service1-Items .content-Service1-Items p {
     font-size: 16px;
@@ -6947,7 +6950,8 @@ html {
     border-radius: 23px;
     margin: 5px;
     height: 390px;
-    padding: 10px;
+    padding: 0 10px;
+    padding-bottom: 10px;
   }
   .home2 .flexbox-item .flex-content {
     margin: 20px 0;
@@ -7294,20 +7298,12 @@ html {
     padding-left: calc((100% - 350px) / 2);
     padding-right: calc((100% - 350px) / 2);
   }
-  .hiring1 .left-hiring1 .content-hiring .space {
-    font-size: 46px;
-    line-height: 50.2px;
-  }
-  .hiring1 .left-hiring1 .content-hiring .space1 {
-    font-size: 46px;
-    line-height: 50.2px;
-    margin-left: 20px;
-  }
   .hiring1 .left-hiring1 .content-hiring h1 {
     font-size: 46px;
     line-height: 50.2px;
   }
   .hiring1 .all-hiring1 .left-hiring1 {
+    transform: translateX(-36%);
     margin: 25px 0;
   }
   .hiring1 .left-hiring1 .square-hiring {
