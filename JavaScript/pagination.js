@@ -26,97 +26,22 @@ const items = [
         content: "Social Media là nền tảng mang đến nhiều tiềm năng phát triển cho doanh nghiệp. Khi biết cách tối ưu hình ảnh chuẩn trên Social Media sẽ mang đến ấn tượng tốt và sự chuyên nghiệp đến với khách hàng. Và dưới đây là tổng hợp kích thước chuẩn hình ảnh trên các kênh Social Media, bạn nhớ lưu lại và áp dụng nhé!",
         link: "'/page/blogs/tong-hop-kich-thuoc-chuan-hinh-anh-tren-cac-kenh-social-media.html'",
     },
-    {
-        id: 4,
-        image: ".././images/image-footer.png",
-        title: "title4",
-        content: "content",
-        link: "'/page/Blog.html'",
-    },
-    {
-        id: 5,
-        image: ".././images/image-footer.png",
-        title: "title5",
-        content: "content",
-        link: "'/page/blog.html'",
-    },
-    {
-        id: 6,
-        image: ".././images/image-footer.png",
-        title: "title6",
-        content: "content",
-        link: "'/page/blog.html'",
-    },
-    {
-        id: 7,
-        image: ".././images/image-footer.png",
-        title: "title7",
-        content: "content",
-        link: "'/page/blog.html'",
-    },
-    {
-        id: 8,
-        image: ".././images/image-footer.png",
-        title: "title8",
-        content: "content",
-        link: "'/page/blog.html'",
-    },
-    {
-        id: 9,
-        image: ".././images/image-footer.png",
-        title: "title9",
-        content: "content",
-        link: "'/page/blog.html'",
-    },
-    {
-        id: 10,
-        image: ".././images/image-footer.png",
-        title: "title",
-        content: "content",
-        link: "'/page/blog.html'",
-    },
-    {
-        id: 11,
-        image: ".././images/image-footer.png",
-        title: "title",
-        content: "content",
-        link: "'/page/blog.html'",
-    },
-    {
-        id: 12,
-        image: ".././images/image-footer.png",
-        title: "title",
-        content: "content",
-        link: "'/page/blog.html'",
-    },
-    {
-        id: 13,
-        image: ".././images/image-footer.png",
-        title: "title",
-        content: "content",
-        link: "'/page/blog.html'",
-    },
-    {
-        id: 14,
-        image: ".././images/image-footer.png",
-        title: "title",
-        content: "content",
-        link: "'/page/blog.html'",
-    },
-    {
-        id: 15,
-        image: ".././images/image-footer.png",
-        title: "title",
-        content: "content",
-        link: "'/page/blog.html'",
-    },
 ];
 
 // let itemArr = [];
 
 let totalPages = Math.ceil(items.length / perPage);
+// var clearPageItem = () => {
+//     const prePage = document.querySelector('.topic .pagination .pre-page');
+//     const nxtPage = document.querySelector('.topic .pagination .nxt-page');
+//     if(totalPages === 0 || totalPages === 1){
+//         prePage.style.display = 'none';
+//         nxtPage.style.display = 'none';
+//      }
+// }
 
 function initRender(items, totalPage) {
+    // clearPageItem();
     renderTopic(items);
     renderListPage(totalPage);
 }
@@ -146,6 +71,9 @@ function renderTopic(topic) {
                 "'" +
                 ">";
             html += "</a>"
+            // html += "<div class = 'show-more'>";
+            // html += "<h5>xem thêm</h5>";
+            // html += "</div>";
             html +=
                 "<div " +
                 // "onclick =" +

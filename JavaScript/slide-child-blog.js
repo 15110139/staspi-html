@@ -4,73 +4,25 @@ let idPage = 1;
 const items = [
     {
         id: 1,
-        image: "../../images/image-footer.png",
-        title: "title1",
-        content: "content",
-        link: "'/page/Blog_items.html'",
+        image: "../../images/blog/cover-image/content-marketting-anhbia.png",
+        title: "CONTENT MARKETING LÀ GÌ? Ý TƯỞNG VIẾT CONTENT MARKETING THU HÚT KHÁCH HÀNG",
+        content:
+            "Content marketing là gì? Viết content marketing như thế nào để thú hút khách hàng? Cùng Staspi tìm hiểu những thông tin thú vị về content marketing trong bài viết dưới đây nhé!",
+        link: "'../blogs/content-marketing-la-gi-y-tuong-viet-content-marketing-thu-hut-khach-hang.html'",
     },
     {
         id: 2,
-        image: "../../images/image-footer.png",
-        title: "title2",
-        content: "content",
-        link: "'/page/Blog_items.html'",
+        image: "../../images/blog/cover-image/content-seo-anhbia.png",
+        title: "LÀM THẾ NÀO ĐỂ VIẾT CONTENT SEO: HƯỚNG DẪN VIẾT CONTENT CHUẨN SEO VỚI 5 BƯỚC ĐƠN GIẢN",
+        content: "Để một bài đăng được lên top tìm kiếm quả thật rất khó, bởi bài viết của bạn phải cạnh tranh với nhiều đối thủ khác trên thị trường. Bên cạnh những thủ thuật thì bài viết chuẩn SEO cũng là một trong những yêu cầu tiên quyết để leo rank trong cuộc đua xếp hạng tìm kiếm. Vậy làm thế nào để viết Content SEO? Trong bài viết này, Staspi sẽ hướng dẫn bạn cách viết content chuẩn SEO chỉ với 5 bước đơn giản có thể áp dụng được ngay.",
+        link: "'../blogs/lam-the-nao-de-viet-content-seo-huong-dan-viet-content-chuan-seo-voi-5-buoc-don-gian.html'",
     },
     {
         id: 3,
-        image: "../../images/image-footer.png",
-        title: "title3",
-        content: "content",
-        link: "'/page/Blog_items.html'",
-    },
-    {
-        id: 4,
-        image: "../../images/image-footer.png",
-        title: "title4",
-        content: "content",
-        link: "'/page/Blog_items.html'",
-    },
-    {
-        id: 4,
-        image: "../../images/image-footer.png",
-        title: "title4",
-        content: "content",
-        link: "'/page/Blog_items.html'",
-    },
-    {
-        id: 5,
-        image: "../../images/image-footer.png",
-        title: "title5",
-        content: "content",
-        link: "'/page/Blog_items.html'",
-    },
-    {
-        id: 6,
-        image: "../../images/image-footer.png",
-        title: "title6",
-        content: "content",
-        link: "'/page/Blog_items.html'",
-    },
-    {
-        id: 7,
-        image: "../../images/image-footer.png",
-        title: "title7",
-        content: "content",
-        link: "'/page/Blog_items.html'",
-    },
-    {
-        id: 8,
-        image: "../../images/image-footer.png",
-        title: "title8",
-        content: "content",
-        link: "'/page/Blog_items.html'",
-    },
-    {
-        id: 9,
-        image: "../../images/image-footer.png",
-        title: "title9",
-        content: "content",
-        link: "'/page/Blog_items.html'",
+        image: "../../images/blog/cover-image/social-media-anh-bia.jpg",
+        title: "TỔNG HỢP KÍCH THƯỚC CHUẨN HÌNH ẢNH TRÊN CÁC KÊNH SOCIAL MEDIA",
+        content: "Social Media là nền tảng mang đến nhiều tiềm năng phát triển cho doanh nghiệp. Khi biết cách tối ưu hình ảnh chuẩn trên Social Media sẽ mang đến ấn tượng tốt và sự chuyên nghiệp đến với khách hàng. Và dưới đây là tổng hợp kích thước chuẩn hình ảnh trên các kênh Social Media, bạn nhớ lưu lại và áp dụng nhé!",
+        link: "'../blogs/tong-hop-kich-thuoc-chuan-hinh-anh-tren-cac-kenh-social-media.html'",
     },
 ];
 
@@ -142,8 +94,9 @@ function renderPost(post) {
                 "overlay-item" +
                 "'" +
                 ">";
-            html += '<div class = "title-item">' + item.title + "</div>";
+            html += '<div class = "title-item">' + '<h4>' + item.title +'</h4>' +"</div>";
             html += '<p class = "content-item">' + item.content + "</p>";
+            html+=  '<a class = navigation href =' + item.link + '>xem chi tiết </a>'
             html += "</div>";
             html += "<a href =" + item.link  + ">";
             html += '<div class = "title-mobile" >' + item.title + "</div>";

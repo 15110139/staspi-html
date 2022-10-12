@@ -49,9 +49,10 @@
     font-weight: 600;
     font-style: normal;
     font-size: $lt-font-size-text-h2;
-    line-height: $lt-font-size-text-h2;
+    line-height: 55px;
     // padding-top: 20px;
     color: $font-done;
+    transform: translateY(20%);
 }
 
 .home2 .flexbox-service {
