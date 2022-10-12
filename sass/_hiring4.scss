@@ -11,7 +11,7 @@
     width: 100%;
 }
 
-.hiring4 .all-hiring4>h1 {
+.hiring4 .all-hiring4 > h1 {
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
@@ -19,7 +19,7 @@
     line-height: $lt-line-height-text-h1;
     color: $font-home5;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 .hiring4 .all-hiring4 .sub-form {
@@ -67,6 +67,7 @@
     padding-left: calc(calc(100% - 800px)/2);
     padding-right: calc(calc(100% - 800px)/2);
     margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 .hiring4 .all-form .square-form {
@@ -128,6 +129,7 @@
 }
 
 .hiring4 .all-hiring4 .footer-slide-items {
+    display: none;
     width: 100%;
     min-height: 150px;
     margin-top: 50px;

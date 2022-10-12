@@ -118,7 +118,7 @@ position: absolute;
 top:0;
 left: 0;
 width: 100%;
-height: 110%;
+height: 100%;
 background: rgba(0,0,0,0.4);
 // border-radius: 25px;
 display: flex;
@@ -154,6 +154,8 @@ font-family: $font-text;;
  color:#fff;
 //  overflow: hidden;
  height: auto;
+ min-height: 30%;
+ max-height: 30%;
 }
 .topics .topic-container .item-topic .overlay-item .title-item h4 {
   font-family: $font-text;;
@@ -311,7 +313,7 @@ color: #ccc;
     background: rgba(254,255,255,0.8);
 }
 .topics .topic-container .item-topic .overlay-item {
-  transform: translateY(100%);
+  transform: translateY(70%);
     transition: 0.5s;
 }
 .topics .topic-container .item-topic:hover .overlay-item{

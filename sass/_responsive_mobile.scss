@@ -229,6 +229,7 @@
         font-size: $mb-font-size-text-h2;
         line-height: $mb-line-height-text-h2;
         padding-top: 20px;
+        padding-bottom: 30px;
     }
 
     .home2 .flexbox-service .flexbox-item {
@@ -324,10 +325,13 @@
 
     .home5 .all-home5-item .all-home5 {
         height: 90%;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     
     .home5 .all-home5-item .footer-items {
-        height: 10%;
+        height: 100px;
+        margin-top: 0;
     }
     .footer .first .content-img h5
     {
@@ -340,7 +344,8 @@
     .home5 .all-home5-item > h2 {
         font-size: $mb-font-size-text-h2;
         line-height: $mb-line-height-text-h2;
-        padding: 0 10px;
+        padding: 0 20px;
+        margin-bottom: 0;
     }
     // .home5 .all-home5-item .footer-items .footer_items {
     //     border: 1px red solid;
@@ -508,6 +513,7 @@
         padding-left: calc(calc(100% - 330px)/2);
         padding-right: calc(calc(100% - 330px)/2);
         margin: calc($space-margin-top-bottom-n * 2) 0;
+        margin-top: 0;
     }
 
     .home9 .all-home9 .form-input {
@@ -765,8 +771,8 @@
     }
 
     .hiring4 .all-hiring4 .sub-form {
-        padding-left: calc(calc(100% - 370px)/2);
-        padding-right: calc(calc(100% - 370px)/2);
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .hiring4 .left-square .squares {
@@ -781,7 +787,7 @@
     }
 
     .hiring4 .sub-form button {
-        width: 15%;
+        width: 30%;
         margin-left: -30px;
     }
 
@@ -842,6 +848,7 @@
         font-size: $mb-font-size-text-h2;
         line-height: $mb-line-height-text-h2;
         transform: translateY(-30%);
+        margin-bottom: 0;
     }
 
     .home11 .all-flex-home11 .square-home11 {
@@ -1144,12 +1151,19 @@
         font-size: 24px;
         height: 75px;
     }
+    .contact-block .contact-container .frm-contact{
+        width: 95%;
+        margin: 20px 0;
+    }
     //CHILD BLOCK
     .banner-child-blog {
         display: none;
     }
     .component-post {
         margin-top: 100px;
+    }
+    .component-post .main-post .main-post-container .img-post {
+        height: 300px;
     }
     .contact-block .contact-container{
         padding: 0;
@@ -1242,7 +1256,8 @@
         text-decoration: none;
     }
     .posts .post-container .item-post{
-        max-width: 100%;
+        min-width: 100%;
+        height: auto;
     }
     .posts .post-container .item-post .overlay-item {
         display: none;
@@ -1282,6 +1297,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .component-post .main-post .main-post-container .content ol {
+        margin-top: 20px;
     }
 
     //FOOTER 
