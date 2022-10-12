@@ -1219,9 +1219,9 @@
         margin-left: 0;
     }
     .component-post .main-post .main-post-container .block-owner .avt span {
-        width: 100px;
-        height: 100px;
-        font-size: 100px;
+        // width: 100px;
+        // height: 100px;
+        font-size: 70px;
     }
     .component-post .main-post .main-post-container .content p {
         font-size: 16px;
@@ -1268,6 +1268,7 @@
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
+        line-height: $lt-line-height-text-l;
         padding: 20px 10px;
         color: #151A3C;
     }
@@ -1276,6 +1277,7 @@
         font-family: $font-text;;
         font-weight: 400;
         font-size: 16px;
+        line-height: $line-height-text-m;
         color: #797979;
         margin: 0 10px;
     }

@@ -4551,6 +4551,7 @@ html {
   font-style: italic;
   align-self: center;
   margin: 10px 0;
+  text-align: center;
 }
 
 .component-post .main-post .main-post-container .content ul > li {
@@ -4654,9 +4655,7 @@ html {
 }
 
 .component-post .main-post .main-post-container .block-owner .avt span {
-  width: 140px;
-  height: 140px;
-  font-size: 140px;
+  font-size: 100px;
 }
 
 .component-post .main-post .main-post-container .block-owner .right-block {
@@ -7732,9 +7731,7 @@ html {
     margin-left: 0;
   }
   .component-post .main-post .main-post-container .block-owner .avt span {
-    width: 100px;
-    height: 100px;
-    font-size: 100px;
+    font-size: 70px;
   }
   .component-post .main-post .main-post-container .content p {
     font-size: 16px;
@@ -7781,6 +7778,7 @@ html {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
+    line-height: 29.1px;
     padding: 20px 10px;
     color: #151A3C;
   }
@@ -7789,6 +7787,7 @@ html {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
+    line-height: 160%;
     color: #797979;
     margin: 0 10px;
   }
