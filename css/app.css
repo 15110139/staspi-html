@@ -1548,7 +1548,7 @@ html {
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
-  line-height: 162%;
+  line-height: 140%;
   color: #151A3C;
 }
 
@@ -3082,7 +3082,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 21.6px;
+  line-height: 22px;
   text-align: center;
   padding-top: 40px;
   color: #FFFFFF;
@@ -3218,8 +3218,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
-  line-height: 36px;
+  font-size: 33px;
+  line-height: 33px;
   color: #FFFFFF;
 }
 
@@ -3228,7 +3228,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 21.6px;
+  line-height: 22px;
   color: #FFFFFF;
   text-align: justify;
   margin-top: 30px;
@@ -3244,7 +3244,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 21.6px;
+  line-height: 22px;
   margin: 30px 0;
   color: #202857;
 }
@@ -3270,7 +3270,7 @@ html {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 21.6px;
+  line-height: 22px;
   color: #FA7716;
 }
 
@@ -6810,7 +6810,8 @@ html {
     color: #FA7716 !important;
   }
   .nav .nav-items li a {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 18px;
     font-weight: 700;
   }
   .nav .auto {
@@ -6835,6 +6836,7 @@ html {
   }
   .nav .subnav li a {
     font-size: 18px;
+    line-height: 121%;
   }
   .nav .search-btn-banner, .nav .mobile-menu-btn {
     display: block;
@@ -6863,7 +6865,8 @@ html {
   }
   .navbar .btn-button p {
     font-style: normal;
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 22px;
     font-weight: 700;
     color: #151A3C;
   }
@@ -6892,7 +6895,7 @@ html {
   }
   .banner .banner-content h1 {
     font-size: 33px;
-    line-height: 40px;
+    line-height: 156%;
   }
   .banner .banner-content .button-banner {
     opacity: 1;
@@ -6902,12 +6905,12 @@ html {
   }
   .banner .button-banner p {
     margin-left: -40px;
-    font-size: 13px;
+    font-size: 14px;
   }
   .banner .button-banner .alo {
     font-size: 12px;
     margin-left: 20px;
-    margin-top: -14px;
+    margin-top: -15px;
     transform: translateY(-5px);
   }
   .home3 .home3-alls {
@@ -6919,7 +6922,7 @@ html {
   }
   .home3-all .home3-left .title-home3 {
     font-size: 30px;
-    line-height: 60px;
+    line-height: 30px;
   }
   .home3 .home3-all .home3-left {
     flex: 1;
@@ -6927,7 +6930,7 @@ html {
   }
   .home3-left .content-home3 {
     font-size: 16px;
-    line-height: 21.6px;
+    line-height: 22px;
     text-align: justify;
     padding: 0px;
   }
@@ -6942,18 +6945,19 @@ html {
     height: 33px;
   }
   .home3 .btn-home3 p {
-    font-size: 13px;
+    font-size: 16px;
+    line-height: 22px;
   }
   .home3-all .bottom-span span {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
   }
   .home3-all .bottom-span .contact {
     display: none;
   }
   .home3-all .home3-left .title-home3 h2 {
     font-size: 30px;
-    line-height: 162%;
+    line-height: 140%;
   }
   .home2-all .home2-button .btn-top-home2 {
     width: 140px;
@@ -6962,14 +6966,16 @@ html {
     transform: translateY(0);
   }
   .home2-button .btn-top-home2 p {
-    font-size: 13px;
+    font-size: 16px;
+    line-height: 22px;
   }
   .home2-all .home2-content h2 {
     font-weight: 700;
     font-size: 30px;
-    line-height: 162%;
+    line-height: 140%;
     padding-top: 20px;
     padding-bottom: 30px;
+    margin: 0;
   }
   .home2 .flexbox-service .flexbox-item {
     background: #FFFFFF;
@@ -6983,7 +6989,8 @@ html {
   }
   .home2 .flexbox-item .flex-content {
     margin: 20px 0;
-    font-size: 13px;
+    font-size: 26px;
+    line-height: 26px;
   }
   .home2 .img_flex img {
     width: 100px;
@@ -6998,11 +7005,11 @@ html {
   .fix3 h5 {
     transform: translateY(0) !important;
     font-size: 18px;
-    line-height: 151%;
+    line-height: 121%;
   }
   .home2 .flexbox-item .flex-item p {
     font-size: 16px;
-    line-height: 21.6px;
+    line-height: 22px;
   }
   .home2 .flexbox-service {
     padding-top: 0px;
@@ -7016,18 +7023,18 @@ html {
   }
   .home5 .left-home5 h3 {
     font-size: 30px;
-    line-height: 100%;
+    line-height: 140%;
     text-align: center;
   }
   .home5 .left-home5 p {
     padding-top: 30px;
-    font-size: 10px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 22px;
     text-align: justify;
   }
   .home5 .square-item {
     width: 150px;
-    height: 120px;
+    height: 170px;
   }
   .home5 .right-home5 {
     padding-left: 0;
@@ -7036,16 +7043,23 @@ html {
     justify-content: space-around;
   }
   .home5 .square-item > h5 {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 5px;
   }
   .home5 .square-item > p {
-    font-size: 13px;
+    font-size: 16px;
+    line-height: 22px;
   }
   .home5 .all-home5-item .all-home5 {
-    height: 90%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    height: auto !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 0;
+    background: url(../images/background-home5.jpg);
+  }
+  .home5 .all-home5-item {
+    height: auto;
   }
   .home5 .all-home5-item .footer-items {
     height: 100px;
@@ -7056,11 +7070,11 @@ html {
   }
   .home5 .left-home5 h2 {
     font-size: 30px;
-    line-height: 162%;
+    line-height: 140%;
   }
   .home5 .all-home5-item > h2 {
     font-size: 30px;
-    line-height: 162%;
+    line-height: 140%;
     padding: 0 20px;
     margin-bottom: 0;
   }
@@ -7076,8 +7090,8 @@ html {
     height: 60px;
   }
   .flexbox-home6 .bottom-item h5 {
-    font-size: 13px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 121%;
     padding-top: 10px;
   }
   .flexbox-home6 .bottom-item span {
@@ -7086,7 +7100,7 @@ html {
   }
   .home6 .all-home6 .top-content h2 {
     font-size: 30px;
-    line-height: 162%;
+    line-height: 140%;
   }
   .home6 .all-home6 .top-content {
     margin-bottom: 0;
@@ -7096,11 +7110,15 @@ html {
   }
   .footer-items-home7 > h2 {
     font-size: 30px;
+    line-height: 140%;
     margin: 5px 0;
   }
+  .footer-items-home7 .footer-items {
+    height: 100px;
+  }
   .home7 .all-home7 .title-home7 {
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 30px;
+    line-height: 140%;
   }
   .home7 .slider .nav {
     width: 30px;
@@ -7151,7 +7169,11 @@ html {
   }
   .home2 .flexbox-item .flex-content h5 {
     font-size: 18px;
-    line-height: 151%;
+    line-height: 121%;
+  }
+  .home2 .home2-item {
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
   .feedback {
     display: none;
@@ -7193,6 +7215,8 @@ html {
   }
   .home9 .all-home9 .form-input {
     height: 40px;
+    font-size: 16px;
+    line-height: 22px;
   }
   .home9 .button-home9 .btn-home9 {
     width: 100%;
@@ -7214,8 +7238,16 @@ html {
     border-bottom-left-radius: 200%;
     border-bottom-right-radius: 3%;
   }
+  .home9 .all-home9 .form-field h1 {
+    font-size: 30px;
+    line-height: 140%;
+  }
   .home10 {
     display: flex;
+  }
+  .home10 .cubes-home10 p {
+    font-size: 16px;
+    line-height: 22px;
   }
   .aboutus {
     margin-top: 100px;
@@ -7230,12 +7262,12 @@ html {
     line-height: 52px;
   }
   .aboutus .content-aboutus h1 {
-    font-size: 28px;
-    line-height: 43px;
+    font-size: 30px;
+    line-height: 140%;
   }
   .aboutus .content-aboutus p {
-    font-size: 13px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 22px;
   }
   .aboutus .right .img-about {
     width: 100%;
@@ -7299,10 +7331,12 @@ html {
     font-size: 30px;
   }
   .aboutus_2 .content-right p {
-    font-size: 13px;
+    font-size: 16px;
+    line-height: 22px;
   }
   .aboutus_2 .first .content-left p {
-    font-size: 13px;
+    font-size: 16px;
+    line-height: 22px;
   }
   .aboutus_2 .footer-items-aboutus2 {
     height: 80px;
@@ -7311,12 +7345,12 @@ html {
     height: 80px;
   }
   .aboutus_2 .first .content-left h2 {
-    font-size: 28px;
-    line-height: 43px;
+    font-size: 30px;
+    line-height: 140%;
   }
   .aboutus_2 .content-right h3 {
-    font-size: 28px;
-    line-height: 43px;
+    font-size: 30px;
+    line-height: 140%;
   }
   .hiring1 {
     margin-top: 100px;
@@ -7445,9 +7479,13 @@ html {
   .home11 .all-home11 .all-flex-home11 {
     flex-direction: column;
   }
+  .home11 .square-home11 .btn-home11 {
+    font-size: 16px;
+    line-height: 22px;
+  }
   .home11 .all-home11 h2 {
     font-size: 30px;
-    line-height: 162%;
+    line-height: 140%;
     transform: translateY(-30%);
     margin-bottom: 0;
   }
@@ -7457,15 +7495,20 @@ html {
   }
   .service1-items-none .square-service1-items-none {
     left: 0;
+    width: 100%;
   }
   .Service1-Items {
     display: none;
   }
   .service1-items-none .content-service1-items-none {
-    bottom: 15%;
+    bottom: 22%;
   }
   .service1-items-none .img-service1-items-none img {
     max-height: 500px;
+  }
+  .square-service1-items-none h1 {
+    font-size: 33px;
+    line-height: 156%;
   }
   .section-service4 {
     margin-top: 100px;
@@ -7482,12 +7525,12 @@ html {
     font-size: 9px;
   }
   .Service4-Items .right-content ul {
-    font-size: 27px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 140%;
   }
   .Service4-Items .right-content li {
-    font-size: 13px;
-    margin-left: 20px;
+    font-size: 16px;
+    margin-left: 22px;
   }
   .Service2-Items {
     text-align: center;
@@ -7498,6 +7541,14 @@ html {
   .Service2-Items .all-Service2-Items {
     flex-direction: column;
     padding: 50px 20px;
+  }
+  .Service2-Items .all-Service2-Items .center-content h4 {
+    font-size: 30px;
+    line-height: 140%;
+  }
+  .Service2-Items .all-Service2-Items .bottom-content p {
+    font-size: 16px;
+    line-height: 22px;
   }
   .Service2-Items .all-Service2-Items .right-Service2-Items {
     margin-top: 30px;
@@ -7523,6 +7574,10 @@ html {
     height: 40px;
     font-size: 13px;
     margin-top: 30px;
+  }
+  .Service2-Items .left-Service2-Items .top-content {
+    font-size: 30px;
+    line-height: 140%;
   }
   .Service3-Items {
     height: auto;
@@ -7922,7 +7977,7 @@ html {
   }
   .top-mobile .dropdown-info h5 {
     font-size: 18px;
-    line-height: 151%;
+    line-height: 121%;
   }
   .top-mobile .cont_dropdown_info {
     position: relative;
@@ -8020,7 +8075,7 @@ html {
   }
   .top-mobile .dropdown-service h5 {
     font-size: 18px;
-    line-height: 151%;
+    line-height: 121%;
   }
   .top-mobile .cont_dropdown_service {
     position: relative;
@@ -8098,7 +8153,7 @@ html {
   }
   .top-mobile .dropdown-train h5 {
     font-size: 18px;
-    line-height: 151%;
+    line-height: 121%;
   }
   .top-mobile .cont_dropdown_train {
     position: relative;
