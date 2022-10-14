@@ -33,6 +33,9 @@
     box-shadow: 0px 4px 9px 5px $font-service2-color;
     border-radius: 20px;
     max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Service3-Items .all-Service3-Items .content-top-Service3 {
@@ -55,6 +58,11 @@
     font-size: $lt-font-size-text-l;
     line-height: 25px;
     color: $font-black;
+}
+.Service3-Items .flex-Service3-item .btn-moved button {
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
+    
 }
 
 .Service3-Items .flex-Service3-item img {

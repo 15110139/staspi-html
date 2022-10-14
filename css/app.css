@@ -479,8 +479,13 @@ html {
 .home2 .flexbox-service .flexbox-item {
   padding: 0 10px;
   flex: 25%;
-  min-height: 373px;
+  min-height: 430px;
   padding-bottom: 10px;
+  position: relative;
+}
+
+.home2 .flexbox-service .flexbox-item .mobile-flex-button {
+  display: none;
 }
 
 .fix {
@@ -493,6 +498,28 @@ html {
 
 .fix3 h5 {
   transform: translateY(-45%) !important;
+}
+
+.home2 .flexbox-service .flexbox-item .flex-button {
+  display: flex;
+  position: absolute;
+  align-self: center;
+  bottom: 8%;
+  width: 95%;
+  align-items: center;
+  justify-content: center;
+}
+
+.home2 .flexbox-service .flexbox-item .flex-button a {
+  text-decoration: none;
+}
+
+.home2 .flexbox-service .flexbox-item .flex-button span {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29.1px;
+  color: #FA7716;
 }
 
 .home3 {
@@ -933,8 +960,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
+  font-size: 18px;
+  line-height: 29.1px;
   color: #3D4888;
 }
 
@@ -1587,7 +1614,7 @@ html {
 }
 
 .right-text {
-  float: right;
+  margin-left: 80px;
 }
 
 .right-text1 {
@@ -3512,6 +3539,9 @@ html {
   box-shadow: 0px 4px 9px 5px rgba(174, 170, 170, 0.25);
   border-radius: 20px;
   max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Service3-Items .all-Service3-Items .content-top-Service3 {
@@ -3534,6 +3564,11 @@ html {
   font-size: 18px;
   line-height: 25px;
   color: #000000;
+}
+
+.Service3-Items .flex-Service3-item .btn-moved button {
+  font-size: 18px;
+  line-height: 29.1px;
 }
 
 .Service3-Items .flex-Service3-item img {
@@ -3763,7 +3798,7 @@ html {
 }
 
 .service1-items-none .content-service1-items-none {
-  bottom: 23%;
+  bottom: 15%;
   position: absolute;
 }
 
@@ -4133,9 +4168,9 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 100px;
   flex-direction: column;
-  padding: 120px 0;
+  padding: 60px 0;
 }
 
 .banner_blog h1 {
@@ -5934,6 +5969,9 @@ html {
     margin-top: 55px;
     transform: translateY(-60px);
   }
+  .banner_blog {
+    margin-top: 150px;
+  }
 }
 @media (min-width: 1529px) and (max-width: 1749px) {
   .service1-items-none {
@@ -6926,7 +6964,8 @@ html {
   }
   .home3 .home3-all .home3-left {
     flex: 1;
-    padding: 0 20px;
+    padding-left: calc((100% - 350px) / 2);
+    padding-right: calc((100% - 350px) / 2);
   }
   .home3-left .content-home3 {
     font-size: 16px;
@@ -6935,7 +6974,8 @@ html {
     padding: 0px;
   }
   .home3 .home3-all .home3-right {
-    padding: 0px 50px 20px 50px;
+    padding-left: calc((100% - 350px) / 2);
+    padding-right: calc((100% - 350px) / 2);
   }
   .home3 .home3-all .bottom-span {
     margin-top: 10px;
@@ -6983,9 +7023,16 @@ html {
     box-shadow: 0px 4px 4px rgba(187, 184, 184, 0.25);
     border-radius: 23px;
     margin: 5px;
-    height: 390px;
+    height: 400px;
     padding: 0 10px;
     padding-bottom: 10px;
+  }
+  .home2 .flexbox-service .flexbox-item .flex-button span {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .home2 .flexbox-service .flexbox-item .img_flex {
+    padding-top: 20px;
   }
   .home2 .flexbox-item .flex-content {
     margin: 20px 0;
@@ -7052,17 +7099,17 @@ html {
   }
   .home5 .all-home5-item .all-home5 {
     height: auto !important;
-    margin-top: 20px;
+    margin-top: 0;
     margin-bottom: 20px;
     padding-top: 25px;
     padding-bottom: 0;
-    background: url(../images/background-home5.jpg);
+    background: url(../images/background-home5.jpg) center center;
   }
   .home5 .all-home5-item {
     height: auto;
   }
   .home5 .all-home5-item .footer-items {
-    height: 100px;
+    height: 75px;
     margin-top: 0;
   }
   .footer .first .content-img h5 {
@@ -7112,6 +7159,8 @@ html {
     font-size: 30px;
     line-height: 140%;
     margin: 5px 0;
+    padding-left: calc((100% - 350px) / 2);
+    padding-right: calc((100% - 350px) / 2);
   }
   .footer-items-home7 .footer-items {
     height: 100px;
@@ -7245,9 +7294,16 @@ html {
   .home10 {
     display: flex;
   }
+  .home10 .top-home10 {
+    margin-top: 0;
+  }
   .home10 .cubes-home10 p {
     font-size: 16px;
     line-height: 22px;
+  }
+  .home10 .all-home10-flex {
+    padding-left: calc((100% - 350px) / 2);
+    padding-right: calc((100% - 350px) / 2);
   }
   .aboutus {
     margin-top: 100px;
@@ -7360,9 +7416,18 @@ html {
     padding-left: calc((100% - 350px) / 2);
     padding-right: calc((100% - 350px) / 2);
   }
+  .hiring1 .left-hiring1 .content-hiring .space {
+    font-size: 33px;
+    line-height: 156%;
+  }
+  .hiring1 .left-hiring1 .content-hiring .space1 {
+    font-size: 33px;
+    line-height: 156%;
+    margin-left: 20px;
+  }
   .hiring1 .left-hiring1 .content-hiring h1 {
-    font-size: 46px;
-    line-height: 50.2px;
+    font-size: 33px;
+    line-height: 156%;
   }
   .hiring1 .all-hiring1 .left-hiring1 {
     transform: translateX(-36%);
@@ -7379,10 +7444,13 @@ html {
     flex-wrap: wrap-reverse;
     padding-left: calc((100% - 350px) / 2);
     padding-right: calc((100% - 350px) / 2);
+    padding-bottom: 25px;
   }
   .hiring2 .content-right h1 {
     margin: 0;
     text-align: center;
+    font-size: 30px;
+    line-height: 140%;
   }
   .hiring2 .left-square .square-hiring2 {
     width: 300px;
@@ -7397,14 +7465,18 @@ html {
     text-align: center;
   }
   .hiring2 .content-right p {
-    font-size: 13px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 22px;
     margin-left: 0px;
     text-align: justify;
   }
   .hiring3 .fa-hiring > h3 {
     font-size: 50px;
     line-height: 60px;
+  }
+  .hiring3 .fa-hiring > h1 {
+    font-size: 30px;
+    line-height: 140%;
   }
   .hiring3 .all-hiring3 .img-slider {
     width: 350px;
@@ -7419,6 +7491,10 @@ html {
     font-size: 35px;
     line-height: 66px;
     padding-top: 50px;
+  }
+  .hiring4 .all-hiring4 > h1 {
+    font-size: 30px;
+    line-height: 140%;
   }
   .hiring4 .all-hiring4 .sub-form {
     padding-left: 30px;
@@ -7435,7 +7511,12 @@ html {
   }
   .hiring4 .sub-form button {
     width: 30%;
-    margin-left: -30px;
+    margin-left: -25px;
+  }
+  .hiring4 .all-hiring4 input {
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   .hiring4 .all-hiring4 input::placeholder {
     font-size: 13px;
@@ -7453,13 +7534,21 @@ html {
   .hiring4 .right-content .date {
     text-align: center;
     margin-top: 10px;
+    font-size: 18px;
+    line-height: 121%;
+    margin-bottom: 0;
   }
   .hiring4 .right-content h5 {
     text-align: center;
+    font-size: 18px;
+    line-height: 121%;
+    margin-bottom: 5px;
   }
   .hiring4 .right-content p {
     text-align: center;
     padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 22px;
   }
   .hiring4 .all-form .square-form {
     margin-top: 20px;
@@ -7493,18 +7582,35 @@ html {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  .home11 .all-home11-dis {
+    padding-bottom: 20px;
+  }
   .service1-items-none .square-service1-items-none {
     left: 0;
     width: 100%;
+  }
+  .service1-items-none .content-service1-items-none p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .fix-height-110 {
+    height: 110vh;
+  }
+  .service1-items-none form {
+    bottom: 5%;
   }
   .Service1-Items {
     display: none;
   }
   .service1-items-none .content-service1-items-none {
-    bottom: 22%;
+    bottom: 20%;
   }
   .service1-items-none .img-service1-items-none img {
     max-height: 500px;
+    min-height: 50vh;
+  }
+  .service1-items-none .fix-height {
+    min-height: 30vh !important;
   }
   .square-service1-items-none h1 {
     font-size: 33px;
@@ -7572,12 +7678,15 @@ html {
   .Service2-Items .bottom-button button {
     width: 150px;
     height: 40px;
-    font-size: 13px;
+    font-size: 16px;
     margin-top: 30px;
   }
   .Service2-Items .left-Service2-Items .top-content {
     font-size: 30px;
     line-height: 140%;
+  }
+  .Service2-Items .right-Service2-Items p {
+    padding-top: 5px;
   }
   .Service3-Items {
     height: auto;
@@ -7587,15 +7696,27 @@ html {
     flex-direction: column;
   }
   .Service3-Items .all-Service3-Items .content-top-Service3 {
-    font-size: 28px;
+    font-size: 30px;
+  }
+  .Service3-Items .all-Service3-Items .content-top-Service3 h2 {
+    font-size: 30px !important;
+    line-height: 140% !important;
   }
   .Service3-Items .all-Service3-Items .bottom-Service3 {
     padding: 0 20px;
     gap: 0px;
   }
+  .Service3-Items .flex-Service3-item p {
+    font-size: 16px;
+    line-height: 22px;
+  }
   .Service5-Items {
     height: auto;
     padding: 30px 0;
+  }
+  .Service5-Items .content-Service5 p {
+    font-size: 16px;
+    line-height: 22px;
   }
   .Service5-Items .all-Service5-Items {
     flex-direction: column;
@@ -7606,25 +7727,50 @@ html {
     width: 49%;
     display: inherit;
     margin-top: 10px;
+    font-size: 16px;
+    line-height: 22px;
   }
   .Service5-Items .form-Service5 .input-second {
     width: 100%;
+    font-size: 16px;
+    line-height: 22px;
   }
   .Service5-Items .all-form textarea {
     width: 100%;
     height: 150px;
+    font-size: 16px;
+    line-height: 22px;
   }
   .Service5-Items .all-Service5-Items .right-Service5-Items {
     text-align: center;
   }
   .Service5-Items .all-form button {
     width: 40%;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .Service5-Items .content-Service5 h2 {
+    font-size: 30px;
+    line-height: 140%;
   }
   .service0 {
     display: none;
   }
+  .banner_blog {
+    padding-left: calc((100% - 350px) / 2);
+    padding-right: calc((100% - 350px) / 2);
+  }
+  .banner_blog h1 {
+    font-size: 33px;
+    line-height: 156%;
+  }
   .topics .item-topic {
     flex: 100% !important;
+  }
+  .topics .topic-container {
+    margin: 0;
+    padding-left: calc((100% - 350px) / 2);
+    padding-right: calc((100% - 350px) / 2);
   }
   .topics .topic-container .item-topic {
     height: auto;
@@ -7634,9 +7780,13 @@ html {
   }
   .topics .topic-container .item-topic .title-mobile {
     display: flex;
+    font-size: 22px;
+    line-height: 121%;
   }
   .topics .topic-container .item-topic .content-mobile {
     display: flex;
+    font-size: 16px;
+    line-height: 22px;
   }
   .topics .topic-container .item-topic .overlay-item {
     display: none;
@@ -7690,25 +7840,57 @@ html {
   .banner_blog .search-bar {
     width: 90%;
   }
-  .banner_contact h1 {
-    font-size: 30px;
+  .banner_blog .search-bar button {
+    flex: 30%;
+    font-size: 16px;
+    line-height: 22px;
   }
-  .cooperate-content h1 {
+  .banner_blog .search-bar input {
+    flex: 70%;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .banner_contact h1 {
+    font-size: 33px;
+    line-height: 156%;
+  }
+  .cooperate {
+    padding-left: calc((100% - 350px) / 2);
+    padding-right: calc((100% - 350px) / 2);
+  }
+  .cooperate .cooperate-content {
+    margin: 20px 0;
+  }
+  .cooperate .cooperate-content h1 {
     font-size: 30px !important;
-    margin: 0 20px !important;
+    line-height: 140% !important;
+    margin-top: 0;
+    margin-bottom: 20px !important;
   }
   .cooperate-content p {
-    font-size: 18px !important;
-    margin: 0 20px !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+  }
+  .cooperate .cooperate-block {
+    padding: 0;
+    min-width: 320px;
+  }
+  .cooperate .cooperate-block .image {
+    width: 100% !important;
+    height: 400px !important;
   }
   .cooperate-block .image {
     width: calc(100% - 40px) !important;
-    margin: 5px !important;
     height: 500px !important;
   }
   .container-map iframe {
-    width: calc(100% - 20px);
-    margin: 0 5px 50px;
+    height: 100%;
+    padding-left: calc((100% - 350px) / 2);
+    padding-right: calc((100% - 350px) / 2);
+  }
+  .contact-block {
+    padding-left: calc((100% - 350px) / 2);
+    padding-right: calc((100% - 350px) / 2);
   }
   .contact-block .infomation {
     width: 100%;
@@ -7722,6 +7904,7 @@ html {
   }
   .contact-block .infomation .item-right p {
     font-size: 16px !important;
+    margin-right: 5px;
   }
   .contact-block .infomation {
     flex: 100%;
@@ -7741,7 +7924,8 @@ html {
   }
   .contact-block .frm-contact .btn-submit-contact {
     font-size: 24px;
-    height: 75px;
+    height: 50px;
+    min-height: 0;
   }
   .contact-block .contact-container .frm-contact {
     width: 95%;
@@ -7752,6 +7936,9 @@ html {
   }
   .component-post {
     margin-top: 100px;
+  }
+  .component-post .main-post {
+    margin-right: 0;
   }
   .component-post .main-post .main-post-container .img-post {
     height: 300px;
@@ -7767,7 +7954,8 @@ html {
     order: -1;
     font-weight: 500;
     line-height: 50px;
-    font-size: 20px;
+    font-size: 22px;
+    margin-bottom: 0;
   }
   .component-post .main-post .main-post-container h2 {
     order: -1;
@@ -7814,7 +8002,7 @@ html {
   }
   .component-post .main-post .main-post-container .content p {
     font-size: 16px;
-    line-height: 25px;
+    line-height: 22px;
     text-align: justify;
   }
   .component-post .main-post .main-post-container .interactive {
@@ -7833,13 +8021,14 @@ html {
     display: none;
   }
   .component-post .main-post .main-post-container .block-owner .right-block > h2 {
-    font-size: 25px;
+    font-size: 22px;
     margin: 5px 0;
   }
   .component-post .main-post .main-post-container .block-owner .right-block p {
     line-height: 20px;
     font-size: 16px;
     margin-bottom: 10px;
+    margin-top: 0;
   }
   .post-container .item-post a {
     text-decoration: none;
@@ -7892,6 +8081,11 @@ html {
   .component-post .main-post .main-post-container .content ol {
     margin-top: 20px;
   }
+  .component-post .main-post .main-post-container h3 {
+    font-size: 22px;
+    line-height: 121%;
+    margin-bottom: 20px;
+  }
   .footer {
     width: 100%;
     height: auto;
@@ -7905,9 +8099,18 @@ html {
   }
   .component-post .main-post .main-post-container .content ol > li {
     margin-left: 20px;
+    font-size: 18px;
+    line-height: 121%;
+  }
+  .component-post .main-post .main-post-container .content h4 {
+    font-size: 16px;
   }
   .component-post .main-post .main-post-container .content ul > li {
     font-size: 16px;
+  }
+  .component-post .main-post .main-post-container .content .decription {
+    font-size: 14px;
+    line-height: 20px;
   }
   .top-mobile {
     width: 100%;
