@@ -24,14 +24,14 @@ s++;
   }
 }
 
-function onclickDropdownTrain(){
+function onclickDropdownSocial(){
   if(s % 2 == 0) {
-document.querySelector('.cont_dropdown_train').className = "cont_dropdown_train active-ft";    
-document.querySelector('.cont_icon_train').className = "cont_icon_train ti-angle-down";    
+document.querySelector('.cont_dropdown_social').className = "cont_dropdown_social active-ft";    
+document.querySelector('.cont_icon_social').className = "cont_icon_social ti-angle-down";    
 s++; 
   }else{
-document.querySelector('.cont_dropdown_train').className = "cont_dropdown_train disable";        
-document.querySelector('.cont_icon_train').className = "cont_icon_train ti-angle-left";        
+document.querySelector('.cont_dropdown_social').className = "cont_dropdown_social disable";        
+document.querySelector('.cont_icon_social').className = "cont_icon_social ti-angle-left";        
 s++;
   }
 }

@@ -32,13 +32,13 @@
     text-fill-color: transparent;
     font-weight: 700;
     font-size: $lt-font-size-text-h1;
-    line-height: $lt-font-size-text-h1;
+    line-height: $lt-line-height-text-h1;
     letter-spacing: -0.06em;
 }
 
 .Service1-Items .content-items h1 {
-    font-size:60px;
-    line-height: 130%;
+    font-size:$lt-font-size-text-h1;
+    line-height: $lt-line-height-text-h1;
 }
 
 .Service1-Items .content-Service1-Items p {

@@ -54,6 +54,7 @@
     color: $font-done;
     // transform: translateY(20%);
     margin: $space-margin-top-bottom-l 0;
+    margin-bottom: 0;
 }
 
 .home2 .flexbox-service {
@@ -62,7 +63,7 @@
     height: 100%;
     padding-left: calc(calc(100% - 1200px)/2);
     padding-right: calc(calc(100% - 1200px)/2);
-    // padding-top: 50px;
+    padding-top: 25px;
     flex-wrap: wrap;
 }
 
@@ -87,8 +88,12 @@
 .home2 .flexbox-service .flexbox-item {
     padding: 0 10px;
     flex: 25%;
-    min-height: 373px;
+    min-height: 430px;
     padding-bottom: 10px;
+    position: relative;
+}
+.home2 .flexbox-service .flexbox-item .mobile-flex-button {
+    display: none;
 }
 
 
@@ -102,4 +107,24 @@
 
 .fix3 h5 {
     transform: translateY(-45%) !important;
+}
+.home2 .flexbox-service .flexbox-item .flex-button {
+    display: flex;
+    position: absolute;
+    align-self: center;
+    bottom: 8%;
+    // left: 25%;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+}
+.home2 .flexbox-service .flexbox-item .flex-button a{
+    text-decoration: none;
+}
+.home2 .flexbox-service .flexbox-item .flex-button span {
+    font-family: $font-text;
+    font-weight: 700;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
+    color: $primary;
 }

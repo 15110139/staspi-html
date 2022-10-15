@@ -112,24 +112,28 @@ gap: 15px;
 .flexbox-home6 .bottom-item span {
     font-family: $font-text;
     font-style: normal;
-    font-weight: 400;
-    font-size: $lt-font-size-text-m;
-    line-height: $line-height-text-m;
+    font-weight: 600;
+    font-size: $lt-font-size-text-h5;
+    line-height: $lt-line-height-text-h5;
     color: $font-auto;
 }
 
 .home6  #item1 {
-    background: url(../images/item1-home6.png) center center/cover;
+    background: url(../images/item1-home6.png);
+    background-size: 100% 100%;
 }
 
 .home6  #item2 {
-    background: url(../images/item2-home6.png) center center/cover;
+    background: url(../images/item2-home6.png);
+    background-size: 100% 100%;
 }
 
 .home6  #item3 {
-    background: url(../images/item3-home6.png) center center/cover;
+    background: url(../images/item3-home6.png);
+    background-size: 100% 100%;
 }
 
 .home6  #item4 {
-    background: url(../images/item4-home6.png) center center/cover;
+    background: url(../images/item4-home6.png);
+    background-size: 100% 100%;
 }
