@@ -36,8 +36,13 @@
     height: 200px;
     padding: 20px;
     margin-left: 20px;
-    text-align: center;;
+    text-align: center;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .Service2-Items .square-service2 img {

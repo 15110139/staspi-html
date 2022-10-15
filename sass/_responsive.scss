@@ -6,7 +6,7 @@
         padding-right: calc(calc(100% - 1700px)/2);
         line-height: 150px;
     }
-
+    
     .nav .nav-items {
         transform: translateX(18%);
     }
@@ -794,6 +794,14 @@ padding-right: calc((100% - 940px) / 2);
         font-size: 20px;
         line-height: 30px;
         padding-top: 35px;
+    }
+    .anchor {
+        height: 150px ;
+        margin-top: -150px;
+    }
+    .anchor-contact-frm{
+        height: 150px;
+        margin-top: -150px;
     }
 
     // SERVICE5-ITEMS

@@ -466,7 +466,7 @@ html {
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
-  line-height: 32.2px;
+  line-height: 29.2px;
   color: #000000;
   height: 50px;
 }
@@ -518,7 +518,7 @@ html {
 
 .home2 .flexbox-service .flexbox-item .flex-button span {
   font-family: "Inter", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 18px;
   line-height: 29.1px;
   color: #FA7716;
@@ -1828,7 +1828,7 @@ html {
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
-  line-height: 32.2px;
+  line-height: 29.2px;
   color: #3E5AFE;
 }
 
@@ -3451,6 +3451,10 @@ html {
   margin-left: 20px;
   text-align: center;
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .Service2-Items .square-service2 img {
@@ -3660,6 +3664,13 @@ html {
   height: auto;
   position: relative;
   background: #0788E9;
+}
+
+.anchor {
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin-top: -100px;
 }
 
 .Service5-Items .all-Service5-Items {
@@ -3967,8 +3978,34 @@ html {
   text-align: justify;
 }
 
+.anchor-contact-frm {
+  height: 100px;
+  margin-top: -100px;
+}
+
 .cooperate .cooperate-content p + p {
   margin-top: 25px;
+}
+
+.cooperate .cooperate-content .button-cooperate {
+  margin: 25px 0;
+}
+
+.cooperate .cooperate-content .button-cooperate a {
+  text-decoration: none;
+}
+
+.cooperate .cooperate-content .button-cooperate a button {
+  background-color: #FA7716;
+  border-radius: 25px;
+}
+
+.cooperate .cooperate-content .button-cooperate a button p {
+  font-family: "Inter", sans-serif;
+  padding: 8px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 29.1px;
 }
 
 .cooperate .cooperate-block {
@@ -4063,7 +4100,7 @@ html {
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
-  line-height: 32.2px;
+  line-height: 29.2px;
 }
 
 .contact-block .infomation .item-right p {
@@ -4071,7 +4108,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
-  line-height: 32.2px;
+  line-height: 29.2px;
 }
 
 .contact-block .infomation .item-left .icon {
@@ -4322,7 +4359,7 @@ html {
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
-  line-height: 32.2px;
+  line-height: 29.2px;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -4361,7 +4398,7 @@ html {
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
-  line-height: 32.2px;
+  line-height: 29.2px;
   padding: 20px 0;
   color: #151A3C;
   display: none;
@@ -4944,6 +4981,7 @@ html {
   border-radius: 20px;
   width: 100px;
   height: 100px;
+  background-color: #FA7716;
 }
 
 .component-post .highlight-post .highlight-post-container .item-post .item-right {
@@ -4961,16 +4999,23 @@ html {
   margin-bottom: 5px;
   margin-top: 5px;
   font-weight: 500;
-  font-size: 30px;
-  line-height: 44px;
+  font-size: 22px;
+  line-height: 29.2px;
   color: #202857;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  text-align: start;
+  overflow: hidden;
 }
 
 .component-post .highlight-post .highlight-post-container .item-post .item-right p {
   margin-left: 10px;
-  font-weight: 150;
+  font-weight: 300;
   font-size: 16px;
-  color: #B8B8B8;
+  color: #202857;
 }
 
 .component-post .highlight-post .categortires-container {
@@ -5005,9 +5050,10 @@ html {
 
 .component-post .highlight-post .categortires-container .item-category p {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 20px;
   color: #151A3C;
-  margin: 15px 0 15px;
+  margin: 20px;
 }
 
 .component-post .highlight-post .tags-block {
@@ -5946,6 +5992,14 @@ html {
     line-height: 30px;
     padding-top: 35px;
   }
+  .anchor {
+    height: 150px;
+    margin-top: -150px;
+  }
+  .anchor-contact-frm {
+    height: 150px;
+    margin-top: -150px;
+  }
   .Service5-Items .all-Service5-Items {
     padding-left: calc((100% - 1700px) / 2);
     padding-right: calc((100% - 1700px) / 2);
@@ -6839,8 +6893,8 @@ html {
   }
   .navbar .btn-button p {
     font-style: normal;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 18px;
     font-weight: 700;
     color: #151A3C;
   }
@@ -6930,6 +6984,9 @@ html {
   }
   .home3-all .bottom-span .contact {
     display: none;
+  }
+  .anchor-contact-frm {
+    width: 100%;
   }
   .home3-all .home3-left .title-home3 h2 {
     font-size: 30px;
@@ -7624,6 +7681,7 @@ html {
   }
   .Service2-Items .right-Service2-Items p {
     padding-top: 5px;
+    min-height: 95px;
   }
   .Service3-Items {
     height: auto;
@@ -7807,6 +7865,11 @@ html {
   .cooperate-content p {
     font-size: 16px !important;
     line-height: 22px !important;
+  }
+  .cooperate .cooperate-content .button-cooperate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .cooperate .cooperate-block {
     padding: 0;
@@ -8114,6 +8177,7 @@ html {
     margin-top: 20px;
     margin-left: 20px;
     color: #202857;
+    height: 70%;
   }
   .top-mobile .dropdown-info h5 {
     font-size: 18px;
@@ -8135,12 +8199,11 @@ html {
   .top-mobile .cont_dropdown_info ul > li > a {
     position: relative;
     display: block;
-    width: 80%;
+    width: 70%;
     padding-top: 10px;
     padding-bottom: 10px;
     text-decoration: none;
     color: #202857;
-    margin-left: 20px;
     font-size: 16px;
     line-height: 156%;
     border-bottom: 1px solid #C7C7C7;
@@ -8169,6 +8232,10 @@ html {
   .top-mobile .active-ft > ul > li {
     transform: translate(0px, 0px);
     opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .top-mobile .dropdown-service-block {
     display: flex;
@@ -8232,12 +8299,11 @@ html {
   .top-mobile .cont_dropdown_service ul > li > a {
     position: relative;
     display: block;
-    width: 80%;
+    width: 70%;
     padding-top: 10px;
     padding-bottom: 10px;
     text-decoration: none;
     color: #202857;
-    margin-left: 20px;
     font-size: 16px;
     line-height: 156%;
     border-bottom: 1px solid #C7C7C7;

@@ -391,6 +391,8 @@
     border-radius: 20px;
     width: 100px;
     height: 100px;
+    background-color: $primary;
+    // border-color: 0px #fff solid !important;
 }
 .component-post .highlight-post .highlight-post-container .item-post .item-right {
     // border: 1px solid yellow;
@@ -408,15 +410,23 @@
     margin-bottom: 5px;
     margin-top: 5px;
     font-weight: 500;
-    font-size: $lt-font-size-text-h3;
-    line-height: $lt-line-height-text-h3;
+    font-size: $lt-font-size-text-h4;
+    line-height: $lt-line-height-text-h4;
     color:#202857;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    text-align: start;
+    overflow: hidden;
+
 }
 .component-post .highlight-post .highlight-post-container .item-post .item-right p {
     margin-left: 10px;
-    font-weight: 150;
+    font-weight: 300;
     font-size: $lt-font-size-text-m;
-    color:#B8B8B8;
+    color:#202857;
 }
 .component-post .highlight-post .categortires-container {
     font-family: $font-text;;
@@ -448,9 +458,10 @@
 }
 .component-post .highlight-post .categortires-container .item-category p {
     font-weight: 400;
-    font-size: $lt-font-size-text-l;
+    font-size: $lt-font-size-text-h5;
+    line-height: $lt-font-size-text-h5;
     color: #151A3C;
-    margin: 15px 0 15px;
+    margin: 20px;
 }
 .component-post .highlight-post .tags-block {
     margin-top: 50px;

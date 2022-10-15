@@ -98,8 +98,8 @@
 
     .navbar .btn-button p {
         font-style: normal;
-        font-size: $mb-font-size-text-l;
-        line-height: $mb-line-height-text-l;
+        font-size: 18px;
+        line-height: 18px;
         font-weight: 700;
         color: $second-primary;
     }
@@ -212,6 +212,9 @@
 
     .home3-all .bottom-span .contact{
         display: none;
+    }
+    .anchor-contact-frm {
+        width: 100%;
     }
     .home3-all .home3-left .title-home3 h2 {
         font-size: $mb-font-size-text-h2;
@@ -1064,6 +1067,7 @@ padding-right: calc((100% - 350px) / 2);
     }
     .Service2-Items .right-Service2-Items p {
         padding-top: 5px;
+        min-height: 95px;
     }
 
     //Service3-Items
@@ -1275,6 +1279,12 @@ padding-right: calc((100% - 350px) / 2);
         font-size: $mb-font-size-text-l !important;
         line-height: $mb-line-height-text-l !important;
         // margin : 0 20px !important;
+    }
+    .cooperate .cooperate-content .button-cooperate {
+        display: flex;
+        justify-content: center;
+    align-items: center;
+
     }
     .cooperate .cooperate-block {
         padding: 0;
@@ -1628,6 +1638,7 @@ padding-right: calc((100% - 350px) / 2);
     margin-top: 20px;
     margin-left: 20px;
     color: #202857;
+    height: 70%;
   }
   .top-mobile .dropdown-info h5{
     font-size: $mb-font-size-text-h5;
@@ -1666,12 +1677,12 @@ padding-right: calc((100% - 350px) / 2);
   .top-mobile .cont_dropdown_info ul > li > a {
     position: relative;
     display: block;
-    width: 80%;
+    width: 70%;
     padding-top: 10px;
     padding-bottom: 10px;
     text-decoration: none;
     color: #202857;
-    margin-left: 20px;
+    // margin-left: 20px;
     font-size: $font-size-text-n;
     line-height: $line-height-text-n;
     border-bottom: 1px solid #C7C7C7;
@@ -1705,6 +1716,10 @@ padding-right: calc((100% - 350px) / 2);
   .top-mobile .active-ft > ul > li {
     transform: translate(0px, 0px);
     opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   //service
@@ -1774,12 +1789,12 @@ padding-right: calc((100% - 350px) / 2);
   .top-mobile .cont_dropdown_service ul > li > a {
     position: relative;
     display: block;
-    width: 80%;
+    width: 70%;
     padding-top: 10px;
     padding-bottom: 10px;
     text-decoration: none;
     color: #202857;
-    margin-left: 20px;
+    // margin-left: 20px;
     font-size: $font-size-text-n;
     line-height: $line-height-text-n;
     border-bottom: 1px solid #C7C7C7;
@@ -1871,7 +1886,7 @@ padding-right: calc((100% - 350px) / 2);
 //   .top-mobile .cont_dropdown_social ul > li > a {
 //     position: relative;
 //     display: block;
-//     width: 80%;
+//     width: 70%;
 //     padding-top: 10px;
 //     padding-bottom: 10px;
 //     text-decoration: none;
