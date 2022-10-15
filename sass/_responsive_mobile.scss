@@ -237,7 +237,7 @@
         font-size: $mb-font-size-text-h2;
         line-height: $mb-line-height-text-h2;
         padding-top: 20px;
-        padding-bottom: 30px;
+        // padding-bottom: 30px;
         margin: 0;
     }
 
@@ -960,9 +960,15 @@ padding-right: calc((100% - 350px) / 2);
     .service1-items-none .content-service1-items-none {
         bottom: 20%;
     }
-    .service1-items-none .img-service1-items-none img {
-        max-height: 500px;
-        min-height: 50vh;
+    // .service1-items-none .img-service1-items-none img {
+    //     // max-height: 500px;
+    //     // min-height: 50vh;
+    // }
+    .service1-contents {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .service1-items-none .fix-height {
         min-height: 30vh !important;
@@ -1785,14 +1791,14 @@ padding-right: calc((100% - 350px) / 2);
     background-color: #123455;
   }
 
-  //train
-  .top-mobile  .dropdown-train-block {
+  //social
+  .top-mobile  .dropdown-social-block {
     display: flex;
     width: 100%;
     flex-direction: column;
   }
   
-  .top-mobile .train-dropdown-click {
+  .top-mobile .social-dropdown-click {
     position: relative;
     float: left;
     display: flex;
@@ -1808,7 +1814,7 @@ padding-right: calc((100% - 350px) / 2);
     justify-content: space-between;
   }
   
-  .top-mobile .cont_icon_train {
+  .top-mobile .cont_icon_social {
     display: flex;
     position: relative;
     float: right;
@@ -1819,24 +1825,24 @@ padding-right: calc((100% - 350px) / 2);
     margin-right: 30px;
     margin-top: 20px;
   }
-  .top-mobile .cont_icon_train > img {
+  .top-mobile .cont_icon_social > img {
     width: 32px;
     z-index: 2;
     position: relative;
   }
-  .top-mobile .dropdown-train {
+  .top-mobile .dropdown-social {
     position: relative;
     float: left;
     margin-top: 20px;
     margin-left: 20px;
     color: #202857;
   }
-  .top-mobile .dropdown-train h5{
+  .top-mobile .dropdown-social h5{
     font-size: $mb-font-size-text-h5;
     line-height: $mb-line-height-text-h5;
   }
   
-  .top-mobile .cont_dropdown_train {
+  .top-mobile .cont_dropdown_social {
     position: relative;
     float: left;
     width: 100%;
@@ -1845,31 +1851,45 @@ padding-right: calc((100% - 350px) / 2);
     opacity: 1;
     transition: opacity 500ms;
   }
-  .top-mobile .cont_dropdown_train ul > li:hover > a {
-    color: #6992fe;
+  .top-mobile .cont_dropdown_social .block-all-social {
+    margin: 20px 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
   }
-  .top-mobile .cont_dropdown_train ul > li > a {
-    position: relative;
-    display: block;
-    width: 80%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-decoration: none;
-    color: #202857;
-    margin-left: 20px;
-    font-size: $font-size-text-n;
-    line-height: $line-height-text-n;
-    border-bottom: 1px solid #C7C7C7;
+  .top-mobile .cont_dropdown_social .block-all-social a {
+    text-decoration: unset;
   }
-  .top-mobile .cont_dropdown_train ul > li > hr {
-    width: 75%;
-    height: 0px;
-    color: #123455;
-    background-color: #123455;
+  .top-mobile .cont_dropdown_social .block-all-social span {
+    font-size: 40px;
+    color: black;
   }
-  .top-mobile .cont_dropdown_train ul {
-    margin-bottom: 20px;
-  }
+//   .top-mobile .cont_dropdown_social ul > li:hover > a {
+//     color: #6992fe;
+//   }
+//   .top-mobile .cont_dropdown_social ul > li > a {
+//     position: relative;
+//     display: block;
+//     width: 80%;
+//     padding-top: 10px;
+//     padding-bottom: 10px;
+//     text-decoration: none;
+//     color: #202857;
+//     margin-left: 20px;
+//     font-size: $font-size-text-n;
+//     line-height: $line-height-text-n;
+//     border-bottom: 1px solid #C7C7C7;
+//   }
+//   .top-mobile .cont_dropdown_social ul > li > hr {
+//     width: 75%;
+//     height: 0px;
+//     color: #123455;
+//     background-color: #123455;
+//   }
+//   .top-mobile .cont_dropdown_social ul {
+//     margin-bottom: 20px;
+//   }
 }
 
 

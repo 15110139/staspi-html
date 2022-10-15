@@ -111,7 +111,7 @@ width: 100%;
  font-weight: 700;
  font-size: $lt-font-size-text-h3;
  line-height: $lt-line-height-text-h3;
- padding: 10px 0;
+//  padding: 10px 0;
 }
 .contact-block .infomation .item-contact {
  margin-top: 20px;
@@ -145,11 +145,12 @@ min-height: 130px;
 //    flex-direction: column;
 //  }
 //fix h3
-.contact-block .infomation .item-right  h2 {
+.contact-block .infomation .item-right h2 {
  font-family: $font-text;;
  font-style: normal;
  font-weight: 700;
  font-size: $lt-font-size-text-h4;
+ line-height: $lt-line-height-text-h4;
 }
 .contact-block .infomation .item-right  p {
  font-family: $font-text;
@@ -205,6 +206,7 @@ min-height: 130px;
  line-height: $lt-font-size-text-h3;
 }
 .contact-block .frm-contact input, select, option {
+  font-family: $font-text;
  background-color:$home-air;
  width: 90%;
  height: auto;
@@ -225,6 +227,7 @@ min-height: 130px;
   font-weight: 100 !important;
 }
 .contact-block .frm-contact textarea {
+  font-family: $font-text;
 background-color:$home-air;
  width: 90%;
  height: 50px;
@@ -242,11 +245,11 @@ background-color:$home-air;
  background-color: $primary;
  height: auto;
  width: 80%;
- min-height: 60px;
+ min-height: 50px;
  margin: 10px 0;
  border-radius: 10px;
  box-sizing: border-box;
- font-size: $lt-font-size-text-h3;
+ font-size: $lt-font-size-text-h4;
  color: #fff;
  font-style: normal;
  font-weight: 600;

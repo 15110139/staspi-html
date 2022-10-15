@@ -1,9 +1,10 @@
 .service1-items-none {
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     position: relative;
     margin-top: 100px;
 }
+
 
 .service1-items-none .square-service1-items-none {
     width: 48vh;
@@ -11,7 +12,7 @@
     border-radius: 50%;
     background-color: #F5F5F5;
     position: absolute;
-    top: -15%;
+    top: -25%;
     left: -10%;
     display: flex;
     align-items: center;
@@ -38,15 +39,26 @@
     width: 85%;
     right: 0;
     position: absolute;
-    top: 7%;
+    bottom: 5%;
+    height: 250px ;
+}
+.service1-items-none .fix-img-item-none {
+    height: 300px !important;
+}
+.service1-content {
+    width: 100%;
+    height: auto;
+}
+.service1-contents {
+    display: none;
 }
 
-.service1-items-none .content-service1-items-none {
-    bottom: 15%;
-    position: absolute;
-}
+// .service1-contents .content-service1-items-none {
+//     // bottom: 15%;
+//     // position: absolute;
+// }
 
-.service1-items-none .content-service1-items-none p {
+.service1-contents .content-service1-items-none p {
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
@@ -60,39 +72,38 @@
 
 .image-service1-items-none {
     width: 65%!important;
-    top: 15%!important;
+    // top: 15%!important;
 }
 
 .image1-service1-items-none {
     width: 62%!important;
-    top: 13%!important;
+    // top: 13%!important;
 }
 
 .fix-h1 h1{
     font-size: $mb-font-size-text-h3 !important;
 }
 
-.service1-items-none form {
-    margin-top: 40px;
+.service1-contents form {
+    margin: 20px 0;
     background-color: $white-contact;
     box-shadow: 3px 6px 12px 2px rgba(138, 136, 136, 0.25);
     border-radius: 10px;
     height: 60px;
     display: flex;
-    width: 100%;
+    width: 95%;
     align-items: center;
     padding: 10px;
     justify-content: center;
-    bottom: 10%;
-    position: absolute;
+
 }
 
-.service1-items-none form .all-form {
+.service1-contents form .all-form {
     display: flex;
     width: 100%;
 }
 
-.service1-items-none .all-form input {
+.service1-contents .all-form input {
     padding:8px;
     border:none;
     border-bottom: 1px solid $bottom-soid;
@@ -104,7 +115,7 @@
     color: $font-black;
 }
 
-.service1-items-none .all-form button{
+.service1-contents .all-form button{
     width: 30%;
     background: $font-auto;
     border-radius: 5px;
