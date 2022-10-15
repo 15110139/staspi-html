@@ -5356,6 +5356,9 @@ html {
   .nav .nav-items {
     transform: translateX(18%);
   }
+  .navbar .nav .subnav {
+    width: 400px;
+  }
   .banner .banner-content {
     top: 45%;
     padding-left: calc((100% - 1700px) / 2);
@@ -5989,6 +5992,30 @@ html {
   }
   .banner_blog {
     margin-top: 150px;
+  }
+  .main-contact {
+    padding-left: calc((100% - 1700px) / 2);
+    padding-right: calc((100% - 1700px) / 2);
+  }
+  .cooperate .cooperate-block {
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+  .contact-block .infomation {
+    padding-left: calc((100% - 1300px) / 2);
+  }
+  .contact-block .contact-container {
+    padding-right: calc((100% - 1300px) / 2);
+  }
+  .topics {
+    padding-left: calc((100% - 1700px) / 2);
+    padding-right: calc((100% - 1700px) / 2);
+  }
+  .topics .topic-container .item-topic {
+    height: 280px;
+  }
+  .topics .topic-container .item-topic .image-item {
+    height: 280px;
   }
 }
 @media (min-width: 1529px) and (max-width: 1749px) {
