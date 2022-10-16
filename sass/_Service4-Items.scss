@@ -25,8 +25,8 @@
 .Service4-Items .right-content span {
     font-style: normal;
     font-weight: 700;
-    font-size: $lt-font-size-text-l;
-    line-height: $line-height-text-l;
+    font-size: 23px;
+    line-height: 161%;
     color: $font-black;
     font-family: $font-text;
 }
@@ -35,10 +35,13 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: $lt-font-size-text-h3;
-    line-height: $lt-line-height-text-h3;
     padding-top: 10px;
     color: $font-home5;
+}
+.Service4-Items .right-content ul h2 {
+    font-size: $lt-font-size-text-h3;
+    line-height: $lt-line-height-text-h3;
+    margin-bottom: 25px;
 }
 
 .Service4-Items .right-content li {

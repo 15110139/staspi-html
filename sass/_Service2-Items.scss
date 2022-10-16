@@ -52,7 +52,7 @@
 .Service2-Items .left-Service2-Items .top-content {
     font-family: $font-text;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: $lt-font-size-text-h3;
     line-height: $lt-font-size-text-h3;
     color: $white-contact;
@@ -67,10 +67,13 @@
     font-family: $font-text;
     margin-top: $space-margin-top-bottom-l;
 }
+.Service2-Items .left-Service2-Items .center-content h4 {
+    font-weight: 400;
+}
 
 .Service2-Items .left-Service2-Items .bottom-content {
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
     color: $white-contact;
