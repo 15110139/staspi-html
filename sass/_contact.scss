@@ -165,6 +165,9 @@ min-height: 130px;
 //    justify-content: center;
 //    flex-direction: column;
 //  }
+.contact-block .infomation .item-right a {
+  text-decoration: none;
+}
 //fix h3
 .contact-block .infomation .item-right h2 {
  font-family: $font-text;;

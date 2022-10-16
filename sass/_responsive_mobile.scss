@@ -99,9 +99,10 @@
     .navbar .btn-button p {
         font-style: normal;
         font-size: 18px;
-        line-height: 18px;
+        line-height: 22px;
         font-weight: 700;
         color: $second-primary;
+        padding-top: 3px;
     }
 
     //BANNER
@@ -977,7 +978,7 @@ padding-right: calc((100% - 350px) / 2);
         min-height: 30vh !important;
     }
     .square-service1-items-none h1 {
-        font-size: $mb-font-size-text-h1;
+        font-size: $mb-font-size-text-h1 !important;
         line-height: $mb-line-height-text-h1;
     }
 
@@ -997,7 +998,15 @@ padding-right: calc((100% - 350px) / 2);
     }
 
     .Service4-Items .right-content span {
-        font-size: 9px;
+        font-size: 15px;
+    }
+    .service1-contents .content-service1-items-none p {
+        font-size: $mb-font-size-text-l;
+        line-height: $mb-line-height-text-l;
+    }
+    .Service4-Items .right-content ul h2 {
+        font-size: $mb-font-size-text-h2;
+        line-height: $mb-line-height-text-h2;
     }
 
     .Service4-Items .right-content ul {
@@ -1007,7 +1016,14 @@ padding-right: calc((100% - 350px) / 2);
 
     .Service4-Items .right-content li {
         font-size: $mb-font-size-text-l;
+        line-height: $mb-line-height-text-l;
         margin-left: $mb-line-height-text-l;
+    }
+    .Service4-Items .right-content li + li {
+        margin-top: 11px;
+    }
+    .Service4-Items .right-content ul + h2 {
+        margin-top: 10px;
     }
 
     //Service2-Items
@@ -1026,6 +1042,7 @@ padding-right: calc((100% - 350px) / 2);
     .Service2-Items .all-Service2-Items .center-content h4 {
         font-size: $mb-font-size-text-h2;
         line-height: $mb-line-height-text-h2;
+        font-weight: 400;
     }
     .Service2-Items .all-Service2-Items .bottom-content p {
         font-size: $mb-font-size-text-l;
@@ -1291,7 +1308,7 @@ padding-right: calc((100% - 350px) / 2);
         min-width: 320px;
     }
     .cooperate .cooperate-block .image {
-        width: 100% !important;
+        width: 360px !important;
         height: 400px !important;
     }
     .cooperate-block .image {
