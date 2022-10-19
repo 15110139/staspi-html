@@ -51,10 +51,11 @@ animation: slideLeft 1.5s ease;
   // margin-right: calc((100% - 1200px) / 2);
   margin-top: 50px;
   animation: slideLeft 1.5s ease;
+  background-color: #ede8e8;
 }
 .banner_blog .search-bar input {
   flex: 80%;
-  border-radius: 5px 0 0 5px;
+  border-radius: 6px 0 0 6px;
   border-color: #fff;
   border: none;
   padding-left: 10px;
@@ -63,9 +64,10 @@ animation: slideLeft 1.5s ease;
   flex: 20%;
   background-color: #d7d7d7;
   border: none;
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 6px 6px 0;
   color:rgba(50, 50, 50, 0.8);
   cursor: pointer;
+  // border-color: black;
 }
 
 // topics
@@ -103,6 +105,7 @@ flex-direction: column;
 overflow: hidden;
 margin: 15px;
 height: 230px;
+border-radius: 6px;
 }
 
 .topics .topic-container .item-topic .image-item {
@@ -260,7 +263,7 @@ font-size: $lt-font-size-text-h5;
 background-color: #ccc;
 width: 50px;
 box-shadow: 0 5px 25px rgba(1 1 1 / 10%);
-border-radius:25px;
+border-radius:50%;
 cursor: pointer;
 }
 .topics .pagination .cur-page a {
