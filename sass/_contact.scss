@@ -58,11 +58,11 @@ margin-top: $space-margin-top-bottom-l;
 }
 .cooperate .cooperate-content .button-cooperate a button {
   background-color: $primary;
-  border-radius: 25px;
+  border-radius: 6px;
 }
 .cooperate .cooperate-content .button-cooperate a button p {
   font-family: $font-text;
-  padding: 8px;
+  padding: 20px 40px;
   color: #fff;
   font-size: $lt-font-size-text-l;
   line-height: $lt-line-height-text-l;
@@ -83,7 +83,7 @@ margin-top: $space-margin-top-bottom-l;
   // margin: 70px 100px;
   background: url(../images/Busuness-deal-bro.png) no-repeat center center/cover;
   // background-repeat: no-repeat;
-  border-radius: 25px;
+  border-radius: 6px;
   // border: 1px red solid;
 }
 
@@ -138,7 +138,7 @@ width: 100%;
  margin-top: 20px;
  width: 100%;
 //  height: 30%;
- border-radius: 25px;
+ border-radius: 6px;
  background-color: #fff;
  display: flex;
  box-sizing: border-box;
@@ -212,7 +212,7 @@ min-height: 130px;
  width: 100%;
  height: auto;
  background-color:#fff;
- border-radius: 25px;
+ border-radius: 6px;
  color: $second-primary;
  display: flex;
  flex-direction: column;
@@ -236,7 +236,7 @@ min-height: 130px;
  height: auto;
 //  min-height: 80px;
  margin: 20px;
- border-radius: 15px;
+ border-radius: 6px;
  box-sizing: border-box;
  font-size: $lt-font-size-text-l;
  line-height: $lt-font-size-text-l;
@@ -258,7 +258,7 @@ background-color:$home-air;
  min-height: 80px;
  max-height: 160px;
  margin: 10px 20px;
- border-radius: 15px;
+ border-radius: 6px;
  box-sizing: border-box;
  font-size: $lt-font-size-text-l;
  line-height: $lt-line-height-text-l;
@@ -268,16 +268,17 @@ background-color:$home-air;
 .contact-block .frm-contact .btn-submit-contact {
  background-color: $primary;
  height: auto;
- width: 80%;
+ width: 90%;
  min-height: 50px;
  margin: 10px 0;
- border-radius: 10px;
+ border-radius: 6px;
  box-sizing: border-box;
  font-size: $lt-font-size-text-h4;
  color: #fff;
  font-style: normal;
  font-weight: 600;
  cursor: pointer;
+ border: none;
 }
 .contact-block .frm-contact .btn-submit-contact:hover {
  opacity: 0.8;
