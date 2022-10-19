@@ -7,7 +7,7 @@
 }
 
 .home5 .all-home5 {
-    padding: 100px 0;
+    padding: 25px 0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -127,7 +127,7 @@
     line-height: $lt-line-height-text-h2;
     padding-left: calc((100% - 1200px) / 2);
     padding-right: calc((100% - 1200px) / 2);
-    color: $font-home5;
+    color: $color-text-header;
     font-weight: 600;
     margin-bottom: 0;
 }

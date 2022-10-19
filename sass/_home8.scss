@@ -19,7 +19,7 @@
     font-weight: 600;
     font-size: $lt-font-size-text-h2;
     line-height: $lt-line-height-text-h2;
-    color: $second-primary;
+    color: $color-text-header;
     text-align: center;
     margin: $space-margin-top-bottom-l 0;
   }
@@ -135,6 +135,7 @@
     max-height: 132px;
     text-align: start;
     padding-left: 10px;
+    color: $color-text-header;
   }
   
   .feedback .item-slider .comment {
@@ -159,7 +160,7 @@
     font-weight: 700;
     font-size: $lt-font-size-text-l;
     margin: 0;
-    color: $font-back-home8;
+    color: $color-text-body;
     text-align: left;
     // margin-left: 12px;
     // padding: 10px;
@@ -174,7 +175,7 @@
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
     letter-spacing: -0.005em;
-    color: $font-back-home8;
+    color: $color-text-body;
     text-align: justify;
     overflow: hidden;
   }
