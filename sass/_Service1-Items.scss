@@ -86,8 +86,8 @@
 }
 
 .Service1-Items .all-form button{
-    width: 30%;
-    background: $font-auto;
+    width: 35%;
+    background: $primary;
     border-radius: 6px;
     border: none;
     font-family: $font-text;
@@ -95,5 +95,8 @@
     font-weight: 400;
     font-size: $lt-font-size-text-l;
     cursor: pointer;
-    color: $white-contact;
+    color: #fff;
+}
+.Service1-Items .all-form button p {
+    padding: $padding-button;
 }

@@ -62,7 +62,7 @@ margin-top: $space-margin-top-bottom-l;
 }
 .cooperate .cooperate-content .button-cooperate a button p {
   font-family: $font-text;
-  padding: 20px 40px;
+  padding: $padding-button;
   color: #fff;
   font-size: $lt-font-size-text-l;
   line-height: $lt-line-height-text-l;
@@ -199,7 +199,7 @@ min-height: 130px;
   flex: 50%;
   // width: 50%;
   // min-width: 600px;
-  padding: $space-margin-top-bottom-l 64px;
+  padding: $space-margin-top-bottom-sl 64px;
   height: auto;
   display: flex;
   justify-content: center;
@@ -226,8 +226,8 @@ min-height: 130px;
  padding: $space-margin-top-bottom-l 0;
 //  padding-top: ;
  font-weight: 700;
- font-size: $lt-font-size-text-h3;
- line-height: $lt-font-size-text-h3;
+ font-size: $lt-font-size-text-h2;
+ line-height: $lt-font-size-text-h2;
 }
 .contact-block .frm-contact input, select, option {
   font-family: $font-text;
@@ -235,7 +235,7 @@ min-height: 130px;
  width: 90%;
  height: auto;
 //  min-height: 80px;
- margin: 20px;
+ margin: $space-margin-top-bottom-l 0;
  border-radius: 6px;
  box-sizing: border-box;
  font-size: $lt-font-size-text-l;
