@@ -202,7 +202,8 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  margin: 25px 0;
+  // margin: 25px 0;
+  padding: $space-margin-top-bottom-sl 0;
 }
 .footer-items-home7 > h2{
   display: flex;

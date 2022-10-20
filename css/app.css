@@ -1221,7 +1221,7 @@ html {
   height: auto;
   display: flex;
   flex-direction: column;
-  margin: 25px 0;
+  padding: 35px 0;
 }
 
 .footer-items-home7 > h2 {
@@ -1847,6 +1847,7 @@ html {
   background-color: #FFFFFF;
   position: relative;
   margin-top: 100px;
+  padding: 35px 0;
 }
 
 .aboutus .all_aboutus {
@@ -1937,6 +1938,7 @@ html {
   display: flex;
   align-items: center;
   position: relative;
+  padding: 35px 0;
 }
 
 .aboutus_2 .all-aboutus_2 {
@@ -2001,6 +2003,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 35px 0;
 }
 
 .aboutus_2 .second .content-right {
@@ -2056,6 +2059,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 35px 0;
 }
 
 .aboutus_2 .third .image-left {
@@ -2076,6 +2080,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 35px 0;
+  padding-bottom: 0;
 }
 
 .aboutus_2 .four .block-img {
@@ -2151,6 +2157,7 @@ html {
   display: flex;
   align-items: center;
   position: relative;
+  padding: 35px 0;
 }
 
 .aboutus_2 .all-aboutus_2 {
@@ -2215,6 +2222,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 35px 0;
 }
 
 .aboutus_2 .second .content-right {
@@ -2270,6 +2278,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 35px 0;
 }
 
 .aboutus_2 .third .image-left {
@@ -2290,6 +2299,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 35px 0;
+  padding-bottom: 0;
 }
 
 .aboutus_2 .four .block-img {
@@ -7041,6 +7052,9 @@ html {
     padding-top: 20px;
     margin: 0;
   }
+  .home2 .flexbox-service .flexbox-item .flex-button {
+    bottom: 5%;
+  }
   .home2 .flexbox-service .flexbox-item {
     background: #FFFFFF;
     border: 1px solid #F6F8FA;
@@ -7050,6 +7064,7 @@ html {
     height: 400px;
     padding: 0 10px;
     padding-bottom: 10px;
+    flex: 100%;
   }
   .home2 .flexbox-service .flexbox-item .flex-button span {
     font-size: 16px;
@@ -7084,6 +7099,8 @@ html {
   }
   .home2 .flexbox-service {
     padding-top: 0px;
+    padding-left: calc((100% - 345px) / 2);
+    padding-right: calc((100% - 345px) / 2);
   }
   .home4 {
     display: none;
@@ -7314,6 +7331,9 @@ html {
   .home9 .all-home9 .form-field h1 {
     font-size: 30px;
     line-height: 140%;
+  }
+  .home9 .all-home9 .title-home9 h1 p {
+    position: relative;
   }
   .home10 {
     display: flex;

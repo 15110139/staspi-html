@@ -244,6 +244,9 @@
         // padding-bottom: 30px;
         margin: 0;
     }
+    .home2 .flexbox-service .flexbox-item .flex-button {
+        bottom: 5%;
+    }
 
     .home2 .flexbox-service .flexbox-item {
         background: $white-contact;
@@ -254,6 +257,7 @@
         height: 400px;
         padding: 0 10px;
         padding-bottom: 10px;
+        flex: 100%;
     }
     .home2 .flexbox-service .flexbox-item .flex-button span {
         font-size: $mb-font-size-text-l;
@@ -294,6 +298,8 @@
 
     .home2 .flexbox-service {
         padding-top: 0px;
+        padding-left: calc((100% - 345px) / 2);
+        padding-right: calc((100% - 345px) / 2);
     }
 
     //HOME4
@@ -587,7 +593,11 @@ padding-right: calc((100% - 350px) / 2);
         font-size: $mb-font-size-text-h2;
         line-height: $mb-line-height-text-h2;
     }
+    .home9 .all-home9 .title-home9 h1 p{
+        position: relative;
+    }
 
+    // home 10
     .home10 {
         display: flex;
     }
