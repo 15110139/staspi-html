@@ -265,8 +265,8 @@
 
     .home2 .flexbox-item .flex-content {
         margin: 20px 0;
-        font-size: $mb-font-size-text-h3;
-        line-height: $mb-font-size-text-h3;
+        font-size: $mb-font-size-text-h3 !important;
+        line-height: $mb-font-size-text-h3 !important;
     }
 
     .home2 .img_flex img {
@@ -303,7 +303,9 @@
     }
 
     //HOME5
-
+    .home5 {
+        margin: 0;
+    }
     .home5 .all-home5 {
         padding-left: calc((100% - 345px) / 2);
         padding-right: calc((100% - 345px) / 2);
@@ -496,8 +498,8 @@ padding-right: calc((100% - 350px) / 2);
         display: inline;
     }
     .home2 .flexbox-item .flex-content h5 {
-        font-size: $mb-font-size-text-h5;
-        line-height: $mb-line-height-text-h5;
+        font-size: $mb-font-size-text-h5 !important;
+        line-height: $mb-line-height-text-h5 !important;
     }
     .home2 .home2-item {
         padding-top: 25px;
@@ -1548,8 +1550,8 @@ padding-right: calc((100% - 350px) / 2);
     .footer .all_footer .top {
         display: none;
         flex-direction: column;
-        padding-left: calc(calc(100% - 1200px)/2);
-        padding-right: calc(calc(100% - 1200px)/2);
+        padding-left: calc(calc(100% - 1100px)/2);
+        padding-right: calc(calc(100% - 1100px)/2);
     }
     .component-post .main-post .main-post-container .content ol > li{
         margin-left: 20px;

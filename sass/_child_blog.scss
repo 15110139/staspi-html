@@ -34,8 +34,8 @@
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    padding-left: calc((100% - 1200px) / 2) !important;
-    padding-right: calc((100% - 1200px) / 2) !important;
+    padding-left: calc((100% - 1100px) / 2) !important;
+    padding-right: calc((100% - 1100px) / 2) !important;
 }
 .component-post .main-post {
     // border: 1px solid green;
@@ -50,8 +50,8 @@
     // border: 1px black solid;
     flex: 85%;
     // margin: 50px;
-    padding-left: calc((100% - 1200px) / 2);
-    padding-right: calc((100% - 1200px) / 2);
+    padding-left: calc((100% - 1100px) / 2);
+    padding-right: calc((100% - 1100px) / 2);
     font-family: $font-text;
     font-style: normal;
     display: flex;
@@ -225,8 +225,8 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    padding-left: calc((100% - 1200px) / 2);
-    padding-right: calc((100% - 1200px) / 2);
+    padding-left: calc((100% - 1100px) / 2);
+    padding-right: calc((100% - 1100px) / 2);
     font-family: $font-text;
     font-style: normal;
 }
@@ -554,8 +554,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-left: calc((100% - 1200px) / 2);
-    padding-right: calc((100% - 1200px) / 2);
+    padding-left: calc((100% - 1100px) / 2);
+    padding-right: calc((100% - 1100px) / 2);
 }
 //item
 .post-container {

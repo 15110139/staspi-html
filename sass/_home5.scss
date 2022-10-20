@@ -4,16 +4,17 @@
     display: flex;
     align-items: center;
     position: relative;
+    margin-top: $space-margin-top-bottom-sl;
 }
 
 .home5 .all-home5 {
-    padding: 25px 0;
+    padding: $space-margin-top-bottom-sl 0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding-left: calc(calc(100% - 1200px)/2);
-    padding-right: calc(calc(100% - 1200px)/2);
+    padding-left: calc(calc(100% - 1100px)/2);
+    padding-right: calc(calc(100% - 1100px)/2);
 }
 
 .home5 .all-home5 .left-home5 {
@@ -35,7 +36,7 @@
 }
 
 .home5 .left-home5 p {
-    padding-top: 25px;
+    padding-top: $space-margin-top-bottom-l;
     font-family: $font-text;
     font-style: normal;
     font-weight: 500;
@@ -114,20 +115,20 @@
 .home5 .all-home5-item .footer-items {
     height: 20%;
     background-color: $white-contact;
-    margin:$space-margin-top-bottom-l 0;
+    margin:calc($space-margin-top-bottom-sl * 2) 0;
     margin-top: 0;
 }
 .home5 .all-home5-item > h2{
     display: flex;
     align-self: center;
     text-align: center;
-    margin: $space-margin-top-bottom-l  0;
+    margin: $space-margin-top-bottom-sl  0;
     font-family: $font-text;
     font-size: $lt-font-size-text-h2;
     line-height: $lt-line-height-text-h2;
-    padding-left: calc((100% - 1200px) / 2);
-    padding-right: calc((100% - 1200px) / 2);
+    padding-left: calc((100% - 1100px) / 2);
+    padding-right: calc((100% - 1100px) / 2);
     color: $color-text-header;
     font-weight: 600;
-    margin-bottom: 0;
+    // margin-bottom: 0;
 }

@@ -157,8 +157,8 @@ html {
   position: fixed;
   display: flex;
   justify-content: space-between;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
   height: 100px;
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -280,7 +280,7 @@ html {
   position: absolute;
   top: 41%;
   z-index: 99;
-  padding-left: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
 }
 
 .banner .square {
@@ -409,7 +409,7 @@ html {
   align-items: center;
   height: 100%;
   justify-content: center;
-  padding: 0 70px;
+  padding: 35px calc((100% - 1100px) / 2);
 }
 
 .home2-all {
@@ -448,7 +448,6 @@ html {
   font-size: 38px;
   line-height: 55px;
   color: #151A3C;
-  margin: 25px 0;
   margin-bottom: 0;
 }
 
@@ -456,19 +455,19 @@ html {
   display: flex;
   align-items: center;
   height: 100%;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
   padding-top: 25px;
   flex-wrap: wrap;
 }
 
 .home2 .flexbox-item .flex-content {
-  margin: 20px 0;
+  margin: 10px 0;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 26.4px;
+  font-size: 24px !important;
+  line-height: 26.4px !important;
   color: #151A3C;
   height: 50px;
 }
@@ -549,8 +548,9 @@ html {
   align-items: center;
   justify-content: space-between;
   height: 100%;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
+  padding-bottom: 35px;
 }
 
 .home3 .home3-all .home3-left {
@@ -574,7 +574,7 @@ html {
   font-size: 38px;
   line-height: 44px;
   color: #151A3C;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .home3 .home3-left .btn-home3 {
@@ -615,7 +615,7 @@ html {
 }
 
 .home3 .home3-all .bottom-span {
-  margin-top: 40px;
+  margin-top: 15px;
 }
 
 .home3 .home3-all .bottom-span button {
@@ -676,22 +676,19 @@ html {
   display: flex;
   align-items: center;
   background-color: #FFFFFF;
+  padding: 35px 0;
 }
 
 .home4 .all-home4 {
   width: 100%;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .home4 .image-home4 {
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
-  margin-bottom: 25px;
-}
-
-.home4 .title-home4 {
-  margin: 25px 0;
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
+  margin-bottom: 15px;
 }
 
 .home4 .image-home4 img {
@@ -733,7 +730,7 @@ html {
   font-size: 38px;
   line-height: 44px;
   color: #151A3C;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .home4 .title-home4 p {
@@ -744,6 +741,7 @@ html {
   line-height: 160%;
   padding-left: calc((100% - 1020px) / 2);
   padding-right: calc((100% - 1020px) / 2);
+  padding-bottom: 15px;
   color: #494949;
 }
 
@@ -753,16 +751,17 @@ html {
   display: flex;
   align-items: center;
   position: relative;
+  margin-top: 35px;
 }
 
 .home5 .all-home5 {
-  padding: 25px 0;
+  padding: 35px 0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
 }
 
 .home5 .all-home5 .left-home5 {
@@ -783,7 +782,7 @@ html {
 }
 
 .home5 .left-home5 p {
-  padding-top: 25px;
+  padding-top: 15px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -861,7 +860,7 @@ html {
 .home5 .all-home5-item .footer-items {
   height: 20%;
   background-color: #FFFFFF;
-  margin: 25px 0;
+  margin: 70px 0;
   margin-top: 0;
 }
 
@@ -869,15 +868,14 @@ html {
   display: flex;
   align-self: center;
   text-align: center;
-  margin: 25px 0;
+  margin: 35px 0;
   font-family: "Inter", sans-serif;
   font-size: 38px;
   line-height: 44px;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
   color: #151A3C;
   font-weight: 600;
-  margin-bottom: 0;
 }
 
 .home6 {
@@ -887,19 +885,20 @@ html {
   align-items: center;
   background: linear-gradient(180deg, #FF9344 0%, #F07E2A 100%);
   position: relative;
+  padding: 35px 0;
 }
 
 .home6 .all-home6 {
   text-align: center;
   width: 100%;
   height: 100%;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
 }
 
 .home6 .all-home6 .top-content {
-  margin: 25px 0;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
+  padding-bottom: 35px;
 }
 
 .home6 .all-home6 .top-content h2 {
@@ -919,8 +918,8 @@ html {
 .home6 .all-home6 .all-flexbox-home6 .sld-home6 {
   width: 100%;
   height: 370px;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -929,8 +928,8 @@ html {
 .home6 .all-home6 .all-flexbox-home6 .sld-home6 .container-sld-home6 {
   width: calc(100% - 30px);
   height: 100%;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
   position: relative;
   overflow: hidden;
 }
@@ -947,9 +946,9 @@ html {
 
 .home6 .all-home6 .all-flexbox-home6 .sld-pagination {
   display: flex;
-  margin: 25px 0;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  margin: 15px 0;
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
   align-items: center;
   justify-content: center;
 }
@@ -969,7 +968,7 @@ html {
 }
 
 .home6 .flex-item .top-item {
-  width: 280px;
+  width: 255px;
   height: 261px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -977,7 +976,7 @@ html {
 }
 
 .home6 .flex-item .bottom-item {
-  width: 280px;
+  width: 255px;
   height: 100px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -1229,12 +1228,12 @@ html {
   display: flex;
   align-self: center;
   text-align: center;
-  margin: 25px 0;
+  margin: 15px 0;
   font-family: "Inter", sans-serif;
   font-size: 38px;
   line-height: 44px;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
   color: #202857;
   font-weight: 600;
 }
@@ -1255,7 +1254,7 @@ html {
 
 .feedback .home8 {
   width: 100%;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 .feedback .home8 h2 {
@@ -1266,7 +1265,7 @@ html {
   line-height: 44px;
   color: #151A3C;
   text-align: center;
-  margin: 25px 0;
+  margin: 35px 0;
 }
 
 .feedback-container {
@@ -1279,8 +1278,8 @@ html {
 .feedback .slider {
   width: 100%;
   height: 400px;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -1290,8 +1289,8 @@ html {
   height: 100%;
   width: 100%;
   height: 100%;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
   position: relative;
   overflow: hidden;
 }
@@ -1309,7 +1308,7 @@ html {
 
 .feedback .container-slider .slide .item-slider {
   width: 25%;
-  height: 350px;
+  height: 370px;
   border-radius: 6px;
   background-color: #f3f0f0;
   display: flex;
@@ -1439,6 +1438,7 @@ html {
   align-items: center;
   background-color: #FA7716;
   position: relative;
+  padding: 35px 0;
 }
 
 .home9 .all-home9 {
@@ -1452,11 +1452,11 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 46px;
-  line-height: 65.2px;
+  font-size: 38px;
+  line-height: 44px;
   color: #FFFFFF;
   z-index: 999;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 .home9 .all-home9 .form-input {
@@ -1512,7 +1512,7 @@ html {
 .home9 .button-home9 .btn-home9 {
   width: auto;
   height: auto;
-  margin: 25px 0;
+  margin-top: 35px;
   background: #fff;
   border: 3px solid #FFFFFF;
   border-radius: 6px;
@@ -1528,9 +1528,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
-  line-height: 37px;
-  letter-spacing: -0.065em;
+  font-size: 18px;
+  line-height: 22.2px;
   color: #FA7716;
   padding: 10px 20px;
 }
@@ -1586,7 +1585,7 @@ html {
 
 .home10 .alls-home10 {
   width: 100%;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .home10 .all-home10 {
@@ -1596,7 +1595,7 @@ html {
 
 .home10 .top-home10 {
   text-align: center;
-  margin: 20px;
+  margin: 10px;
 }
 
 .home10 .top-home10 .btn-home4 {
@@ -1678,10 +1677,9 @@ html {
 .home11 .all-home11-dis {
   width: 100%;
   height: 100%;
-  padding: 25px;
   display: flex;
   align-items: center;
-  padding-top: 25px;
+  padding: 35px 0;
 }
 
 .home11 .all-home11 {
@@ -1694,8 +1692,8 @@ html {
   text-align: center;
   width: 100%;
   height: 100%;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
 }
 
 .home11 .all-flex-home11 .square-home11 {
@@ -1752,8 +1750,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
   margin: 30px 0;
 }
 
@@ -1785,9 +1783,9 @@ html {
 .footer .footer-item h5 {
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 37px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
   letter-spacing: -0.065em;
   color: #202857;
   padding-bottom: 20px;
@@ -1813,9 +1811,9 @@ html {
 .footer .footer-item p {
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 158%;
   letter-spacing: -0.065em;
   color: #202857;
 }
@@ -1856,8 +1854,8 @@ html {
   align-items: center;
   width: 100%;
   height: 100%;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
 }
 
 .aboutus .all_aboutus .left {
@@ -2099,8 +2097,8 @@ html {
 }
 
 .aboutus_2 .all-aboutus_2 .all-aboutus_2-item {
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
   height: 90%;
 }
 
@@ -2112,7 +2110,7 @@ html {
 }
 
 .aboutus_2 .content-item {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .aboutus_2 .footer-items-about {
@@ -2313,8 +2311,8 @@ html {
 }
 
 .aboutus_2 .all-aboutus_2 .all-aboutus_2-item {
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
   height: 90%;
 }
 
@@ -2326,7 +2324,7 @@ html {
 }
 
 .aboutus_2 .content-item {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .aboutus_2 .footer-items-about {
@@ -2372,7 +2370,7 @@ html {
 }
 .footer_items {
   background: white;
-  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  box-shadow: 0 0px 20px 10px rgba(0, 0, 0, 0.125);
   height: 100%;
   margin: auto;
   overflow: hidden;
@@ -2605,8 +2603,8 @@ html {
   display: flex;
   height: 100%;
   align-items: center;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
 }
 
 .hiring1 .all-hiring1 .left-hiring1 {
@@ -2689,8 +2687,8 @@ html {
   align-items: center;
   width: 100%;
   height: 100%;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
 }
 
 .hiring2 .all-hiring2 .left-square {
@@ -2714,7 +2712,7 @@ html {
   font-weight: 600;
   font-size: 46px;
   line-height: 65.2px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   color: #202857;
   margin-left: 50px;
 }
@@ -2754,7 +2752,7 @@ html {
   line-height: 65.2px;
   color: #202857;
   text-align: center;
-  margin: 25px 0;
+  margin: 15px 0;
 }
 
 .hiring3 .all-hiring3 {
@@ -2858,8 +2856,8 @@ html {
   display: flex;
   padding-top: 25px;
   justify-content: center;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
 }
 
 .hiring4 .sub-form button {
@@ -2935,7 +2933,7 @@ html {
   font-size: 14px;
   line-height: 14px;
   color: #3E5AFE;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .hiring4 .right-content h5 {
@@ -2946,7 +2944,7 @@ html {
   line-height: 20px;
   letter-spacing: -0.03em;
   color: #000000;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .hiring4 .right-content p {
@@ -3024,11 +3022,11 @@ html {
 }
 
 .service0 .right-service {
-  padding-right: calc((100% - 1200px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
 }
 
 .service0 .left-service {
-  padding-left: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
   animation: slideLeft 1.5s ease;
 }
 
@@ -3081,7 +3079,7 @@ html {
   display: flex;
   align-items: center;
   height: 100%;
-  padding-left: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
 }
 
 .service0 .image-icon {
@@ -3161,8 +3159,8 @@ html {
   text-align: center;
   padding-top: 40px;
   color: #FFFFFF;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
 }
 
 .service1 .all-service1 .button-service1 {
@@ -3193,8 +3191,8 @@ html {
 .service2 .all-service2 {
   width: 100%;
   text-align: center;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
 }
 
 .service2 .all-service2 .top-service2 {
@@ -3365,8 +3363,8 @@ html {
   display: flex;
   height: 100%;
   align-items: center;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
 }
 
 .Service1-Items .all-Service1-Items .left-Service1-Items {
@@ -3464,10 +3462,10 @@ html {
   align-items: center;
   height: 100%;
   width: 100%;
-  padding: 25px 0;
+  padding: 15px 0;
   background-color: #FA7716;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
 }
 
 .Service2-Items .all-Service2-Items .left-Service2-Items {
@@ -3519,7 +3517,7 @@ html {
   line-height: 35.2px;
   color: #FFFFFF;
   font-family: "Inter", sans-serif;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .Service2-Items .left-Service2-Items .center-content h4 {
@@ -3547,7 +3545,7 @@ html {
   font-size: 16px;
   line-height: 160%;
   color: #FA7716;
-  margin-top: 25px;
+  margin-top: 15px;
   font-family: "Inter", sans-serif;
 }
 
@@ -3566,13 +3564,13 @@ html {
   display: flex;
   align-items: center;
   position: relative;
-  margin: 25px 0;
+  margin: 15px 0;
 }
 
 .Service3-Items .all-Service3-Items {
   width: 100%;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
 }
 
 .Service3-Items .all-Service3-Items .bottom-Service3 {
@@ -3609,7 +3607,7 @@ html {
   line-height: 44px;
   text-align: center;
   color: #202857;
-  margin: 25px 0;
+  margin: 15px 0;
   margin-top: 0;
 }
 
@@ -3660,8 +3658,8 @@ html {
   display: flex;
   height: 100%;
   align-items: center;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
 }
 
 .Service4-Items .all-Service4-Items .left-Service4 {
@@ -3728,9 +3726,9 @@ html {
   width: 100%;
   align-items: center;
   height: auto;
-  padding: 25px 0;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding: 15px 0;
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
 }
 
 .Service5-Items .all-Service5-Items .left-Service5-Items {
@@ -3988,8 +3986,8 @@ html {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
 }
 
 .cooperate {
@@ -4016,7 +4014,7 @@ html {
   font-size: 38px;
   line-height: 44px;
   color: #151A3C;
-  margin: 25px 0;
+  margin: 15px 0;
 }
 
 .cooperate .cooperate-content p {
@@ -4035,11 +4033,11 @@ html {
 }
 
 .cooperate .cooperate-content p + p {
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .cooperate .cooperate-content .button-cooperate {
-  margin: 25px 0;
+  margin: 15px 0;
 }
 
 .cooperate .cooperate-content .button-cooperate a {
@@ -4066,7 +4064,7 @@ html {
   justify-content: center;
   align-items: center;
   min-width: 375px;
-  padding-left: 25px;
+  padding-left: 15px;
 }
 
 .cooperate .cooperate-block .image {
@@ -4082,7 +4080,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .container-map iframe {
@@ -4109,7 +4107,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
 }
 
 .contact-block .infomation h2 {
@@ -4177,13 +4175,13 @@ html {
 .contact-block .contact-container {
   box-sizing: border-box;
   flex: 50%;
-  padding: 25px 64px;
+  padding: 15px 64px;
   height: auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding-right: calc((100% - 1200px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
 }
 
 .contact-block .contact-container .frm-contact {
@@ -4201,7 +4199,7 @@ html {
 }
 
 .contact-block .frm-contact h2 {
-  padding: 25px 0;
+  padding: 15px 0;
   font-weight: 700;
   font-size: 32px;
   line-height: 32px;
@@ -4316,7 +4314,7 @@ html {
   width: 100%;
   display: flex;
   height: 40px;
-  margin: 25px 0;
+  margin: 15px 0;
   box-shadow: 5px 5px 7px rgba(50, 50, 50, 0.3);
   margin-top: 50px;
   animation: slideLeft 1.5s ease;
@@ -4346,8 +4344,8 @@ html {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
 }
 
 .topic-container {
@@ -4650,8 +4648,8 @@ html {
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  padding-left: calc((100% - 1200px) / 2) !important;
-  padding-right: calc((100% - 1200px) / 2) !important;
+  padding-left: calc((100% - 1100px) / 2) !important;
+  padding-right: calc((100% - 1100px) / 2) !important;
 }
 
 .component-post .main-post {
@@ -4665,8 +4663,8 @@ html {
 
 .component-post .main-post .main-post-container {
   flex: 85%;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
   font-family: "Inter", sans-serif;
   font-style: normal;
   display: flex;
@@ -4679,7 +4677,7 @@ html {
   font-size: 16px;
   line-height: 160%;
   color: #3E5AFE;
-  margin: 14px;
+  margin: 8px;
   margin-left: 30px;
   text-decoration: none;
 }
@@ -4858,14 +4856,14 @@ html {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
   font-family: "Inter", sans-serif;
   font-style: normal;
 }
 
 .component-post .main-post .main-post-container .block-owner .right-block > h2 {
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 32px;
   line-height: 35.2px;
   font-weight: 700;
@@ -4875,7 +4873,7 @@ html {
   font-size: 16px;
   line-height: 160%;
   font-weight: 400;
-  margin: 20px 0;
+  margin: 10px 0;
   margin-right: 20px;
   text-align: justify;
 }
@@ -5220,8 +5218,8 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-left: calc((100% - 1200px) / 2);
-  padding-right: calc((100% - 1200px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
 }
 
 .post-container {
@@ -5533,7 +5531,7 @@ html {
   }
   .home2 .flexbox-item .flex-content {
     margin: 40px 0;
-    font-size: 28px;
+    font-size: 28px !important;
   }
   .home2 .flexbox-item .flex-item {
     font-size: 18px;
@@ -5546,8 +5544,8 @@ html {
     padding-right: calc((100% - 1700px) / 2);
   }
   .home4 .title-home4 p {
-    padding-left: calc((100% - 1200px) / 2);
-    padding-right: calc((100% - 1200px) / 2);
+    padding-left: calc((100% - 1100px) / 2);
+    padding-right: calc((100% - 1100px) / 2);
   }
   .home4 .title-home4 h3 {
     font-size: 64px;
@@ -6217,7 +6215,6 @@ html {
     height: 85vh;
   }
   .banner .button-banner p {
-    margin-left: -50px;
     font-size: 13px;
   }
   .banner .button-banner .alo {
@@ -6252,9 +6249,7 @@ html {
     margin-top: 15px;
   }
   .home3-all .bottom-span .contact {
-    margin-top: 3px;
     font-size: 12px;
-    margin-left: 5px;
     position: absolute;
   }
   .home2-all .home2-button .btn-top-home2 {
@@ -6271,7 +6266,7 @@ html {
   }
   .home2 .flexbox-item .flex-content {
     margin: 20px 0;
-    font-size: 20px;
+    font-size: 20px !important;
   }
   .home2 .flexbox-service {
     padding-left: calc((100% - 940px) / 2);
@@ -6286,7 +6281,7 @@ html {
   }
   .home2 .flexbox-item .flex-content {
     margin: 20px 0;
-    font-size: 18px;
+    font-size: 18px !important;
   }
   .home2 .flexbox-item .flex-item {
     font-size: 12px;
@@ -7065,8 +7060,8 @@ html {
   }
   .home2 .flexbox-item .flex-content {
     margin: 20px 0;
-    font-size: 26px;
-    line-height: 26px;
+    font-size: 26px !important;
+    line-height: 26px !important;
   }
   .home2 .img_flex img {
     width: 100px;
@@ -7092,6 +7087,9 @@ html {
   }
   .home4 {
     display: none;
+  }
+  .home5 {
+    margin: 0;
   }
   .home5 .all-home5 {
     padding-left: calc((100% - 345px) / 2);
@@ -7245,8 +7243,8 @@ html {
     display: inline;
   }
   .home2 .flexbox-item .flex-content h5 {
-    font-size: 18px;
-    line-height: 121%;
+    font-size: 18px !important;
+    line-height: 121% !important;
   }
   .home2 .home2-item {
     padding-top: 25px;
@@ -7287,7 +7285,7 @@ html {
   .home9 .all-home9 {
     padding-left: calc((100% - 330px) / 2);
     padding-right: calc((100% - 330px) / 2);
-    margin: 28px 0;
+    margin: 16px 0;
     margin-top: 0;
   }
   .home9 .all-home9 .form-input {
@@ -8144,8 +8142,8 @@ html {
   .footer .all_footer .top {
     display: none;
     flex-direction: column;
-    padding-left: calc((100% - 1200px) / 2);
-    padding-right: calc((100% - 1200px) / 2);
+    padding-left: calc((100% - 1100px) / 2);
+    padding-right: calc((100% - 1100px) / 2);
   }
   .component-post .main-post .main-post-container .content ol > li {
     margin-left: 20px;
