@@ -17,8 +17,8 @@
     align-items: center;
     height: auto;
     padding: $space-margin-top-bottom-l 0;
-    padding-left: calc(calc(100% - 1200px)/2);
-    padding-right: calc(calc(100% - 1200px)/2);
+    padding-left: calc(calc(100% - 1100px)/2);
+    padding-right: calc(calc(100% - 1100px)/2);
 }
 
 .Service5-Items .all-Service5-Items .left-Service5-Items {
@@ -116,7 +116,7 @@
     font-weight: 400;
     font-size: $lt-font-size-text-l;
     letter-spacing: -0.065em;
-    color: $font-home5;
+    color: $primary;
     margin-top: 10px;
     cursor: pointer;
 }

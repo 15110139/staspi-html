@@ -17,9 +17,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: calc(calc(100% - 1200px)/2);
-    padding-right: calc(calc(100% - 1200px)/2);
-    margin:10px 0 ;
+    padding-left: calc(calc(100% - 1100px)/2);
+    padding-right: calc(calc(100% - 1100px)/2);
+    margin:30px 0 ;
 }
 
 .footer .all_footer .bottom {
@@ -50,16 +50,16 @@
 .footer .footer-item h5 {
     font-family: $font-text;
     font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 37px;
-    letter-spacing: -0.065em;
+    font-weight: 700;
+    font-size: $lt-font-size-text-h4;
+    line-height: $lt-font-size-text-h4;
+    // letter-spacing: -0.065em;
     color: $font-home5;
     padding-bottom: 20px;
 }
 
 .footer .all_footer .fix-size {
-    min-height: 157px;
+    min-height: 147px;
 }
 .footer .footer-item .block-contact {
     font-size: 30px;
@@ -75,10 +75,10 @@
 .footer .footer-item p {
     font-family: $font-text;
     font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: -0.065em;
+    font-weight: 500;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
+    // letter-spacing: -0.065em;
     color: $font-home5;
 }
 .footer .footer-item a{

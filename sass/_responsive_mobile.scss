@@ -141,21 +141,21 @@
 
     .banner .banner-content .button-banner {
         opacity: 1;
-        width: 150px;
-        height: 35px;
-        margin-top: 30px;
+        // width: 150px;
+        // height: 35px;
+        // margin-top: 30px;
     }
 
     .banner .button-banner p{
-        margin-left: -40px;
+        // margin-left: -40px;
         font-size: $mb-font-size-text-m;
     }
 
     .banner .button-banner .alo{
         font-size: 12px;
-        margin-left: 20px;
-        margin-top: -15px;
-        transform: translateY(-5px);
+        // margin-left: 20px;
+        // margin-top: -15px;
+        // transform: translateY(-5px);
     }
 
     //HOME3
@@ -244,6 +244,9 @@
         // padding-bottom: 30px;
         margin: 0;
     }
+    .home2 .flexbox-service .flexbox-item .flex-button {
+        bottom: 5%;
+    }
 
     .home2 .flexbox-service .flexbox-item {
         background: $white-contact;
@@ -254,6 +257,7 @@
         height: 400px;
         padding: 0 10px;
         padding-bottom: 10px;
+        flex: 100%;
     }
     .home2 .flexbox-service .flexbox-item .flex-button span {
         font-size: $mb-font-size-text-l;
@@ -265,8 +269,8 @@
 
     .home2 .flexbox-item .flex-content {
         margin: 20px 0;
-        font-size: $mb-font-size-text-h3;
-        line-height: $mb-font-size-text-h3;
+        font-size: $mb-font-size-text-h3 !important;
+        line-height: $mb-font-size-text-h3 !important;
     }
 
     .home2 .img_flex img {
@@ -294,6 +298,8 @@
 
     .home2 .flexbox-service {
         padding-top: 0px;
+        padding-left: calc((100% - 345px) / 2);
+        padding-right: calc((100% - 345px) / 2);
     }
 
     //HOME4
@@ -303,7 +309,9 @@
     }
 
     //HOME5
-
+    .home5 {
+        margin: 0;
+    }
     .home5 .all-home5 {
         padding-left: calc((100% - 345px) / 2);
         padding-right: calc((100% - 345px) / 2);
@@ -349,9 +357,9 @@
     .home5 .all-home5-item .all-home5 {
         height: auto !important;
         margin-top: 0;
-        margin-bottom: 20px;
+        padding-bottom: 20px;
         padding-top: 25px;
-        padding-bottom: 0;
+        // padding-bottom: 0;
         background: url(../images/background-home5.jpg) center center;
     }
     .home5 .all-home5-item {
@@ -496,8 +504,8 @@ padding-right: calc((100% - 350px) / 2);
         display: inline;
     }
     .home2 .flexbox-item .flex-content h5 {
-        font-size: $mb-font-size-text-h5;
-        line-height: $mb-line-height-text-h5;
+        font-size: $mb-font-size-text-h5 !important;
+        line-height: $mb-line-height-text-h5 !important;
     }
     .home2 .home2-item {
         padding-top: 25px;
@@ -561,8 +569,6 @@ padding-right: calc((100% - 350px) / 2);
     }
 
     .home9 .button-home9 .btn-home9 {
-        width: 100%;
-        height: 50px;
         opacity: 0.9;
     }
 
@@ -587,7 +593,11 @@ padding-right: calc((100% - 350px) / 2);
         font-size: $mb-font-size-text-h2;
         line-height: $mb-line-height-text-h2;
     }
+    .home9 .all-home9 .title-home9 h1{
+        position: relative;
+    }
 
+    // home 10
     .home10 {
         display: flex;
     }
@@ -600,6 +610,7 @@ padding-right: calc((100% - 350px) / 2);
     }
 
     .home10 .all-home10-flex {
+        padding: $space-margin-top-bottom-sl 0;
         padding-left: calc((100% - 350px) / 2);
         padding-right: calc((100% - 350px) / 2);
     }
@@ -614,6 +625,10 @@ padding-right: calc((100% - 350px) / 2);
         padding-left: calc(calc(100% - 350px)/2);
         padding-right: calc(calc(100% - 350px)/2);
         flex-direction: column-reverse;
+    }
+
+    .aboutus .content-aboutus {
+        margin-top: $space-margin-top-bottom-l;
     }
 
     .aboutus .content-aboutus h4 {
@@ -700,11 +715,15 @@ padding-right: calc((100% - 350px) / 2);
         padding-left: calc(calc(100% - 350px)/2);
         padding-right: calc(calc(100% - 350px)/2);
     }
-
-    .aboutus_2 .first .content-left h3 {
+    .aboutus_2 .first .content-left {
+        margin-top: $space-margin-top-bottom-l;
+    }
+    .aboutus_2 .first .content-left h3 { 
         font-size: 30px;
     }
-    
+    .aboutus_2 .first .content-item {
+        margin-top: $space-margin-top-bottom-l;
+    }
     .aboutus_2 .content-right p {
         font-size: $mb-font-size-text-l;
         line-height: $mb-line-height-text-l;
@@ -1550,8 +1569,8 @@ padding-right: calc((100% - 350px) / 2);
     .footer .all_footer .top {
         display: none;
         flex-direction: column;
-        padding-left: calc(calc(100% - 1200px)/2);
-        padding-right: calc(calc(100% - 1200px)/2);
+        padding-left: calc(calc(100% - 1100px)/2);
+        padding-right: calc(calc(100% - 1100px)/2);
     }
     .component-post .main-post .main-post-container .content ol > li{
         margin-left: 20px;
@@ -1922,6 +1941,7 @@ padding-right: calc((100% - 350px) / 2);
 //   .top-mobile .cont_dropdown_social ul {
 //     margin-bottom: 20px;
 //   }
+
 }
 
 

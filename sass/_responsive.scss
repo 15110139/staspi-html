@@ -51,10 +51,10 @@
         color: $white-contact;
     }
 
-    .banner .banner-content .button-banner{
-        width: 250px;
-        height: 50px;
-    }
+    // .banner .banner-content .button-banner{
+    //     // width: 250px;
+    //     // height: 50px;
+    // }
     //HOME3 
     .home3 .home3-all{
         padding-left: calc(calc(100% - 1700px)/2);
@@ -85,11 +85,11 @@
         font-size: 20px;
     }
 
-    .home3-all .bottom-span .contact{
-        font-size: 18px;
-        color: $primary;
-        cursor: pointer;    
-    }
+    // .home3-all .bottom-span .contact{
+    //     // font-size: 14px;
+    //     // color: $primary;
+    //     // cursor: pointer;    
+    // }
 
     // HOME2
     .home2-all .home2-button .btn-top-home2 {
@@ -118,7 +118,7 @@
 
     .home2 .flexbox-item .flex-content{
         margin: 40px 0;
-        font-size: 28px;
+        font-size: 28px !important;
     }
 
     .home2 .flexbox-item .flex-item{
@@ -137,8 +137,8 @@
     }
 
     .home4 .title-home4 p {
-        padding-left: calc(calc(100% - 1200px)/2);
-        padding-right: calc(calc(100% - 1200px)/2);
+        padding-left: calc(calc(100% - 1100px)/2);
+        padding-right: calc(calc(100% - 1100px)/2);
     }
 
     .home4 .title-home4 h3 {
@@ -151,6 +151,7 @@
         height: 60px;
         font-size: 20px;
     }
+    
 
     // HOME 5
 
@@ -304,8 +305,6 @@ padding-right: calc((100% - 940px) / 2);
     }
 
     .home9 .button-home9 .btn-home9 {
-        width: 300px;
-        height: 80px;
         border-radius: 6px;
     }
 
@@ -351,6 +350,10 @@ padding-right: calc((100% - 940px) / 2);
         font-size: 20px;
         line-height: 30px;
     }
+    .footer .all_footer .fix-size{
+        height: 177px;
+    }
+
     //ABOUT US 
     .aboutus .all_aboutus {
         padding-left: calc(calc(100% - 1700px)/2);
@@ -959,6 +962,7 @@ padding-right: calc((100% - 940px) / 2);
     .home2 .img_flex img {
         width: 40%;
     }
+
 }
 
 @media (min-width: 830px) and (max-width: 1249px){
@@ -1008,10 +1012,10 @@ padding-right: calc((100% - 940px) / 2);
     //     font-size: 34px;
     // }
 
-    .banner .banner-content .button-banner{
-        width: 140px;
-        height: 30px;
-    }
+    // .banner .banner-content .button-banner{
+    //     // width: 140px;
+    //     // height: 30px;
+    // }
     .Service3-Items .bottom-Service3 .flex-Service3-item {
         min-height: 370px;
     }
@@ -1026,9 +1030,12 @@ padding-right: calc((100% - 940px) / 2);
         width: 110vh;
         height: 85vh;
     }
+    .Service1-Items .all-form button {
+        width: 45%;
+    }
 
     .banner .button-banner p{
-        margin-left: -50px;
+        // margin-left: -50px;
         font-size: 13px;
     }
     
@@ -1077,9 +1084,9 @@ padding-right: calc((100% - 940px) / 2);
     }
 
     .home3-all .bottom-span .contact{
-        margin-top: 3px;
+        // margin-top: 3px;
         font-size: 12px;
-        margin-left: 5px;
+        // margin-left: 5px;
         position: absolute;  
     }
 
@@ -1107,7 +1114,7 @@ padding-right: calc((100% - 940px) / 2);
 
     .home2 .flexbox-item .flex-content{
         margin: 20px 0;
-        font-size: 20px;
+        font-size: 20px !important;
     }
 
     .home2 .flexbox-service {
@@ -1126,7 +1133,7 @@ padding-right: calc((100% - 940px) / 2);
 
     .home2 .flexbox-item .flex-content{
         margin: 20px 0;
-        font-size: 18px;
+        font-size: 18px !important;
     }
     
     .home2 .flexbox-item .flex-item{
@@ -1208,7 +1215,7 @@ padding-right: calc((100% - 940px) / 2);
         gap: 10px;
         padding-left: calc(calc(100% - 940px)/2);
         padding-right: calc(calc(100% - 940px)/2);
-        padding-bottom: 30px;
+        // padding-bottom: 30px;
     }
     .home6 .flex-item .top-item{
         width: 215px;
@@ -1355,8 +1362,6 @@ align-items: center;
     //HOME 9
 
     .home9 .button-home9 .btn-home9 {
-        width: 170px;
-        height: 40px;
         margin-top: 20px;
     }
 

@@ -24,7 +24,7 @@
     position: absolute;
     top: 41%;
     z-index: 99;
-    padding-left: calc(calc(100% - 1200px)/2);
+    padding-left: calc(calc(100% - 1100px)/2);
 }
 
 .banner .square {
@@ -50,14 +50,19 @@
 
 .banner .banner-content .button-banner{
     position: absolute;
-    width: 150px;
-    height: 40px;
+    width: auto;
+    height: auto;
     background: $white-contact;
     border-radius: 6px;
     border: none;
     cursor: pointer;
     margin-top: 50px;
     opacity: 0.9;
+}
+.banner .banner-content .button-banner .text-button {
+    display: flex;
+    align-items: center;
+    padding: $padding-button;
 }
 
 .banner .banner-content .button-banner:hover {
@@ -66,7 +71,6 @@
 }
 
 .banner .button-banner p{
-    margin-left: -50px;
     font-family: $font-text;
     font-weight: 400;
     font-size: $lt-font-size-text-m;
@@ -75,13 +79,13 @@
 }
 
 .banner .button-banner .alo{
-    position: absolute;
+    // position: absolute;
     font-size: $lt-font-size-text-m;
     line-height: $lt-font-size-text-m;
     color: $third;
-    margin-left: 30px;
-    margin-top: -16px;
-    transform: translateY(-7px);
+    margin-left: 10px;
+    // margin-top: -16px;
+    // transform: translateY(-7px);
 }
 
 .banner .square-right{

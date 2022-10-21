@@ -15,8 +15,8 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 600;
-    font-size: $lt-font-size-text-h1;
-    line-height: $lt-line-height-text-h1;
+    font-size: $lt-font-size-text-h2;
+    line-height: $lt-line-height-text-h2;
     color: $font-home5;
     text-align: center;
     padding-top: 25px;
@@ -26,8 +26,8 @@
     display: flex;
     padding-top: 25px;
     justify-content: center;
-    padding-left: calc(calc(100% - 1200px)/2);
-    padding-right: calc(calc(100% - 1200px)/2);
+    padding-left: calc(calc(100% - 1100px)/2);
+    padding-right: calc(calc(100% - 1100px)/2);
 }
 
 .hiring4 .sub-form button {

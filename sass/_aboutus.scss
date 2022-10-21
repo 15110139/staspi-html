@@ -4,6 +4,7 @@
     background-color: $white-contact;
     position: relative;
     margin-top: 100px;
+    padding: $space-margin-top-bottom-sl 0;
 }
 
 .aboutus .all_aboutus {
@@ -11,8 +12,8 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    padding-left: calc(calc(100% - 1200px)/2);
-    padding-right: calc(calc(100% - 1200px)/2);
+    padding-left: calc(calc(100% - 1100px)/2);
+    padding-right: calc(calc(100% - 1100px)/2);
 }
 
 .aboutus .all_aboutus .left {
@@ -45,7 +46,7 @@
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
     color: $second-primary;
-    padding-top: 10px;
+    padding-top: $space-margin-top-bottom-l;
     text-align: justify;
 }
 

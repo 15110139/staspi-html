@@ -13,8 +13,9 @@
     align-items: center;
     justify-content: space-between;
     height: 100%;
-    padding-left: calc(calc(100% - 1200px)/2);
-    padding-right: calc(calc(100% - 1200px)/2);
+    padding-left: calc(calc(100% - 1100px)/2);
+    padding-right: calc(calc(100% - 1100px)/2);
+    padding-bottom: $space-margin-top-bottom-sl;
 }
 
 .home3 .home3-all .home3-left{
@@ -23,7 +24,7 @@
 
 .home3 .home3-all .home3-right{
     flex: 1;
-    padding:50px 0 0 50px;
+    padding:25px 0 0 50px;
 }
 
 .home3-all .home3-right img{
@@ -37,7 +38,7 @@
     font-weight: 600;
     font-size: $lt-font-size-text-h2;
     line-height: $lt-line-height-text-h2;
-    color: $second-primary;
+    color: $color-text-header;
     margin-bottom: $space-margin-top-bottom-l;
 }
 
@@ -74,12 +75,31 @@
     font-weight: 400;
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
-    color: $second-primary;
+    color: $color-text-body;
     text-align: justify;
 }
 
 .home3 .home3-all .bottom-span {
-    margin-top: 40px;
+    margin-top: $space-margin-top-bottom-l;
+}
+.home3 .home3-all .bottom-span button {
+    background-color: $primary;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.home3 .home3-all .bottom-span button .text-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: $padding-button;
+}
+.home3 .home3-all .bottom-span button .text-button p {
+    font-family: $font-text;
+    font-weight: 400;
+    font-size: $lt-font-size-text-m;
+    line-height: $lt-line-height-text-m ;
 }
 .home3 .home3-all .bottom-span a {
     text-decoration: none;
@@ -102,8 +122,9 @@
 
 .home3-all .bottom-span .contact{
     font-size: 14px;
-    color: $primary;
-    cursor: pointer;    
+    color: #fff;
+    cursor: pointer;   
+    margin-left: 10px;  
 }
 
 .home3 .content-home3 b {
