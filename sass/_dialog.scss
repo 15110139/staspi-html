@@ -1,0 +1,42 @@
+.ui-dialog {
+    position: fixed !important;
+    z-index: 99999 !important;
+    // height: 100vh !important;
+    top:0 !important;
+    padding: 0;
+    height: 100vh !important;
+}
+.ui-widget-header .ui-icon{
+    background-image: url('../images/close-icon.png') !important;
+    background-size: 25px;
+}
+.ui-icon {
+    width: 25px !important;
+    height: 25px !important;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+    width: 25px !important;
+    height: 25px !important;
+}
+.ui-icon-closethick {
+    background-position: 0% !important;
+}
+.ui-widget-header {
+    background: white !important;
+    border: none !important;
+}
+.ui-draggable .ui-dialog-titlebar {
+    cursor: auto !important;
+}
+.ui-dialog .ui-dialog-content{
+    padding: 0 !important;
+}
+.ui-dialog .ui-resizable-se {
+    display: none !important;
+}
+.ui-dialog .ui-dialog-content {
+    height: 80vh !important;
+}
+.toolbar {
+    width: 0 !important;
+}

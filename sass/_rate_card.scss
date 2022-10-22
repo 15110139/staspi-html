@@ -32,18 +32,16 @@
 
 .rate-card .rate-card-container {
     height: auto;
-    margin: 20px;
+    // margin: 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 .rate-card .rate-card-container .card-item {
-    position: relative;
-    flex: 30%;
     display: flex;
-    max-width: 650px;
-    min-width: 320px;
+    position: relative;
+    width: 18%;
     box-sizing: border-box;
     flex-direction: column;
     overflow: hidden;
@@ -53,23 +51,50 @@
     align-items: center;
     justify-content: center;
     // background-color: red;
-    border: 1px solid rgb(151, 158, 171) ;
+    border: 2px solid rgb(212, 214, 217) ;
     height: auto;
     box-shadow: -15px 15px 0 rgba(151, 158, 171, 0.2);
+    box-sizing: content-box;
 }
 .rate-card .rate-card-container .card-item .image-rate-card {
     // display: block;
     margin: 25px auto;
-    background-size: 150px 150px;
-    width: 150px;
-    height: 150px;
+    background-size: 100px 100px;
+    width: 100px;
+    height: 100px;
 }
 .rate-card .rate-card-container .card-item .content-rate-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: $space-margin-top-bottom-sl 5px;
     margin-top: 0;
 }
+.rate-card .rate-card-container .card-item .content-rate-card span{
+    color: #0769e0;
+    font-family: $font-text;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
+    text-align: center;
+    height: 52px;
+}
+
+//hover
+.rate-card .rate-card-container a:hover {
+    border:2px solid #0769e0;
+    box-shadow: -18px 18px 0 rgba(151, 158, 171, 0.25);
+  }
 
 //id image
-.rate-card .rate-card-container .card-item #zalo {
-    background-image:url(../images/zalo-icons.png) ;
+.rate-card .rate-card-container .card-item #amazon {
+    background-image:url(../images/amazon-icon.png) ;
+}
+.rate-card .rate-card-container .card-item #mkt {
+    background-image:url(../images/mkt-icon.png) ;
+}
+.rate-card .rate-card-container .card-item #website {
+    background-image:url(../images/website-icon.png) ;
+}
+.rate-card .rate-card-container .card-item #website{
+    background-color: #fff;
 }
