@@ -16,9 +16,7 @@
     width: 100%;
     align-items: center;
     height: auto;
-    padding: $space-margin-top-bottom-l 0;
-    padding-left: calc(calc(100% - 1100px)/2);
-    padding-right: calc(calc(100% - 1100px)/2);
+    padding: $space-margin-top-bottom-sl calc(calc(100% - 1100px)/2);
 }
 
 .Service5-Items .all-Service5-Items .left-Service5-Items {
@@ -40,7 +38,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: $lt-font-size-text-h2;
-    line-height: $line-height-text-h2;
+    line-height: 44px;
 }
 
 .Service5-Items .content-Service5 p {

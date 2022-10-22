@@ -995,7 +995,7 @@ html {
   font-weight: 600;
   font-size: 20px;
   line-height: 22.2px;
-  color: #202857;
+  color: #151A3C;
 }
 
 .flexbox-home6 .bottom-item span {
@@ -1072,7 +1072,7 @@ html {
   font-weight: 600;
   font-size: 46px;
   line-height: 65.2px;
-  color: #202857;
+  color: #151A3C;
   transform: translateY(10%);
 }
 
@@ -1229,13 +1229,13 @@ html {
   display: flex;
   align-self: center;
   text-align: center;
-  margin: 15px 0;
+  margin: 35px;
   font-family: "Inter", sans-serif;
   font-size: 38px;
   line-height: 44px;
   padding-left: calc((100% - 1100px) / 2);
   padding-right: calc((100% - 1100px) / 2);
-  color: #202857;
+  color: #151A3C;
   font-weight: 600;
 }
 
@@ -1395,7 +1395,7 @@ html {
   font-weight: 700;
   font-size: 25px;
   margin: 0;
-  color: #202857;
+  color: #151A3C;
   text-align: left;
   margin: 0 20px;
 }
@@ -1759,7 +1759,7 @@ html {
 .footer .all_footer .bottom {
   width: 100%;
   height: 20%;
-  background-color: #202857;
+  background-color: #151A3C;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1777,7 +1777,7 @@ html {
   font-size: 28px;
   line-height: 40px;
   letter-spacing: -0.005em;
-  color: #202857;
+  color: #151A3C;
   padding: 25px 0;
 }
 
@@ -1787,7 +1787,7 @@ html {
   font-weight: 700;
   font-size: 24px;
   line-height: 24px;
-  color: #202857;
+  color: #151A3C;
   padding-bottom: 20px;
 }
 
@@ -1814,7 +1814,7 @@ html {
   font-weight: 500;
   font-size: 16px;
   line-height: 160%;
-  color: #202857;
+  color: #151A3C;
 }
 
 .footer .footer-item a {
@@ -1966,7 +1966,7 @@ html {
   font-weight: 600;
   font-size: 38px;
   line-height: 44px;
-  color: #202857;
+  color: #151A3C;
 }
 
 .aboutus_2 .first .content-left p {
@@ -1975,7 +1975,7 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: #202857;
+  color: #151A3C;
   text-align: justify;
 }
 
@@ -2037,7 +2037,7 @@ html {
   font-weight: 600;
   font-size: 38px;
   line-height: 44px;
-  color: #202857;
+  color: #151A3C;
 }
 
 .aboutus_2 .content-right p {
@@ -2046,7 +2046,7 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: #202857;
+  color: #151A3C;
   text-align: justify;
 }
 
@@ -2128,7 +2128,7 @@ html {
   font-weight: 400;
   font-size: 20px;
   line-height: 22.2px;
-  color: #202857;
+  color: #151A3C;
   text-align: justify;
 }
 
@@ -2185,7 +2185,7 @@ html {
   font-weight: 600;
   font-size: 38px;
   line-height: 44px;
-  color: #202857;
+  color: #151A3C;
 }
 
 .aboutus_2 .first .content-left p {
@@ -2194,7 +2194,7 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: #202857;
+  color: #151A3C;
   text-align: justify;
 }
 
@@ -2256,7 +2256,7 @@ html {
   font-weight: 600;
   font-size: 38px;
   line-height: 44px;
-  color: #202857;
+  color: #151A3C;
 }
 
 .aboutus_2 .content-right p {
@@ -2265,7 +2265,7 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: #202857;
+  color: #151A3C;
   text-align: justify;
 }
 
@@ -2347,7 +2347,7 @@ html {
   font-weight: 400;
   font-size: 20px;
   line-height: 22.2px;
-  color: #202857;
+  color: #151A3C;
   text-align: justify;
 }
 
@@ -2489,12 +2489,12 @@ html {
 
 .user-square .right-name h5 {
   font-size: 20px;
-  color: #202857;
+  color: #151A3C;
 }
 
 .user-square .right-name p {
   font-size: 16px;
-  color: #202857;
+  color: #151A3C;
   line-height: 23px;
 }
 
@@ -2723,7 +2723,7 @@ html {
   font-size: 38px;
   line-height: 44px;
   margin-bottom: 15px;
-  color: #202857;
+  color: #151A3C;
   margin-left: 50px;
 }
 
@@ -2760,7 +2760,7 @@ html {
   font-weight: 600;
   font-size: 38px;
   line-height: 44px;
-  color: #202857;
+  color: #151A3C;
   text-align: center;
   margin: 15px 0;
 }
@@ -2834,7 +2834,6 @@ html {
 }
 
 .img-slider .navigation .btn.active {
-  background-color: #2696E9;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -2857,7 +2856,7 @@ html {
   font-weight: 600;
   font-size: 38px;
   line-height: 44px;
-  color: #202857;
+  color: #151A3C;
   text-align: center;
   padding-top: 25px;
 }
@@ -3188,7 +3187,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: #202857;
+  color: #151A3C;
   cursor: pointer;
 }
 
@@ -3278,7 +3277,7 @@ html {
 .service3 {
   width: 100%;
   height: 100vh;
-  background-color: #202857;
+  background-color: #151A3C;
 }
 
 .service01 {
@@ -3329,7 +3328,7 @@ html {
   font-size: 16px;
   line-height: 22px;
   margin: 30px 0;
-  color: #202857;
+  color: #151A3C;
 }
 
 .service01 .square-items img {
@@ -3388,20 +3387,16 @@ html {
 .Service1-Items .content-items {
   font-family: "Inter", sans-serif;
   font-style: normal;
-  background: linear-gradient(180deg, #EC6C65 0%, #EFA156 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 46px;
   line-height: 65.2px;
-  letter-spacing: -0.06em;
+  color: #151A3C;
+  margin-bottom: 10px;
 }
 
-.Service1-Items .content-items h1 {
-  font-size: 46px;
-  line-height: 65.2px;
+.Service1-Items .content-items h3 {
+  font-size: 32px;
+  line-height: 35.2px;
 }
 
 .Service1-Items .content-Service1-Items p {
@@ -3478,8 +3473,7 @@ html {
   width: 100%;
   padding: 15px 0;
   background-color: #FA7716;
-  padding-left: calc((100% - 1100px) / 2);
-  padding-right: calc((100% - 1100px) / 2);
+  padding: 35px calc((100% - 1100px) / 2);
 }
 
 .Service2-Items .all-Service2-Items .left-Service2-Items {
@@ -3583,8 +3577,7 @@ html {
 
 .Service3-Items .all-Service3-Items {
   width: 100%;
-  padding-left: calc((100% - 1100px) / 2);
-  padding-right: calc((100% - 1100px) / 2);
+  padding: 35px calc((100% - 1100px) / 2);
 }
 
 .Service3-Items .all-Service3-Items .bottom-Service3 {
@@ -3620,7 +3613,7 @@ html {
   font-size: 38px;
   line-height: 44px;
   text-align: center;
-  color: #202857;
+  color: #151A3C;
   margin: 15px 0;
   margin-top: 0;
 }
@@ -3699,12 +3692,12 @@ html {
   font-style: normal;
   font-weight: 600;
   padding-top: 15px;
-  color: #202857;
+  color: #151A3C;
 }
 
 .Service4-Items .right-content ul h2 {
-  font-size: 32px;
-  line-height: 35.2px;
+  font-size: 38px;
+  line-height: 44px;
   margin-bottom: 15px;
 }
 
@@ -3741,9 +3734,7 @@ html {
   width: 100%;
   align-items: center;
   height: auto;
-  padding: 15px 0;
-  padding-left: calc((100% - 1100px) / 2);
-  padding-right: calc((100% - 1100px) / 2);
+  padding: 35px calc((100% - 1100px) / 2);
 }
 
 .Service5-Items .all-Service5-Items .left-Service5-Items {
@@ -3765,7 +3756,7 @@ html {
   font-style: normal;
   font-weight: 600;
   font-size: 38px;
-  line-height: 52.8px;
+  line-height: 44px;
 }
 
 .Service5-Items .content-Service5 p {
@@ -3800,7 +3791,7 @@ html {
   line-height: 29px;
   margin-top: 10px;
   border-radius: 6px;
-  color: #202857;
+  color: #151A3C;
 }
 
 .Service5-Items .input-Service5 input {
@@ -3814,7 +3805,7 @@ html {
   line-height: 160%;
   border: none;
   border-radius: 6px;
-  color: #202857;
+  color: #151A3C;
 }
 
 .Service5-Items .all-form textarea {
@@ -4312,7 +4303,7 @@ html {
   font-size: 46px;
   line-height: 65.2px;
   letter-spacing: -0.005em;
-  color: #202857;
+  color: #151A3C;
   text-shadow: 3px -1px 1px #8F8F8F;
   text-align: center;
   animation: slideLeft 1.5s ease;
@@ -5425,10 +5416,6 @@ html {
   width: 70px;
 }
 
-.active {
-  background-color: #FA7716 !important;
-}
-
 .disable {
   opacity: 0.5;
   cursor: not-allowed !important;
@@ -5566,89 +5553,6 @@ html {
 
 .rate-card .rate-card-container .card-item #website {
   background-color: #fff;
-}
-
-.ui-dialog {
-  position: fixed !important;
-  z-index: 99999 !important;
-  top: 0 !important;
-  padding: 0;
-  height: 100vh !important;
-}
-
-.ui-widget-header .ui-icon {
-  background-image: url("../images/close-icon.png") !important;
-  background-size: 20px;
-}
-
-.ui-icon {
-  width: 25px !important;
-  height: 25px !important;
-}
-
-.ui-dialog .ui-dialog-titlebar-close {
-  display: flex !important;
-  width: 25px !important;
-  height: 25px !important;
-  justify-content: center;
-  align-items: center;
-}
-
-.ui-icon-closethick {
-  background-position: 0% !important;
-}
-
-.ui-widget-header {
-  background: white !important;
-  border: none !important;
-}
-
-.ui-draggable .ui-dialog-titlebar {
-  cursor: auto !important;
-}
-
-.ui-dialog .ui-dialog-buttonpane {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.ui-dialog .ui-dialog-buttonpane button {
-  margin: 0 !important;
-  background: #FA7716;
-  border: none !important;
-}
-
-.ui-button-text-only .ui-button-text {
-  color: #fff;
-}
-
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-  color: none !important;
-}
-
-.ui-widget-content {
-  color: #fff !important;
-}
-
-.ui-dialog .ui-dialog-content {
-  padding: 0 !important;
-}
-
-.ui-dialog .ui-resizable-se {
-  display: none !important;
-}
-
-.ui-dialog .ui-dialog-content {
-  height: 80vh !important;
-}
-
-.toolbar {
-  width: 0 !important;
-}
-
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-  color: #fff;
 }
 
 @media (min-width: 1750px) {
@@ -7132,14 +7036,14 @@ html {
     font-size: 30px;
     cursor: pointer;
     font-weight: 600;
-    color: #202857;
+    color: #151A3C;
     line-height: 100px;
   }
   .nav .search-btn-banner .search-icon {
     font-size: 25px;
     cursor: pointer;
     font-weight: 600;
-    color: #202857;
+    color: #151A3C;
     line-height: 100px;
     margin-right: 20px;
   }
@@ -7376,7 +7280,7 @@ html {
     font-size: 30px;
     line-height: 140%;
     padding: 0 20px;
-    margin-bottom: 0;
+    margin-bottom: 35px;
   }
   .home6 {
     display: none;
@@ -7524,7 +7428,7 @@ html {
     opacity: 0.9;
   }
   .home9 .button-home9 p {
-    font-size: 20px;
+    font-size: 14px;
   }
   .home9 .left-top {
     width: 30vh;
@@ -7544,6 +7448,8 @@ html {
   }
   .home9 .all-home9 .title-home9 h1 {
     position: relative;
+    font-size: 30px;
+    line-height: 140%;
   }
   .home10 {
     display: flex;
@@ -8673,8 +8579,8 @@ html {
     color: black;
   }
   .rate-card {
-    padding-left: calc((100% - 410px) / 2);
-    padding-right: calc((100% - 410px) / 2);
+    padding-left: calc((100% - 350px) / 2);
+    padding-right: calc((100% - 350px) / 2);
   }
   .rate-card .rate-card-container .card-item {
     width: 70%;
@@ -8683,6 +8589,10 @@ html {
     background-size: 150px 150px;
     width: 150px;
     height: 150px;
+  }
+  .ui-dialog .ui-dialog-content {
+    overflow: auto;
+    zoom: 1;
   }
   .rate-card .explain h2 {
     font-size: 30px;
