@@ -1941,7 +1941,32 @@ padding-right: calc((100% - 350px) / 2);
 //   .top-mobile .cont_dropdown_social ul {
 //     margin-bottom: 20px;
 //   }
+// rate-card
+.rate-card {
+    padding-left: calc((100% - 410px) / 2);
+padding-right: calc((100% - 410px) / 2);
+}
+.rate-card .rate-card-container .card-item {
+    width: 70%;
+}
+.rate-card .rate-card-container .card-item .image-rate-card{
+    background-size: 150px 150px;
+    width: 150px;
+    height: 150px;
+}
 
+.rate-card .explain h2{
+    font-size: $mb-font-size-text-h2;
+    line-height: $mb-line-height-text-h2;
+}
+.rate-card .explain p{
+    font-size: $mb-font-size-text-l;
+    line-height: $mb-line-height-text-l;
+}
+.rate-card .rate-card-container .card-item .content-rate-card span{
+    font-size: $mb-font-size-text-l;
+    line-height: $mb-line-height-text-l;
+}
 }
 
 

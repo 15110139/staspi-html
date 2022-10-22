@@ -8,15 +8,18 @@
 }
 .ui-widget-header .ui-icon{
     background-image: url('../images/close-icon.png') !important;
-    background-size: 25px;
+    background-size: 20px;
 }
 .ui-icon {
     width: 25px !important;
     height: 25px !important;
 }
 .ui-dialog .ui-dialog-titlebar-close {
+    display: flex !important;
     width: 25px !important;
     height: 25px !important;
+    justify-content: center;
+    align-items: center;
 }
 .ui-icon-closethick {
     background-position: 0% !important;
@@ -27,6 +30,25 @@
 }
 .ui-draggable .ui-dialog-titlebar {
     cursor: auto !important;
+}
+.ui-dialog .ui-dialog-buttonpane {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.ui-dialog .ui-dialog-buttonpane button {
+    margin: 0 !important;
+    background: $primary;
+    border: none !important;
+}
+.ui-button-text-only .ui-button-text {
+    color: #fff;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    color: none !important;
+}
+.ui-widget-content{
+    color: #fff !important;
 }
 .ui-dialog .ui-dialog-content{
     padding: 0 !important;
@@ -39,4 +61,7 @@
 }
 .toolbar {
     width: 0 !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+    color: #fff;
 }
