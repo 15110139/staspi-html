@@ -32,7 +32,8 @@
   }
 
   .nav .nav-items {
-    transform: translateX(10.5%);
+    // transform: translateX(10.5%);
+    display: flex;
   }
   
   .nav .nav-items a:hover {
