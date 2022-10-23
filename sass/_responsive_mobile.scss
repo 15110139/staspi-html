@@ -435,7 +435,7 @@
     .footer-items-home7 > h2 {
         font-size: $mb-font-size-text-h2;
         line-height: $mb-line-height-text-h2;
-        margin: 5px 0;
+        margin: $space-margin-top-bottom-sl 0;
         padding-left: calc((100% - 350px) / 2);
 padding-right: calc((100% - 350px) / 2);
     }

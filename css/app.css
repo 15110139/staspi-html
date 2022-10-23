@@ -467,7 +467,7 @@ html {
   font-style: normal;
   font-weight: 600;
   font-size: 24px !important;
-  line-height: 26.4px !important;
+  line-height: 28.4px !important;
   color: #151A3C;
   height: 50px;
 }
@@ -1001,8 +1001,8 @@ html {
 .flexbox-home6 .bottom-item span {
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 22.2px;
   color: #3D4888;
 }
@@ -1223,6 +1223,7 @@ html {
   display: flex;
   flex-direction: column;
   padding: 35px 0;
+  margin-bottom: 35px;
 }
 
 .footer-items-home7 > h2 {
@@ -1868,7 +1869,7 @@ html {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  line-height: 26.4px;
+  line-height: 28.4px;
   color: #3E5AFE;
 }
 
@@ -1938,6 +1939,7 @@ html {
   align-items: center;
   position: relative;
   padding: 35px 0;
+  padding-bottom: 0;
 }
 
 .aboutus_2 .all-aboutus_2 {
@@ -2157,6 +2159,7 @@ html {
   align-items: center;
   position: relative;
   padding: 35px 0;
+  padding-bottom: 0;
 }
 
 .aboutus_2 .all-aboutus_2 {
@@ -3513,8 +3516,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 32px;
+  font-size: 38px;
+  line-height: 38px;
   color: #FFFFFF;
 }
 
@@ -3951,16 +3954,22 @@ html {
 }
 
 .service1-contents .all-form button {
-  width: 30%;
-  background: #3D4888;
+  min-width: 125px;
+  background: #FA7716;
   border-radius: 6px;
   border: none;
-  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
   cursor: pointer;
-  color: #FFFFFF;
+}
+
+.service1-contents .all-form button p {
+  display: flex;
+  padding: 10px 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  flex-wrap: nowrap;
 }
 
 .banner_contact {
@@ -4159,7 +4168,7 @@ html {
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  line-height: 26.4px;
+  line-height: 28.4px;
 }
 
 .contact-block .infomation .item-right p {
@@ -4167,7 +4176,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 26.4px;
+  line-height: 28.4px;
 }
 
 .contact-block .infomation .item-left .icon {
@@ -4460,7 +4469,7 @@ html {
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  line-height: 26.4px;
+  line-height: 28.4px;
   padding: 20px 0;
   color: #151A3C;
   display: none;
@@ -5062,7 +5071,7 @@ html {
   margin-top: 5px;
   font-weight: 500;
   font-size: 24px;
-  line-height: 26.4px;
+  line-height: 28.4px;
   color: #202857;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -5555,6 +5564,89 @@ html {
   background-color: #fff;
 }
 
+.ui-dialog {
+  position: fixed !important;
+  z-index: 99999 !important;
+  top: 0 !important;
+  padding: 0;
+  height: 100vh !important;
+}
+
+.ui-widget-header .ui-icon {
+  background-image: url("../images/close-icon.png") !important;
+  background-size: 20px;
+}
+
+.ui-icon {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+  display: flex !important;
+  width: 25px !important;
+  height: 25px !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.ui-icon-closethick {
+  background-position: 0% !important;
+}
+
+.ui-widget-header {
+  background: white !important;
+  border: none !important;
+}
+
+.ui-draggable .ui-dialog-titlebar {
+  cursor: auto !important;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+  margin: 0 !important;
+  background: #FA7716;
+  border: none !important;
+}
+
+.ui-button-text-only .ui-button-text {
+  color: #fff;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  color: none !important;
+}
+
+.ui-widget-content {
+  color: #fff !important;
+}
+
+.ui-dialog .ui-dialog-content {
+  padding: 0 !important;
+}
+
+.ui-dialog .ui-resizable-se {
+  display: none !important;
+}
+
+.ui-dialog .ui-dialog-content {
+  height: 80vh !important;
+}
+
+.toolbar {
+  width: 0 !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  color: #fff;
+}
+
 @media (min-width: 1750px) {
   .navbar .nav {
     height: 150px;
@@ -5569,7 +5661,7 @@ html {
     margin-top: 35px;
   }
   .rate-card .rate-card-container .card-item {
-    width: 25%;
+    width: 23%;
   }
   .rate-card .rate-card-container .card-item .image-rate-card {
     background-size: 150px 150px;
@@ -7315,7 +7407,7 @@ html {
   .footer-items-home7 > h2 {
     font-size: 30px;
     line-height: 140%;
-    margin: 5px 0;
+    margin: 35px 0;
     padding-left: calc((100% - 350px) / 2);
     padding-right: calc((100% - 350px) / 2);
   }

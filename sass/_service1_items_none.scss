@@ -117,14 +117,22 @@
 }
 
 .service1-contents .all-form button{
-    width: 30%;
-    background: $font-auto;
+    // max-height: 30px;
+    min-width: 125px;
+    background: $primary;
     border-radius: 6px;
     border: none;
-    font-family: $font-text;
     font-style: normal;
     font-weight: 400;
-    font-size: $mb-font-size-text-nr;
     cursor: pointer;
-    color: $white-contact;
+
+}
+.service1-contents .all-form button p {
+    display: flex;
+    padding: $padding-button;
+    font-family: $font-text;
+    font-size: calc($mb-font-size-text-nr + 2px);
+    color: #fff;
+    flex-wrap: nowrap;
+    
 }
