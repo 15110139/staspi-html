@@ -10,9 +10,8 @@
     height: 100%;
     width: 100%;
     padding: $space-margin-top-bottom-l 0;
-    background-color: $primary;
-    padding-left: calc(calc(100% - 1100px)/2);
-    padding-right: calc(calc(100% - 1100px)/2);
+    background-color: $primary; 
+    padding: $space-margin-top-bottom-sl calc(calc(100% - 1100px)/2);
 }
 
 .Service2-Items .all-Service2-Items .left-Service2-Items {
@@ -53,8 +52,8 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 700;
-    font-size: $lt-font-size-text-h3;
-    line-height: $lt-font-size-text-h3;
+    font-size: $lt-font-size-text-h2;
+    line-height: $lt-font-size-text-h2;
     color: $white-contact;
 }
 

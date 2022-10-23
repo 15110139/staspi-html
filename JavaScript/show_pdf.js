@@ -5,14 +5,11 @@ $(function () {
         var fileName = val+ ".pdf";
           $("#dialog").dialog({
             modal: true,
-            // title: fileName,
             width: "100%",
             height: 500,
-            top:100,
+            // top:100,
             buttons: {
               "tải về": function () {
-                // console.log("check fileName",fileName);
-                // $(this).dialog("close");
                 var url = "../pdf/" + fileName;
                 var req = new XMLHttpRequest();
                 req.open("GET", url , true);
@@ -32,16 +29,26 @@ $(function () {
             },
             
             open: function () {
-              var object =
-                '<object data="{FileName}#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="100%">';
-              object +=
-                'If you are unable to view file, you can download from <a href="{FileName}">here</a>';
-              object +=
-                ' or download <a target = "_blank" href = "http://get.adobe.com/reader/">Adobe PDF Reader</a> to view the file.';
-              object += "</object>";
-              object = object.replace(/{FileName}/g, "../pdf/" + fileName);
-              console.log(object);
-              $("#dialog").html(object);
+              // var object =
+              //   '<object data="{FileName}#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf"  style = " "position:absolute; left: 0; top: 0;" width="100%" height="100%"">';
+              // object +=
+              //   'If you are unable to view file, you can download from <a href="{FileName}">here</a>';
+              // object +=
+              //   ' or download <a target = "_blank" href = "http://get.adobe.com/reader/">Adobe PDF Reader</a> to view the file.';
+              // object += "</object>";
+              // object = object.replace(/{FileName}/g, "../pdf/" + fileName);
+              // console.log(object);
+              // var embed = '<embed ';
+              //     embed += 'src="';
+              //     embed += '../pdf/' + fileName + '#toolbar=0' + '" ';
+              //     embed += 'type = "' + 'application/pdf" ';
+              //     embed += 'height ="100%" ' + 'width ="100%"' + '>'
+              //     embed += '</embed>'
+              //     console.log(embed);
+
+              // $("#dialog").html(embed);
+              jQuery('embed#pdf_file').attr('src', '../pdf/' + fileName + "#toolbar=0");
+              // document.title("staspi");
             },
           });
         });

@@ -382,7 +382,7 @@
         font-size: $mb-font-size-text-h2;
         line-height: $mb-line-height-text-h2;
         padding: 0 20px;
-        margin-bottom: 0;
+        margin-bottom: 35px;
     }
     // .home5 .all-home5-item .footer-items .footer_items {
     //     border: 1px red solid;
@@ -435,7 +435,7 @@
     .footer-items-home7 > h2 {
         font-size: $mb-font-size-text-h2;
         line-height: $mb-line-height-text-h2;
-        margin: 5px 0;
+        margin: $space-margin-top-bottom-sl 0;
         padding-left: calc((100% - 350px) / 2);
 padding-right: calc((100% - 350px) / 2);
     }
@@ -573,7 +573,7 @@ padding-right: calc((100% - 350px) / 2);
     }
 
     .home9 .button-home9 p{
-        font-size: 20px;
+        font-size: $mb-font-size-text-m;
     }
 
     .home9 .left-top {
@@ -595,6 +595,8 @@ padding-right: calc((100% - 350px) / 2);
     }
     .home9 .all-home9 .title-home9 h1{
         position: relative;
+        font-size: $mb-font-size-text-h2;
+        line-height: $mb-line-height-text-h2;
     }
 
     // home 10
@@ -1943,8 +1945,8 @@ padding-right: calc((100% - 350px) / 2);
 //   }
 // rate-card
 .rate-card {
-    padding-left: calc((100% - 410px) / 2);
-padding-right: calc((100% - 410px) / 2);
+    padding-left: calc((100% - 350px) / 2);
+padding-right: calc((100% - 350px) / 2);
 }
 .rate-card .rate-card-container .card-item {
     width: 70%;
@@ -1954,6 +1956,8 @@ padding-right: calc((100% - 410px) / 2);
     width: 150px;
     height: 150px;
 }
+.ui-dialog .ui-dialog-content { overflow: auto; zoom: 1; }
+
 
 .rate-card .explain h2{
     font-size: $mb-font-size-text-h2;

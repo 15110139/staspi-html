@@ -25,20 +25,16 @@
 .Service1-Items .content-items {
     font-family: $font-text;
     font-style: normal;
-    background: linear-gradient(180deg, $font-ITEMS-SERVICE1 0%, $font-ITEMS-SERVICE2 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    font-weight: 700;
+    font-weight: 600;
     font-size: $lt-font-size-text-h1;
     line-height: $lt-line-height-text-h1;
-    letter-spacing: -0.06em;
+    color: $second-primary;
+    margin-bottom: 10px;
 }
 
-.Service1-Items .content-items h1 {
-    font-size:$lt-font-size-text-h1;
-    line-height: $lt-line-height-text-h1;
+.Service1-Items .content-items h3 {
+    font-size:$lt-font-size-text-h3;
+    line-height: $lt-line-height-text-h3;
 }
 
 .Service1-Items .content-Service1-Items p {
