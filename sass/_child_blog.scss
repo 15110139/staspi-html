@@ -74,16 +74,17 @@
     line-height: $lt-line-height-text-h3;
     color: #202857;
     margin-left: 30px;
-    margin-bottom: 25px;
+    margin-bottom: $space-margin-top-bottom-l;
     // order: -1;
 }
 .component-post .main-post .main-post-container .content p {
-    margin: 20px 0;
+    margin: $space-margin-top-bottom-l 0;
     font-weight: 500;
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
     color: #484848;
     text-align: justify;
+    margin-top: 0;
 }
 .component-post .main-post .main-post-container .content a {
     font-weight: 500;
@@ -102,13 +103,14 @@
 }
 .component-post .main-post .main-post-container .content img {
     width: 100%;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 .component-post .main-post .main-post-container .content ol > li{
     font-weight: 700;
     line-height: 27px;
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
+    margin-bottom: $space-margin-top-bottom-m;
 }
 //fix h4
 .component-post .main-post .main-post-container .content h4 {
@@ -117,6 +119,7 @@
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
     font-style: italic;
+    margin-bottom: $space-margin-top-bottom-m;
 }
 .component-post .main-post .main-post-container .content .decription {
     display: flex;
@@ -134,6 +137,7 @@
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
     text-align: justify;
+    margin-bottom: $space-margin-top-bottom-m;
 }
 .component-post .main-post .main-post-container .content ul + .component-post .main-post .main-post-container .content ul {
     margin-bottom: 10px;
@@ -149,7 +153,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-    margin-top: 10px;
+    // margin-top: 10px;
 }
 .component-post .main-post .main-post-container .interactive {
     display:flex;
@@ -218,7 +222,7 @@
 .component-post .main-post .main-post-container .block-owner .avt span {
     // width: 140px;
     // height: 140px;
-    font-size: 100px;
+    font-size: 75px;
 }
 .component-post .main-post .main-post-container .block-owner .right-block {
     width: 70%;
