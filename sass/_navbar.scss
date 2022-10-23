@@ -2,9 +2,14 @@
     width: 15%;
     cursor: pointer;
     transform: translateX(-10%);
-    margin-top: auto;
-    margin-bottom: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+.logo img {
+  width: 100%;
+}
   
   .navbar .nav {
     position: fixed;
