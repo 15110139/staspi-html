@@ -4776,6 +4776,7 @@ html {
   list-style-type: decimal;
   display: flex;
   flex-direction: column;
+  margin-top: 15px;
 }
 
 .component-post .main-post .main-post-container .content ul {
@@ -4902,10 +4903,10 @@ html {
 }
 
 .component-post .main-post .main-post-container .info {
+  display: none;
   width: auto;
   height: 50px;
   margin: 0px 10%;
-  display: flex;
   justify-content: space-between;
 }
 
@@ -5083,6 +5084,7 @@ html {
 }
 
 .component-post .highlight-post .highlight-post-container .item-post .item-right p {
+  display: none;
   margin-left: 10px;
   font-weight: 300;
   font-size: 14px;

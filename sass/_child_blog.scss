@@ -142,6 +142,7 @@
     list-style-type: decimal;
     display: flex;
     flex-direction: column;
+    margin-top: $space-margin-top-bottom-l;
 }
 .component-post .main-post .main-post-container .content ul {
     list-style-type: disc ;
@@ -255,10 +256,11 @@
     // border: red 1px solid;
 }
 .component-post .main-post .main-post-container .info{
+    display: none;
     width: auto;
     height: 50px;
     margin: 0px 10%;
-    display: flex;
+    // display: flex;
     justify-content: space-between;
     // order: -1;
 }
@@ -423,6 +425,7 @@
 
 }
 .component-post .highlight-post .highlight-post-container .item-post .item-right p {
+    display: none;
     margin-left: 10px;
     font-weight: 300;
     font-size: $lt-font-size-text-m;
