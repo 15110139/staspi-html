@@ -83,7 +83,7 @@
 
 .Service1-Items .all-form button{
     width: 35%;
-    background: $primary;
+    background: $background-color-button;
     border-radius: 6px;
     border: none;
     font-family: $font-text;
@@ -92,6 +92,10 @@
     font-size: $lt-font-size-text-l;
     cursor: pointer;
     color: #fff;
+}
+.Service1-Items .all-form button:hover{
+    color: $second-primary;
+    transition: 1s;
 }
 .Service1-Items .all-form button p {
     padding: $padding-button;

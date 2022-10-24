@@ -26,10 +26,23 @@
     height: 100%;
     padding-left: calc((100% - 1100px) / 2);
     padding-right: calc((100% - 1100px) / 2);
+    justify-content: space-between;
+    gap: 30px;
 }
 
 .home11 .all-flex-home11 .square-home11 {
-    flex: 33.33%;
+    width: 27%;
+    border: 2px solid rgb(212, 214, 217);
+    height: auto;
+    box-shadow: -15px 15px 0 rgba(151, 158, 171, 0.2);
+}
+.home11 .all-flex-home11 .square-home11:hover {
+    border-color: $primary;
+    box-shadow: -18px 18px 0 rgba(151, 158, 171, 0.25);
+    // transition: 0.5s ease;
+}
+.home11 .all-flex-home11 .square-home11:hover .btn-home11 {
+    border-color: $primary;
 }
 
 .home11 .all-home11 h2 {
@@ -49,9 +62,9 @@
 }
 
 .home11 .square-home11 .btn-home11 {
-    background: $white-contact;
-    border: 3px solid $second-primary;
-    border-radius: 6px;
+    background: #FAFAFA;
+    border: none;
+    // border-radius: 6px;
     width: 80%;
     padding: 10px;
     font-family: $font-text;
@@ -62,5 +75,6 @@
     text-align: center;
     color: $second-primary;
     margin-top: 10px;
+    border-top: 1px solid rgb(212, 214, 217) ;
 }
 

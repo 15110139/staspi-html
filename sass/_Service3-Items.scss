@@ -37,6 +37,9 @@
     align-items: center;
     position: relative;
 }
+.Service3-Items .bottom-Service3 .flex-Service3-item:hover {
+    border: 1px solid red;
+}
 
 .Service3-Items .all-Service3-Items .content-top-Service3 {
     font-family: $font-text;
@@ -66,7 +69,7 @@
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
     color:white;
-    background-color: $primary;
+    background: $background-color-button;
     border-radius: 6px;
     cursor: pointer;
     position: absolute;
@@ -74,7 +77,10 @@
     right: 30%;
     border: none;
 }
-
+.Service3-Items .flex-Service3-item .btn-moved button:hover {
+    color: $second-primary;
+    transition: 1s;
+}
 .Service3-Items .flex-Service3-item img {
     width: 40%;
 }

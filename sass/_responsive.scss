@@ -10,7 +10,7 @@
         padding-left: calc(calc(100% - 1700px)/2);
         padding-right: calc(calc(100% - 1700px)/2);
         padding-top: 150px;
-        margin-top: $space-margin-top-bottom-sl;
+        // margin-top: $space-margin-top-bottom-sl;
     }
     .rate-card .rate-card-container .card-item{
         width: 23%;
@@ -160,8 +160,8 @@
     }
 
     .home4 .all-home4 .btn-home4 {
-        width: 240px;
-        height: 60px;
+        // width: 240px;
+        // height: 60px;
         font-size: 20px;
     }
     
@@ -391,7 +391,7 @@ padding-right: calc((100% - 940px) / 2);
     }
 
     .aboutus .right .img-about {
-        width: 100%;
+        width: 80%;
     }
 
     //ABOUT US 2
@@ -987,6 +987,7 @@ padding-right: calc((100% - 940px) / 2);
         line-height: 70px;
     }
     .rate-card{
+        margin-top: 70px;
         padding-left: calc(calc(100% - 940px)/2);
         padding-right: calc(calc(100% - 940px)/2);
     }
@@ -1059,7 +1060,7 @@ padding-right: calc((100% - 940px) / 2);
     .banner .button-banner .alo{
         font-size: 13px;
         margin-left: 12px;
-        margin-top: -13px;
+        // margin-top: -13px;
     }
     // HOME 3
     .home3 .home3-all{
@@ -1104,7 +1105,7 @@ padding-right: calc((100% - 940px) / 2);
         // margin-top: 3px;
         font-size: 12px;
         // margin-left: 5px;
-        position: absolute;  
+        // position: absolute;  
     }
 
     // HOME 2
@@ -1164,19 +1165,19 @@ padding-right: calc((100% - 940px) / 2);
         padding-right: calc(calc(100% - 940px)/2);
     }
     
-    .home4 .all-home4 .btn-home4 {
-        width: 150px;
-        height: 35px;
-    }
+    // .home4 .all-home4 .btn-home4 {
+    //     width: 150px;
+    //     height: 35px;
+    // }
 
     .home4 .btn-home4 p {
         font-size: 13px;
         line-height: 25px;
     }
 
-    .home4 .btn-home4 p:hover {
-        font-size: 16px;
-    }
+    // .home4 .btn-home4 p:hover {
+    //     font-size: 16px;
+    // }
 
     .home4 .title-home4 h3 {
         font-size: 37px;
@@ -1478,8 +1479,8 @@ align-items: center;
     // }
 
     .aboutus .right .img-about {
-        width: 100%;
-        float: right;
+        width: 80%;
+        // float: right;
     }
 
     // ABOUT US 2

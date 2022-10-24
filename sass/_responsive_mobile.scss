@@ -626,7 +626,7 @@ padding-right: calc((100% - 350px) / 2);
     .aboutus .all_aboutus {
         padding-left: calc(calc(100% - 350px)/2);
         padding-right: calc(calc(100% - 350px)/2);
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .aboutus .content-aboutus {
@@ -957,6 +957,7 @@ padding-right: calc((100% - 350px) / 2);
     }
 
     .home11 .all-flex-home11 .square-home11 {
+        width: 60%;
         margin-top: 20px;
         margin-bottom: 20px;
     }

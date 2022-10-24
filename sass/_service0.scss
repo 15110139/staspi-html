@@ -68,7 +68,11 @@
     color: $primary;
     cursor: pointer;
 }
-
+.service0 .left-service .btn-service:hover {
+    color: $second-primary;
+    opacity: 0.9;
+    transition: 1s;
+}
 .service0 .right-service img {
     bottom: 0;
     right: 0;
