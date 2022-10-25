@@ -88,6 +88,10 @@
     cursor: pointer;
     opacity: 1;
 }
+.home9 .button-home9 .btn-home9:hover p {
+    color: $second-primary;
+    transition: 1s;
+}
 
 .home9 .button-home9 .btn-home9:hover{
     opacity: 0.9;

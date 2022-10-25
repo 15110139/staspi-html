@@ -57,9 +57,14 @@ margin-top: $space-margin-top-bottom-l;
   text-decoration: none;
 }
 .cooperate .cooperate-content .button-cooperate a button {
-  background-color: $primary;
+  background: $background-color-button;
   border-radius: 6px;
   border: none;
+  cursor: pointer;
+}
+.cooperate .cooperate-content .button-cooperate a button:hover p {
+  color: $second-primary;
+  transition: 1s;
 }
 .cooperate .cooperate-content .button-cooperate a button p {
   font-family: $font-text;
@@ -228,7 +233,7 @@ min-height: 130px;
 //  padding-top: ;
  font-weight: 700;
  font-size: $lt-font-size-text-h2;
- line-height: $lt-font-size-text-h2;
+ line-height: $lt-line-height-text-h2;
 }
 .contact-block .frm-contact input, select, option {
   font-family: $font-text;

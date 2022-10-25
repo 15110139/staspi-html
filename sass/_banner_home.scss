@@ -63,11 +63,16 @@
     display: flex;
     align-items: center;
     padding: $padding-button;
+    color: $primary;
 }
 
 .banner .banner-content .button-banner:hover {
     opacity: 1;
-    transition:all 0.5s ease;
+    transition:all 1s ease;
+}
+.banner .banner-content .button-banner:hover .text-button {
+    color: $second-primary;
+    transition: 1s;
 }
 
 .banner .button-banner p{
@@ -75,14 +80,14 @@
     font-weight: 400;
     font-size: $lt-font-size-text-m;
     line-height: $lt-line-height-text-m ;
-    color: $third;
+    // color: $third;
 }
 
 .banner .button-banner .alo{
     // position: absolute;
     font-size: $lt-font-size-text-m;
     line-height: $lt-font-size-text-m;
-    color: $third;
+    // color: $third;
     margin-left: 10px;
     // margin-top: -16px;
     // transform: translateY(-7px);

@@ -324,11 +324,17 @@ html {
   display: flex;
   align-items: center;
   padding: 10px 20px;
+  color: #FA7716;
 }
 
 .banner .banner-content .button-banner:hover {
   opacity: 1;
-  transition: all 0.5s ease;
+  transition: all 1s ease;
+}
+
+.banner .banner-content .button-banner:hover .text-button {
+  color: #151A3C;
+  transition: 1s;
 }
 
 .banner .button-banner p {
@@ -336,13 +342,11 @@ html {
   font-weight: 400;
   font-size: 14px;
   line-height: 158%;
-  color: #F07E2A;
 }
 
 .banner .button-banner .alo {
   font-size: 14px;
   line-height: 14px;
-  color: #F07E2A;
   margin-left: 10px;
 }
 
@@ -525,7 +529,7 @@ html {
 }
 
 .home2 .flexbox-service .flexbox-item .flex-button button {
-  background-color: #FA7716;
+  background: linear-gradient(290.23deg, #F07E2A 19.71%, #FFAB6C 84.85%);
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -533,6 +537,12 @@ html {
   color: #fff;
   border-radius: 6px;
   border: none;
+  cursor: pointer;
+}
+
+.home2 .flexbox-service .flexbox-item .flex-button button:hover p {
+  color: #151A3C;
+  transition: 1s;
 }
 
 .home2 .flexbox-service .flexbox-item .flex-button button p {
@@ -626,10 +636,15 @@ html {
 }
 
 .home3 .home3-all .bottom-span button {
-  background-color: #FA7716;
+  background: linear-gradient(290.23deg, #F07E2A 19.71%, #FFAB6C 84.85%);
   border-radius: 6px;
   border: none;
   cursor: pointer;
+}
+
+.home3 .home3-all .bottom-span button:hover .text-button, .home3 .home3-all .bottom-span button:hover .text-button i {
+  color: #151A3C;
+  transition: 1s;
 }
 
 .home3 .home3-all .bottom-span button .text-button {
@@ -707,7 +722,7 @@ html {
   height: auto;
   border: none;
   border-radius: 6px;
-  background-color: #FA7716;
+  background: linear-gradient(290.23deg, #F07E2A 19.71%, #FFAB6C 84.85%);
   margin-left: auto;
   margin-right: auto;
   cursor: pointer;
@@ -717,6 +732,11 @@ html {
   line-height: 16px;
   text-align: center;
   color: #fff;
+}
+
+.home4 .all-home4 .btn-home4:hover {
+  color: #151A3C;
+  transition: 1s;
 }
 
 .home4 .all-home4 .btn-home4 p {
@@ -1528,6 +1548,11 @@ html {
   opacity: 1;
 }
 
+.home9 .button-home9 .btn-home9:hover p {
+  color: #151A3C;
+  transition: 1s;
+}
+
 .home9 .button-home9 .btn-home9:hover {
   opacity: 0.9;
 }
@@ -1702,10 +1727,24 @@ html {
   height: 100%;
   padding-left: calc((100% - 1100px) / 2);
   padding-right: calc((100% - 1100px) / 2);
+  justify-content: space-between;
+  gap: 30px;
 }
 
 .home11 .all-flex-home11 .square-home11 {
-  flex: 33.33%;
+  width: 27%;
+  border: 2px solid rgb(212, 214, 217);
+  height: auto;
+  box-shadow: -15px 15px 0 rgba(151, 158, 171, 0.2);
+}
+
+.home11 .all-flex-home11 .square-home11:hover {
+  border-color: #FA7716;
+  box-shadow: -18px 18px 0 rgba(151, 158, 171, 0.25);
+}
+
+.home11 .all-flex-home11 .square-home11:hover .btn-home11 {
+  border-color: #FA7716;
 }
 
 .home11 .all-home11 h2 {
@@ -1724,9 +1763,8 @@ html {
 }
 
 .home11 .square-home11 .btn-home11 {
-  background: #FFFFFF;
-  border: 3px solid #151A3C;
-  border-radius: 6px;
+  background: #FAFAFA;
+  border: none;
   width: 80%;
   padding: 10px;
   font-family: "Inter", sans-serif;
@@ -1737,6 +1775,7 @@ html {
   text-align: center;
   color: #151A3C;
   margin-top: 10px;
+  border-top: 1px solid rgb(212, 214, 217);
 }
 
 .footer {
@@ -1867,7 +1906,7 @@ html {
 
 .aboutus .all_aboutus .left {
   flex: 50%;
-  animation: slideLeft 1.5s ease;
+  animation: slideRight 1.5s ease;
 }
 
 .aboutus .content-aboutus h4 {
@@ -1904,11 +1943,11 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: slideRight 1.5s ease;
+  animation: slideLeft 1.5s ease;
 }
 
 .aboutus .right .img-about {
-  width: 100%;
+  width: 80%;
 }
 
 .aboutus .content-aboutus b {
@@ -2844,6 +2883,7 @@ html {
 }
 
 .img-slider .navigation .btn.active {
+  background-color: #FA7716;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -2888,13 +2928,17 @@ html {
   margin-left: -30px;
 }
 
+.hiring4 .sub-form button:hover i {
+  color: #151A3C;
+}
+
 .hiring4 .sub-form .name-search {
-  font-size: 30px;
+  font-size: 20px;
   color: #FFFFFF;
 }
 
 .hiring4 .all-hiring4 input {
-  padding: 20px 20px;
+  padding: 10px 20px;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
   width: 60%;
@@ -3080,6 +3124,12 @@ html {
   line-height: 30px;
   color: #FA7716;
   cursor: pointer;
+}
+
+.service0 .left-service .btn-service:hover {
+  color: #151A3C;
+  opacity: 0.9;
+  transition: 1s;
 }
 
 .service0 .right-service img {
@@ -3453,7 +3503,7 @@ html {
 
 .Service1-Items .all-form button {
   width: 35%;
-  background: #FA7716;
+  background: linear-gradient(290.23deg, #F07E2A 19.71%, #FFAB6C 84.85%);
   border-radius: 6px;
   border: none;
   font-family: "Inter", sans-serif;
@@ -3462,6 +3512,11 @@ html {
   font-size: 16px;
   cursor: pointer;
   color: #fff;
+}
+
+.Service1-Items .all-form button:hover {
+  color: #151A3C;
+  transition: 1s;
 }
 
 .Service1-Items .all-form button p {
@@ -3563,6 +3618,17 @@ html {
   color: #FA7716;
   margin-top: 15px;
   font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+.Service2-Items .bottom-button button:hover {
+  opacity: 0.9;
+  transition: 1s;
+}
+
+.Service2-Items .bottom-button button:hover p {
+  color: #151A3C;
+  transition: 1s;
 }
 
 .Service2-Items .right-Service2-Items p {
@@ -3614,6 +3680,10 @@ html {
   position: relative;
 }
 
+.Service3-Items .bottom-Service3 .flex-Service3-item:hover {
+  border: 1px solid red;
+}
+
 .Service3-Items .all-Service3-Items .content-top-Service3 {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -3643,13 +3713,18 @@ html {
   font-size: 16px;
   line-height: 160%;
   color: white;
-  background-color: #FA7716;
+  background: linear-gradient(290.23deg, #F07E2A 19.71%, #FFAB6C 84.85%);
   border-radius: 6px;
   cursor: pointer;
   position: absolute;
   bottom: 5%;
   right: 30%;
   border: none;
+}
+
+.Service3-Items .flex-Service3-item .btn-moved button:hover {
+  color: #151A3C;
+  transition: 1s;
 }
 
 .Service3-Items .flex-Service3-item img {
@@ -3831,8 +3906,8 @@ html {
 }
 
 .Service5-Items .all-form button {
-  background: #FFFFFF;
-  border: 3px solid #FFFFFF;
+  background: #fff;
+  border: none;
   border-radius: 6px;
   width: 20%;
   padding: 10px;
@@ -3844,6 +3919,12 @@ html {
   color: #FA7716;
   margin-top: 10px;
   cursor: pointer;
+}
+
+.Service5-Items .all-form button:hover {
+  color: #151A3C;
+  opacity: 0.9;
+  transition: 1s;
 }
 
 .service1-items-none {
@@ -4065,9 +4146,15 @@ html {
 }
 
 .cooperate .cooperate-content .button-cooperate a button {
-  background-color: #FA7716;
+  background: linear-gradient(290.23deg, #F07E2A 19.71%, #FFAB6C 84.85%);
   border-radius: 6px;
   border: none;
+  cursor: pointer;
+}
+
+.cooperate .cooperate-content .button-cooperate a button:hover p {
+  color: #151A3C;
+  transition: 1s;
 }
 
 .cooperate .cooperate-content .button-cooperate a button p {
@@ -4223,7 +4310,7 @@ html {
   padding: 15px 0;
   font-weight: 700;
   font-size: 38px;
-  line-height: 38px;
+  line-height: 44px;
 }
 
 .contact-block .frm-contact input, select, option {
@@ -4352,11 +4439,16 @@ html {
 
 .banner_blog .search-bar button {
   flex: 20%;
-  background-color: #d7d7d7;
+  background: linear-gradient(290.23deg, #F07E2A 19.71%, #FFAB6C 84.85%);
   border: none;
   border-radius: 0 6px 6px 0;
-  color: rgba(50, 50, 50, 0.8);
+  color: #fff;
   cursor: pointer;
+}
+
+.banner_blog .search-bar button:hover {
+  color: #151A3C;
+  transition: 1s;
 }
 
 .topics {
@@ -5477,6 +5569,7 @@ html {
   padding: 35px 0;
   padding-left: calc((100% - 1100px) / 2);
   padding-right: calc((100% - 1100px) / 2);
+  background-color: #fff;
 }
 
 .rate-card .explain {
@@ -5556,7 +5649,7 @@ html {
 }
 
 .rate-card .rate-card-container a:hover {
-  border: 2px solid #0769e0;
+  border: 2px solid #FA7716;
   box-shadow: -18px 18px 0 rgba(151, 158, 171, 0.25);
 }
 
@@ -5579,9 +5672,9 @@ html {
 .ui-dialog {
   position: fixed !important;
   z-index: 99999 !important;
-  top: 0 !important;
+  top: 110px !important;
   padding: 0;
-  height: 100vh !important;
+  height: 80vh !important;
 }
 
 .ui-widget-header .ui-icon {
@@ -5596,7 +5689,7 @@ html {
 
 .ui-dialog .ui-dialog-titlebar-close {
   display: flex !important;
-  width: 25px !important;
+  width: 75px !important;
   height: 25px !important;
   justify-content: center;
   align-items: center;
@@ -5648,7 +5741,7 @@ html {
 }
 
 .ui-dialog .ui-dialog-content {
-  height: 80vh !important;
+  height: 60vh !important;
 }
 
 .toolbar {
@@ -5670,7 +5763,6 @@ html {
     padding-left: calc((100% - 1700px) / 2);
     padding-right: calc((100% - 1700px) / 2);
     padding-top: 150px;
-    margin-top: 35px;
   }
   .rate-card .rate-card-container .card-item {
     width: 23%;
@@ -5774,8 +5866,6 @@ html {
     line-height: 150px;
   }
   .home4 .all-home4 .btn-home4 {
-    width: 240px;
-    height: 60px;
     font-size: 20px;
   }
   .home5 .all-home5 {
@@ -5923,7 +6013,7 @@ html {
     line-height: 35px;
   }
   .aboutus .right .img-about {
-    width: 100%;
+    width: 80%;
   }
   .aboutus_2 .all-aboutus_2 .all-aboutus_2-item {
     padding-left: calc((100% - 1700px) / 2);
@@ -6397,6 +6487,7 @@ html {
     line-height: 70px;
   }
   .rate-card {
+    margin-top: 70px;
     padding-left: calc((100% - 940px) / 2);
     padding-right: calc((100% - 940px) / 2);
   }
@@ -6449,7 +6540,6 @@ html {
   .banner .button-banner .alo {
     font-size: 13px;
     margin-left: 12px;
-    margin-top: -13px;
   }
   .home3 .home3-all {
     padding-left: calc((100% - 940px) / 2);
@@ -6479,7 +6569,6 @@ html {
   }
   .home3-all .bottom-span .contact {
     font-size: 12px;
-    position: absolute;
   }
   .home2-all .home2-button .btn-top-home2 {
     width: 160px;
@@ -6519,16 +6608,9 @@ html {
     padding-left: calc((100% - 940px) / 2);
     padding-right: calc((100% - 940px) / 2);
   }
-  .home4 .all-home4 .btn-home4 {
-    width: 150px;
-    height: 35px;
-  }
   .home4 .btn-home4 p {
     font-size: 13px;
     line-height: 25px;
-  }
-  .home4 .btn-home4 p:hover {
-    font-size: 16px;
   }
   .home4 .title-home4 h3 {
     font-size: 37px;
@@ -6715,8 +6797,7 @@ html {
     line-height: 30px;
   }
   .aboutus .right .img-about {
-    width: 100%;
-    float: right;
+    width: 80%;
   }
   .aboutus_2 .first .content-left h5 {
     font-size: 18px;
@@ -7576,7 +7657,7 @@ html {
   .aboutus .all_aboutus {
     padding-left: calc((100% - 350px) / 2);
     padding-right: calc((100% - 350px) / 2);
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .aboutus .content-aboutus {
     margin-top: 15px;
@@ -7853,6 +7934,7 @@ html {
     margin-bottom: 0;
   }
   .home11 .all-flex-home11 .square-home11 {
+    width: 60%;
     margin-top: 20px;
     margin-bottom: 20px;
   }

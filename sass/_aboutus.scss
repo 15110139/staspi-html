@@ -18,7 +18,7 @@
 
 .aboutus .all_aboutus .left {
    flex: 50% ;
-   animation: slideLeft 1.5s ease;
+   animation: slideRight 1.5s ease;
 }
 
 .aboutus .content-aboutus h4 {
@@ -55,11 +55,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: slideRight 1.5s ease;
+    animation: slideLeft 1.5s ease;
 }
 
 .aboutus .right .img-about {
-    width: 100%;
+    width: 80%;
 }
 
 // .aboutus .right .image-aboutus {

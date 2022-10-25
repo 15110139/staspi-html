@@ -104,8 +104,8 @@
 }
 
 .Service5-Items .all-form button {
-    background: $white-contact;
-    border: 3px solid $white-contact;  
+    background: #fff;
+    border: none;  
     border-radius: 6px;
     width: 20%;
     padding: 10px;
@@ -117,4 +117,9 @@
     color: $primary;
     margin-top: 10px;
     cursor: pointer;
+}
+.Service5-Items .all-form button:hover {
+    color: $second-primary;
+    opacity: 0.9;
+    transition: 1s;
 }

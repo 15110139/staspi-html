@@ -83,11 +83,15 @@
     margin-top: $space-margin-top-bottom-l;
 }
 .home3 .home3-all .bottom-span button {
-    background-color: $primary;
+    background: $background-color-button;
     border-radius: 6px;
     border: none;
     cursor: pointer;
 }
+.home3 .home3-all .bottom-span button:hover .text-button, .home3 .home3-all .bottom-span button:hover .text-button i {
+    color: $second-primary;
+    transition: 1s;
+} 
 .home3 .home3-all .bottom-span button .text-button {
     display: flex;
     align-items: center;

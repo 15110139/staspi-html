@@ -854,7 +854,7 @@ const defaultOptions = {
 };
 {
   defaultOptions.defaultUrl = {
-    value: "../../pdf/bg-amazon.pdf",
+    value: "",
     kind: OptionKind.VIEWER
   };
   defaultOptions.disablePreferences = {
@@ -1542,7 +1542,7 @@ var _pdf_viewer = __webpack_require__(28);
 
 var _secondary_toolbar = __webpack_require__(39);
 
-var _toolbar = __webpack_require__(40);
+// var _toolbar = __webpack_require__(40);
 
 var _view_history = __webpack_require__(41);
 

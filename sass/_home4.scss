@@ -34,7 +34,7 @@
     border: none;
     // border: 1px solid $font-done;
     border-radius: 6px;
-    background-color: $primary;
+    background: $background-color-button;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
@@ -45,6 +45,10 @@
     text-align: center;
     color: #fff;
     // transform: translateY(60%);
+}
+.home4 .all-home4 .btn-home4:hover {
+    color: $second-primary;
+    transition: 1s;
 }
 .home4 .all-home4 .btn-home4 p {
     padding: $padding-button;
