@@ -5672,9 +5672,9 @@ html {
 .ui-dialog {
   position: fixed !important;
   z-index: 99999 !important;
-  top: 0 !important;
+  top: 110px !important;
   padding: 0;
-  height: 100vh !important;
+  height: 80vh !important;
 }
 
 .ui-widget-header .ui-icon {
@@ -5741,7 +5741,7 @@ html {
 }
 
 .ui-dialog .ui-dialog-content {
-  height: 80vh !important;
+  height: 60vh !important;
 }
 
 .toolbar {
