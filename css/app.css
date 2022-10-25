@@ -5689,7 +5689,7 @@ html {
 
 .ui-dialog .ui-dialog-titlebar-close {
   display: flex !important;
-  width: 25px !important;
+  width: 75px !important;
   height: 25px !important;
   justify-content: center;
   align-items: center;

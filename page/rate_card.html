@@ -28,6 +28,7 @@
     />
     <link rel="stylesheet" href="../css/library/viewer.css">
     <link rel="stylesheet" href="../css/app.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.min.js"></script>
     <style>
       .toolbar {
         display: none !important;
@@ -35,10 +36,7 @@
     </style>
   </head>
   <body>
-    <div id="dialog" scroll="no" style="display: none ;overflow: hidden" tabindex="1">
-      <canvas id="the-canvas"></canvas>
-      <!-- <embed src="../pdf/bg-amazon.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" height="100%" width="100%" id="pdf-file">
-      </embed> -->
+    <div id="dialog" style="display: none; width: 100%;" tabindex="1">
     </div>
 
     <!-- NAVBAR -->
@@ -346,8 +344,7 @@
     </section>
     <script src="../JavaScript/show_pdf.js"></script>
   </body>
-  <!-- <script src="../../JavaScript/slide-child-blog.js"></script> -->
   <script src="../JavaScript/dropdown_footer.js"></script>
   <script src="../JavaScript/menu.js"></script>
-  <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+  <!-- <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script> -->
 </html>
