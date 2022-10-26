@@ -440,7 +440,7 @@
 padding-right: calc((100% - 350px) / 2);
     }
     .footer-items-home7 .footer-items {
-        height: 100px;
+        height: 50px;
     }
     .home7 .all-home7 .title-home7 {
         font-size: $mb-font-size-text-h2;
@@ -915,8 +915,20 @@ padding-right: calc((100% - 350px) / 2);
         margin-bottom: 5px;
     }
     
+    .hiring4 .right-content ul{
+        margin-left: 30px;
+    }
+    .hiring4 .right-content a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hiring4 .square-form .right-content {
+        padding: $space-margin-top-bottom-l 0;
+    }
+
     .hiring4 .right-content ul > li {
-        text-align: center;
+        text-align: start;
         padding-bottom: 10px;
         font-size: $mb-font-size-text-l;
         line-height: $mb-line-height-text-l;
@@ -1293,6 +1305,9 @@ padding-right: calc((100% - 350px) / 2);
         flex: 70%;
         font-size: $mb-font-size-text-l;
         line-height: $mb-line-height-text-l;
+    }
+    .slide-cooperation-branch {
+        height: 50px;
     }
 
       //CONTACT
@@ -1976,6 +1991,41 @@ padding-right: calc((100% - 350px) / 2);
 .rate-card .rate-card-container .card-item .content-rate-card span{
     font-size: $mb-font-size-text-l;
     line-height: $mb-line-height-text-l;
+}
+
+//child-recruit
+.child-recruit {
+    padding-left: calc((100% - 350px) / 2);
+    padding-right: calc((100% - 350px) / 2);
+}
+.child-recruit .sub-info {
+    display: none;
+}
+.child-recruit .jd{
+    width: 100%;
+}
+.child-recruit .jd .header h4 {
+    font-size: $mb-font-size-text-h4;
+    line-height: $mb-line-height-text-h4;
+}
+.child-recruit .jd .header h5 {
+    font-size: $mb-font-size-text-h5;
+    line-height: $mb-line-height-text-h5;
+}
+.child-recruit .jd .decription-job ol > li {
+    font-size: $mb-font-size-text-l;
+    line-height: $mb-line-height-text-l;
+}
+.child-recruit .jd .decription-job ol p {
+    font-size: $mb-font-size-text-l;
+    line-height: $mb-line-height-text-l;
+}
+.child-recruit .jd .decription-job ol ul li{
+    font-size: $mb-font-size-text-l;
+    line-height: $mb-line-height-text-l;
+}
+.child-recruit .jd {
+    padding-right: 0;
 }
 }
 

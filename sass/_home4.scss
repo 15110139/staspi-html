@@ -76,8 +76,8 @@
     font-weight: 400;
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
-    padding-left: calc(calc(100% - 1020px)/2);
-    padding-right: calc(calc(100% - 1020px)/2);
+    padding-left: calc((100% - 1100px) / 2);
+    padding-right: calc((100% - 1100px) / 2);
     padding-bottom: $space-margin-top-bottom-sl;
     color: $color-text-body;
 }

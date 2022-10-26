@@ -113,6 +113,7 @@
   .drag-text h4 {
     font-weight: 500;
     color: $color-text-body;
+    overflow: hidden;
   }
   
   .file-upload-image {
@@ -165,6 +166,14 @@
     line-height: $lt-line-height-text-l;
     text-align: justify;
 }
+.child-recruit .jd .decription-job ol p {
+    font-family: $font-text;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
+    text-align: justify;
+    padding-bottom: $space-margin-top-bottom-l;
+}
+
 .child-recruit .jd .decription-job ul{
     list-style-type: disc;
     margin-bottom: $space-margin-top-bottom-l;
@@ -186,6 +195,11 @@
     width: 100%;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
+}
+.child-recruit .jd .decription-job .frm-recruit form button:hover p {
+    color: $second-primary;
+    transition: 1s;
 }
 .child-recruit .jd .decription-job .frm-recruit form button p {
     padding: $padding-button;
@@ -211,6 +225,10 @@
     border-radius: 6px;
     cursor: pointer;
 }
+.child-recruit .sub-info .apply button:hover p {
+    color: $second-primary;
+    transition: 1s;
+}
 .child-recruit .sub-info .apply button > p {
     font-family: $font-text;
     font-size: $lt-font-size-text-l;
@@ -223,6 +241,7 @@
     margin: $space-margin-top-bottom-sl 0;
 }
 .child-recruit .sub-info .more-info .item-info {
+    width: 100%;
     border-top: 1px solid rgb(233, 228, 228);
     font-family: $font-text;
     color:  $second-primary;
@@ -233,13 +252,15 @@
 }
 .child-recruit .sub-info .more-info .item-info span {
     font-size: $lt-font-size-text-l;
-    line-height: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
     color: $color-text-body;
     display: inline-block;
     font-weight: 400;
     padding-right: 20px ;
+    min-width: 45%;
 }
 .child-recruit .sub-info .more-info .item-info p{
+    width: 55%;
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
     color: $color-text-body;
@@ -272,6 +293,9 @@
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
     color: $primary;
+}
+.child-recruit .sub-info .more-jobs .job-container span:hover {
+    color: $second-primary;
 }
 .child-recruit .sub-info .more-jobs .job-container i {
     font-size: 14px;

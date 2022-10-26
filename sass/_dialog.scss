@@ -52,6 +52,9 @@
 .ui-dialog .ui-dialog-content{
     padding: 0 !important;
 }
+.ui-dialog .ui-dialog-content canvas{
+    width: 100%;
+}
 .ui-dialog .ui-resizable-se {
     display: none !important;
 }

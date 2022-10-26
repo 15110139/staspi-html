@@ -278,7 +278,7 @@ background-color:$home-air;
 } 
 .contact-block .frm-contact .btn-submit-contact {
   font-family: $font-text;
- background-color: $primary;
+ background: $background-color-button;
  height: auto;
  width: 90%;
  min-height: 50px;
@@ -293,7 +293,8 @@ background-color:$home-air;
  border: none;
 }
 .contact-block .frm-contact .btn-submit-contact:hover {
- opacity: 0.8;
+  color: $second-primary;
+  transition: 1s;
 }
 
 .frm-contact input::placeholder{

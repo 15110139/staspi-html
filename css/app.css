@@ -766,8 +766,8 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  padding-left: calc((100% - 1020px) / 2);
-  padding-right: calc((100% - 1020px) / 2);
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
   padding-bottom: 35px;
   color: #494949;
 }
@@ -1013,6 +1013,16 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.home6 .flex-item .bottom-item:hover {
+  background-color: #FCA15D;
+  transition: 1s;
+}
+
+.home6 .flex-item .bottom-item:hover h5, .home6 .flex-item .bottom-item:hover span {
+  color: #fff;
+  transition: 1s;
 }
 
 .flexbox-home6 .bottom-item h5 {
@@ -2782,7 +2792,7 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: #151A3C;
+  color: #494949;
   margin-left: 50px;
   text-align: justify;
 }
@@ -2930,6 +2940,7 @@ html {
 
 .hiring4 .sub-form button:hover i {
   color: #151A3C;
+  transition: 1s;
 }
 
 .hiring4 .sub-form .name-search {
@@ -3005,22 +3016,43 @@ html {
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
-  color: #000000;
+  color: #151A3C;
   margin-bottom: 15px;
 }
 
 .hiring4 .right-content ul {
-  margin-left: 15px;
   padding-right: 20px;
+  padding-bottom: 15px;
+}
+
+.hiring4 .right-content a {
+  text-decoration: none;
+}
+
+.hiring4 .right-content a:hover span, .hiring4 .right-content a:hover i {
+  color: #151A3C;
+}
+
+.hiring4 .right-content a span {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 158%;
+  color: #FA7716;
+}
+
+.hiring4 .right-content a i {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #FA7716;
 }
 
 .hiring4 .right-content ul > li {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 146%;
-  color: #151A3C;
+  font-size: 14px;
+  line-height: 158%;
+  color: #494949;
   text-align: justify;
 }
 
@@ -4366,7 +4398,7 @@ html {
 
 .contact-block .frm-contact .btn-submit-contact {
   font-family: "Inter", sans-serif;
-  background-color: #FA7716;
+  background: linear-gradient(290.23deg, #F07E2A 19.71%, #FFAB6C 84.85%);
   height: auto;
   width: 90%;
   min-height: 50px;
@@ -4382,7 +4414,8 @@ html {
 }
 
 .contact-block .frm-contact .btn-submit-contact:hover {
-  opacity: 0.8;
+  color: #151A3C;
+  transition: 1s;
 }
 
 .frm-contact input::placeholder {
@@ -5138,6 +5171,15 @@ html {
   font-size: 16px;
 }
 
+.component-post .highlight-post .search-bar button i {
+  color: #fff;
+}
+
+.component-post .highlight-post .search-bar button:hover i {
+  color: #151A3C;
+  transition: 1s;
+}
+
 .component-post .highlight-post .highlight-post-container {
   width: 100%;
   padding-left: calc((100% - 800px) / 2);
@@ -5750,6 +5792,10 @@ html {
   padding: 0 !important;
 }
 
+.ui-dialog .ui-dialog-content canvas {
+  width: 100%;
+}
+
 .ui-dialog .ui-resizable-se {
   display: none !important;
 }
@@ -5887,6 +5933,7 @@ html {
 .drag-text h4 {
   font-weight: 500;
   color: #494949;
+  overflow: hidden;
 }
 
 .file-upload-image {
@@ -5942,6 +5989,14 @@ html {
   text-align: justify;
 }
 
+.child-recruit .jd .decription-job ol p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: justify;
+  padding-bottom: 15px;
+}
+
 .child-recruit .jd .decription-job ul {
   list-style-type: disc;
   margin-bottom: 15px;
@@ -5966,6 +6021,12 @@ html {
   width: 100%;
   border: none;
   border-radius: 6px;
+  cursor: pointer;
+}
+
+.child-recruit .jd .decription-job .frm-recruit form button:hover p {
+  color: #151A3C;
+  transition: 1s;
 }
 
 .child-recruit .jd .decription-job .frm-recruit form button p {
@@ -5993,6 +6054,11 @@ html {
   cursor: pointer;
 }
 
+.child-recruit .sub-info .apply button:hover p {
+  color: #151A3C;
+  transition: 1s;
+}
+
 .child-recruit .sub-info .apply button > p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -6007,6 +6073,7 @@ html {
 }
 
 .child-recruit .sub-info .more-info .item-info {
+  width: 100%;
   border-top: 1px solid rgb(233, 228, 228);
   font-family: "Inter", sans-serif;
   color: #151A3C;
@@ -6018,14 +6085,16 @@ html {
 
 .child-recruit .sub-info .more-info .item-info span {
   font-size: 16px;
-  line-height: 16px;
+  line-height: 160%;
   color: #494949;
   display: inline-block;
   font-weight: 400;
   padding-right: 20px;
+  min-width: 45%;
 }
 
 .child-recruit .sub-info .more-info .item-info p {
+  width: 55%;
   font-size: 16px;
   line-height: 160%;
   color: #494949;
@@ -6062,6 +6131,10 @@ html {
   font-size: 16px;
   line-height: 160%;
   color: #FA7716;
+}
+
+.child-recruit .sub-info .more-jobs .job-container span:hover {
+  color: #151A3C;
 }
 
 .child-recruit .sub-info .more-jobs .job-container i {
@@ -7833,7 +7906,7 @@ html {
     padding-right: calc((100% - 350px) / 2);
   }
   .footer-items-home7 .footer-items {
-    height: 100px;
+    height: 50px;
   }
   .home7 .all-home7 .title-home7 {
     font-size: 30px;
@@ -8225,8 +8298,19 @@ html {
     line-height: 121%;
     margin-bottom: 5px;
   }
+  .hiring4 .right-content ul {
+    margin-left: 30px;
+  }
+  .hiring4 .right-content a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hiring4 .square-form .right-content {
+    padding: 15px 0;
+  }
   .hiring4 .right-content ul > li {
-    text-align: center;
+    text-align: start;
     padding-bottom: 10px;
     font-size: 16px;
     line-height: 22px;
@@ -8550,6 +8634,9 @@ html {
     flex: 70%;
     font-size: 16px;
     line-height: 22px;
+  }
+  .slide-cooperation-branch {
+    height: 50px;
   }
   .banner_contact h1 {
     font-size: 33px;
@@ -9122,6 +9209,39 @@ html {
   .rate-card .rate-card-container .card-item .content-rate-card span {
     font-size: 16px;
     line-height: 22px;
+  }
+  .child-recruit {
+    padding-left: calc((100% - 350px) / 2);
+    padding-right: calc((100% - 350px) / 2);
+  }
+  .child-recruit .sub-info {
+    display: none;
+  }
+  .child-recruit .jd {
+    width: 100%;
+  }
+  .child-recruit .jd .header h4 {
+    font-size: 22px;
+    line-height: 121%;
+  }
+  .child-recruit .jd .header h5 {
+    font-size: 18px;
+    line-height: 121%;
+  }
+  .child-recruit .jd .decription-job ol > li {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .child-recruit .jd .decription-job ol p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .child-recruit .jd .decription-job ol ul li {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .child-recruit .jd {
+    padding-right: 0;
   }
 }
 @media (min-width: 395px) and (max-width: 450px) {
