@@ -1755,7 +1755,7 @@ html {
   line-height: 44px;
   text-align: center;
   color: #151A3C;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
 }
 
 .home11 .img-home11 img {
@@ -3009,13 +3009,19 @@ html {
   margin-bottom: 15px;
 }
 
-.hiring4 .right-content p {
+.hiring4 .right-content ul {
+  margin-left: 15px;
+  padding-right: 20px;
+}
+
+.hiring4 .right-content ul > li {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 146%;
   color: #151A3C;
+  text-align: justify;
 }
 
 .hiring4 .all-hiring4 .footer-slide-items {
@@ -4211,11 +4217,16 @@ html {
   flex: 50%;
   height: auto;
   position: relative;
+  padding: 35px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-left: calc((100% - 1100px) / 2);
+}
+
+.contact-block .infomation img {
+  min-height: 469px;
 }
 
 .contact-block .infomation h2 {
@@ -4304,6 +4315,7 @@ html {
   justify-content: center;
   font-family: "Inter", sans-serif;
   font-style: normal;
+  min-height: 460px;
 }
 
 .contact-block .frm-contact h2 {
@@ -4311,6 +4323,7 @@ html {
   font-weight: 700;
   font-size: 38px;
   line-height: 44px;
+  padding-bottom: 0;
 }
 
 .contact-block .frm-contact input, select, option {
@@ -4342,7 +4355,7 @@ html {
   height: 50px;
   min-height: 80px;
   max-height: 160px;
-  margin: 10px 20px;
+  margin: 15px 20px;
   border-radius: 6px;
   box-sizing: border-box;
   font-size: 16px;
@@ -4352,11 +4365,12 @@ html {
 }
 
 .contact-block .frm-contact .btn-submit-contact {
+  font-family: "Inter", sans-serif;
   background-color: #FA7716;
   height: auto;
   width: 90%;
   min-height: 50px;
-  margin: 10px 0;
+  margin: 15px 0;
   border-radius: 6px;
   box-sizing: border-box;
   font-size: 24px;
@@ -5752,6 +5766,316 @@ html {
   color: #fff;
 }
 
+.child-recruit {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding-left: calc((100% - 1100px) / 2);
+  padding-right: calc((100% - 1100px) / 2);
+  height: auto;
+  padding-top: 35px;
+}
+
+.child-recruit .jd {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+}
+
+.child-recruit .jd .header {
+  margin-bottom: 35px;
+}
+
+.child-recruit .jd .header h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  line-height: 28.4px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.child-recruit .jd .header h5 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 22.2px;
+  text-align: center;
+}
+
+.child-recruit .jd .decription-job {
+  width: 100%;
+  height: auto;
+}
+
+.child-recruit .jd .decription-job ol {
+  list-style-type: decimal;
+}
+
+.child-recruit .jd .decription-job .frm-recruit {
+  padding: 35px 0;
+  width: 100%;
+  height: auto;
+  border-top: 2px dotted #BCBCBC;
+}
+
+.child-recruit .jd .decription-job .frm-recruit form > input {
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  margin: 15px 0;
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #BCBCBC;
+  font-size: 16px;
+}
+
+.child-recruit .jd .decription-job .frm-recruit form .file-upload {
+  background-color: #ffffff;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+  color: rgb(224, 221, 221);
+}
+
+.image-upload-wrap {
+  border-radius: 6px;
+  margin-top: 20px;
+  border: 2px dotted #BCBCBC;
+  position: relative;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+  opacity: 0.9;
+}
+
+.image-title-wrap {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text .text-mask {
+  padding: 40px 0;
+}
+
+.drag-text h3 {
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #494949;
+  padding-bottom: 10px;
+}
+
+.drag-text h4 {
+  font-weight: 500;
+  color: #494949;
+}
+
+.file-upload-image {
+  max-height: 200px;
+  max-width: 200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.remove-image {
+  width: 200px;
+  margin: 0;
+  color: #fff;
+  background: #cd4535;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #b02818;
+  transition: all 0.2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.remove-image:hover {
+  background: #c13b2a;
+  color: #ffffff;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.remove-image:active {
+  border: 0;
+  transition: all 0.2s ease;
+}
+
+.child-recruit .jd .decription-job .frm-recruit form > textarea {
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  margin: 15px 0;
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #BCBCBC;
+  resize: none;
+  font-size: 16px;
+}
+
+.child-recruit .jd .decription-job ol ul li {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: justify;
+}
+
+.child-recruit .jd .decription-job ul {
+  list-style-type: disc;
+  margin-bottom: 15px;
+}
+
+.child-recruit .jd .decription-job ol > li {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.child-recruit .jd .decription-job ul > li {
+  margin-bottom: 10px;
+}
+
+.child-recruit .jd .decription-job li + li {
+  margin-bottom: 8px;
+}
+
+.child-recruit .jd .decription-job .frm-recruit form > button {
+  background: linear-gradient(290.23deg, #F07E2A 19.71%, #FFAB6C 84.85%);
+  margin: 35px 0;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+}
+
+.child-recruit .jd .decription-job .frm-recruit form button p {
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 600;
+}
+
+.child-recruit .sub-info {
+  width: 35%;
+}
+
+.child-recruit .sub-info .apply {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.child-recruit .sub-info .apply button {
+  background: linear-gradient(290.23deg, #F07E2A 19.71%, #FFAB6C 84.85%);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.child-recruit .sub-info .apply button > p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.child-recruit .sub-info .more-info {
+  width: 100%;
+  height: auto;
+  margin: 35px 0;
+}
+
+.child-recruit .sub-info .more-info .item-info {
+  border-top: 1px solid rgb(233, 228, 228);
+  font-family: "Inter", sans-serif;
+  color: #151A3C;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 20px 0;
+}
+
+.child-recruit .sub-info .more-info .item-info span {
+  font-size: 16px;
+  line-height: 16px;
+  color: #494949;
+  display: inline-block;
+  font-weight: 400;
+  padding-right: 20px;
+}
+
+.child-recruit .sub-info .more-info .item-info p {
+  font-size: 16px;
+  line-height: 160%;
+  color: #494949;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.child-recruit .sub-info .more-jobs {
+  border-top: 1px solid rgb(210, 203, 203);
+}
+
+.child-recruit .sub-info .more-jobs h5 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 22.2px;
+  margin: 15px 0;
+}
+
+.child-recruit .sub-info .more-jobs .job-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.child-recruit .sub-info .more-jobs .job-container a {
+  text-decoration: none;
+  color: none;
+  margin-bottom: 10px;
+}
+
+.child-recruit .sub-info .more-jobs .job-container span {
+  font-style: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 160%;
+  color: #FA7716;
+}
+
+.child-recruit .sub-info .more-jobs .job-container i {
+  font-size: 14px;
+  color: #FA7716;
+}
+
+#anchor-form-recruit {
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin-top: -100px;
+}
+
 @media (min-width: 1750px) {
   .navbar .nav {
     height: 150px;
@@ -6430,6 +6754,10 @@ html {
   }
   .topics .topic-container .item-topic .image-item {
     height: 280px;
+  }
+  #anchor-form-recruit {
+    height: 150px;
+    margin-top: -150px;
   }
 }
 @media (min-width: 1529px) and (max-width: 1749px) {
@@ -7858,8 +8186,6 @@ html {
   .hiring4 .left-square .squares {
     margin-left: 0px;
     margin-top: 20px;
-    border-top-left-radius: 26px;
-    border-top-right-radius: 26px;
   }
   .hiring4 .all-form .square-form {
     flex-direction: column;
@@ -7899,7 +8225,7 @@ html {
     line-height: 121%;
     margin-bottom: 5px;
   }
-  .hiring4 .right-content p {
+  .hiring4 .right-content ul > li {
     text-align: center;
     padding-bottom: 10px;
     font-size: 16px;
@@ -8294,6 +8620,11 @@ html {
   }
   .contact-block .frm-contact h2 {
     font-size: 24px;
+  }
+  .contact-block .infomation img {
+    min-height: 0;
+    width: 100%;
+    height: 100%;
   }
   .contact-block .frm-contact input, select, option {
     font-size: 16px;

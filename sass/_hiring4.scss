@@ -120,8 +120,11 @@
     color: $font-black;
     margin-bottom: $space-margin-top-bottom-l;
 }
-
-.hiring4 .right-content p {
+.hiring4 .right-content ul {
+    margin-left: 15px;
+    padding-right: 20px;
+}
+.hiring4 .right-content ul > li {
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
@@ -129,6 +132,7 @@
     line-height: $lt-line-height-text-n;
     // letter-spacing: -0.005em;
     color: $second-primary;
+    text-align: justify;
 }
 
 .hiring4 .all-hiring4 .footer-slide-items {

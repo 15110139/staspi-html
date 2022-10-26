@@ -123,13 +123,16 @@ width: 100%;
   flex: 50%;
   height: auto;
   position: relative;
-  // padding: 2em;
+  padding:$space-margin-top-bottom-sl 0;
   // font-size:25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-left: calc((100% - 1100px) / 2);
+}
+.contact-block .infomation img{
+  min-height: 469px;
 }
 //fix h3
 .contact-block .infomation h2 {
@@ -226,6 +229,7 @@ min-height: 130px;
  justify-content: center;
  font-family: $font-text;
  font-style: normal;
+ min-height: 460px;
 }
 // fix to h3
 .contact-block .frm-contact h2 {
@@ -234,6 +238,7 @@ min-height: 130px;
  font-weight: 700;
  font-size: $lt-font-size-text-h2;
  line-height: $lt-line-height-text-h2;
+ padding-bottom: 0;
 }
 .contact-block .frm-contact input, select, option {
   font-family: $font-text;
@@ -263,7 +268,7 @@ background-color:$home-air;
  height: 50px;
  min-height: 80px;
  max-height: 160px;
- margin: 10px 20px;
+ margin: 15px 20px;
  border-radius: 6px;
  box-sizing: border-box;
  font-size: $lt-font-size-text-l;
@@ -272,11 +277,12 @@ background-color:$home-air;
  padding: 10px;
 } 
 .contact-block .frm-contact .btn-submit-contact {
+  font-family: $font-text;
  background-color: $primary;
  height: auto;
  width: 90%;
  min-height: 50px;
- margin: 10px 0;
+ margin: 15px 0;
  border-radius: 6px;
  box-sizing: border-box;
  font-size: $lt-font-size-text-h4;

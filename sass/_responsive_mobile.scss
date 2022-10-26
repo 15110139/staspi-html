@@ -867,8 +867,8 @@ padding-right: calc((100% - 350px) / 2);
     .hiring4 .left-square .squares {
         margin-left: 0px;
         margin-top: 20px;
-        border-top-left-radius: 26px;
-        border-top-right-radius: 26px;
+        // border-top-left-radius: 26px;
+        // border-top-right-radius: 26px;
     }
 
     .hiring4 .all-form .square-form {
@@ -915,7 +915,7 @@ padding-right: calc((100% - 350px) / 2);
         margin-bottom: 5px;
     }
     
-    .hiring4 .right-content p {
+    .hiring4 .right-content ul > li {
         text-align: center;
         padding-bottom: 10px;
         font-size: $mb-font-size-text-l;
@@ -1384,6 +1384,11 @@ padding-right: calc((100% - 350px) / 2);
 
     .contact-block .frm-contact h2 {
         font-size: 24px;
+    }
+    .contact-block .infomation img {
+        min-height: 0;
+        width: 100%;
+        height: 100%;
     }
     .contact-block .frm-contact input,select,option {
         font-size: 16px;
