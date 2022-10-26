@@ -40,6 +40,7 @@
 }
 .hiring4 .sub-form button:hover i {
     color: $second-primary;
+    transition: 1s;
 }
 
 .hiring4 .sub-form .name-search {
@@ -117,18 +118,40 @@
     font-size: $lt-font-size-text-h5;
     line-height: $lt-font-size-text-h5;
     // letter-spacing: -0.03em;
-    color: $font-black;
+    color: $color-text-header;
     margin-bottom: $space-margin-top-bottom-l;
 }
-
-.hiring4 .right-content p {
+.hiring4 .right-content ul {
+    // margin-left: 15px;
+    padding-right: 20px;
+    padding-bottom: $space-margin-top-bottom-l;
+}
+.hiring4 .right-content a{
+    text-decoration: none;
+}
+.hiring4 .right-content a:hover span , .hiring4 .right-content a:hover i {
+    color: $second-primary;
+}
+.hiring4 .right-content a span{
+    font-family: $font-text;
+    font-size: $lt-font-size-text-m;
+    line-height: $lt-line-height-text-m;
+    color: $primary;
+}
+.hiring4 .right-content a i {
+    margin-left: 10px;
+    font-size: 12px;
+    color: $primary;
+}
+.hiring4 .right-content ul > li {
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
-    font-size: $lt-font-size-text-n;
-    line-height: $lt-line-height-text-n;
+    font-size: $lt-font-size-text-m;
+    line-height: $lt-line-height-text-m;
     // letter-spacing: -0.005em;
-    color: $second-primary;
+    color: $color-text-body;
+    text-align: justify;
 }
 
 .hiring4 .all-hiring4 .footer-slide-items {

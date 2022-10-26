@@ -102,6 +102,14 @@ gap: 15px;
     justify-content: center;
     align-items: center;
 }
+.home6 .flex-item .bottom-item:hover {
+    background-color: #FCA15D;
+    transition: 1s;
+}
+.home6 .flex-item .bottom-item:hover h5 , .home6 .flex-item .bottom-item:hover span {
+    color: #fff;
+    transition: 1s;
+}
 
 .flexbox-home6 .bottom-item h5 {
     font-family: $font-text;

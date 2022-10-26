@@ -369,6 +369,13 @@
     transform: translatey(1px);
     font-size: $lt-font-size-text-l;
 }
+.component-post .highlight-post .search-bar button i{
+    color: #fff;
+}
+.component-post .highlight-post .search-bar button:hover i {
+    color: $second-primary;
+    transition: 1s;
+}
 
 .component-post .highlight-post .highlight-post-container {
   width: 100%;

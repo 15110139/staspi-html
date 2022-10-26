@@ -1,0 +1,310 @@
+.child-recruit {
+    // margin-top: 100px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-left: calc((100% - 1100px) / 2);
+    padding-right: calc((100% - 1100px) / 2);
+    height: auto;
+    padding-top: $space-margin-top-bottom-sl;
+}
+.child-recruit .jd {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    // background-color: red;
+}
+
+.child-recruit .jd .header {
+    // margin-top: $space-margin-top-bottom-sl;
+    margin-bottom: $space-margin-top-bottom-sl;
+}
+
+.child-recruit .jd .header h4 {
+    font-family: $font-text;
+    font-size: $lt-font-size-text-h4;
+    line-height: $lt-line-height-text-h4;
+    margin-bottom: $space-margin-top-bottom-m;
+    text-align: center;
+}
+.child-recruit .jd .header h5{
+    font-family: $font-text;
+    font-size: $lt-font-size-text-h5;
+    line-height: $lt-line-height-text-h5;
+    text-align: center;
+}
+.child-recruit .jd .decription-job{
+    width: 100%;
+    height: auto;
+}
+.child-recruit .jd .decription-job ol {
+    list-style-type: decimal;
+}
+.child-recruit .jd .decription-job .frm-recruit {
+    padding: $space-margin-top-bottom-sl 0;
+    width: 100%;
+    height: auto;
+    border-top: 2px dotted #BCBCBC;
+}
+.child-recruit .jd .decription-job .frm-recruit form > input {
+    font-family: $font-text;
+    background-color: #fff;
+    margin: 15px 0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #BCBCBC;
+    font-size: $lt-font-size-text-l;
+}
+.child-recruit .jd .decription-job .frm-recruit form .file-upload {
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+}
+.file-upload-content {
+    display: none;
+    text-align: center;
+  }
+  
+  .file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+    color: rgb(224, 221, 221);
+  }
+  
+  .image-upload-wrap {
+    border-radius: 6px;
+    margin-top: 20px;
+    border: 2px dotted #BCBCBC;
+    position: relative;
+  }
+  
+  .image-dropping,
+  .image-upload-wrap:hover {
+    opacity: 0.9;
+  }
+  
+  .image-title-wrap {
+    padding: 0 15px 15px 15px;
+    color: #222;
+  }
+  
+  .drag-text {
+    text-align: center;
+  }
+  
+  .drag-text .text-mask {
+        padding: 40px 0;
+  }
+
+  .drag-text h3 {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: $color-text-body;
+    padding-bottom: 10px;
+  }
+  .drag-text h4 {
+    font-weight: 500;
+    color: $color-text-body;
+    overflow: hidden;
+  }
+  
+  .file-upload-image {
+    max-height: 200px;
+    max-width: 200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .remove-image {
+    width: 200px;
+    margin: 0;
+    color: #fff;
+    background: #cd4535;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #b02818;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .remove-image:hover {
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+  
+  .remove-image:active {
+    border: 0;
+    transition: all .2s ease;
+  }
+.child-recruit .jd .decription-job .frm-recruit form > textarea{
+    font-family: "Inter", sans-serif;
+    background-color: #fff;
+    margin: 15px 0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #BCBCBC;
+    resize: none;
+    font-size: $lt-font-size-text-l;
+}
+.child-recruit .jd .decription-job ol ul li {
+    font-family: $font-text;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
+    text-align: justify;
+}
+.child-recruit .jd .decription-job ol p {
+    font-family: $font-text;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
+    text-align: justify;
+    padding-bottom: $space-margin-top-bottom-l;
+}
+
+.child-recruit .jd .decription-job ul{
+    list-style-type: disc;
+    margin-bottom: $space-margin-top-bottom-l;
+}
+
+.child-recruit .jd .decription-job ol > li {
+    margin-bottom: $space-margin-top-bottom-l;
+    font-weight: 600;
+}
+.child-recruit .jd .decription-job ul > li {
+    margin-bottom: $space-margin-top-bottom-m;
+}
+.child-recruit .jd .decription-job li + li {
+    margin-bottom: $space-margin-top-bottom-n;
+}
+.child-recruit .jd .decription-job .frm-recruit form > button {
+   background: $background-color-button;
+    margin: $space-margin-top-bottom-sl 0;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.child-recruit .jd .decription-job .frm-recruit form button:hover p {
+    color: $second-primary;
+    transition: 1s;
+}
+.child-recruit .jd .decription-job .frm-recruit form button p {
+    padding: $padding-button;
+    color: #fff;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
+    font-weight: 600;
+}
+.child-recruit .sub-info {
+    width: 35%;
+    // background-color: blue;
+}
+.child-recruit .sub-info .apply {
+    width: 100%;
+    height: auto;
+    display: flex;
+    // align-items: center;
+    // justify-content: center;
+}
+.child-recruit .sub-info .apply button {
+    background: $background-color-button;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.child-recruit .sub-info .apply button:hover p {
+    color: $second-primary;
+    transition: 1s;
+}
+.child-recruit .sub-info .apply button > p {
+    font-family: $font-text;
+    font-size: $lt-font-size-text-l;
+    padding: $padding-button;
+    color: #fff;
+}
+.child-recruit .sub-info .more-info {
+    width: 100%;
+    height: auto;
+    margin: $space-margin-top-bottom-sl 0;
+}
+.child-recruit .sub-info .more-info .item-info {
+    width: 100%;
+    border-top: 1px solid rgb(233, 228, 228);
+    font-family: $font-text;
+    color:  $second-primary;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 20px 0;
+}
+.child-recruit .sub-info .more-info .item-info span {
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
+    color: $color-text-body;
+    display: inline-block;
+    font-weight: 400;
+    padding-right: 20px ;
+    min-width: 45%;
+}
+.child-recruit .sub-info .more-info .item-info p{
+    width: 55%;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
+    color: $color-text-body;
+    // margin-left: 15px;
+    display: inline-block;
+    font-weight: 600;
+}
+.child-recruit .sub-info .more-jobs {
+    border-top: 1px solid rgb(210, 203, 203);
+}
+.child-recruit .sub-info .more-jobs h5 {
+    font-family: $font-text;
+    font-size: $lt-font-size-text-h5;
+    line-height: $lt-line-height-text-h5;
+    margin: $space-margin-top-bottom-l 0;
+}
+.child-recruit .sub-info .more-jobs .job-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.child-recruit .sub-info .more-jobs .job-container a {
+    text-decoration: none;
+    color: none;
+    margin-bottom: $space-margin-top-bottom-m;
+}
+.child-recruit .sub-info .more-jobs .job-container span {
+    font-style: $font-text;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
+    color: $primary;
+}
+.child-recruit .sub-info .more-jobs .job-container span:hover {
+    color: $second-primary;
+}
+.child-recruit .sub-info .more-jobs .job-container i {
+    font-size: 14px;
+    color: $primary;
+}
+
+#anchor-form-recruit {
+    display: block;
+  width: 100%;
+  height: 100px;
+  margin-top: -100px;
+}
