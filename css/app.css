@@ -1943,7 +1943,7 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: #151A3C;
+  color: #494949;
   padding-top: 15px;
   text-align: justify;
 }
@@ -2032,7 +2032,7 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: #151A3C;
+  color: #494949;
   text-align: justify;
 }
 
@@ -2103,7 +2103,7 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: #151A3C;
+  color: #494949;
   text-align: justify;
 }
 
@@ -2252,7 +2252,7 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: #151A3C;
+  color: #494949;
   text-align: justify;
 }
 
@@ -2323,7 +2323,7 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: #151A3C;
+  color: #494949;
   text-align: justify;
 }
 
@@ -3093,6 +3093,10 @@ html {
   background: url(../images/hiring4-square2.png) center center/cover;
 }
 
+.hiring4 #items3-hiring {
+  background: url(../images/hiring4-square3.png) center center/cover;
+}
+
 .service0 {
   width: 100%;
   height: 60vh;
@@ -3499,7 +3503,7 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 16px;
-  color: #000000;
+  color: #494949;
   font-weight: 400;
   line-height: 160%;
   margin-top: 15px;
@@ -3741,7 +3745,7 @@ html {
   text-align: justify;
   font-size: 16px;
   line-height: 25px;
-  color: #000000;
+  color: #151A3C;
 }
 
 .Service3-Items .flex-Service3-item .btn-moved button {
@@ -3828,7 +3832,7 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: #000000;
+  color: #494949;
   margin-left: 40px;
 }
 
@@ -4079,7 +4083,7 @@ html {
 
 .service1-contents .all-form button {
   min-width: 125px;
-  background: #FA7716;
+  background: linear-gradient(290.23deg, #F07E2A 19.71%, #FFAB6C 84.85%);
   border-radius: 6px;
   border: none;
   font-style: normal;
@@ -4405,7 +4409,7 @@ html {
   margin: 15px 0;
   border-radius: 6px;
   box-sizing: border-box;
-  font-size: 24px;
+  font-size: 16px;
   color: #fff;
   font-style: normal;
   font-weight: 600;
@@ -4743,11 +4747,11 @@ html {
 }
 
 .topics .topic-container .item-topic:nth-child(odd) .overlay-item .title-item {
-  color: black;
+  color: #151A3C;
 }
 
 .topics .topic-container .item-topic:nth-child(odd) .overlay-item .content-item {
-  color: black;
+  color: #494949;
 }
 
 .topics .topic-container .item-topic:nth-child(2) .overlay-item {
@@ -4846,7 +4850,7 @@ html {
   font-weight: 500;
   font-size: 32px;
   line-height: 35.2px;
-  color: #202857;
+  color: #151A3C;
   margin-left: 30px;
   margin-bottom: 15px;
 }
@@ -4856,7 +4860,7 @@ html {
   font-weight: 500;
   font-size: 16px;
   line-height: 160%;
-  color: #484848;
+  color: #494949;
   text-align: justify;
   margin-top: 0;
 }
@@ -4888,6 +4892,7 @@ html {
   font-size: 16px;
   line-height: 160%;
   margin-bottom: 10px;
+  color: #151A3C;
 }
 
 .component-post .main-post .main-post-container .content h4 {
@@ -4896,6 +4901,7 @@ html {
   line-height: 160%;
   font-style: italic;
   margin-bottom: 10px;
+  color: #151A3C;
 }
 
 .component-post .main-post .main-post-container .content .decription {
@@ -4915,6 +4921,7 @@ html {
   line-height: 160%;
   text-align: justify;
   margin-bottom: 10px;
+  color: #494949;
 }
 
 .component-post .main-post .main-post-container .content ul + .component-post .main-post .main-post-container .content ul {
@@ -4958,6 +4965,7 @@ html {
   font-size: 16px;
   line-height: 160%;
   margin-left: 10px;
+  color: #151A3C;
 }
 
 .component-post .main-post .main-post-container .interactive .item-contact {
@@ -4970,6 +4978,7 @@ html {
 
 .component-post .main-post .main-post-container .interactive .item-contact p {
   font-size: 16px;
+  color: #151A3C;
 }
 
 .component-post .main-post .main-post-container .interactive .item-contact span {
@@ -4988,6 +4997,7 @@ html {
 .component-post .main-post .main-post-container .interactive .item-tag p {
   font-size: 16px;
   line-height: 160%;
+  color: #151A3C;
 }
 
 .component-post .main-post .main-post-container .block-owner {
@@ -5031,6 +5041,7 @@ html {
   font-size: 32px;
   line-height: 35.2px;
   font-weight: 700;
+  color: #151A3C;
 }
 
 .component-post .main-post .main-post-container .block-owner .right-block p {
@@ -5040,6 +5051,7 @@ html {
   margin: 10px 0;
   margin-right: 20px;
   text-align: justify;
+  color: #494949;
 }
 
 .component-post .main-post .main-post-container .img-post {
@@ -5122,6 +5134,7 @@ html {
   font-weight: 500;
   font-size: 32px;
   line-height: 35.2px;
+  color: #151A3C;
 }
 
 .component-post .highlight-post .search-bar {
@@ -5230,7 +5243,7 @@ html {
   font-weight: 500;
   font-size: 24px;
   line-height: 28.4px;
-  color: #202857;
+  color: #151A3C;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   line-clamp: 3;
@@ -5607,11 +5620,11 @@ html {
 }
 
 .posts .item-post:nth-child(odd) .overlay-item .title-item {
-  color: black;
+  color: #151A3C;
 }
 
 .posts .item-post:nth-child(odd) .overlay-item .content-item {
-  color: black;
+  color: #494949;
 }
 
 .posts .item-post:nth-child(even) .overlay-item .navigation {
@@ -5696,7 +5709,7 @@ html {
 }
 
 .rate-card .rate-card-container .card-item .content-rate-card span {
-  color: #0769e0;
+  color: #494949;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 160%;
@@ -5735,20 +5748,33 @@ html {
 
 .ui-widget-header .ui-icon {
   background-image: url("../images/close-icon.png") !important;
-  background-size: 20px;
+  background-size: 35px;
+}
+
+.ui-widget-header .ui-icon:hover {
+  background-image: url("../images/close-icon-hover.png") !important;
+  transition: 1s !important;
 }
 
 .ui-icon {
-  width: 25px !important;
-  height: 25px !important;
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.ui-dialog .ui-dialog-titlebar-close span {
+  margin: 0;
 }
 
 .ui-dialog .ui-dialog-titlebar-close {
   display: flex !important;
-  width: 75px !important;
-  height: 25px !important;
+  width: 35px !important;
+  height: 35px !important;
   justify-content: center;
   align-items: center;
+  padding: 0 !important;
+  right: 3%;
+  background: #fff;
+  top: 35%;
 }
 
 .ui-icon-closethick {
@@ -5762,6 +5788,7 @@ html {
 
 .ui-draggable .ui-dialog-titlebar {
   cursor: auto !important;
+  height: 13%;
 }
 
 .ui-dialog .ui-dialog-buttonpane {
@@ -5772,12 +5799,17 @@ html {
 
 .ui-dialog .ui-dialog-buttonpane button {
   margin: 0 !important;
-  background: #FA7716;
+  background: linear-gradient(290.23deg, #F07E2A 19.71%, #FFAB6C 84.85%);
   border: none !important;
+}
+
+.ui-dialog .ui-dialog-buttonpane button:hover span {
+  color: #151A3C;
 }
 
 .ui-button-text-only .ui-button-text {
   color: #fff;
+  font-size: 16px;
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
@@ -5810,6 +5842,95 @@ html {
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
   color: #fff;
+}
+
+.ui-state-hover {
+  margin: 0;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hide {
+  display: none;
+}
+
+.modal__inner {
+  width: 70%;
+  height: 70%;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  animation: showModal linear 0.2s;
+  position: relative;
+  margin: auto;
+  margin-top: 100px;
+  z-index: 99999;
+}
+
+@keyframes showModal {
+  from {
+    top: -200px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+.modal__header {
+  background-color: var(--pink-color);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 17px;
+}
+
+.modal__body {
+  padding: 15px;
+}
+
+.modal__body h2 {
+  color: var(--pink-color);
+  margin-bottom: 10px;
+}
+
+.modal__footer {
+  padding: 15px;
+  text-align: right;
+}
+
+.modal__footer button {
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  background-color: var(--pink-color);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+i {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.rc-cancel {
+  color: black;
+}
+
+.dialog-hide {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
 }
 
 .child-recruit {

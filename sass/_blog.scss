@@ -327,10 +327,10 @@ color: #ccc;
   transform: translateY(0);
 }
 .topics .topic-container .item-topic:nth-child(odd) .overlay-item .title-item{
-  color: black;
+  color: $color-text-header;
 }
 .topics .topic-container .item-topic:nth-child(odd) .overlay-item .content-item{
-  color: black;
+  color: $color-text-body;
 }
 .topics .topic-container .item-topic:nth-child(2) .overlay-item {
   background: rgba(255,27,21,0.8);

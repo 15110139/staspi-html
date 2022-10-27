@@ -72,7 +72,7 @@
     font-weight: 500;
     font-size: $lt-font-size-text-h3;
     line-height: $lt-line-height-text-h3;
-    color: #202857;
+    color: $color-text-header;
     margin-left: 30px;
     margin-bottom: $space-margin-top-bottom-l;
     // order: -1;
@@ -82,7 +82,7 @@
     font-weight: 500;
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
-    color: #484848;
+    color: $color-text-body;
     text-align: justify;
     margin-top: 0;
 }
@@ -111,6 +111,7 @@
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
     margin-bottom: $space-margin-top-bottom-m;
+    color: $color-text-header;
 }
 //fix h4
 .component-post .main-post .main-post-container .content h4 {
@@ -120,6 +121,7 @@
     line-height: $lt-line-height-text-l;
     font-style: italic;
     margin-bottom: $space-margin-top-bottom-m;
+    color: $color-text-header;
 }
 .component-post .main-post .main-post-container .content .decription {
     display: flex;
@@ -138,6 +140,7 @@
     line-height: $lt-line-height-text-l;
     text-align: justify;
     margin-bottom: $space-margin-top-bottom-m;
+    color: $color-text-body;
 }
 .component-post .main-post .main-post-container .content ul + .component-post .main-post .main-post-container .content ul {
     margin-bottom: 10px;
@@ -175,6 +178,7 @@
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
     margin-left: 10px;
+    color: $color-text-header;
 }
 .component-post .main-post .main-post-container .interactive .item-contact {
     display: flex;
@@ -185,6 +189,7 @@
 }
 .component-post .main-post .main-post-container .interactive .item-contact p {
     font-size: $lt-font-size-text-l;
+    color: $color-text-header;
 }
 .component-post .main-post .main-post-container .interactive .item-contact span {
     font-size: 34px;
@@ -200,6 +205,7 @@
 .component-post .main-post .main-post-container .interactive .item-tag p {
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
+    color: $color-text-header;
 }
 .component-post .main-post .main-post-container .block-owner {
     width: 90%;
@@ -241,6 +247,7 @@
     font-size: $lt-font-size-text-h3;
     line-height: $lt-line-height-text-h3;
     font-weight: 700;
+    color: $color-text-header;
 }
 .component-post .main-post .main-post-container .block-owner .right-block p {
     font-size: $lt-font-size-text-l;
@@ -249,6 +256,7 @@
     margin: $space-margin-top-bottom-m 0;
     margin-right: 20px;
     text-align: justify;
+    color:$color-text-body;
 }
 
 .component-post .main-post .main-post-container .img-post{
@@ -325,6 +333,7 @@
     font-weight: 500;
     font-size: $lt-font-size-text-h3;
     line-height: $lt-line-height-text-h3;
+    color: $color-text-header;
 }
 .component-post .highlight-post .search-bar {
     margin: 50px 0;
@@ -425,7 +434,7 @@
     font-weight: 500;
     font-size: $lt-font-size-text-h4;
     line-height: $lt-line-height-text-h4;
-    color:#202857;
+    color:$color-text-header;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     line-clamp: 3;
@@ -765,10 +774,10 @@ text-align: start;
     transition: 0.5s;
 }
 .posts .item-post:nth-child(odd) .overlay-item .title-item {
-    color: black;
+    color: $color-text-header;
 }
 .posts .item-post:nth-child(odd) .overlay-item .content-item {
-    color: black;
+    color: $color-text-body;
 }
 .posts .item-post:nth-child(even) .overlay-item .navigation {
     color: #fff;
