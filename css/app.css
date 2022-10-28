@@ -2034,6 +2034,7 @@ html {
   line-height: 160%;
   color: #494949;
   text-align: justify;
+  padding-top: 15px;
 }
 
 .aboutus_2 .first .content-left {
@@ -2105,6 +2106,7 @@ html {
   line-height: 160%;
   color: #494949;
   text-align: justify;
+  padding-top: 15px;
 }
 
 .aboutus_2 .third .content-right {
@@ -2254,6 +2256,7 @@ html {
   line-height: 160%;
   color: #494949;
   text-align: justify;
+  padding-top: 15px;
 }
 
 .aboutus_2 .first .content-left {
@@ -2325,6 +2328,7 @@ html {
   line-height: 160%;
   color: #494949;
   text-align: justify;
+  padding-top: 15px;
 }
 
 .aboutus_2 .third .content-right {
@@ -4916,7 +4920,7 @@ html {
 }
 
 .component-post .main-post .main-post-container .content ul > li {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 160%;
   text-align: justify;
@@ -5595,6 +5599,10 @@ html {
 
 .cur-page:hover, .dots:hover {
   width: 70px;
+}
+
+.active {
+  background-color: #FA7716 !important;
 }
 
 .disable {
@@ -8842,7 +8850,6 @@ i {
     font-size: 16px;
   }
   .contact-block .frm-contact .btn-submit-contact {
-    font-size: 24px;
     height: 50px;
     min-height: 0;
   }

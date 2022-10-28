@@ -26,6 +26,27 @@ const items = [
         content: "Social Media là nền tảng mang đến nhiều tiềm năng phát triển cho doanh nghiệp. Khi biết cách tối ưu hình ảnh chuẩn trên Social Media sẽ mang đến ấn tượng tốt và sự chuyên nghiệp đến với khách hàng. Và dưới đây là tổng hợp kích thước chuẩn hình ảnh trên các kênh Social Media, bạn nhớ lưu lại và áp dụng nhé!",
         link: "'/page/blogs/tong-hop-kich-thuoc-chuan-hinh-anh-tren-cac-kenh-social-media.html'",
     },
+    {
+        id: 4,
+        image: ".././images/blog/cover-image/meo-stnd-tiktok-anhbia.png",
+        title: "MẸO SÁNG TẠO NỘI DUNG TRÊN TIKTOK DỄ LÊN XU HƯỚNG",
+        content: "Tiktok là nền tảng mạng xã hội chia sẻ video ngắn phổ biến hiện nay, đây là sân chơi giải trí hấp dẫn đối với thế hệ Millennial và Gen Z. Nền tảng Tiktok cho thấy sự phát triển mạnh mẽ về độ phổ biến và số lượng người dùng gia tăng nhanh chóng vượt qua cả Facebook, Youtube, Instagram,.... Việc cho phép người dùng dễ dàng sáng tạo nội dung trên Tiktok đã góp phần lớn tạo nên sự thành công của nền tảng này. Vậy, giữa hàng ngàn video được đăng tải mỗi ngày thì làm sao để video của bạn nhận được nhiều sự quan tâm? Trong bài viết dưới đây, Staspi sẽ chia sẻ cho bạn mẹo sáng tạo nội dung trên Tiktok dễ lên xu hướng hiện nay nhé!",
+        link: "'/page/blogs/meo-sang-tao-noi-dung-tren-tik-tok-de-len-xu-huong.html'",
+    },
+    {
+        id: 5,
+        image: ".././images/blog/cover-image/tang-follow-tiktok-anhbia.png",
+        title: "10+ CÁCH TĂNG FOLLOW TIKTOK MIỄN PHÍ",
+        content: "Tiktok là một trong những ứng dụng phổ biến nhất hiện nay, mọi người từ bé đến lớn đều thích sử dụng nền tảng này. Với hơn 3 tỷ người sử dụng Tiktok, việc có nhiều người theo dõi có thể mở ra nhiều cơ hội cho nhà sáng tạo nội dung cũng như doanh nghiệp. Vậy làm thế nào để tăng follow Tiktok? Hãy cùng Staspi tham khảo ngay 10+ cách tăng follow Tiktok đơn giản, miễn phí sau đây nhé!",
+        link: "'/page/blogs/10-cach-tang-follow-tik-tok-mien-phi.html'",
+    },
+    {
+        id: 6,
+        image: ".././images/blog/cover-image/tao-video-tiktok-anhbia.png",
+        title: "HƯỚNG DẪN LÀM VIDEO TIKTOK BẰNG ĐIỆN THOẠI",
+        content: "Tiktok là sân chơi mới có số lượng người truy cập nhiều nhất hiện nay, người dùng có thể dễ dàng tham gia chia sẻ đa dạng nội dung thông qua dạng video ngắn. Nếu bạn chưa biết cách làm video tiktok, hãy tham khảo ngay bài chia sẻ dưới đây của Staspi.",
+        link: "'/page/blogs/huong-dan-lam-tik-tok-don-gian-bang-dien-thoai.html'",
+    },
 ];
 
 // let itemArr = [];
