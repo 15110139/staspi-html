@@ -261,7 +261,7 @@
 
 .component-post .main-post .main-post-container .img-post{
     width: 90%;
-    height: 450px;
+    height: 350px;
     display: flex;
     border-radius: 6px;
     align-self: center;
@@ -336,9 +336,9 @@
     color: $color-text-header;
 }
 .component-post .highlight-post .search-bar {
-    margin: 50px 0;
+    margin: 40px 0;
     width: 100%;
-    height:50px;
+    height: 40px;
 
 }
 .component-post .highlight-post .search-bar form {
@@ -391,7 +391,7 @@
   padding-left: calc((100% - 800px) / 2);
   padding-right: calc((100% - 800px) / 2);
   height: auto;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .component-post .highlight-post .highlight-post-container .item-post {
     box-sizing: border-box;
@@ -405,16 +405,21 @@
 .component-post .highlight-post .highlight-post-container .item-post .item-left {
     display: flex;
     flex: 40%;
-    height: 200px;
+    height: 125px;
     justify-content: space-around;
     align-items: center;
 }
 .component-post .highlight-post .highlight-post-container .item-post .item-left img {
     border-radius: 6px;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     background-color: $primary;
     // border-color: 0px #fff solid !important;
+}
+.component-post .highlight-post .highlight-post-container .item-post .item-left img:hover{
+    width: 100px;
+    height: 100px;
+    transition: ease-in-out 0.5s ;
 }
 .component-post .highlight-post .highlight-post-container .item-post .item-right {
     // border: 1px solid yellow;
@@ -426,14 +431,17 @@
     font-style: normal;
     margin-left: 5px;
 }
+.component-post .highlight-post .highlight-post-container .item-post .item-right a {
+    text-decoration: none;
+}
 //fix h3
 .component-post .highlight-post .highlight-post-container .item-post .item-right h2{
     margin-left: 10px;
     margin-bottom: 5px;
     margin-top: 5px;
     font-weight: 500;
-    font-size: $lt-font-size-text-h4;
-    line-height: $lt-line-height-text-h4;
+    font-size: $lt-font-size-text-h5;
+    line-height: calc($lt-line-height-text-h5 + 4px);
     color:$color-text-header;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -442,7 +450,9 @@
     text-overflow: ellipsis;
     text-align: start;
     overflow: hidden;
-
+}
+.component-post .highlight-post .highlight-post-container .item-post .item-right h2:hover {
+    color: $primary;
 }
 .component-post .highlight-post .highlight-post-container .item-post .item-right p {
     display: none;
@@ -752,7 +762,7 @@ text-align: start;
 .cur-page:hover, .dots:hover {
   width: 70px;
 }
-.active {
+.page-number .active {
   background-color: $primary !important;
 }
 .disable {

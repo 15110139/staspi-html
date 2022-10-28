@@ -96,7 +96,7 @@ gap: 15px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background: $white-contact;
-    cursor: pointer;
+    // cursor: pointer;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -119,6 +119,9 @@ gap: 15px;
     line-height: $lt-line-height-text-h5;
     color: $font-home5;
 }
+.flexbox-home6 .bottom-item a {
+    text-decoration: none;
+}
 
 .flexbox-home6 .bottom-item span {
     font-family: $font-text;
@@ -127,6 +130,11 @@ gap: 15px;
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-h5;
     color: $font-auto;
+    cursor: pointer;
+}
+
+.flexbox-home6 .bottom-item span:hover {
+    color: $second-primary !important;
 }
 
 .home6  #item1 {
