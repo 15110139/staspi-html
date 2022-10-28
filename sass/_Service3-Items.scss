@@ -57,11 +57,16 @@
     font-family: $font-text;
     font-style: normal;
     font-weight: 400;
-    text-align: justify;
+    text-align: left;
     font-size: $lt-font-size-text-l;
     line-height: 25px;
     color: $color-text-header;
 }
+
+.Service3-Items .flex-Service3-item p > b{
+    font-weight: 600;
+}
+
 .Service3-Items .flex-Service3-item .btn-moved button {
     width: 150px;
     height: 40px;

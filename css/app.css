@@ -1008,7 +1008,6 @@ html {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   background: #FFFFFF;
-  cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1034,6 +1033,10 @@ html {
   color: #151A3C;
 }
 
+.flexbox-home6 .bottom-item a {
+  text-decoration: none;
+}
+
 .flexbox-home6 .bottom-item span {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -1041,6 +1044,11 @@ html {
   font-size: 16px;
   line-height: 22.2px;
   color: #3D4888;
+  cursor: pointer;
+}
+
+.flexbox-home6 .bottom-item span:hover {
+  color: #151A3C !important;
 }
 
 .home6 #item1 {
@@ -1340,7 +1348,7 @@ html {
   transition: all 1s ease-in-out;
   display: flex;
   align-items: center;
-  animation: slider 10s infinite;
+  animation: slider 30s infinite;
   left: 0;
 }
 
@@ -1861,7 +1869,13 @@ html {
 }
 
 .footer .footer-item .block-contact span {
-  margin: 0 10px;
+  margin: 0 20px;
+  margin-left: 0;
+}
+
+.footer .footer-item .block-contact span img {
+  width: 30px;
+  height: 30px;
 }
 
 .footer .footer-item p {
@@ -3746,10 +3760,14 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  text-align: justify;
+  text-align: left;
   font-size: 16px;
   line-height: 25px;
   color: #151A3C;
+}
+
+.Service3-Items .flex-Service3-item p > b {
+  font-weight: 600;
 }
 
 .Service3-Items .flex-Service3-item .btn-moved button {
@@ -5060,7 +5078,7 @@ html {
 
 .component-post .main-post .main-post-container .img-post {
   width: 90%;
-  height: 450px;
+  height: 350px;
   display: flex;
   border-radius: 6px;
   align-self: center;
@@ -5142,9 +5160,9 @@ html {
 }
 
 .component-post .highlight-post .search-bar {
-  margin: 50px 0;
+  margin: 40px 0;
   width: 100%;
-  height: 50px;
+  height: 40px;
 }
 
 .component-post .highlight-post .search-bar form {
@@ -5202,7 +5220,7 @@ html {
   padding-left: calc((100% - 800px) / 2);
   padding-right: calc((100% - 800px) / 2);
   height: auto;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .component-post .highlight-post .highlight-post-container .item-post {
@@ -5218,16 +5236,22 @@ html {
 .component-post .highlight-post .highlight-post-container .item-post .item-left {
   display: flex;
   flex: 40%;
-  height: 200px;
+  height: 125px;
   justify-content: space-around;
   align-items: center;
 }
 
 .component-post .highlight-post .highlight-post-container .item-post .item-left img {
   border-radius: 6px;
+  width: 75px;
+  height: 75px;
+  background-color: #FA7716;
+}
+
+.component-post .highlight-post .highlight-post-container .item-post .item-left img:hover {
   width: 100px;
   height: 100px;
-  background-color: #FA7716;
+  transition: ease-in-out 0.5s;
 }
 
 .component-post .highlight-post .highlight-post-container .item-post .item-right {
@@ -5240,13 +5264,17 @@ html {
   margin-left: 5px;
 }
 
+.component-post .highlight-post .highlight-post-container .item-post .item-right a {
+  text-decoration: none;
+}
+
 .component-post .highlight-post .highlight-post-container .item-post .item-right h2 {
   margin-left: 10px;
   margin-bottom: 5px;
   margin-top: 5px;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 28.4px;
+  font-size: 20px;
+  line-height: 26.2px;
   color: #151A3C;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -5255,6 +5283,10 @@ html {
   text-overflow: ellipsis;
   text-align: start;
   overflow: hidden;
+}
+
+.component-post .highlight-post .highlight-post-container .item-post .item-right h2:hover {
+  color: #FA7716;
 }
 
 .component-post .highlight-post .highlight-post-container .item-post .item-right p {
@@ -5601,7 +5633,7 @@ html {
   width: 70px;
 }
 
-.active {
+.page-number .active {
   background-color: #FA7716 !important;
 }
 
@@ -5723,6 +5755,7 @@ html {
   line-height: 160%;
   text-align: center;
   height: 52px;
+  font-weight: 700;
 }
 
 .rate-card .rate-card-container a:hover {
