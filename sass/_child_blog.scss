@@ -135,7 +135,7 @@
 }
 
 .component-post .main-post .main-post-container .content ul > li{
-    font-weight: 400;
+    font-weight: 500;
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
     text-align: justify;
@@ -753,7 +753,7 @@ text-align: start;
   width: 70px;
 }
 .active {
-//   background-color: $primary !important;
+  background-color: $primary !important;
 }
 .disable {
   opacity: 0.5;
