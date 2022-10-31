@@ -496,6 +496,11 @@ html {
   min-height: 430px;
   padding-bottom: 10px;
   position: relative;
+  border-radius: 6px;
+}
+
+.home2 .flexbox-service .flexbox-item:hover {
+  border: 1px solid #FA7716;
 }
 
 .home2 .flexbox-service .flexbox-item .mobile-flex-button {
@@ -2123,6 +2128,14 @@ html {
   padding-top: 15px;
 }
 
+.aboutus_2 .content-right a {
+  text-decoration: none;
+}
+
+.aboutus_2 .content-right a:hover p {
+  color: #FA7716;
+}
+
 .aboutus_2 .third .content-right {
   flex: 50%;
 }
@@ -2343,6 +2356,14 @@ html {
   color: #494949;
   text-align: justify;
   padding-top: 15px;
+}
+
+.aboutus_2 .content-right a {
+  text-decoration: none;
+}
+
+.aboutus_2 .content-right a:hover p {
+  color: #FA7716;
 }
 
 .aboutus_2 .third .content-right {
@@ -3967,6 +3988,38 @@ html {
   line-height: 160%;
   height: 150px;
   border: none;
+}
+
+.Service5-Items .all-Service5-Items select {
+  padding: 10px;
+  width: 100%;
+  background-color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  border: none;
+  border-radius: 6px;
+  color: #7f8295;
+}
+
+.Service5-Items .all-Service5-Items select:after {
+  padding-right: 10px;
+}
+
+.all-Service5-Items option {
+  padding: 10px;
+  width: 100%;
+  background-color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  border: none;
+  border-radius: 6px;
+  color: #7f8295;
 }
 
 .Service5-Items .all-form button {
@@ -7201,6 +7254,9 @@ i {
   .home5 .square-item > p {
     font-size: 14px;
     line-height: 130%;
+  }
+  .Service5-Items .all-Service5-Items select {
+    width: 95%;
   }
   .home6 .all-home6 .all-flexbox-home6 {
     gap: 10px;

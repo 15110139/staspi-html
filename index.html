@@ -38,7 +38,7 @@
 </head>
 
 <body>
-  <div class="wrapper">
+  <div class="wrapper" id="fb-root">
     <!-- NAVBAR -->
     <section class="navbar">
       <div id="header" class="nav">
@@ -943,6 +943,37 @@
         </div>
       </div>
     </section>
+    <!-- Messenger Plugin chat Code -->
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <div class="elfsight-app-23aad823-afdf-43c6-b5cb-03c4a791f885"></div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "106609558703553");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v15.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
   </div>
 </body>
 <script src="./JavaScript/index.js"></script>
@@ -950,6 +981,7 @@
 <script src="./JavaScript/slider-home6.js"></script>
 <script src="./JavaScript/dropdown_footer.js"></script>
 <script src="./service/testCallApi.js"></script>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <script>getUser()</script>
 <!-- <script>
     fetch(`https://reqres.in/api/users/2`).then(
