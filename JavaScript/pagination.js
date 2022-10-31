@@ -93,7 +93,7 @@ function renderTopic(topic) {
                 ">";
             html += "</a>"
             // html += "<div class = 'show-more'>";
-            // html += "<h5>xem thêm</h5>";
+            // html += "<h5>Xem thêm</h5>";
             // html += "</div>";
             html +=
                 "<div " +

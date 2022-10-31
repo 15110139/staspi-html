@@ -4739,7 +4739,7 @@ html {
 }
 
 .topics .pagination .page-number .cur-page:hover, .dots:hover {
-  width: 70px;
+  width: 55px;
 }
 
 .topics .pagination .page-number .active {
