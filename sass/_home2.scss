@@ -92,6 +92,10 @@
     min-height: 430px;
     padding-bottom: 10px;
     position: relative;
+    border-radius: 6px;
+}
+.home2 .flexbox-service .flexbox-item:hover {
+    border: 1px solid $primary;
 }
 .home2 .flexbox-service .flexbox-item .mobile-flex-button {
     display: none;

@@ -119,7 +119,12 @@ justify-content: center;
     // margin-top: $space-margin-top-bottom-nr;
     padding-top: $space-margin-top-bottom-l;
 }
-
+.aboutus_2 .content-right a {
+    text-decoration: none;
+}
+.aboutus_2 .content-right a:hover p {
+    color: $primary;
+}
 .aboutus_2 .third .content-right {
     flex: 50%;
 }
