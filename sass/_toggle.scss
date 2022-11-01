@@ -1,0 +1,26 @@
+.toggle_right {
+    width: auto;
+    height: auto;
+    position: fixed;
+    right: 24px;
+    bottom: 77px;
+    // background-color: red;
+    z-index: 9999;
+}
+
+.toggle_right .toggle_gfacebook{
+    margin-bottom: 10px;
+}
+.toggle_right .toggle_gfacebook img {
+    width:44px;
+    height:44px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.toggle_right a {
+    text-decoration: none;
+}
+.toggle_right img {
+    width: 44px;
+    height: 44px;
+}
