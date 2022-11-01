@@ -294,7 +294,10 @@
     line-height: $lt-line-height-text-l;
     color: $primary;
 }
-.child-recruit .sub-info .more-jobs .job-container span:hover {
+.child-recruit .sub-info .more-jobs .job-container a:hover i {
+    color: $second-primary;
+}
+.child-recruit .sub-info .more-jobs .job-container a:hover span {
     color: $second-primary;
 }
 .child-recruit .sub-info .more-jobs .job-container i {

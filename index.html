@@ -943,45 +943,33 @@
         </div>
       </div>
     </section>
-    <!-- Messenger Plugin chat Code -->
+    
+    <div class="toggle_right">
 
+      <div class="toggle_gfacebook">
+        <a href="https://www.facebook.com/StartUp.Spirit" target="_blank">
+          <img src="./images/toggle-gfacebook.png">
+        </a>
+      </div>
+
+      <div class="toggle_whatapps">
+        <a href="https://wa.me/84816411445" target="_blank">
+          <img src="./images/toggle-whatapps.png">
+        </a>
+      </div>
+    </div>
+    <!-- Messenger Plugin chat Code -->
     <!-- Your Plugin chat code -->
     <div id="fb-customer-chat" class="fb-customerchat">
     </div>
-
-    <div class="elfsight-app-23aad823-afdf-43c6-b5cb-03c4a791f885"></div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "106609558703553");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v15.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
   </div>
 </body>
 <script src="./JavaScript/index.js"></script>
 <script src="./JavaScript/menu.js"></script>
 <script src="./JavaScript/slider-home6.js"></script>
 <script src="./JavaScript/dropdown_footer.js"></script>
+<script src="./JavaScript/facebook_toggle.js"></script>
 <script src="./service/testCallApi.js"></script>
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <script>getUser()</script>
 <!-- <script>
     fetch(`https://reqres.in/api/users/2`).then(
