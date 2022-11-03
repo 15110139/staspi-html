@@ -4927,6 +4927,19 @@ html {
   margin: 0;
 }
 
+.component-post .main-post .main-post-container .share-facebook:hover {
+  color: #4267B2;
+}
+
+.component-post .main-post .main-post-container .share-mail {
+  color: black;
+  margin: 0;
+}
+
+.component-post .main-post .main-post-container .share-mail:hover {
+  color: #4267B2;
+}
+
 .component-post .main-post .main-post-container h3 {
   font-weight: 500;
   font-size: 32px;
@@ -5027,7 +5040,6 @@ html {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
-  display: none;
 }
 
 .component-post .main-post .main-post-container .interactive .item-views {
@@ -5037,6 +5049,7 @@ html {
   margin-left: 10%;
   justify-content: space-around;
   align-items: center;
+  display: none;
 }
 
 .component-post .main-post .main-post-container .interactive .item-views span {
@@ -5056,6 +5069,7 @@ html {
   font-style: normal;
   justify-content: space-around;
   align-items: center;
+  margin-left: 10%;
 }
 
 .component-post .main-post .main-post-container .interactive .item-contact p {
@@ -5074,6 +5088,7 @@ html {
   font-style: normal;
   justify-content: space-around;
   align-items: center;
+  display: none;
 }
 
 .component-post .main-post .main-post-container .interactive .item-tag p {
@@ -6230,6 +6245,7 @@ i {
 .child-recruit .jd .decription-job ol > li {
   margin-bottom: 15px;
   font-weight: 600;
+  font-size: 16px;
 }
 
 .child-recruit .jd .decription-job ul > li {

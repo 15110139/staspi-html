@@ -72,6 +72,16 @@
     color: black;
     margin: 0;
 }
+.component-post .main-post .main-post-container .share-facebook:hover {
+    color: #4267B2;
+}
+.component-post .main-post .main-post-container .share-mail {
+    color: black;
+    margin: 0;
+}
+.component-post .main-post .main-post-container .share-mail:hover {
+    color: #4267B2;
+}
 .component-post .main-post .main-post-container h3{
     font-weight: 500;
     font-size: $lt-font-size-text-h3;
@@ -166,7 +176,7 @@
     display:flex;
     justify-content: space-between;
     margin-top: 50px;
-    display: none;
+    // display: none;
 }
 .component-post .main-post .main-post-container .interactive .item-views{
     display : flex;
@@ -175,6 +185,7 @@
     margin-left: 10%;
     justify-content: space-around;
     align-items: center;
+    display: none;
 }
 .component-post .main-post .main-post-container .interactive .item-views span {
     font-size: 38px;
@@ -191,6 +202,7 @@
     font-style: normal;
     justify-content: space-around;
     align-items: center;
+    margin-left: 10%;
 }
 .component-post .main-post .main-post-container .interactive .item-contact p {
     font-size: $lt-font-size-text-l;
@@ -206,6 +218,7 @@
     font-style: normal;
     justify-content: space-around;
     align-items: center;
+    display: none;
 }
 .component-post .main-post .main-post-container .interactive .item-tag p {
     font-size: $lt-font-size-text-l;
