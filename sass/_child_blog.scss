@@ -405,7 +405,7 @@
 .component-post .highlight-post .highlight-post-container .item-post .item-left {
     display: flex;
     flex: 40%;
-    height: 125px;
+    height: 120px;
     justify-content: space-around;
     align-items: center;
 }
@@ -615,6 +615,7 @@
 .posts .post-container .item-post a{
     text-decoration: none;
     height: 100%;
+    cursor: pointer;
 }
 .posts .post-container .item-post .title-mobile {
     display: none;
@@ -760,7 +761,7 @@ text-align: start;
   color: #D04E27;
 }
 .cur-page:hover, .dots:hover {
-  width: 70px;
+  width: 60px;
 }
 .page-number .active {
   background-color: $primary !important;
@@ -782,6 +783,7 @@ text-align: start;
 .posts .item-post .overlay-item{
     transform: translateY(70%);
     transition: 0.5s;
+    cursor: pointer;
 }
 .posts .item-post:nth-child(odd) .overlay-item .title-item {
     color: $color-text-header;
