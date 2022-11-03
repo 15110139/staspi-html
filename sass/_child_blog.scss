@@ -68,6 +68,10 @@
     text-decoration: none;
     // order: -1;
 }
+.component-post .main-post .main-post-container .share-facebook {
+    color: black;
+    margin: 0;
+}
 .component-post .main-post .main-post-container h3{
     font-weight: 500;
     font-size: $lt-font-size-text-h3;
@@ -162,6 +166,7 @@
     display:flex;
     justify-content: space-between;
     margin-top: 50px;
+    display: none;
 }
 .component-post .main-post .main-post-container .interactive .item-views{
     display : flex;
@@ -464,6 +469,7 @@
 .component-post .highlight-post .categortires-container {
     font-family: $font-text;;
     font-style: normal;
+    display: none;
 }
 //fix h2
 .component-post .highlight-post .categortires-container h2 {
