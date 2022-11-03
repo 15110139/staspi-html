@@ -95,6 +95,7 @@ function renderTopic(topic) {
             // html += "<div class = 'show-more'>";
             // html += "<h5>Xem thêm</h5>";
             // html += "</div>";
+            html += "<a href =" + item.link + ">"
             html +=
                 "<div " +
                 // "onclick =" +
@@ -112,6 +113,7 @@ function renderTopic(topic) {
             html += 'Xem chi tiết'
             html += '</a>'
             html += "</div>";
+            html += "</a>"
             html += "<a href =" + item.link  + ">";
             html += '<div class = "title-mobile" >' + item.title + "</div>";
             html += "</a>"
