@@ -165,13 +165,13 @@ html {
   justify-content: space-between;
   padding-left: calc((100% - 1100px) / 2);
   padding-right: calc((100% - 1100px) / 2);
-  height: 100px;
+  height: 70px;
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   top: 0;
   right: 0;
   left: 0;
-  line-height: 100px;
+  line-height: 70px;
   z-index: 99999;
 }
 
@@ -1921,7 +1921,7 @@ html {
   height: auto;
   background-color: #FFFFFF;
   position: relative;
-  margin-top: 100px;
+  margin-top: 70px;
   padding: 35px 0;
 }
 
@@ -2196,7 +2196,7 @@ html {
 
 .aboutus_2 .all-aboutus_2 .five {
   height: 150px;
-  margin-top: 100px;
+  margin-top: 70px;
   background: #FFFFFF;
   border: 2px solid #DEDEDE;
 }
@@ -2426,7 +2426,7 @@ html {
 
 .aboutus_2 .all-aboutus_2 .five {
   height: 150px;
-  margin-top: 100px;
+  margin-top: 70px;
   background: #FFFFFF;
   border: 2px solid #DEDEDE;
 }
@@ -2704,7 +2704,7 @@ html {
   width: 100%;
   height: auto;
   position: relative;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .hiring1 .all-hiring1 {
@@ -3140,7 +3140,7 @@ html {
 .service0 {
   width: 100%;
   height: 60vh;
-  margin-top: 100px;
+  margin-top: 70px;
   position: relative;
 }
 
@@ -3427,7 +3427,7 @@ html {
   background: url(../images/background-service01.jpg) center center/cover;
   align-items: center;
   position: relative;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .service01 .all-service01 {
@@ -3504,7 +3504,7 @@ html {
   width: 100%;
   position: relative;
   height: auto;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .Service1-Items .all-Service1-Items {
@@ -4049,7 +4049,7 @@ html {
   width: 100%;
   height: 60vh;
   position: relative;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .service1-items-none .square-service1-items-none {
@@ -4185,7 +4185,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .banner_contact h1 {
@@ -4520,9 +4520,9 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 70px;
   flex-direction: column;
-  padding: 60px 0;
+  padding: 50px 0;
 }
 
 .banner_blog h1 {
@@ -4551,7 +4551,7 @@ html {
   height: 40px;
   margin: 15px 0;
   box-shadow: -8px 5px 7px rgba(50, 50, 50, 0.3);
-  margin-top: 50px;
+  margin-top: 20px;
   animation: slideLeft 1.5s ease;
   background-color: #ede8e8;
 }
@@ -5750,7 +5750,7 @@ html {
 }
 
 .rate-card {
-  margin-top: 100px;
+  margin-top: 70px;
   width: 100%;
   height: auto;
   padding: 35px 0;
@@ -5989,7 +5989,7 @@ html {
   animation: showModal linear 0.2s;
   position: relative;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 70px;
   z-index: 99999;
 }
 
@@ -6425,10 +6425,10 @@ i {
 
 @media (min-width: 1750px) {
   .navbar .nav {
-    height: 150px;
+    height: 100px;
     padding-left: calc((100% - 1700px) / 2);
     padding-right: calc((100% - 1700px) / 2);
-    line-height: 150px;
+    line-height: 100px;
   }
   .rate-card {
     padding-left: calc((100% - 1700px) / 2);
@@ -6669,7 +6669,7 @@ i {
   .aboutus .all_aboutus {
     padding-left: calc((100% - 1700px) / 2);
     padding-right: calc((100% - 1700px) / 2);
-    margin-top: 150px;
+    margin-top: 100px;
   }
   .aboutus .content-aboutus h4 {
     font-size: 30px;
@@ -6820,7 +6820,7 @@ i {
     width: 300px;
   }
   .service0 {
-    margin-top: 150px;
+    margin-top: 100px;
     height: 85vh;
   }
   .service0 .right-service {
@@ -7076,7 +7076,7 @@ i {
     transform: translateY(-60px);
   }
   .banner_blog {
-    margin-top: 150px;
+    margin-top: 100px;
   }
   .main-contact {
     padding-left: calc((100% - 1700px) / 2);
@@ -8330,7 +8330,7 @@ i {
     padding-right: calc((100% - 350px) / 2);
   }
   .aboutus {
-    margin-top: 100px;
+    margin-top: 70px;
   }
   .aboutus .all_aboutus {
     padding-left: calc((100% - 350px) / 2);
@@ -8442,7 +8442,7 @@ i {
     line-height: 140%;
   }
   .hiring1 {
-    margin-top: 100px;
+    margin-top: 70px;
   }
   .hiring1 .all-hiring1 {
     flex-direction: column;
@@ -8662,7 +8662,7 @@ i {
     line-height: 156%;
   }
   .section-service4 {
-    margin-top: 100px;
+    margin-top: 70px;
   }
   .Service4-Items {
     height: auto;
@@ -9009,7 +9009,7 @@ i {
     display: none;
   }
   .component-post {
-    margin-top: 100px;
+    margin-top: 70px;
   }
   .component-post .main-post {
     margin-right: 0;
