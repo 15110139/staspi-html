@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;1,400&display=swap"
       rel="stylesheet"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="stylesheet" href="../../css/app.css" />
     <link rel="stylesheet" href="../../themify-icons/themify-icons.css" />
     <title>Staspi</title>
@@ -331,61 +333,115 @@
               </p>
             </div>
             <div class="form-Service5">
-              <form action="#">
+              <form
+                class="form"
+                action="https://formsubmit.co/hoangle@staspi.com"
+                method="POST"
+              >
                 <div class="all-form">
                   <div class="input-Service5">
-                    <input type="text" placeholder="Họ và tên" />
-                    <input type="text" placeholder="Số điện thoại" />
+                    <input type="text" name="name" placeholder="Họ và tên" />
+                    <input
+                      type="text"
+                      name="phone"
+                      placeholder="Số điện thoại"
+                    />
                   </div>
+                  <input type="hidden" name="_captcha" value="false" />
+                  <input type="text" name="_honey" style="display: none" />
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="https://staspi.com/page/pages/Service1.html"
+                  />
+                  <input
+                    type="hidden"
+                    name="_subject"
+                    value="Thông tin đăng ký dịch vụ marketing từ khách hàng khách hàng"
+                  />
                   <!-- <input
                     class="input-second"
                     type="text"
                     placeholder="Vấn đề cần tư vấn"
                   /> -->
-                  <select required>
+                  <select required name="service">
                     <option value="" disabled selected hidden>
                       Dịch vụ đăng ký
                     </option>
                     <optgroup label="Tư vấn chung">
-                      <option value="1">Marketing tổng thể</option>
-                      <option value="2">Thiết kế website</option>
-                      <option value="3">Quản lý tài khoản Amazon</option>
-                      <option value="4">Đào tạo marketing</option>
+                      <option value="Marketing tổng thể">
+                        Marketing tổng thể
+                      </option>
+                      <option value="Thiết kế website">Thiết kế website</option>
+                      <option value="Quản lý tài khoản Amazon">
+                        Quản lý tài khoản Amazon
+                      </option>
+                      <option value="Đào tạo marketing">
+                        Đào tạo marketing
+                      </option>
                     </optgroup>
                     <optgroup label="Marketing tổng thể">
-                      <option value="5">Quản lý Trang Mạng Xã Hội</option>
-                      <option value="6">Phát Triển Kênh Tiktok</option>
-                      <option value="7">Chạy Quảng Cáo</option>
-                      <option value="8">Tối Ưu Hóa Công Cụ Tìm Kiếm</option>
-                      <option value="9">Thiết Kế Và Chỉnh Sửa</option>
-                      <option value="10">Phát Triển Kênh Youtube</option>
+                      <option value="Quản lý Trang Mạng Xã Hội">
+                        Quản lý Trang Mạng Xã Hội
+                      </option>
+                      <option value="Phát Triển Kênh Tiktok">
+                        Phát Triển Kênh Tiktok
+                      </option>
+                      <option value="Chạy Quảng Cáo">Chạy Quảng Cáo</option>
+                      <option value="Tối Ưu Hóa Công Cụ Tìm Kiếm">
+                        Tối Ưu Hóa Công Cụ Tìm Kiếm
+                      </option>
+                      <option value="Thiết Kế Và Chỉnh Sửa">
+                        Thiết Kế Và Chỉnh Sửa
+                      </option>
+                      <option value="Phát Triển Kênh Youtube">
+                        Phát Triển Kênh Youtube
+                      </option>
                     </optgroup>
                     <optgroup label="Thiết kế website">
-                      <option value="11">Thiết Kế Giao Diện</option>
-                      <option value="12">Lập Trình Website</option>
-                      <option value="13">Thiết Kế Landing Page</option>
-                      <option value="14">Tối Ưu Nội Dung</option>
-                      <option value="15">Thiết Kế Hình Ảnh</option>
-                      <option value="16">Thuê Hosting</option>
+                      <option value="Thiết Kế Giao Diện">
+                        Thiết Kế Giao Diện
+                      </option>
+                      <option value="Lập Trình Website">
+                        Lập Trình Website
+                      </option>
+                      <option value="Thiết Kế Landing Page">
+                        Thiết Kế Landing Page
+                      </option>
+                      <option value="Tối Ưu Nội Dung">Tối Ưu Nội Dung</option>
+                      <option value="Thiết Kế Hình Ảnh">
+                        Thiết Kế Hình Ảnh
+                      </option>
+                      <option value="Thuê Hosting">Thuê Hosting</option>
                     </optgroup>
 
                     <optgroup label="Quản lý tài khoản Amazon">
-                      <option value="17">Chuẩn hóa listing</option>
-                      <option value="18">Lên kế hoạch bán hàng</option>
-                      <option value="19">Thiết Kế Landing Page</option>
-                      <option value="20">Thiết kế gian hàng</option>
-                      <option value="21">Vận hành tài khoản</option>
-                      <option value="22">Tối ưu quảng cáo</option>
+                      <option value="Chuẩn hóa listing">
+                        Chuẩn hóa listing
+                      </option>
+                      <option value="Lên kế hoạch bán hàng">
+                        Lên kế hoạch bán hàng
+                      </option>
+                      <option value="Thiết Kế Landing Page">
+                        Thiết Kế Landing Page
+                      </option>
+                      <option value="Thiết kế gian hàng">
+                        Thiết kế gian hàng
+                      </option>
+                      <option value="Vận hành tài khoản">
+                        Vận hành tài khoản
+                      </option>
+                      <option value="Tối ưu quảng cáo">Tối ưu quảng cáo</option>
                     </optgroup>
                   </select>
                   <textarea
-                    name=""
                     id=""
                     cols="70"
                     rows="10"
                     placeholder="Lời nhắn ........"
+                    name="message"
                   ></textarea>
-                  <button>Đăng kí tư vấn</button>
+                  <button type="submit">Đăng kí tư vấn</button>
                 </div>
               </form>
             </div>
@@ -1043,4 +1099,12 @@
   <script src="../../JavaScript/menu.js"></script>
   <script src="../../JavaScript/dropdown_footer.js"></script>
   <script src="../../JavaScript/facebook_toggle.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".form").on("submit", function () {
+        swal("Cảm ơn bạn đã để lại thông tin cho staspi!", "", "success");
+        // alert("then kiu");
+      });
+    });
+  </script>
 </html>
