@@ -37,17 +37,6 @@ $(function () {
           },
           
           open: function () {
-            // var windowWidth = window.innerWidth *0.79;
-            // var windowHeight = window.innerHeight * 0.5;
-            // var embed = '<iframe ';
-            //     embed += 'src="';
-            //     embed += '../pdf/' + fileName + '#toolbar=0' + '" ';
-            //     // embed += 'type = "' + 'application/pdf" ';
-            //     embed += 'height ="'+ windowHeight + '"' + ' width ="' + windowWidth + '"' + '>'
-            //     embed += '</iframe>'
-            //     console.log(embed);
-
-            // $("#dialog").html(embed);
 
               var url = '../pdf/' +fileName;
               // console.log(url);

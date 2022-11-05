@@ -18,7 +18,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;1,400&display=swap"
     rel="stylesheet" />
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <!-- <link rel="stylesheet" href="sweetalert2.min.css"> -->
     <!-- barow -->
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -116,6 +118,7 @@
         <img src="./images/icon_banner.png" alt="" />
       </div>
     </section>
+    
     <!-- HOME 3 -->
     <section class="home3">
       <div class="home3-alls">
@@ -771,24 +774,29 @@
       <div class="all-home9">
         <div class="left-top"></div>
         <div class="right-top"></div>
-        <form action="#">
+        <form class="form" action="https://formsubmit.co/hoangle@staspi.com" method="POST">
             <div class="title-home9">
               <h1>Để lại email</h1>
             </div>
-          <div class="form-field">
-            <input type="text" class="form-input" placeholder="Tên" required />
+            <input type = "hidden" name = "_captcha" value = "false">
+            <input type = "text" name = "_honey" style = "display: none">
+            <input type="hidden" name="_next" value="https://staspi.com/index.html">
+            <input type = "hidden" name = "_subject" value = "Thông tin khách hàng"> 
+
+            <div class="form-field">
+            <input name="name" type="text" class="form-input" placeholder="Tên" required />
             <!-- <label for="name" class="form-label">Tên</label> -->
           </div>
           <div class="form-field">
-            <input type="text" class="form-input" placeholder="Email" />
+            <input name="email" type="email" class="form-input" placeholder="Email" />
             <!-- <label for="name" class="form-label">Tên</label> -->
           </div>
           <div class="form-field">
-            <input type="text" class="form-input" placeholder="Số điện thoại" />
+            <input name="phone" type="tel" class="form-input" placeholder="Số điện thoại" />
             <!-- <label for="name" class="form-label">Tên</label> -->
           </div>
           <div class="button-home9">
-            <a href="#"><button class="btn-home9">
+            <a href="#"><button class="btn-home9" type="submit">
                 <p>Gửi liên hệ</p>
               </button></a>
           </div>
@@ -985,5 +993,13 @@
       }
     )
 
+</script>
+<script>
+ $(document).ready(function(){
+        $('.form').on('submit', function(){
+          swal("Cảm ơn bạn đã để lại thông tin cho staspi!","","success");
+          // alert("then kiu");
+        });
+    });
 </script>
 </html>
