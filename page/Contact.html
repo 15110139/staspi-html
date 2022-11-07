@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;1,400&display=swap"
       rel="stylesheet"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="stylesheet" href="../css/app.css" />
     <link rel="stylesheet" href="../themify-icons/themify-icons.css" />
     <title>Staspi</title>
@@ -122,21 +124,50 @@
         </div>
         <div class="anchor-contact-frm" id="contact-frm"></div>
         <div class="contact-container">
-          <form class="frm-contact">
+          <form
+            class="frm-contact"
+            action="https://formsubmit.co/hoangle@staspi.com"
+            method="POST"
+          >
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="text" name="_honey" style="display: none" />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://staspi.com/page/Contact.html"
+            />
+            <input
+              type="hidden"
+              name="_subject"
+              value="Thông tin liên hệ của khách hàng từ trang liên hệ staspi"
+            />
+
             <h2>Liên hệ với chúng tôi</h2>
-            <input type="text" placeholder="Tên" required />
-            <input type="email" placeholder="Địa chỉ email" required />
-            <select required>
+            <input
+              name="customer-name"
+              type="text"
+              placeholder="Tên"
+              required
+            />
+            <input
+              name="email"
+              type="email"
+              placeholder="Địa chỉ email"
+              required
+            />
+            <select name="service" required>
               <option value="" disabled selected hidden>
                 Bạn quan tâm đến dịch vụ nào?
               </option>
-              <option value="1">Marketing tổng thể</option>
-              <option value="2">Thiết kế website</option>
-              <option value="3">Quản lý tài khoản Amazon</option>
-              <option value="2">Đào tạo marketing</option>
+              <option value="Marketing tổng thể">Marketing tổng thể</option>
+              <option value="Thiết kế website">Thiết kế website</option>
+              <option value="Quản lý tài khoản Amazon">
+                Quản lý tài khoản Amazon
+              </option>
+              <option value="Đào tạo marketing">Đào tạo marketing</option>
             </select>
             <textarea
-              name=""
+              name="message"
               id=""
               cols="30"
               rows="10"
@@ -342,4 +373,11 @@
   <script src="../JavaScript/menu.js"></script>
   <script src="../JavaScript/dropdown_footer.js"></script>
   <script src="../JavaScript/facebook_toggle.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".frm-contact").on("submit", function () {
+        swal("Cảm ơn bạn đã để lại thông tin cho staspi!", "", "success");
+      });
+    });
+  </script>
 </html>

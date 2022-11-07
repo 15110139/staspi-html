@@ -6115,6 +6115,12 @@ i {
   font-size: 16px;
 }
 
+.child-recruit .jd .decription-job .frm-recruit form > label {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 160%;
+}
+
 .child-recruit .jd .decription-job .frm-recruit form .file-upload {
   background-color: #ffffff;
   width: 100%;
@@ -6143,6 +6149,10 @@ i {
   margin-top: 20px;
   border: 2px dotted #BCBCBC;
   position: relative;
+}
+
+.image-upload-wrap:hover {
+  border-color: #FA7716;
 }
 
 .image-dropping,
