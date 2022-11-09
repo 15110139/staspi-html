@@ -89,7 +89,7 @@
               action="https://formsubmit.co/hoangle@staspi.com"
               method="POST"
             >
-              <input type="hidden" name="_captcha" value="false" />
+              <!-- <input type="hidden" name="_captcha" value="false" /> -->
               <input type="text" name="_honey" style="display: none" />
               <input
                 type="hidden"
@@ -101,6 +101,12 @@
                 name="_subject"
                 value="Số điện thoại tư vấn từ staspi"
               />
+              <input
+                type="hidden"
+                name="_autoresponse"
+                value="Thank you for sending us information"
+              />
+              <input type="hidden" name="_template" value="table" />
 
               <div class="all-form">
                 <input
@@ -153,7 +159,13 @@
           action="https://formsubmit.co/hoangle@staspi.com"
           method="POST"
         >
-          <input type="hidden" name="_captcha" value="false" />
+          <!-- <input type="hidden" name="_captcha" value="false" /> -->
+          <input
+            type="hidden"
+            name="_autoresponse"
+            value="Thank you for sending us information"
+          />
+          <input type="hidden" name="_template" value="table" />
           <input type="text" name="_honey" style="display: none" />
           <input
             type="hidden"
@@ -388,7 +400,14 @@
                       placeholder="Số điện thoại"
                     />
                   </div>
+
                   <input type="hidden" name="_captcha" value="false" />
+                  <!-- <input
+                    type="hidden"
+                    name="_autoresponse"
+                    value="Thank you for sending us information"
+                  /> -->
+                  <input type="hidden" name="_template" value="table" />
                   <input type="text" name="_honey" style="display: none" />
                   <input
                     type="hidden"
