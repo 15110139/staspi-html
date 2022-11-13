@@ -12,11 +12,12 @@ const getUser = async () => {
             }
         ).then(
             data => {
+                console.log("data",data);
                 var topic = document.getElementById("topic");
                 var items = data.data;
                 let totalPages = Math.ceil(items.length / perPage);
                 listItems.push(items);
-                var load = "<div class= 'load-wrap'>"
+                var load = "<div class= 'load-wrap'>";
                 load += "<div class = 'load'>";
                 load += "<div class= 'line'></div>";
                 load += "<div class= 'line'></div>";
@@ -45,11 +46,8 @@ var but = document.getElementById("sb");
 var searching = (e) => {
     e.preventDefault();
     keySearch = keyword.value.toLowerCase();
-    if(listItems.indexOf(keySearch) === -1){
-        console.log("no match");
-    }else{
-        console.log("oke");
-    }
+    console.log(keySearch);
+
 }
 but.addEventListener("click",(e)=>searching(e));
 var clearPageItem = () => {
@@ -82,7 +80,7 @@ function renderTopic(topic) {
         var image = item.attributes.thumbImage.data.attributes.formats;
         if (index >= start && index < end) {
             html += '<div class="item-topic">';
-            html += '<a class = onclick-image href = ' + "/page/blogs/" + item.attributes.slug + '>';
+            html += '<a class = onclick-image href = ' + "/page/blogs/child-blog.html?id=" + item.id + '>';
             html +=
                 "<img  src=" + host +
                 image.medium.url +
@@ -95,7 +93,7 @@ function renderTopic(topic) {
             // html += "<div class = 'show-more'>";
             // html += "<h5>Xem thêm</h5>";
             // html += "</div>";
-            html += "<a href =" +"/page/blogs/" + item.attributes.slug + ">"
+            html += "<a href =" +"/page/blogs/child-blog.html?id=" + item.id + ">"
             html +=
                 "<div " +
                 // "onclick =" +
@@ -108,13 +106,13 @@ function renderTopic(topic) {
                 ">";
             html += '<div class = "title-item">'+'<h4>' + item.attributes.title + '</h4>'+ "</div>";
             html += '<p class = "content-item">' + item.attributes.subTitle + "</p>";
-            html += '<a class = ' + "'navigation'" + 'href ='+ "/page/blogs/" + item.attributes.slug;
+            html += '<a class = ' + "'navigation'" + 'href ='+ "/page/blogs/child-blog.html?id=" + item.id;
             html += '>'
             html += 'Xem chi tiết'
             html += '</a>'
             html += "</div>";
             html += "</a>"
-            html += "<a href =" + item.attributes.slug  + ">";
+            html += "<a href =" +"/page/blogs/child-blog.html?id=" + item.id  + ">";
             html += '<div class = "title-mobile" >' + item.attributes.title + "</div>";
             html += "</a>"
             html += '<div class = "content-mobile">' + item.attributes.subTitle + "</div>";
