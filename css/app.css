@@ -4601,7 +4601,7 @@ html {
   position: relative;
   flex: 30%;
   display: flex;
-  max-width: 650px;
+  max-width: 350px;
   min-width: 320px;
   box-sizing: border-box;
   flex-direction: column;
@@ -4653,6 +4653,7 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
+  text-transform: uppercase;
   font-size: 20px;
   line-height: 32.4px;
   overflow: hidden;

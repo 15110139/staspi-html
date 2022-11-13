@@ -102,7 +102,7 @@ flex:30%;
 display: flex;
 // margin: 20px;
 // height: auto;
-max-width: 650px;
+max-width: 350px;
 min-width: 320px;
 box-sizing: border-box;
 flex-direction: column;
@@ -165,9 +165,10 @@ font-family: $font-text;;
  max-height: 30%;
 }
 .topics .topic-container .item-topic .overlay-item .title-item h4 {
-  font-family: $font-text;;
+  font-family: $font-text;
   font-style: normal;
   font-weight: 700;
+  text-transform:uppercase;
   font-size: $lt-font-size-text-h5;
   line-height: 32.4px;
   overflow: hidden;
