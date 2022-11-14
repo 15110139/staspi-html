@@ -2,9 +2,6 @@ let perPage = 6;
 let idPage = 1;
 let start = 0;
 let end = perPage;
-const cacheTime = 10000;
-const cache = {};
-let cacheTimer = 0;
 
 const host = "http://localhost:1337";
 
@@ -18,15 +15,6 @@ load += "<div class= 'line'></div>";
 load += "<div class= 'line'></div>";
 load += "</div>";
 load += "</div>";
-
-//cache timer
-const getCacheTimer = (time) => {
-  const now = new Date().getTime();
-  if (cacheTimer < now * time) {
-    cacheTimer = now * time;
-  }
-  return cacheTimer;
-};
 
 const fetchBlogData = async () => {
   let blogData = await fetch(`${host}/api/Posts?populate=thumbImage`)

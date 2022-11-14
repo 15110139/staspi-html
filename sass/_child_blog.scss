@@ -114,12 +114,13 @@
     // width: 90%;
     height: auto;
     margin-left: 10%;
+    margin-top: 15px;
 }
 .component-post .main-post .main-post-container .content img {
     width: 100%;
     margin-top: 5px;
 }
-.component-post .main-post .main-post-container .content ol > li{
+.component-post .main-post .main-post-container .content h1{
     font-weight: 700;
     line-height: 27px;
     font-size: $lt-font-size-text-l;
@@ -133,17 +134,41 @@
     font-weight: 700;
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
+    // font-style: italic;
+    margin-bottom: $space-margin-top-bottom-m;
+    color: $color-text-header;
+}
+.component-post .main-post .main-post-container .content h5{
+    font-weight: 700;
+    font-size: $lt-font-size-text-h5;
+    line-height: $lt-line-height-text-h5;
+    // font-style: italic;
+    margin-bottom: $space-margin-top-bottom-m;
+    color: $color-text-header;
+}
+.component-post .main-post .main-post-container .content h2{
+    font-weight: 700;
+    font-size: $lt-font-size-text-h2;
+    line-height: $lt-line-height-text-h2;
+    // font-style: italic;
+    margin-bottom: $space-margin-top-bottom-m;
+    color: $color-text-header;
+}
+.component-post .main-post .main-post-container .content h3{
+    font-weight: 700;
+    font-size: $lt-font-size-text-h3;
+    line-height: $lt-line-height-text-h3;
     font-style: italic;
     margin-bottom: $space-margin-top-bottom-m;
     color: $color-text-header;
 }
 .component-post .main-post .main-post-container .content .decription {
-    display: flex;
+    // display: flex;
     font-weight: 300;
     font-size: $lt-font-size-text-l;
     line-height: $lt-line-height-text-l;
     font-style: italic;
-    align-self: center;
+    // text-align: center;
     margin: 10px 0;
     text-align: center;
 }
@@ -159,7 +184,7 @@
 .component-post .main-post .main-post-container .content ul + .component-post .main-post .main-post-container .content ul {
     margin-bottom: 10px;
 }
-.component-post .main-post .main-post-container .content ol{
+.component-post .main-post .main-post-container .content h1{
     list-style-type: decimal;
     display: flex;
     flex-direction: column;
@@ -410,6 +435,10 @@
   padding-right: calc((100% - 800px) / 2);
   height: auto;
   margin-top: 20px;
+  min-height: 370px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .component-post .highlight-post .highlight-post-container .item-post {
     box-sizing: border-box;

@@ -3012,6 +3012,8 @@ html {
   padding-right: calc((100% - 800px) / 2);
   margin-top: 50px;
   margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
 }
 
 .hiring4 .all-form .square-form {
@@ -4850,7 +4852,7 @@ html {
   display: none;
 }
 
-.topics .load-wrap {
+.load-wrap {
   float: left;
   width: auto;
   height: auto;
@@ -4859,7 +4861,7 @@ html {
   text-align: center;
 }
 
-.topics .line {
+.line {
   display: inline-block;
   width: 15px;
   height: 15px;
@@ -4868,15 +4870,15 @@ html {
   margin: 0 4px;
 }
 
-.topics .load .line:nth-last-child(1) {
+.load .line:nth-last-child(1) {
   animation: loadingC 0.6s 0.1s linear infinite;
 }
 
-.topics .load .line:nth-last-child(2) {
+.load .line:nth-last-child(2) {
   animation: loadingC 0.6s 0.2s linear infinite;
 }
 
-.topics .load .line:nth-last-child(3) {
+.load .line:nth-last-child(3) {
   animation: loadingC 0.6s 0.3s linear infinite;
 }
 
@@ -5014,6 +5016,7 @@ html {
 .component-post .main-post .main-post-container .content {
   height: auto;
   margin-left: 10%;
+  margin-top: 15px;
 }
 
 .component-post .main-post .main-post-container .content img {
@@ -5021,7 +5024,7 @@ html {
   margin-top: 5px;
 }
 
-.component-post .main-post .main-post-container .content ol > li {
+.component-post .main-post .main-post-container .content h1 {
   font-weight: 700;
   line-height: 27px;
   font-size: 16px;
@@ -5034,18 +5037,40 @@ html {
   font-weight: 700;
   font-size: 16px;
   line-height: 160%;
+  margin-bottom: 10px;
+  color: #151A3C;
+}
+
+.component-post .main-post .main-post-container .content h5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22.2px;
+  margin-bottom: 10px;
+  color: #151A3C;
+}
+
+.component-post .main-post .main-post-container .content h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 44px;
+  margin-bottom: 10px;
+  color: #151A3C;
+}
+
+.component-post .main-post .main-post-container .content h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 35.2px;
   font-style: italic;
   margin-bottom: 10px;
   color: #151A3C;
 }
 
 .component-post .main-post .main-post-container .content .decription {
-  display: flex;
   font-weight: 300;
   font-size: 16px;
   line-height: 160%;
   font-style: italic;
-  align-self: center;
   margin: 10px 0;
   text-align: center;
 }
@@ -5063,7 +5088,7 @@ html {
   margin-bottom: 10px;
 }
 
-.component-post .main-post .main-post-container .content ol {
+.component-post .main-post .main-post-container .content h1 {
   list-style-type: decimal;
   display: flex;
   flex-direction: column;
@@ -5337,6 +5362,10 @@ html {
   padding-right: calc((100% - 800px) / 2);
   height: auto;
   margin-top: 20px;
+  min-height: 370px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .component-post .highlight-post .highlight-post-container .item-post {

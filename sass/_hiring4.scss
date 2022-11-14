@@ -72,6 +72,8 @@
     padding-right: calc(calc(100% - 800px)/2);
     margin-top: 50px;
     margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
 }
 
 .hiring4 .all-form .square-form {
