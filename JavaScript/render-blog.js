@@ -40,6 +40,9 @@ const renderBlog = async (id) => {
       .then((data) => {
         const json = JSON.parse(data.data.attributes.content);
         const dt = data.data.attributes;
+        const arrayTag = data.data.attributes.tags;
+        // console.log(dt);
+        console.log(arrayTag);
         // console.log("check json", data);
         var html = '<a href="">Bài viết nổi bật</a>';
         html += `<h3>${dt.title}</h3>`;
@@ -81,11 +84,27 @@ const renderBlog = async (id) => {
           "<h2>Admin</h2><p>Cảm ơn bạn đã dành thời gian đọc bài viết của chúng tôi.</p></div>";
         html += "</div>";
 
+        let color = 0;
+        //load tag
+        renderTag(arrayTag);
+        // console.log(tag);
         document.getElementById("main-post").innerHTML = html;
       });
   } catch (e) {
     console.log(e);
   }
+};
+const renderTag = (arrayTag) => {
+  color = 0;
+  var arr = arrayTag.map((item) => {
+    htmlTag = "";
+    color++;
+    if (color > 3) {
+      color = 1;
+    }
+    return `<a href="#" class="color${color}">${item.tag}</a>`;
+  });
+  document.getElementById("tag").innerHTML = arr.join("");
 };
 //render json form editorjs to html
 function jsonToHtml(obj) {
@@ -159,7 +178,7 @@ const fetchBlogData = async () => {
 
 const displayHTMLBlog = async () => {
   const blogData = await fetchBlogData();
-  console.log(blogData);
+  // console.log(blogData);
   var items = blogData.data;
   // console.log("check load item",load);
   hlPost.innerHTML = load;

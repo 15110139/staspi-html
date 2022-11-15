@@ -5366,6 +5366,8 @@ html {
   display: flex;
   align-items: center;
   flex-direction: column;
+  max-height: 370px;
+  overflow: hidden;
 }
 
 .component-post .highlight-post .highlight-post-container .item-post {
@@ -5507,7 +5509,7 @@ html {
   height: 36px;
   line-height: 23px;
   position: relative;
-  margin: 0 18px 8px 0;
+  margin: 0 25px 8px 0;
   padding: 4px 18px 4px 10px;
   background: #777;
   -moz-border-radius-bottomleft: 5px;
