@@ -28,7 +28,7 @@ const fetchBlogData = async () => {
 
 const displayHTMLBlog = async () => {
   const blogData = await fetchBlogData();
-  console.log(blogData);
+  // console.log(blogData);
   var topic = document.getElementById("topic");
   var items = blogData.data;
   let totalPages = Math.ceil(items.length / perPage);
