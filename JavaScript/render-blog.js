@@ -1,5 +1,5 @@
 // const host = "http://localhost:1337";
-const host = 'https://admin-staspi.herokuapp.com';
+const host = "https://admin-staspi.herokuapp.com";
 
 var load = "<div class= 'load-wrap'>";
 load += "<div class = 'load'>";
@@ -47,7 +47,7 @@ const renderBlog = async (id) => {
         // console.log("check json", data);
         var html = '<a href="">Bài viết nổi bật</a>';
         html += `<h3>${dt.title}</h3>`;
-        html += `<img class="img-post" alt="" src='${host}${dt.thumbImage.data.attributes.formats.medium.url}'>`;
+        html += `<img class="img-post" alt="" src='${dt.thumbImage.data.attributes.formats.medium.url}'>`;
         html += "<div class='content'>";
         html += jsonToHtml(json);
         html += "</div>";
@@ -152,7 +152,6 @@ function jsonToHtml(obj) {
       case "image":
         html +=
           '<img src="' +
-          host +
           block["data"]["file"]["url"] +
           '" />' +
           "<div class = decription >" +
@@ -197,7 +196,7 @@ const renderHightLightPost = (hlPost) => {
     html += '<div class="item-post">';
     html += '<div class="item-left">';
     html += "<a href =" + "/page/blogs/child-blog.html?id=" + item.id + ">";
-    html += `<img src="${host}${image.medium.url}"></a>`;
+    html += `<img src="${image.medium.url}"></a>`;
     html += "</div>";
     html += '<div class="item-right">';
     html += "<a href =" + "/page/blogs/child-blog.html?id=" + item.id + ">";

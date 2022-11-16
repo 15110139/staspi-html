@@ -4,7 +4,7 @@ let start = 0;
 let end = perPage;
 
 // const host = "http://localhost:1337";
-const host = 'https://admin-staspi.herokuapp.com';
+const host = "https://admin-staspi.herokuapp.com";
 
 var keyword = document.getElementById("keyword");
 var but = document.getElementById("sb");
@@ -96,7 +96,9 @@ getCurrentPage(1);
 function renderTopic(topic) {
   html = "";
   const content = topic.map((item, index) => {
+    console.log(item);
     var image = item.attributes.thumbImage.data.attributes.formats;
+    console.log("check new image", image);
     if (index >= start && index < end) {
       html += '<div class="item-topic">';
       html +=
@@ -106,7 +108,6 @@ function renderTopic(topic) {
         ">";
       html +=
         "<img  src=" +
-        host +
         image.medium.url +
         " class = " +
         "'" +

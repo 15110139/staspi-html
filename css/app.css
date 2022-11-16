@@ -499,6 +499,10 @@ html {
   border-radius: 6px;
 }
 
+.home2 .flexbox-service .flexbox-item .img_flex {
+  padding-top: 20px;
+}
+
 .home2 .flexbox-service .flexbox-item:hover {
   border: 1px solid #FA7716;
 }
@@ -5051,8 +5055,8 @@ html {
 
 .component-post .main-post .main-post-container .content h2 {
   font-weight: 700;
-  font-size: 38px;
-  line-height: 44px;
+  font-size: 16px;
+  line-height: 160%;
   margin-bottom: 10px;
   color: #151A3C;
 }

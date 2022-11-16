@@ -1,5 +1,5 @@
 // const host = "http://localhost:1337";
-const host = 'https://admin-staspi.herokuapp.com';
+const host = "https://admin-staspi.herokuapp.com";
 
 var keyword = document.getElementById("keyword");
 var but = document.getElementById("sb");
@@ -69,7 +69,7 @@ function renderRecruit(recruit) {
     html += '<div class="square-form">';
     html += '<div class="left-square">';
     html += `<a href="./recruits/${item.attributes.slug}">`;
-    html += `<div class="squares" id="items-hiring" style="background-image: url(${host}${image.medium.url})"></div>`;
+    html += `<div class="squares" id="items-hiring" style="background-image: url(${image.small.url})"></div>`;
     html += "</a>";
     html += "</div>";
     html += '<div class="right-content">';

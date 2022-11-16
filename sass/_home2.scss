@@ -94,6 +94,10 @@
     position: relative;
     border-radius: 6px;
 }
+
+.home2 .flexbox-service .flexbox-item .img_flex{
+    padding-top: 20px;
+}
 .home2 .flexbox-service .flexbox-item:hover {
     border: 1px solid $primary;
 }
