@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;1,400&display=swap"
       rel="stylesheet"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="stylesheet" href="../../css/app.css" />
     <link rel="stylesheet" href="../../themify-icons/themify-icons.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -186,7 +188,30 @@
             </ol>
             <div id="anchor-form-recruit"></div>
             <div class="frm-recruit">
-              <form action="#">
+              <form
+                class="form"
+                action="https://formsubmit.co/hr.staspi@gmail.com"
+                method="POST"
+                enctype="multipart/form-data"
+              >
+                <input type="hidden" name="_captcha" value="false" />
+                <!-- <input
+                  type="hidden"
+                  name="_autoresponse"
+                  value="Thank you for sending us information"
+                /> -->
+                <input type="hidden" name="_template" value="table" />
+                <input type="text" name="_honey" style="display: none" />
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://staspi.com/page/recruits/recruit_content.html"
+                />
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="đăng ký tuyển dụng từ web staspi"
+                />
                 <label for="name" style="padding-top: 35px">Tên ứng viên</label>
                 <input
                   type="text"
@@ -194,11 +219,11 @@
                   name="name"
                   required
                 />
-                <label for="position">Vị trí ứng tuyển</label>
+                <label for="position-apply">Vị trí ứng tuyển</label>
                 <input
                   type="text"
                   placeholder="e.g. Designer"
-                  name="position"
+                  name="position-apply"
                   required
                 />
                 <label for="phone">Số điện thoại</label>
@@ -208,11 +233,11 @@
                   name="phone"
                   required
                 />
-                <label for="name">Link CV</label>
+                <label for="link-cv">Link CV</label>
                 <input
-                  type="text"
+                  type="url"
                   placeholder="e.g. https://drive*****"
-                  name="name"
+                  name="link-cv"
                 />
                 <label for="message">Lời nhắn</label>
                 <textarea
@@ -226,6 +251,7 @@
                   <div class="image-upload-wrap">
                     <input
                       id="upload"
+                      name="cv-file"
                       class="file-upload-input"
                       type="file"
                       accept="application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document, application/vnd.openxmlformats-officedocument.presentationml.presentation, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel, application/vnd.ms-powerpoint,
@@ -246,7 +272,7 @@
                     <img class="file-upload-image" src="#" alt="your image" />
                     <div class="image-title-wrap">
                       <button
-                        type="button"
+                        type="submit"
                         onclick="removeUpload()"
                         class="remove-image"
                       >
@@ -255,7 +281,7 @@
                     </div>
                   </div>
                 </div>
-                <button><p>Gửi</p></button>
+                <button type="submit"><p>Gửi</p></button>
               </form>
             </div>
           </div>
@@ -501,4 +527,12 @@
   <script src="../../JavaScript/menu.js"></script>
   <script src="../../JavaScript/dropdown_footer.js"></script>
   <script src="../../JavaScript/facebook_toggle.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".form").on("submit", function () {
+        swal("Cảm ơn bạn đã để lại thông tin cho staspi!", "", "success");
+        // alert("then kiu");
+      });
+    });
+  </script>
 </html>

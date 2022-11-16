@@ -57,6 +57,11 @@
     border: 1px solid #BCBCBC;
     font-size: $lt-font-size-text-l;
 }
+.child-recruit .jd .decription-job .frm-recruit form > label {
+    font-family: $font-text;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
+}
 .child-recruit .jd .decription-job .frm-recruit form .file-upload {
     background-color: #ffffff;
     width: 100%;
@@ -84,6 +89,9 @@
     margin-top: 20px;
     border: 2px dotted #BCBCBC;
     position: relative;
+  }
+  .image-upload-wrap:hover {
+    border-color: $primary;
   }
   
   .image-dropping,

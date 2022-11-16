@@ -3012,6 +3012,8 @@ html {
   padding-right: calc((100% - 800px) / 2);
   margin-top: 50px;
   margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
 }
 
 .hiring4 .all-form .square-form {
@@ -3980,7 +3982,6 @@ html {
 .Service5-Items .all-form textarea {
   border-radius: 6px;
   background-color: #FFFFFF;
-  margin-top: 10px;
   padding: 10px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -4602,7 +4603,7 @@ html {
   position: relative;
   flex: 30%;
   display: flex;
-  max-width: 650px;
+  max-width: 350px;
   min-width: 320px;
   box-sizing: border-box;
   flex-direction: column;
@@ -4654,6 +4655,7 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
+  text-transform: uppercase;
   font-size: 20px;
   line-height: 32.4px;
   overflow: hidden;
@@ -4850,6 +4852,47 @@ html {
   display: none;
 }
 
+.load-wrap {
+  float: left;
+  width: auto;
+  height: auto;
+  padding: 20px 20px 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.line {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #FA7716;
+  margin: 0 4px;
+}
+
+.load .line:nth-last-child(1) {
+  animation: loadingC 0.6s 0.1s linear infinite;
+}
+
+.load .line:nth-last-child(2) {
+  animation: loadingC 0.6s 0.2s linear infinite;
+}
+
+.load .line:nth-last-child(3) {
+  animation: loadingC 0.6s 0.3s linear infinite;
+}
+
+@keyframes loadingC {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
 .banner-child-blog {
   width: 100%;
   height: 40vh;
@@ -4973,6 +5016,7 @@ html {
 .component-post .main-post .main-post-container .content {
   height: auto;
   margin-left: 10%;
+  margin-top: 15px;
 }
 
 .component-post .main-post .main-post-container .content img {
@@ -4980,7 +5024,7 @@ html {
   margin-top: 5px;
 }
 
-.component-post .main-post .main-post-container .content ol > li {
+.component-post .main-post .main-post-container .content h1 {
   font-weight: 700;
   line-height: 27px;
   font-size: 16px;
@@ -4993,18 +5037,40 @@ html {
   font-weight: 700;
   font-size: 16px;
   line-height: 160%;
+  margin-bottom: 10px;
+  color: #151A3C;
+}
+
+.component-post .main-post .main-post-container .content h5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22.2px;
+  margin-bottom: 10px;
+  color: #151A3C;
+}
+
+.component-post .main-post .main-post-container .content h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 44px;
+  margin-bottom: 10px;
+  color: #151A3C;
+}
+
+.component-post .main-post .main-post-container .content h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 35.2px;
   font-style: italic;
   margin-bottom: 10px;
   color: #151A3C;
 }
 
 .component-post .main-post .main-post-container .content .decription {
-  display: flex;
   font-weight: 300;
   font-size: 16px;
   line-height: 160%;
   font-style: italic;
-  align-self: center;
   margin: 10px 0;
   text-align: center;
 }
@@ -5022,7 +5088,7 @@ html {
   margin-bottom: 10px;
 }
 
-.component-post .main-post .main-post-container .content ol {
+.component-post .main-post .main-post-container .content h1 {
   list-style-type: decimal;
   display: flex;
   flex-direction: column;
@@ -5296,6 +5362,12 @@ html {
   padding-right: calc((100% - 800px) / 2);
   height: auto;
   margin-top: 20px;
+  min-height: 370px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-height: 370px;
+  overflow: hidden;
 }
 
 .component-post .highlight-post .highlight-post-container .item-post {
@@ -5437,7 +5509,7 @@ html {
   height: 36px;
   line-height: 23px;
   position: relative;
-  margin: 0 18px 8px 0;
+  margin: 0 25px 8px 0;
   padding: 4px 18px 4px 10px;
   background: #777;
   -moz-border-radius-bottomleft: 5px;
@@ -6115,6 +6187,12 @@ i {
   font-size: 16px;
 }
 
+.child-recruit .jd .decription-job .frm-recruit form > label {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 160%;
+}
+
 .child-recruit .jd .decription-job .frm-recruit form .file-upload {
   background-color: #ffffff;
   width: 100%;
@@ -6143,6 +6221,10 @@ i {
   margin-top: 20px;
   border: 2px dotted #BCBCBC;
   position: relative;
+}
+
+.image-upload-wrap:hover {
+  border-color: #FA7716;
 }
 
 .image-dropping,
@@ -7052,7 +7134,6 @@ i {
     line-height: 30px;
   }
   .Service5-Items .all-form textarea {
-    margin-top: 10px;
     padding: 10px;
     font-size: 20px;
     width: 100%;
@@ -7740,7 +7821,6 @@ i {
     line-height: 40px;
   }
   .Service5-Items .all-form textarea {
-    margin-top: 10px;
     padding: 10px;
     width: 95%;
     height: 150px;
@@ -7861,7 +7941,7 @@ i {
     background-color: rgb(231, 231, 231);
   }
   .nav .nav-items .impotant {
-    color: #FA7716 !important;
+    color: #fa7716 !important;
   }
   .nav .nav-items li a {
     font-size: 18px;
@@ -7892,7 +7972,8 @@ i {
     font-size: 18px;
     line-height: 121%;
   }
-  .nav .search-btn-banner, .nav .mobile-menu-btn {
+  .nav .search-btn-banner,
+.nav .mobile-menu-btn {
     display: block;
   }
   .nav .mobile-menu-btn .menu-items {
@@ -8859,7 +8940,9 @@ i {
   .topics .pagination {
     margin: 10px;
   }
-  .topics .pagination .pre-page, .topics .pagination .nxt-page, .topics .pagination .cur-page {
+  .topics .pagination .pre-page,
+.topics .pagination .nxt-page,
+.topics .pagination .cur-page {
     font-size: 35px;
   }
   .topics .pagination li a {
@@ -8867,7 +8950,8 @@ i {
     text-decoration: none;
     font-size: 20px;
   }
-  .topics .pagination .page-number .cur-page, .topics .pagination .dots {
+  .topics .pagination .page-number .cur-page,
+.topics .pagination .dots {
     background-color: #ccc;
     width: 10px;
     height: 10px;
@@ -8888,7 +8972,8 @@ i {
     line-height: 52px;
     color: #fff;
   }
-  .pagination .pre-page, .pagination .nxt-page {
+  .pagination .pre-page,
+.pagination .nxt-page {
     font-size: 70px;
     background-color: #fff;
     box-shadow: none;
@@ -8990,7 +9075,9 @@ i {
     width: 100%;
     height: 100%;
   }
-  .contact-block .frm-contact input, select, option {
+  .contact-block .frm-contact input,
+select,
+option {
     font-size: 16px;
     min-height: 50px;
   }
@@ -9025,7 +9112,6 @@ i {
     order: -1;
   }
   .component-post .main-post .main-post-container a {
-    order: -1;
     font-weight: 500;
     line-height: 50px;
     font-size: 22px;
@@ -9122,7 +9208,7 @@ i {
     font-size: 20px;
     line-height: 160%;
     padding: 20px 10px;
-    color: #151A3C;
+    color: #151a3c;
   }
   .posts .post-container .item-post .content-mobile {
     display: flex;
@@ -9140,7 +9226,9 @@ i {
     border-radius: 50%;
     cursor: pointer;
   }
-  .posts .pagination .pre-page, .posts .pagination .nxt-page, .posts .pagination .cur-page {
+  .posts .pagination .pre-page,
+.posts .pagination .nxt-page,
+.posts .pagination .cur-page {
     font-size: 35px;
   }
   .posts .pagination li {
@@ -9225,7 +9313,7 @@ i {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    border-bottom: 1px #C7C7C7 solid;
+    border-bottom: 1px #c7c7c7 solid;
     justify-content: space-between;
     align-items: center;
   }
@@ -9280,14 +9368,14 @@ i {
     color: #202857;
     font-size: 16px;
     line-height: 156%;
-    border-bottom: 1px solid #C7C7C7;
+    border-bottom: 1px solid #c7c7c7;
   }
   .top-mobile .cont_dropdown_info ul > li > hr {
     width: 75%;
     height: 0px;
     color: #123455;
     background-color: #123455;
-    border: 1px solid #C7C7C7;
+    border: 1px solid #c7c7c7;
   }
   .top-mobile .disable {
     display: none;
@@ -9328,7 +9416,7 @@ i {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    border-bottom: 1px #C7C7C7 solid;
+    border-bottom: 1px #c7c7c7 solid;
     justify-content: space-between;
   }
   .top-mobile .cont_icon_service {
@@ -9380,7 +9468,7 @@ i {
     color: #202857;
     font-size: 16px;
     line-height: 156%;
-    border-bottom: 1px solid #C7C7C7;
+    border-bottom: 1px solid #c7c7c7;
   }
   .top-mobile .cont_dropdown_service ul > li > hr {
     width: 75%;
@@ -9405,7 +9493,7 @@ i {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    border-bottom: 1px #C7C7C7 solid;
+    border-bottom: 1px #c7c7c7 solid;
     justify-content: space-between;
   }
   .top-mobile .cont_icon_social {
