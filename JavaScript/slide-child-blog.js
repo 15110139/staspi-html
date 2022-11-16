@@ -1,6 +1,8 @@
 let perPage = 3;
 let idPage = 1;
-host = "http://localhost:1337";
+// host = "http://localhost:1337";
+ host = 'https://admin-staspi.herokuapp.com';
+
 $(Document).ready(async () => {
   const items = await fetchBlog();
   let start = 0;

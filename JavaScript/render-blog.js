@@ -1,4 +1,5 @@
-const host = "http://localhost:1337";
+// const host = "http://localhost:1337";
+const host = 'https://admin-staspi.herokuapp.com';
 
 var load = "<div class= 'load-wrap'>";
 load += "<div class = 'load'>";
