@@ -91,6 +91,7 @@
     margin-bottom: $space-margin-top-bottom-l;
     // order: -1;
 }
+
 .component-post .main-post .main-post-container .content p {
     margin: $space-margin-top-bottom-l 0;
     font-weight: 500;
@@ -148,8 +149,8 @@
 }
 .component-post .main-post .main-post-container .content h2{
     font-weight: 700;
-    font-size: $lt-font-size-text-h2;
-    line-height: $lt-line-height-text-h2;
+    font-size: $lt-font-size-text-l;
+    line-height: $lt-line-height-text-l;
     // font-style: italic;
     margin-bottom: $space-margin-top-bottom-m;
     color: $color-text-header;
