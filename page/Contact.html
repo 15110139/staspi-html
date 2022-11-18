@@ -12,8 +12,8 @@
       rel="stylesheet"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <link rel="stylesheet" href="../css/app.css" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="../css/app.css?v=11172022" />
     <link rel="stylesheet" href="../themify-icons/themify-icons.css" />
     <title>Staspi</title>
   </head>
@@ -23,7 +23,7 @@
       <section class="navbar">
         <div id="header" class="nav">
           <a id="logo-staspi" href="../index.html" class="logo">
-            <img src="../images/LOGO STASPI.png" alt="" />
+            <img id="img-logo" src="../images/LOGO STASPI.png" alt="" />
           </a>
           <ul class="nav-items" id="navs">
             <li>
@@ -126,7 +126,7 @@
         <div class="contact-container">
           <form
             class="frm-contact"
-            action="https://formsubmit.co/hoangle@staspi.com"
+            action="https://formsubmit.co/95vinhndu1415@gmail.com"
             method="POST"
           >
             <!-- <input type="hidden" name="_captcha" value="false" /> -->
@@ -239,7 +239,10 @@
               <h5>Liên kết</h5>
               <!-- fixlayout -->
               <div class="block-contact">
-                <a href="https://www.facebook.com/StartUp.Spirit">
+                <a
+                  href="https://www.facebook.com/StartUp.Spirit"
+                  target="_blank"
+                >
                   <span class="icon-facebook">
                     <img src="../images/facebook-icons.png" alt="" />
                   </span>
@@ -247,7 +250,12 @@
                 <a href="mailto:staspi.com@gmail.com">
                   <span class="ti-email"></span>
                 </a>
-                <span class="ti-instagram"></span>
+                <a
+                  href="https://www.instagram.com/staspi.us/?next=%2F"
+                  target="_blank"
+                >
+                  <span class="ti-instagram"></span>
+                </a>
               </div>
             </div>
           </div>
@@ -338,13 +346,21 @@
                     <li><a href="#">Marketing tổng thể</a></li>
                   </ul> -->
                   <div class="block-all-social">
-                    <a href="https://www.facebook.com/StartUp.Spirit">
+                    <a
+                      href="https://www.facebook.com/StartUp.Spirit"
+                      target="_blank"
+                    >
                       <span class="ti-facebook"></span>
                     </a>
                     <a href="mailto:staspi.com@gmail.com">
                       <span class="ti-email"></span>
                     </a>
-                    <span class="ti-instagram"></span>
+                    <a
+                      href="https://www.instagram.com/staspi.us/?next=%2F"
+                      target="_blank"
+                    >
+                      <span class="ti-instagram"></span>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -376,13 +392,14 @@
       <div id="fb-customer-chat" class="fb-customerchat"></div>
     </div>
   </body>
-  <script src="../JavaScript/menu.js"></script>
-  <script src="../JavaScript/dropdown_footer.js"></script>
-  <script src="../JavaScript/facebook_toggle.js"></script>
+  <script src="../JavaScript/menu.js?v=11172022"></script>
+  <script src="../JavaScript/dropdown_footer.js?v=11172022"></script>
+  <script src="../JavaScript/facebook_toggle.js?v=11172022"></script>
+  <script src="../JavaScript/alert.js?v=11172022"></script>
   <script>
     $(document).ready(function () {
       $(".frm-contact").on("submit", function () {
-        swal("Cảm ơn bạn đã để lại thông tin cho staspi!", "", "success");
+        showAleart();
       });
     });
   </script>

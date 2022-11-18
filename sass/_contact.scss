@@ -219,7 +219,7 @@ min-height: 130px;
 .contact-block .contact-container .frm-contact {
 // margin: 20px;
  width: 100%;
- height: auto;
+ height: 469px;
  background-color:#fff;
  border-radius: 6px;
  color: $second-primary;
@@ -254,12 +254,17 @@ min-height: 130px;
  resize: none;
  padding: 10px;
 //  font-weight: 400;
+border: none;
 }
 .contact-block .frm-contact select {
   color: rgb(99, 99, 99);
 }
 .contact-block .frm-contact option {
+  font-family: $font-text;
   font-weight: 100 !important;
+  color: #fff !important;
+  background-color: #fff !important;
+  margin: 100px 0 !important;
 }
 .contact-block .frm-contact textarea {
   font-family: $font-text;
@@ -299,6 +304,7 @@ background-color:$home-air;
 
 .frm-contact input::placeholder{
  padding:10px;
+//  color: black;
 }
 //h1
 //h1

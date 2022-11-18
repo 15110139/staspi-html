@@ -64,7 +64,7 @@
 
   .nav .subnav li a {
     font-size: $mb-font-size-text-h5;
-    line-height: $mb-line-height-text-h5;
+    line-height: 183%;
   }
 
   .nav .search-btn-banner,
@@ -77,10 +77,11 @@
     cursor: pointer;
     font-weight: 600;
     color: $font-home5;
-    line-height: 100px;
+    line-height: 70px;
   }
 
   .nav .search-btn-banner .search-icon {
+    display: none;
     font-size: 25px;
     cursor: pointer;
     font-weight: 600;
@@ -1421,7 +1422,7 @@
     min-height: 0;
   }
   .contact-block .contact-container .frm-contact {
-    width: 95%;
+    width: 97%;
     margin: 20px 0;
   }
   //CHILD BLOG
