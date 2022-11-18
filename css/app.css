@@ -4422,7 +4422,7 @@ html {
 
 .contact-block .contact-container .frm-contact {
   width: 100%;
-  height: auto;
+  height: 469px;
   background-color: #fff;
   border-radius: 6px;
   color: #151A3C;
@@ -4455,6 +4455,7 @@ html {
   line-height: 16px;
   resize: none;
   padding: 10px;
+  border: none;
 }
 
 .contact-block .frm-contact select {
@@ -4462,7 +4463,11 @@ html {
 }
 
 .contact-block .frm-contact option {
+  font-family: "Inter", sans-serif;
   font-weight: 100 !important;
+  color: #fff !important;
+  background-color: #fff !important;
+  margin: 100px 0 !important;
 }
 
 .contact-block .frm-contact textarea {
@@ -5936,7 +5941,7 @@ html {
 .ui-dialog {
   position: fixed !important;
   z-index: 99999 !important;
-  top: 110px !important;
+  top: 100px !important;
   padding: 0;
   height: 80vh !important;
 }
@@ -7974,7 +7979,7 @@ i {
   }
   .nav .subnav li a {
     font-size: 18px;
-    line-height: 121%;
+    line-height: 183%;
   }
   .nav .search-btn-banner,
 .nav .mobile-menu-btn {
@@ -7985,9 +7990,10 @@ i {
     cursor: pointer;
     font-weight: 600;
     color: #151A3C;
-    line-height: 100px;
+    line-height: 70px;
   }
   .nav .search-btn-banner .search-icon {
+    display: none;
     font-size: 25px;
     cursor: pointer;
     font-weight: 600;
@@ -9093,7 +9099,7 @@ option {
     min-height: 0;
   }
   .contact-block .contact-container .frm-contact {
-    width: 95%;
+    width: 97%;
     margin: 20px 0;
   }
   .banner-child-blog {
