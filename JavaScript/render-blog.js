@@ -43,7 +43,7 @@ const renderBlog = async (id) => {
         const dt = data.data.attributes;
         const arrayTag = data.data.attributes.tags;
         // console.log(dt);
-        console.log(arrayTag);
+        // console.log(arrayTag);
         // console.log("check json", data);
         var html = '<a href="">Bài viết nổi bật</a>';
         html += `<h3>${dt.title}</h3>`;
@@ -171,7 +171,7 @@ const fetchBlogData = async () => {
     .then((data) => data.json())
     .then((datajson) => {
       blog = datajson;
-      // console.log(datajson);
+      console.log(datajson);
     });
   return blog;
 };
@@ -211,14 +211,14 @@ const renderHightLightPost = (hlPost) => {
 var searching = async (e) => {
   e.preventDefault();
   keySearch = keyword.value.toLowerCase();
-  console.log(keySearch);
+  // console.log(keySearch);
 
   let searchData = await fetch(
     `${host}/api/Posts?populate[0]=thumbImage&filters[title][$containsi][1]=${keySearch}`
   )
     .then((data) => data.json())
     .then((datajson) => {
-      console.log("check data s", datajson);
+      // console.log("check data s", datajson);
       var items = datajson.data;
       hlPost.innerHTML = load;
       setTimeout(() => {
