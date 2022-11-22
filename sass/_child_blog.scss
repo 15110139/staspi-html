@@ -45,6 +45,7 @@
     width: 100%;
     box-sizing: border-box;
     margin-right: 3%;
+    min-height: 100vh;
 }
 .component-post .main-post .main-post-container {
     // border: 1px black solid;
@@ -823,6 +824,104 @@ text-align: start;
 .pagination .disable a{
   color: #ccc;
 }
+  
+  .accordion {
+    width: 100%;
+    max-width: 360px;
+    margin: 30px auto 20px;
+    background: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    list-style-type: none ;
+  }
+  .accordion > li{
+    font-size: 0;
+  }
+  .accordion .link {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 15px 42px;
+    color: $color-text-header;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 1px solid #CCC;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  .accordion li h6 {
+    font-family: $font-text;
+    font-weight: 450;
+    font-size: $lt-font-size-text-h6;
+    line-height: $lt-line-height-text-h6;
+    color: $color-text-header;
+  }
+
+  .accordion li:last-child .link { border-bottom: 0; }
+  
+  .accordion li i {
+    position: absolute;
+    top: 16px;
+    left: 12px;
+    font-size: 18px;
+    color: #595959;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  
+  .accordion li i.fa-chevron-down {
+    right: 12px;
+    left: auto;
+    font-size: 16px;
+  }
+  
+  
+  .accordion li.open i.fa-chevron-down {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  
+  /**
+   * Submenu
+   -----------------------------*/
+  
+  
+  .submenu {
+    display: none;
+    // background: #444359;
+    font-size: 0;
+    list-style-type:none ;
+    color: $color-text;
+  }
+  .submenu li {
+    font-family: $font-text;
+    font-size: $lt-font-size-text-m;
+    line-height: $lt-line-height-text-m;
+  }
+  
+  .submenu li a { color: $color-text-body}
+  
+  .submenu a {
+    display: block;
+    text-decoration: none;
+    color: #d9d9d9;
+    padding: 12px;
+    padding-left: 42px;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+  }
+  
+  .submenu a:hover {
+    background: $primary;
+    color: #FFF;
+  }
 // animation and color for over-lay
 .posts .item-post:nth-child(even) .overlay-item{
     background: rgba(255,27,21,0.8);

@@ -69,7 +69,7 @@ const renderBlog = async (id) => {
           "href='mailto:?subject=Bài viết từ staspi&amp;body=Gửi bạn bài viết từ staspi:" +
           linkShare +
           "'>";
-        html += '< class="ti-email"></  span>';
+        html += '<span class="ti-email"></span>';
         html += "</a>";
         html += "</div>";
         html += '<div class="item-tag">';
@@ -107,7 +107,6 @@ const renderTag = (arrayTag) => {
   });
   document.getElementById("tag").innerHTML = arr.join("");
 };
-//render json form editorjs to html
 function jsonToHtml(obj) {
   html = "";
   obj["blocks"].forEach(function (block, index) {
@@ -186,26 +185,47 @@ const fetchCategoriesData = async () => {
 const displayHTMLCategories = async () => {
   let cateData = await fetchCategoriesData();
   // console.log("check data", cateData);
-  var html = "<h2>Categories</h2>";
+  var html = "";
   var arrayCate = [];
   var arrayToCount = [];
   var valueCount = [];
-  var arr = cateData.data.map((item, index) => {
+  var arr = cateData.data.map((item) => {
     arrayToCount.push(item.type);
     if (!arrayCate.includes(item.type)) {
       arrayCate.push(item.type);
     }
   });
 
-  for (var n = 0; n < arrayCate.length; n++) {
-    countElementInArray(arrayToCount, arrayCate[n]);
-    html += `<div class="item-category">
-    <h6>${arrayCate[n]}</h6>
-    <p>(${valueCount[n]})</p>
-  </div>
-  `;
+  function htmlPost(cate) {
+    // console.log(cateData.data);
+    var results = [];
+    // console.log(cate);
+    var htmlPost = cateData.data.map((item) => {
+      if (cate === item.type) {
+        results.push(item);
+      }
+    });
+    // console.log(results);
+    return results;
   }
 
+  for (var n = 0; n < arrayCate.length; n++) {
+    countElementInArray(arrayToCount, arrayCate[n]);
+    var arr = htmlPost(arrayCate[n]);
+    const subMenuHtml = "";
+    var result = arr.map((item, index) => {
+      return `<li><a href="/page/blogs/child-blog.html?id=${item.id}">${item.title}</a></li>`;
+    });
+    // console.log(result);
+    html += `
+    <li class="">
+    <div class="link"><h6>${arrayCate[n]}</h6><h6>(${valueCount[n]})</h6></div>
+    <ul class="submenu">`;
+    html += result;
+    html += `</ul>;
+  </li>`;
+  }
+  // console.log(html);
   function countElementInArray(array, x) {
     // console.log(array);
     let count = 0;
@@ -216,7 +236,37 @@ const displayHTMLCategories = async () => {
     return count;
   }
 
-  document.getElementById("categortires-container").innerHTML = html;
+  document.getElementById("accordion").innerHTML = html;
+
+  $(function () {
+    var Accordion = function (el, multiple) {
+      this.el = el || {};
+      this.multiple = multiple || false;
+
+      // Variables privadas
+      var links = this.el.find(".link");
+      // Evento
+      links.on(
+        "click",
+        { el: this.el, multiple: this.multiple },
+        this.dropdown
+      );
+    };
+
+    Accordion.prototype.dropdown = function (e) {
+      var $el = e.data.el;
+      ($this = $(this)), ($next = $this.next());
+
+      $next.slideToggle();
+      $this.parent().toggleClass("open");
+
+      if (!e.data.multiple) {
+        $el.find(".submenu").not($next).slideUp().parent().removeClass("open");
+      }
+    };
+
+    var accordion = new Accordion($("#accordion"), false);
+  });
 };
 
 displayHTMLCategories();
@@ -237,7 +287,6 @@ const renderHightLightPost = (hlPost) => {
   const post = hlPost.map((item) => {
     var image = item.attributes.thumbImage.data.attributes.formats;
     // console.log("check item before map", item);
-
     html += '<div class="item-post">';
     html += '<div class="item-left">';
     html += "<a href =" + "/page/blogs/child-blog.html?id=" + item.id + ">";
