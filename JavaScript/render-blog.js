@@ -69,7 +69,7 @@ const renderBlog = async (id) => {
           "href='mailto:?subject=Bài viết từ staspi&amp;body=Gửi bạn bài viết từ staspi:" +
           linkShare +
           "'>";
-        html += '<span class="ti-email"></span>';
+        html += '< class="ti-email"></  span>';
         html += "</a>";
         html += "</div>";
         html += '<div class="item-tag">';
@@ -163,7 +163,6 @@ function jsonToHtml(obj) {
         break;
     }
   });
-  // console.log(html);
   return html;
 }
 const fetchBlogData = async () => {
@@ -171,10 +170,56 @@ const fetchBlogData = async () => {
     .then((data) => data.json())
     .then((datajson) => {
       blog = datajson;
-      console.log(datajson);
+      // console.log(datajson);
     });
   return blog;
 };
+
+const fetchCategoriesData = async () => {
+  let cateData = await fetch(`${host}/api/Posts/category`)
+    .then((data) => data.json())
+    .then((datajson) => {
+      cate = datajson;
+    });
+  return cate;
+};
+const displayHTMLCategories = async () => {
+  let cateData = await fetchCategoriesData();
+  // console.log("check data", cateData);
+  var html = "<h2>Categories</h2>";
+  var arrayCate = [];
+  var arrayToCount = [];
+  var valueCount = [];
+  var arr = cateData.data.map((item, index) => {
+    arrayToCount.push(item.type);
+    if (!arrayCate.includes(item.type)) {
+      arrayCate.push(item.type);
+    }
+  });
+
+  for (var n = 0; n < arrayCate.length; n++) {
+    countElementInArray(arrayToCount, arrayCate[n]);
+    html += `<div class="item-category">
+    <h6>${arrayCate[n]}</h6>
+    <p>(${valueCount[n]})</p>
+  </div>
+  `;
+  }
+
+  function countElementInArray(array, x) {
+    // console.log(array);
+    let count = 0;
+    for (let i = 0; i < array.length; i++) {
+      if (array[i] == x) count++;
+    }
+    valueCount.push(count);
+    return count;
+  }
+
+  document.getElementById("categortires-container").innerHTML = html;
+};
+
+displayHTMLCategories();
 
 const displayHTMLBlog = async () => {
   const blogData = await fetchBlogData();
