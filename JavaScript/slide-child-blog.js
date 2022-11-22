@@ -75,6 +75,7 @@ $(Document).ready(async () => {
   function changePage() {
     const idPages = document.querySelectorAll(".page-number li");
     const a = document.querySelectorAll(".page-number li a");
+    // console.log(idPages);
     for (let i = 0; i < idPages.length; i++) {
       idPages[i].onclick = function () {
         let value = i + 1;

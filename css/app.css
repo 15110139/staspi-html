@@ -1011,6 +1011,10 @@ html {
   border-bottom: 1px black solid;
 }
 
+.home6 .flex-item a {
+  text-decoration: none;
+}
+
 .home6 .flex-item .bottom-item {
   width: 255px;
   height: 100px;
@@ -4465,9 +4469,6 @@ html {
 .contact-block .frm-contact option {
   font-family: "Inter", sans-serif;
   font-weight: 100 !important;
-  color: #fff !important;
-  background-color: #fff !important;
-  margin: 100px 0 !important;
 }
 
 .contact-block .frm-contact textarea {
@@ -4759,7 +4760,6 @@ html {
 }
 
 .topics .pagination li a {
-  text-decoration: none;
   font-size: 20px;
 }
 
@@ -5456,7 +5456,6 @@ html {
 .component-post .highlight-post .categortires-container {
   font-family: "Inter", sans-serif;
   font-style: normal;
-  display: none;
 }
 
 .component-post .highlight-post .categortires-container h2 {
