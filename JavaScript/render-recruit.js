@@ -1,5 +1,5 @@
-// const host = "http://localhost:1337";
-const host = "https://admin-staspi.herokuapp.com";
+const host = "http://localhost:1337";
+// const host = "https://admin-staspi.herokuapp.com";
 
 var keyword = document.getElementById("keyword");
 var but = document.getElementById("sb");

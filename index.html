@@ -34,8 +34,6 @@
   <link rel="stylesheet" href="./css/app.css?v=11232022" />
   <link rel="stylesheet" href="./themify-icons/themify-icons.css" />
 
-  <!-- link     -->
-  <!-- link     -->
   <title>Staspi</title>
 </head>
 
@@ -80,10 +78,24 @@
           <li><a href="./page/Hiring.html">Tuyển dụng</a></li>
           <li><a href="./page/Blog.html">Bài viết</a></li>
           <li>
-            <a href="./page/Contact.html"><button class="btn-button">
-                <p>Liên hệ</p>
-              </button></a>
+            <a href="./page/Contact.html">
+              <!-- <button class="btn-button"> -->
+                <!-- <p> -->
+                  Liên hệ
+                <!-- </p> -->
+              <!-- </button> -->
+            </a>
           </li>
+          <div class="switch">
+            <input
+              id="language-toggle"
+              class="check-toggle check-toggle-round-flat"
+              type="checkbox"
+            />
+            <label for="language-toggle"></label>
+            <span class="vi" language="vi">VI</span>
+            <span class="en" language="en">EN</span>
+          </div>
         </ul>
         <div class="auto">
           <div class="search-btn-banner">
@@ -130,10 +142,10 @@
                 </button></a>
             </div>
             <div class="title-home3">
-              <h2>Về chúng tôi</h2>
+              <h2 class = "title-about-us">Về chúng tôi</h2>
             </div>
             <div class="content-home3">
-              <p>
+              <p class="content-about-us">
                 Staspi Agency cung cấp giải pháp, định hướng marketing cho các
                 doanh nghiệp trong và ngoài Việt Nam. Chúng tôi cam kết mang
                 đến cho khách hàng những dịch vụ quảng cáo hiệu quả ,với trải
@@ -149,7 +161,7 @@
               <a href="/page/About_us.html">
                 <button>
                   <div class="text-button">
-                    <p>Xem thêm</p>
+                    <p class="content-button-about-us">Xem thêm</p>
                     <i class="contact ti-arrow-right"></i>
                   </div>
                 </button>
@@ -172,7 +184,7 @@
               </button></a>
           </div>
           <div class="home2-content">
-            <h2>Các dịch vụ của chúng tôi</h2>
+            <h2 id="title-our-service">Các dịch vụ của chúng tôi</h2>
           </div>
           <div class="flexbox-service">
             <div class="flexbox-item">
@@ -182,7 +194,6 @@
                   <img src="./images/icon-home2.png" alt="" />
                 </div>
               </a>
-              <!-- delete class fix3 -->
               <div class="flex-content ">
                 <h5>Marketing </br> tổng thể</h5>
               </div>
@@ -1001,22 +1012,40 @@
 <script src="./JavaScript/menu.js?v=11232022"></script>
 <script src="./JavaScript/slider-home6.js?v=11232022"></script>
 <script src="./JavaScript/dropdown_footer.js?v=11232022"></script>
-<script src="./JavaScript/facebook_toggle.js?v=11232022"></script>
+<script src=". JavaScript/facebook_toggle.js?v=11232022"></script>
+<script src="./JavaScript/multi-language.js"></script>
+<script>
+  //get atribute tag
+  const languageBtn = document.querySelector(".check-toggle");
+  const titleAboutUs = document.querySelector(".title-about-us");
+  const contentAboutUs = document.querySelector(".content-about-us");
+  const buttonAboutUs = document.querySelector(".content-button-about-us");
+  const titleOurService = document.getElementById("title-our-service")
+  //onload
+window.onload = function () {
+  setInitLangue();
+  var localLanguage = localStorage.getItem("language");
+
+  setStateButton(localLanguage);
+  renderHTMLAboutUs(localLanguage);
+  renderHTMLOurService(localLanguage);
+
+  languageBtn.onclick = () => {
+    if (localLanguage === "vi") {
+      localLanguage = "en";
+      localStorage.language = "en";
+    } else {
+      localLanguage = "vi";
+      localStorage.language = "vi";
+    }
+    renderHTMLAboutUs(localLanguage);
+    renderHTMLOurService(localLanguage);
+  };
+};
+</script>
 <!-- <script src="./service/testCallApi.js?v=11232022"></script> -->
 <script>
   getUser()
-</script>
-<script>
-  fetch(`https://reqres.in/api/users/2`).then(
-      res => {
-        return res.json();
-      }
-    )
-    .then(
-      data => {
-        console.log(data);
-      }
-    )
 </script>
 <script src="./JavaScript/alert.js?v=11232022"></script>
 <script>

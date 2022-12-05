@@ -1,5 +1,5 @@
-// const host = "http://localhost:1337";
-const host = "https://admin-staspi.herokuapp.com";
+const host = "http://localhost:1337";
+// const host = "https://admin-staspi.herokuapp.com";
 
 var load = "<div class= 'load-wrap'>";
 load += "<div class = 'load'>";
@@ -108,6 +108,7 @@ const renderTag = (arrayTag) => {
   document.getElementById("tag").innerHTML = arr.join("");
 };
 function jsonToHtml(obj) {
+  // console.log(obj);
   html = "";
   obj["blocks"].forEach(function (block, index) {
     switch (block["type"]) {
