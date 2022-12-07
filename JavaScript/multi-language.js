@@ -55,29 +55,81 @@ let dataOurService = {
         title: "Overall Marketing",
         content:
           "Develop a comprehensive marketing strategy to increase brand awareness and maximize your revenue",
-        slugs: "Service1.html",
+        slugs: "./page/pages/Service1.html",
         image: "icon-home2.png",
       },
       {
         title: "Website Design",
         content:
           "Create a full-fledged website with unique features tailored to your company and its individual needs. In addition, we also optimize the content and images on the Website.",
-        slugs: "Service2.html",
+        slugs: "./page/pages/Service2.html",
         image: "icon2-home2.png",
       },
       {
         title: "Amazon Account Management",
         content:
           "Create and manage Amazon business account. Our team will offer solutions in running ads, optimizing product listings,... at a reasonable cost.",
-        slugs: "Service3.html",
+        slugs: "./page/pages/Service3.html",
         image: "icon3-home2.png",
       },
       {
         title: "Marketing Course",
         content:
           "Provide quality marketing courses including a strong foundation of Marketing knowledge and case studies.",
-        slugs: "",
+        slugs: "#",
         image: "icon4-home2.png",
+      },
+    ],
+  },
+};
+let dataOurWorkingProcess = {
+  vi: {
+    title: "Quy trình công việc",
+    subTitle:
+      "Các dự án tại Staspi được triển khai theo một quy trình nhất quán và chuyên nghiệp. Với 5 bước làm việc được liên kết chặt chẽ, chúng tôi cam kết chất lượng và hiệu quả công việc luôn ở mức cao nhất.",
+    image: "./images/component-service.jpg",
+    titleButton: "Xem Thêm",
+  },
+  en: {
+    title: "Our Working Process",
+    subTitle:
+      "Staspi employs a thorough and professional working process. With 5 rigorous steps, we are dedicated to delivering the highest quality and work efficiency.",
+    image: "/images/component-service-en.png",
+    titleButton: "Learn more",
+  },
+};
+let dataUsDifferent = {
+  vi: {
+    title: "Điều khác biệt ở Staspi",
+    item: [
+      {
+        id: 0,
+        title: "Không ngừng<br>Sáng tạo",
+      },
+      {
+        id: 1,
+        title: "Giải quyết<br>Nhanh chóng",
+      },
+      {
+        id: 2,
+        title: "Chủ động<br>Hỗ trợ",
+      },
+    ],
+  },
+  en: {
+    title: "What makes us different?",
+    item: [
+      {
+        id: 0,
+        title: "Ceaseless <br>Creativity",
+      },
+      {
+        id: 1,
+        title: "Quick <br>solutions",
+      },
+      {
+        id: 2,
+        title: "Active <br>support",
       },
     ],
   },
@@ -101,6 +153,7 @@ function renderHTMLAboutUs(localLanguage) {
   contentAboutUs.innerHTML = dataAboutUs[localLanguage].content;
   buttonAboutUs.innerHTML = dataAboutUs[localLanguage].titleButton;
 }
+
 // function render html ourService
 function renderHTMLOurService(localLanguage) {
   var itemService = document.getElementsByClassName("flexbox-item");
@@ -108,7 +161,7 @@ function renderHTMLOurService(localLanguage) {
   var html = "";
   for (var i = 0; i < dataOurService[localLanguage].item.length; i++) {
     html += `<div class="flexbox-item">`;
-    html += `<a href="./page/pages/${dataOurService[localLanguage].item[i].slugs}">`;
+    html += `<a href="${dataOurService[localLanguage].item[i].slugs}">`;
     html += `<div class="img_flex">`;
     html += `<img src="./images/${dataOurService[localLanguage].item[i].image}" alt="" />`;
     html += `</div></a>`;
@@ -119,7 +172,7 @@ function renderHTMLOurService(localLanguage) {
     html += `<p>${dataOurService[localLanguage].item[i].content}</p>`;
     html += `</div>`;
     html += `<div class="flex-button">`;
-    html += `<a href="./page/pages/${dataOurService[localLanguage].item[i].slugs}">`;
+    html += `<a href="${dataOurService[localLanguage].item[i].slugs}">`;
     html += `<button><p>${dataOurService[localLanguage].titleButton}</p></button>`;
     html += `</a>`;
     html += `</div>`;
@@ -127,4 +180,23 @@ function renderHTMLOurService(localLanguage) {
   }
   componentService.innerHTML = html;
   titleOurService.innerHTML = dataOurService[localLanguage].title;
+}
+
+//function render our working process
+function renderHTMLOurWorkingProcess(localLanguage) {
+  titleOurWorkingService.innerHTML = dataOurWorkingProcess[localLanguage].title;
+  subTitleOurWorkingService.innerHTML =
+    dataOurWorkingProcess[localLanguage].subTitle;
+  imageOurWorkingService.src = dataOurWorkingProcess[localLanguage].image;
+  buttonHomeOurWorkingService.innerHTML =
+    dataOurService[localLanguage].titleButton;
+}
+function renderHTMLDifferent(localLanguage) {
+  titleUsDifferent.innerHTML = dataUsDifferent[localLanguage].title;
+  for (let i = 0; i < dataUsDifferent[localLanguage].item.length; i++) {
+    let targetItem = document
+      .getElementById("all-flex-home11")
+      .getElementsByClassName("btn-home11-" + i)[0];
+    targetItem.innerHTML = dataUsDifferent[localLanguage].item[i].title;
+  }
 }

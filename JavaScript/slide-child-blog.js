@@ -1,7 +1,7 @@
 let perPage = 3;
 let idPage = 1;
-host = "http://localhost:1337";
-// host = "https://admin-staspi.herokuapp.com";
+// host = "http://localhost:1337";
+host = "http://159.223.67.118:1337";
 
 $(Document).ready(async () => {
   const items = await fetchBlog();
@@ -147,7 +147,7 @@ function renderPost(post, start, end) {
         "/page/blogs/child-blog.html?id=" +
         item.id +
         ">";
-      html += `<img  src="${image}" class = 'image-item'
+      html += `<img  src="${host}${image}" class = 'image-item'
                 ">`;
       html += "</a>";
       html +=
