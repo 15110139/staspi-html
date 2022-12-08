@@ -3,8 +3,8 @@ let idPage = 1;
 let start = 0;
 let end = perPage;
 
-const host = "http://localhost:1337";
-// const host = "https://admin-staspi.herokuapp.com";
+// const host = "http://localhost:1337";
+const host = "http://159.223.67.118:1337";
 
 $(Document).ready(async () => {
   const items = await fetchBlogData();
@@ -138,6 +138,7 @@ function renderTopic(topic) {
         ">";
       html +=
         "<img  src=" +
+        host +
         image.medium.url +
         " class = " +
         "'" +

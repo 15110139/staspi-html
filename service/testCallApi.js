@@ -1,4 +1,4 @@
-const host = "http://localhost:1337";
+// const host = "http://localhost:1337";
 
 const getUser = async () => {
   try {
