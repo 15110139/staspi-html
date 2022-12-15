@@ -28,37 +28,37 @@
         </a>
         <ul class="nav-items" id="navs">
           <li>
-            <a href="../index.html">Trang Chủ</a>
+            <a class="item-navbars" href="../index.html">Trang Chủ</a>
           </li>
           <li>
-            <a href="../page/About_us.html" title="Về Chúng Tôi">Về chúng tôi</a>
+            <a class="item-navbars" href="../page/About_us.html" title="Về Chúng Tôi">Về chúng tôi</a>
           </li>
           <li>
-            <a class="nav_home" href="#">Dịch vụ</a>
-            <ul class="subnav">
+            <a class="nav_home item-navbars" href="#">Dịch vụ</a>
+            <ul class="subnav" id="subnav-service">
               <li>
-                <a href="../page/pages/Service1.html">Marketing tổng thể</a>
+                <a class="item-subnav-service" href="../page/pages/Service1.html">Marketing tổng thể</a>
               </li>
               <li>
-                <a href="../page/pages/Service2.html">Thiết kế website</a>
+                <a class="item-subnav-service" href="../page/pages/Service2.html">Thiết kế website</a>
               </li>
               <li>
-                <a href="../page/pages/Service3.html">Quản lý tài khoản Amazon</a>
+                <a class="item-subnav-service" href="../page/pages/Service3.html">Quản lý tài khoản Amazon</a>
               </li>
               <li>
                 <!-- <a href="../page/pages/Service4.html">Đào tạo marketing</a> -->
-                <a>Đào tạo marketing</a>
+                <a class="item-subnav-service">Đào tạo marketing</a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="./rate_card.html" title="Báo giá">Báo giá</a>
+            <a class="item-navbars" href="./rate_card.html" title="Báo giá">Báo giá</a>
           </li>
           <!-- <li><a href="../page/Testimonials.html">Phản hồi</a></li> -->
-          <li><a href="../page/Hiring.html">Tuyển dụng</a></li>
-          <li><a href="../page/Blog.html">Bài viết</a></li>
+          <li><a class="item-navbars" href="../page/Hiring.html">Tuyển dụng</a></li>
+          <li><a class="item-navbars" href="../page/Blog.html">Bài viết</a></li>
           <li>
-            <a href="../page/Contact.html">
+            <a class="item-navbars" href="../page/Contact.html">
               <!-- <button class="btn-button">
                 <p> -->
                   Liên hệ
@@ -211,7 +211,7 @@
               </button></a>
           </div>
           <div class="home2-content" style="display: none;">
-            <h2>Các dịch vụ của chúng tôi</h2>
+            <h2 id="title-our-service">Các dịch vụ của chúng tôi</h2>
           </div>
           <div class="flexbox-service">
             <div class="flexbox-item">
@@ -322,8 +322,8 @@
     <div class="all-home4">
       <div class="top-home4">
         <div class="title-home4">
-          <h2>Quy trình công việc</h2>
-          <p>
+          <h2 id = "title-home-4">Quy trình công việc</h2>
+          <p id = "subtitle-home-4">
             Các dự án tại Staspi được triển khai theo một quy trình nhất
             quán và chuyên nghiệp. Với 5 bước làm việc được liên kết chặt
             chẽ, chúng tôi cam kết chất lượng và hiệu quả công việc luôn ở
@@ -331,8 +331,9 @@
           </p>
         </div>
         <div class="image-home4">
-          <img src="../images/component-service.jpg" alt="" />
+          <img id="img-home-4" src="../images/component-service.jpg" alt="" />
         </div>
+        <button id="btn-home-4" style="display: none;"></button>
         <!-- <div class="button-home4">
               <a href="/page/Service.html">
                 <button class="btn-home4">Xem thêm</button>
@@ -634,7 +635,7 @@
   <section class="home6">
     <div class="all-home6">
       <div class="top-content">
-        <h2>Sản phẩm của khách hàng</h2>
+        <h2 id="title-client-web">Sản phẩm của khách hàng</h2>
       </div>
       <div class="all-flexbox-home6">
         <div class="sld-home6">
@@ -782,12 +783,12 @@
   <section class="feedback">
     <div class="feedback-container">
       <div class="home8">
-        <h2>Phản hồi từ khách hàng</h2>
+        <h2 id="title-testimonials">Phản hồi từ khách hàng</h2>
         <div class="slider">
           <!-- <span
-                class="nav pre ti-arrow-circle-left"
-                onclick="previousFeedBack()"
-              ></span> -->
+              class="nav pre ti-arrow-circle-left"
+              onclick="previousFeedBack()"
+            ></span> -->
           <div class="container-slider">
             <div class="slide" id="sld-feedback">
               <div class="item-slider">
@@ -796,12 +797,12 @@
                     <img class="img-item-slider" src="../images/user5-home8.jpg" />
                   </div>
                   <div class="infomation">
-                    <h5>Chị Tracy Trần</h5>
-                    <p>Chủ Pro Nails & Skincare</p>
+                    <h5 class="customer-name-0">Chị Tracy Trần</h5>
+                    <p class="brand-name-0">Chủ Pro Nails & Skincare</p>
                   </div>
                 </div>
                 <div class="comment">
-                  <p>
+                  <p class="comment-0">
                     Chị thích sự nhiệt tình, năng nổ, siêng năng của các em. Nhờ sự sáng tạo và đoàn kết của các bạn
                     nhân viên tại Staspi, Website và Instagram của chị đã được hoàn thành hết sức xuất sắc. Chị chắc
                     chắn sẽ tiếp tục ủng hộ các hoạt động của Staspi trong tương lai!
@@ -815,12 +816,12 @@
                     <img class="img-item-slider" src="../images/user6-home8.jpg" />
                   </div>
                   <div class="infomation">
-                    <h5>Chị Julie Nguyễn</h5>
-                    <p>Chủ Phở 79 DC</p>
+                    <h5 class="customer-name-1">Chị Julie Nguyễn</h5>
+                    <p class="brand-name-1">Chủ Phở 79 DC</p>
                   </div>
                 </div>
                 <div class="comment">
-                  <p>
+                  <p class="comment-1">
                     Rất cảm ơn Hoàng và đội nhóm đã đồng hành cùng chị và hỗ trợ chị hết mình! Các em không những dễ
                     thương mà còn rất nhiệt tình và thân thiện nữa! Love u all!
                   </p>
@@ -833,17 +834,15 @@
                     <img class="img-item-slider" src="../images/user3-home8.png" />
                   </div>
                   <div class="infomation">
-                    <h5>Chị Kelly Duong</h5>
-                    <p>Chủ EF You Lashes</p>
+                    <h5 class="customer-name-2">Chị Kelly Duong</h5>
+                    <p class="brand-name-2">Chủ EF You Lashes</p>
                   </div>
                 </div>
                 <div class="comment">
-                  <p>
+                  <p class="comment-2">
                     Chị chọn Staspi vì chị thích team của công ty, làm việc rất nhiệt tình, có tinh thần học hỏi, cầu
                     tiến, cầu toàn, thân thiện, dễ thương 🥰 .
                   </p>
-                  <p>Các em làm việc có kế hoạch rõ ràng.</p>
-                  <p>Làm việc vì đam mê 👍.</p>
 
                 </div>
               </div>
@@ -854,25 +853,25 @@
                     <img class="img-item-slider" src="../images/user1-home8.png" />
                   </div>
                   <div class="infomation">
-                    <h5>Dr Hieu Vu</h5>
-                    <p>Chủ thương hiệu Hylar</p>
+                    <h5 class="customer-name-3">Dr Hieu Vu</h5>
+                    <p class="brand-name-3">Chủ thương hiệu Hylar</p>
                   </div>
                 </div>
                 <div class="comment">
-                  <p>
-                    Tôi đã bị ấn tượng bởi sự chuyên nghiệp và nhiệt tình của Staspi. Staspi triển khai công việc rất có
-                    kế hoạch, nhờ vậy nên mọi thứ đều hoàn thành trước thời hạn được đề ra. Điều tôi thích nhất ở Staspi
-                    là đội ngũ nhân viên trẻ hết sức năng động, nhiệt tình giải đáp và giúp đỡ khách hàng ở nhiều vấn
-                    đề.
+                  <p class="comment-3">
+                    Tôi đã bị ấn tượng bởi sự chuyên nghiệp và nhiệt tình của Staspi. Staspi triển khai công việc rất
+                    có kế hoạch, nhờ vậy nên mọi thứ đều hoàn thành trước thời hạn được đề ra. Điều tôi thích nhất ở
+                    Staspi là đội ngũ nhân viên trẻ hết sức năng động, nhiệt tình giải đáp và giúp đỡ khách hàng ở
+                    nhiều vấn đề.
                   </p>
                 </div>
               </div>
             </div>
           </div>
           <!-- <span
-                class="nav nxt ti-arrow-circle-right"
-                onclick="nextFeedback()"
-              ></span> -->
+              class="nav nxt ti-arrow-circle-right"
+              onclick="nextFeedback()"
+            ></span> -->
         </div>
       </div>
     </div>
@@ -884,16 +883,16 @@
       <div class="right-top"></div>
       <form class="form" action="https://formsubmit.co/95vinhndu1415@gmail.com" method="POST">
         <div class="title-home9">
-          <h1>Để lại email</h1>
+          <h1 id="title-form-email-contact">Để lại email</h1>
         </div>
         <!-- <input type = "hidden" name = "_captcha" value = "false"> -->
         <input type="text" name="_honey" style="display: none">
-        <input type="hidden" name="_next" value="https://staspi.com/page/Service.html">
+        <input type="hidden" name="_next" value="https://staspi.com/Service.html">
         <input type="hidden" name="_subject" value="Thông tin khách hàng">
+        <input type="hidden" name="_autoresponse" value="Thank you for sending us information">
+        <input type="hidden" name="_template" value="table">
         <div class="form-field">
-          <input name="name" type="text" class="form-input" placeholder="Tên" required />
-          <input type="hidden" name="_autoresponse" value="Thank you for sending us information">
-          <input type="hidden" name="_template" value="table">
+          <input name="name" type="text" class="form-input" id="form-input" placeholder="Tên" required />
           <!-- <label for="name" class="form-label">Tên</label> -->
         </div>
         <div class="form-field">
@@ -906,7 +905,7 @@
         </div>
         <div class="button-home9">
           <a href="#"><button class="btn-home9" type="submit">
-              <p>Gửi liên hệ</p>
+              <p id="contact-email-button">Gửi liên hệ</p>
             </button></a>
         </div>
       </form>
@@ -925,7 +924,7 @@
   <!-- FOOTER -->
   <section class="footer">
     <div class="all_footer">
-      <div class="top">
+      <div class="top" id="top-footer">
         <div class="first">
           <div class="img-first">
             <img src="../images/image-footer.png" alt="" class="footer-img" />
@@ -938,35 +937,35 @@
           </div>
         </div>
         <div class="footer-item">
-          <h5>Thông tin liên hệ</h5>
+          <h5 class="title-footer-item">Thông tin liên hệ</h5>
           <a href="https://www.google.com/maps/place/25A+Đặng+Thai+Mai,+Phường+7,+Phú+Nhuận,+Thành+phố+Hồ+Chí+Minh/@10.8027703,106.6896626,17z/data=!3m1!4b1!4m5!3m4!1s0x317529588eeb090d:0xbef54e52051043af!8m2!3d10.8027703!4d106.6896626"
             target="_blank">
-            <p>
+            <p class="item-inf">
               Địa chỉ: 158/14 Trần Huy Liệu, P.8,</br> Quận Phú Nhuận TP. Hồ Chí Minh
             </p>
           </a>
           <a href="tel:0816411445">
-            <p>Hotline: 0816411445</p>
+            <p class="item-inf">Hotline: 0816411445</p>
           </a>
           <a href="mailto:admin@staspi.com">
-            <p>Email: admin@staspi.com</p>
+            <p class="item-inf">Email: admin@staspi.com</p>
           </a>
         </div>
         <div class="footer-item">
-          <h5>Dịch vụ</h5>
+          <h5 class="title-footer-item">Dịch vụ</h5>
           <a href="./page/pages/Service1.html">
-            <p>Marketing tổng thể</p>
+            <p class="item-service">Marketing tổng thể</p>
           </a>
           <a href="./page/pages/Service2.html">
-            <p>Thiết kế website</p>
+            <p class="item-service">Thiết kế website</p>
           </a>
           <a href="./page/pages/Service3.html">
-            <p>Quản lý tài khoản Amazon</p>
+            <p class="item-service">Quản lý tài khoản Amazon</p>
           </a>
-          <p>Đào tạo Marketing</p>
+          <p class="item-service">Đào tạo Marketing</p>
         </div>
         <div class="footer-item fix-size">
-          <h5>Liên kết</h5>
+          <h5 class="title-footer-item">Liên kết</h5>
           <!-- fixlayout -->
           <div class="block-contact">
             <a href="https://www.facebook.com/StartUp.Spirit" target="_blank">
@@ -1110,11 +1109,29 @@ const titleBannerService = document.getElementById("title-banner-service");
 const contentBannerService = document.getElementById("content-banner-service");
 const buttonBannerService = document.getElementById("btn-service");
 
-window.onload = function () {
+const titleOurService = document.getElementById("title-our-service");
+
+const titleOurWorkingService = document.getElementById("title-home-4");
+  const subTitleOurWorkingService = document.getElementById("subtitle-home-4");
+  const imageOurWorkingService = document.getElementById("img-home-4");
+  const buttonHomeOurWorkingService = document.getElementById("btn-home-4");
+  
+  const titleClientWeb = document.getElementById("title-client-web");
+  
+  const titleTestimonial = document.getElementById("title-testimonials");
+  
+  const titleFormContact = document.getElementById("title-form-email-contact");
+  window.onload = function () {
 
   setStateButton();
-  renderHTMLServiceBanner()
-  
+  renderHTMLServiceBanner();
+  renderHTMLOurServices();
+  renderHTMLOurWorkingProcess();
+  renderHTMLOurWeb();
+  renderHTMLComponentTestimonial();
+  renderContactWithEmailForm();
+  renderHTMLNavbar();
+  renderFooter();
   
   languageBtn.onclick = () => {
     if (localLanguage === "vi") {
@@ -1125,6 +1142,13 @@ window.onload = function () {
       localStorage.language = "vi";
     }
     renderHTMLServiceBanner();
+    renderHTMLOurServices();
+    renderHTMLOurWorkingProcess();
+    renderHTMLOurWeb();
+    renderHTMLComponentTestimonial();
+    renderContactWithEmailForm();
+    renderHTMLNavbar();
+    renderFooter();
   };
 };
 </script>

@@ -91,7 +91,7 @@ let dataOurWorkingProcess = {
     title: "Quy trình công việc",
     subTitle:
       "Các dự án tại Staspi được triển khai theo một quy trình nhất quán và chuyên nghiệp. Với 5 bước làm việc được liên kết chặt chẽ, chúng tôi cam kết chất lượng và hiệu quả công việc luôn ở mức cao nhất.",
-    image: "./images/component-service.jpg",
+    image: "/images/component-service.jpg",
     titleButton: "Xem Thêm",
   },
   en: {
@@ -408,7 +408,7 @@ let footerContent = {
         text: "Thông tin liên hệ",
         item: [
           {
-            text: `Địa chỉ: 158/14 Trần Huy Liệu, P.8,
+            text: `Địa chỉ: 158/14 Trần Huy Liệu, P.8,<br>
               Quận Phú Nhuận TP. Hồ Chí Minh `,
           },
           {
@@ -634,6 +634,663 @@ let dataOurServiceBanner = {
     button: "Contact now",
   },
 };
+
+let dataOverallMarketing = {
+  vi: {
+    title: "Marketing tổng thể",
+    subTitle:
+      "Chúng tôi cung cấp các giải pháp Marketing toàn diện, bao gồm tiếp cận khách hàng tiềm năng, quảng bá sản phẩm và xây dựng thương hiệu với mục đích tăng trưởng doanh thu, phát triển doanh nghiệp trên đa nền tảng. ",
+    placeholderAdvise: "Nhập số điện thoại",
+    buttonAdvise: "Nhận tư vấn",
+  },
+  en: {
+    title: "Overall marketing",
+    subTitle:
+      "We provide comprehensive overall marketing strategies, including tactics to reach potential customers, market products, build brand awareness in order to generate more revenue, and grow your business on different digital platforms.",
+    placeholderAdvise: "phone number",
+    buttonAdvise: "get Advice",
+  },
+};
+let dataOverallMarketingStrategies = {
+  vi: {
+    title: "Lý do cần kế hoạch Marketing tổng thể?",
+    item: [
+      {
+        content: "Đẩy mạnh hiệu quả truyền thông",
+      },
+      {
+        content: "Tiết kiệm chi phí Marketing",
+      },
+      {
+        content: "Tăng khả năng tiếp cận khách hàng tiềm năng",
+      },
+      {
+        content: "Củng cố vị trí của thương hiệu trên thị trường",
+      },
+    ],
+  },
+  en: {
+    title: "The importance of overall marketing strategies",
+    item: [
+      {
+        content: "Boost marketing results",
+      },
+      {
+        content: "Save costs for marketing",
+      },
+      {
+        content: "Increase your potential customer reach",
+      },
+      {
+        content: "Strengthen your market position",
+      },
+    ],
+  },
+};
+
+let dataWhyChooseUsOMS = {
+  vi: {
+    title: "Tại sao chọn chúng tôi",
+    content:
+      "Dịch vụ Marketing tổng thể tại Staspi giúp tiếp cận khách hàng hiệu quả hơn, tăng doanh thu và nhận thức thương hiệu. Chúng tôi tin rằng khách hàng sẽ hoàn toàn hài lòng về những hiệu quả vượt trội mà dịch vụ của Staspi mang lại.<br>Ngoài ra, sự chuyên nghiệp là tiêu chí hàng đầu tại Staspi. Mọi số liệu từ chiến dịch sẽ được gửi cho khách hàng. Đồng thời, Staspi cũng cam kết sẽ làm đúng như timeline, kế hoạch đã đề ra trước đó.",
+    button: "Tìm hiểu thêm",
+    item: [
+      {
+        content: "Kế hoạch bám sát thực tế",
+      },
+      {
+        content: "Chủ động đề xuất giải pháp",
+      },
+      {
+        content: "Tối ưu hóa tổng chi phí",
+      },
+      {
+        content: "Giải quyết vấn đề nhanh chóng",
+      },
+    ],
+  },
+  en: {
+    title: "Why choose us?",
+    content:
+      "Overall marketing service at Staspi helps to reach more customers, increase sales and promote brand awareness. We believe you will be delighted with the outstanding results Staspi's services bring out.</br>In addition, professionalism is Staspi’s top priority. As a result, any results from the campaign, whether they are good or bad, will be sent to the client. At the same time, Staspi also committed to following the timeline and plan set out earlier.",
+    button: "Learn more",
+    item: [
+      {
+        content: "Offer practical marketing strategies",
+      },
+      {
+        content: "Proactively provide support",
+      },
+      {
+        content: "Keep marketing costs to a minimum",
+      },
+      {
+        content: "Solve problems quickly",
+      },
+    ],
+  },
+};
+let dataWhyChooseUsWebDesign = {
+  vi: {
+    title: "Tại sao chọn chúng tôi",
+    content:
+      "Với đội ngũ chuyên nghiệp, Staspi tư vấn và hỗ trợ khách hàng thiết kế giao diện website phù hợp nhất, từ đó lên kế hoạch tỉ mỉ và triển khai xây dựng. Website tại Staspi tuân theo các tiêu chí: chuẩn SEO, an toàn, thân thiện với người dùng và mang tính thẩm mỹ cao.<br>Bên cạnh đó, Staspi cung cấp nhiều tính năng khác nhau tùy vào mục đích của Website như: bán sản phẩm, quảng bá dịch vụ, elearning,... Sau khi hoàn thành Website, chúng tôi cũng hướng dẫn khách hàng tận tình trong quá trình quản lý và sử dụng. ",
+    button: "Tìm hiểu thêm",
+    item: [
+      {
+        content: "Thời gian triển khai nhanh chóng",
+      },
+      {
+        content: "Website thân thiện người dùng",
+      },
+      {
+        content: "Tương thích trên tất cả thiết bị",
+      },
+      {
+        content: "Giao diện thu hút, chuyên nghiệp",
+      },
+    ],
+  },
+  en: {
+    title: "Why choose us?",
+    content:
+      "Staspi will lead your digital marketing strategies and actively advises on tactics to design the most well-thought-out website you should leverage; then, we will plan and implement the whole project. Staspi provides websites complying with the criteria: SEO practices, high security, user-friendly website, responsive design, and visually appealing appearance.<br>Besides, websites delivered by Staspi are packed with many unique features depending on the website's purpose, such as: selling products, promoting services, and elearning,... After completing the website, we also teach customers how to use and manage the website ",
+    button: "Learn more",
+    item: [
+      {
+        content: "Fast<br> implementation",
+      },
+      {
+        content: "User<br>friendly",
+      },
+      {
+        content: "Compatible with multiple devices",
+      },
+      {
+        content: "Professional and attractive website design",
+      },
+    ],
+  },
+};
+let dataWhyChooseUsAAM = {
+  vi: {
+    title: "Tại sao chọn chúng tôi",
+    content:
+      "Với đội ngũ nhân viên có kinh nghiệm lâu năm trong vận hành tài khoản trên Amazon và có kiến thức vững chắc về nền tảng này, Staspi sẽ mang đến cho khách hàng các kế hoạch bán hàng và tiếp thị hiệu quả, mang lại doanh thu cao với ngân sách tiết kiệm.<br>Là một đối tác chính thức của Amazon, Staspi còn hỗ trợ khách hàng liên hệ trực tiếp với Amazon để được hỗ trợ giải quyết vấn đề phát sinh kịp thời. Với các điều trên, Staspi tự tin là một trong những đơn vị quản lý tài khoản Amazon uy tín và chuyên nghiệp nhất trên thị trường.",
+    button: "Tìm hiểu thêm",
+    item: [
+      {
+        content: "Kế hoạch bán hàng cụ thể, thực tiễn",
+      },
+      {
+        content: "Linh hoạt tối ưu quảng cáo, chi phí",
+      },
+      {
+        content: "Đội ngũ chuyên viên dày dặn kinh nghiệm",
+      },
+      {
+        content: "Hỗ trợ liên hệ trực tiếp Amazon",
+      },
+    ],
+  },
+  en: {
+    title: "Why choose us?",
+    content:
+      "With our dedicated team of experts with extensive experience and knowledge in advertising on Amazon, Staspi is dedicated to guiding you through all the roadblocks in selling products on Amazon and scaling up your Amazon online business presence, thereby maximizing potential revenue through our strategic insights and planning.<br>As an Amazon partner agency, Staspi can help customers get in touch with Amazon for timely and effective problem solving. With all mentioned above, Staspi is proud of being one of the most professional and reliable Amazon Account Management agencies.",
+    button: "Learn more",
+    item: [
+      {
+        content: "Strategic and pragmatic plans",
+      },
+      {
+        content: "Flexible listing optimization",
+      },
+      {
+        content: "knowledgeable and experienced team",
+      },
+      {
+        content: "Help contact Amazon",
+      },
+    ],
+  },
+};
+let dataADSOverallMareting = {
+  vi: {
+    title: "Marketing tổng thể",
+    allButton: "liên hệ ngay",
+    item: [
+      {
+        title: "Quản lý Trang Mạng Xã Hội",
+        content:
+          "Sáng tạo nội dung nhằm tối ưu các trang mạng xã hội, giúp doanh nghiệp tăng độ uy tín và được biết đến nhiều hơn, từ đó tăng doanh thu đáng kể",
+      },
+      {
+        title: "Tối Ưu Hóa Công Cụ Tìm Kiếm",
+        content:
+          "Tăng chất lượng và lưu lượng truy cập website bằng cách tăng khả năng hiển thị của website trên các công cụ tìm kiếm như Google, Yahoo,... ",
+      },
+      {
+        title: "Phát Triển Kênh Tiktok",
+        content:
+          "Đề xuất nội dung viral nhằm tăng tương tác trên kênh Tiktok cho các cá nhân, doanh nghiệp.... Quản lý kênh Tiktok, sản xuất video nhằm phát triển kênh",
+      },
+      {
+        title: "Thiết Kế Và Chỉnh Sửa",
+        content:
+          "Thiết kế các ấn phẩm truyền thông, đồ họa, in ấn cho các trang mạng xã hội, website,... dựa vào nhu cầu của khách hàng ",
+      },
+      {
+        title: "Chạy Quảng Cáo",
+        content:
+          "Khai thác khách hàng tiềm năng từ Facebook, Google, Instagram,... bằng các chiến dịch quảng cáo tối ưu về mặt chi phí, đảm bảo kế hoạch đề ra.",
+      },
+      {
+        title: "Phát Triển Kênh Youtube",
+        content:
+          "Đề xuất ý tưởng phát triển kênh Youtube cho doanh nghiệp. Tìm kiếm và lên kế hoạch đăng tải nội dung thu hút người dùng",
+      },
+    ],
+  },
+  en: {
+    title: "Overall Marketing",
+    allButton: "Contact now",
+    item: [
+      {
+        title: "Social Media Management",
+        content:
+          "Create content to optimize social media pages, help businesses grow their visibility, build relationship with customers and ultimately generate more leads",
+      },
+      {
+        title: "Search Engine Optimization",
+        content:
+          "Take steps to help your website rank higher on search engines such as Google, Yahoo,... by improving website quality and user experience",
+      },
+      {
+        title: "Tiktok Marketing",
+        content:
+          "Provide all trendy content to stay ahead of the curve and get the most engagement from business videos. We also edit the videos and monitor the account daily.",
+      },
+      {
+        title: "Graphic Design & Video Editing",
+        content:
+          "Design captivating social media graphics, from logo design to print design and everything between",
+      },
+      {
+        title: "Social Media Advertising",
+        content:
+          "Attract potential customers from Facebook, Google, Instagram… by cost-saving and creative advertising campaign",
+      },
+      {
+        title: "Youtube Marketing",
+        content:
+          "Propose ideas to develop business's youtube channel. Conduct research and make precise plans to attract more viewers and followers",
+      },
+    ],
+  },
+};
+
+let dataADSWebDesign = {
+  vi: {
+    title: "Dịch vụ thiết kế website",
+    allButton: "liên hệ ngay",
+    item: [
+      {
+        title: "Thiết Kế Giao Diện",
+        content:
+          "Thiết kế giao diện Website đẹp, đầy đủ tính năng. Hỗ trợ tư vấn và đề xuất các lựa chọn phù hợp với mong muốn và mục đích sử dụng website của khách hàng",
+      },
+      {
+        title: "Tối Ưu Nội Dung",
+        content:
+          "Đăng tải nội dung giới thiệu doanh nghiệp, sản phẩm theo ngôn ngữ Tiếng Việt/Anh lên website. Sáng tạo bài viết chuẩn SEO",
+      },
+      {
+        title: "Lập Trình Website",
+        content:
+          "Nhận các dữ liệu của website và xây dựng hệ thống website hoàn chỉnh. Trang bị các công cụ hỗ trợ khách hàng quản trị website một cách dễ dàng hơn",
+      },
+      {
+        title: "Thiết Kế Hình Ảnh",
+        content:
+          "Thiết kế banner, poster, hình ảnh sản phẩm, hình pop-up và các hình ảnh cần thiết khác cho website của doanh nghiệp",
+      },
+      {
+        title: "Thiết Kế Landing Page",
+        content:
+          "Thiết kế Landing Page chuẩn SEO nhằm hỗ trợ chạy quảng cáo. Landing Page được thiết kế bởi Staspi luôn được tối ưu hóa và mang lại tỷ lệ chuyển đổi",
+      },
+      {
+        title: "Thuê Hosting",
+        content:
+          "Cung cấp Hosting bảo mật, an toàn với chi phí thấp nhất. Ngoài ra chúng tôi cũng hỗ trợ mua tên miền (domain) cho doanh nghiệp",
+      },
+    ],
+  },
+  en: {
+    title: "Website design services",
+    allButton: "Contact now",
+    item: [
+      {
+        title: "Layout design",
+        content:
+          "Build a fully-functional website with an attractive design. We also offer free consultations for customers to explore their needs and goals.",
+      },
+      {
+        title: "Content optimization",
+        content:
+          "Create and structure content in both English and Vietnamese for website, including content for blog posts to increase lead generation",
+      },
+      {
+        title: "Website coding",
+        content:
+          "Collect data to create a complete website packed with many features helping customers manage the website more easily.",
+      },
+      {
+        title: "Graphic design",
+        content:
+          "Design banner, poster, product images, pop-ups and other graphics necessary for business's website",
+      },
+      {
+        title: "Landing page design",
+        content:
+          "Build SEO-Friendly landing pages for running ads, increasing traffic to your website. Landing pages designed by Staspi can optimize your",
+      },
+      {
+        title: "Web hosting",
+        content:
+          "Provide secure and scalable hosting at an affordable price. Besides, we also help customers find and buy a perfect domain for their brand.",
+      },
+    ],
+  },
+};
+let dataFrmMarketingContact = {
+  vi: {
+    title: "Đăng ký dịch vụ Marketing tại Staspi ngay ngày hôm nay!",
+    subTitle:
+      "Bạn còn thắc mắc và phân vân? Điền vào biểu mẫu để nhận tư vấn miễn phí ngay từ chúng tôi!",
+    button: "Đăng kí tư vấn",
+    placeholder: [
+      {
+        title: "họ và tên",
+      },
+      {
+        title: "Số điện thoại",
+      },
+      {
+        title: "dịch vụ đăng ký",
+      },
+      {
+        title: "lời nhắn ......",
+      },
+    ],
+  },
+  en: {
+    title: "Try our marketing service today!",
+    subTitle:
+      "You have questions? Fill out the form below to get free consultation from Staspi now!",
+    button: "Get free consultation",
+    placeholder: [
+      {
+        title: "Name",
+      },
+      {
+        title: "Phone Number",
+      },
+      {
+        title: "Note ......",
+      },
+      {
+        title: "Your questions",
+      },
+    ],
+  },
+};
+let dataFrmWebDesignContact = {
+  vi: {
+    title: "Đăng ký dịch vụ thiết kế website tại Staspi ngay ngày hôm nay!",
+    subTitle:
+      "Bạn còn thắc mắc và phân vân? Điền vào biểu mẫu để nhận tư vấn miễn phí ngay từ chúng tôi!",
+    button: "Đăng kí tư vấn",
+    placeholder: [
+      {
+        title: "họ và tên",
+      },
+      {
+        title: "Số điện thoại",
+      },
+      {
+        title: "dịch vụ đăng ký",
+      },
+      {
+        title: "lời nhắn ......",
+      },
+    ],
+  },
+  en: {
+    title: "Try our web design service today!",
+    subTitle:
+      "You have questions? Fill out the form below to get free consultation from Staspi now!",
+    button: "Get free consultation",
+    placeholder: [
+      {
+        title: "Name",
+      },
+      {
+        title: "Phone Number",
+      },
+      {
+        title: "Note ......",
+      },
+      {
+        title: "Your questions",
+      },
+    ],
+  },
+};
+let dataFrmAAMContact = {
+  vi: {
+    title:
+      "Đăng ký dịch vụ quản lý tài khoản Amazon tại Staspi ngay ngày hôm nay!",
+    subTitle:
+      "Bạn còn thắc mắc và phân vân? Điền vào biểu mẫu để nhận tư vấn miễn phí ngay từ chúng tôi!",
+    button: "Đăng kí tư vấn",
+    placeholder: [
+      {
+        title: "họ và tên",
+      },
+      {
+        title: "Số điện thoại",
+      },
+      {
+        title: "dịch vụ đăng ký",
+      },
+      {
+        title: "lời nhắn ......",
+      },
+    ],
+  },
+  en: {
+    title: "Try our amazon account management service today!",
+    subTitle:
+      "You have questions? Fill out the form below to get free consultation from Staspi now!",
+    button: "Get free consultation",
+    placeholder: [
+      {
+        title: "Name",
+      },
+      {
+        title: "Phone Number",
+      },
+      {
+        title: "Note ......",
+      },
+      {
+        title: "Your questions",
+      },
+    ],
+  },
+};
+
+let dataWebDesign = {
+  vi: {
+    title: "Thiết Kế Website",
+    subTitle:
+      "Staspi đáp ứng mọi yêu cầu của khách hàng về website như thiết kế giao diện, tối ưu hóa nội dung website, tăng trải nghiệm người truy cập website,... Chúng tôi có thể làm website cho đa dạng ngành nghề như website bán hàng, giới thiệu doanh nghiệp,... chuẩn SEO một cách dễ dàng, nhanh chóng với chi phí tối ưu nhất.",
+    placeholderAdvise: "Nhập số điện thoại",
+    buttonAdvise: "Nhận tư vấn",
+  },
+  en: {
+    title: "Website design",
+    subTitle:
+      "We turnkey the entire process of designing and building a high-performing website, including creating layout, optimizing website content, increasing user experience,... We offer many types of websites, such as business website, blog website, eCommerce website,... Staspi also helps you achieve higher organic rankings at an affordable price through SEO practices.",
+    placeholderAdvise: "phone number",
+    buttonAdvise: "get Advice",
+  },
+};
+let dataAAM = {
+  vi: {
+    title: "Quản lý tài khoản<br>Amazon",
+    subTitle:
+      "Staspi cung cấp dịch vụ đăng ký và quản lý tài khoản trên trang Thương mại điện tử lớn nhất thế giới Amazon. Đồng thời chúng tôi cũng hỗ trợ đưa ra những giải pháp chạy quảng cáo, tối ưu trang bán hàng, sản phẩm,... trên Amazon với chi phí hợp lý nhất.",
+    placeholderAdvise: "Nhập số điện thoại",
+    buttonAdvise: "Nhận tư vấn",
+  },
+  en: {
+    title: "Amazon Account Management",
+    subTitle:
+      "Staspi sets up Amazon business accounts and offers strategies to manage these accounts on Amazon - the largest eCommerce company. Besides, we also handle all processes involving advertising, product listings, listing optimization,...",
+    placeholderAdvise: "phone number",
+    buttonAdvise: "get Advice",
+  },
+};
+
+let dataWebDesignStrategies = {
+  vi: {
+    title: "Lý do cần xây dựng Website?",
+    item: [
+      {
+        content: "Cung cấp đầy đủ thông tin của doanh nghiệp",
+      },
+      {
+        content: "Quảng bá sản phẩm và dịch vụ 24/7",
+      },
+      {
+        content: "Tăng phạm vị và khả năng tiếp cận khách hàng",
+      },
+      {
+        content: "Nâng cao tính chuyên nghiệp",
+      },
+    ],
+  },
+  en: {
+    title: "The importance of building a website",
+    item: [
+      {
+        content: "To provide general information on business",
+      },
+      {
+        content: "To sell and market your products/services 24/7",
+      },
+      {
+        content: "Increase visibility and reach to potential customers",
+      },
+      {
+        content: "Enhance your professional image",
+      },
+    ],
+  },
+};
+let dataAAMStrategies = {
+  vi: {
+    title: "Lý do cần quản lý tài khoản Amazon?",
+    item: [
+      {
+        content: "Quảng cáo được tối ưu hơn nhờ vào kế hoạch vận hành phù hợp",
+      },
+      {
+        content: "Thu hút được đúng tệp khách hàng tiềm năng của doanh nghiệp",
+      },
+      {
+        content: "Thúc đẩy quyết định mua hàng",
+      },
+      {
+        content:
+          "Các số liệu được thu thập đầy đủ hơn nhằm phục vụ mục đích marketing",
+      },
+    ],
+  },
+  en: {
+    title: "The importance of Amazon Account Management",
+    item: [
+      {
+        content: "Drive more leads with our strategic plans",
+      },
+      {
+        content:
+          "Attract and reach out to the right target customers of your business",
+      },
+      {
+        content: "Accelerate buyer purchase decision",
+      },
+      {
+        content: "Collect data essential for marketing campaigns",
+      },
+    ],
+  },
+};
+
+let dataADSAAM = {
+  vi: {
+    title: "Dịch vụ thiết kế website",
+    allButton: "liên hệ ngay",
+    item: [
+      {
+        title: "Chuẩn hóa listing",
+        content:
+          "Tối ưu 4 yếu tố: tiêu đề, bullet points, từ khóa và hình ảnh trên trang sản phẩm của khách hàng nhằm thu hút khách hàng và tăng khả năng hiển thị",
+      },
+      {
+        title: "Thiết kế gian hàng",
+        content:
+          "Dựa trên phong cách được định vị bởi khách hàng, Staspi sẽ xây dựng cửa hàng trực tuyến của doanh nghiệp trên Amazon bắt mắt và thu hút",
+      },
+      {
+        title: "Lên kế hoạch bán hàng",
+        content:
+          "Lên kế hoạch bán hàng và tiếp thị sản phẩm chi tiết, cụ thể nhằm. Dựa vào kế hoạch bán hàng, chủ doanh nghiệp sẽ giảm thiểu được rủi ro và chi phí",
+      },
+      {
+        title: "Vận hành tài khoản",
+        content:
+          "Đăng ký tài khoản, xác thực thông tin doanh nghiệp trên Amazon. Theo dõi, vận hành tài khoản và liên tục cập nhật các thuật toán mới của Amazon",
+      },
+      {
+        title: "Nghiên cứu thị trường",
+        content:
+          "Nghiên cứu sản phẩm, thị trường, đối thủ,... nhằm điều chỉnh sản phẩm và chạy quảng cáo phù hợp, tăng khả năng tiếp cận của doanh nghiệp",
+      },
+      {
+        title: "Tối ưu quảng cáo",
+        content:
+          "Nghiên cứu, triển khai các chiến dịch quảng cáo trên Amazon với mục tiêu tăng doanh số và nhận thức thương hiệu của khách hàng",
+      },
+    ],
+  },
+  en: {
+    title: "Amazon Account Management",
+    allButton: "Contact now",
+    item: [
+      {
+        title: "Listing Optimization",
+        content:
+          "Optimize: headings, bullet points, keywords and images on product pages to improve conversion rates and viewability",
+      },
+      {
+        title: "Branded Amazon store building",
+        content:
+          "Based on the preference of customers, Staspi will build your online business on Amazon that is eye-catching and appealing",
+      },
+      {
+        title: "Sales Planning",
+        content:
+          "Do detailed and specific sales and marketing planning. Based on the sales plan, businesses can manage the potential risks and reduce costs",
+      },
+      {
+        title: "Account Management",
+        content:
+          "Register and protect your business account on Amazon. Monitor and operate your account and keep up-to-date with new Amazon algorithms",
+      },
+      {
+        title: "Market Research",
+        content:
+          "Conduct research into products, markets, competitors, ... to adjust products and run successful ads, in that way, eliciting favorable customer feedback and attracting more customers",
+      },
+      {
+        title: "Advertising Optimization",
+        content:
+          "Implement advertising campaigns on Amazon to increase sales and brand awareness of your businesses",
+      },
+    ],
+  },
+};
+
+let hiringPage = {
+  vi: {
+    titleInfo: "Thông tin về Staspi",
+    titleWorkEnvi: "Môi trường làm việc",
+    titleHiringPost: "Bài viết tuyển dụng",
+    subTitleInfo:
+      "Staspi Agency cung cấp giải pháp, định hướng marketing cho các doanh nghiệp trong và ngoài Việt Nam. Chúng tôi cam kết mang đến cho khách hàng những dịch vụ quảng cáo hiệu quả ,với trải nghiệm tuyệt vời nhất.<br>Bạn có muốn đồng hành cùng Staspi trên con đường phát triển bản thân và tìm kiếm những giải pháp Marketing đột phá? Hãy liên hệ ngay với chúng tôi nhé!",
+  },
+  en: {
+    titleInfo: "About Staspi's team",
+    titleWorkEnvi: "Working environment",
+    titleHiringPost: "Recruitment Posts",
+    subTitleInfo:
+      "Staspi Agency offers comprehensive marketing solutions to businesses across the world. We are committed to providing our customers with not only effective and creative advertising strategies but also the exceptional experience.<br>Do you want to accompany Staspi on the path of self-development and search for breakthrough Marketing solutions? Contact us now!",
+  },
+};
+
 function renderHTMLServiceBanner() {
   titleBannerService.innerHTML = dataOurServiceBanner[localLanguage].title;
   contentBannerService.innerText = dataOurServiceBanner[localLanguage].content;
@@ -685,6 +1342,32 @@ function renderHTMLOurService() {
     html += `<a href="${dataOurService[localLanguage].item[i].slugs}">`;
     html += `<div class="img_flex">`;
     html += `<img src="./images/${dataOurService[localLanguage].item[i].image}" alt="" />`;
+    html += `</div></a>`;
+    html += `<div class="flex-content ">`;
+    html += `<h5>${dataOurService[localLanguage].item[i].title}</h5>`;
+    html += `</div>`;
+    html += `<div class="flex-item">`;
+    html += `<p>${dataOurService[localLanguage].item[i].content}</p>`;
+    html += `</div>`;
+    html += `<div class="flex-button">`;
+    html += `<a href="${dataOurService[localLanguage].item[i].slugs}">`;
+    html += `<button><p>${dataOurService[localLanguage].titleButton}</p></button>`;
+    html += `</a>`;
+    html += `</div>`;
+    html += "</div>";
+  }
+  componentService.innerHTML = html;
+  titleOurService.innerHTML = dataOurService[localLanguage].title;
+}
+function renderHTMLOurServices() {
+  // var itemService = document.getElementsByClassName("flexbox-item");
+  const componentService = document.querySelector(".flexbox-service");
+  var html = "";
+  for (var i = 0; i < dataOurService[localLanguage].item.length; i++) {
+    html += `<div class="flexbox-item">`;
+    html += `<a href="${dataOurService[localLanguage].item[i].slugs}">`;
+    html += `<div class="img_flex">`;
+    html += `<img src="../images/${dataOurService[localLanguage].item[i].image}" alt="" />`;
     html += `</div></a>`;
     html += `<div class="flex-content ">`;
     html += `<h5>${dataOurService[localLanguage].item[i].title}</h5>`;
@@ -814,4 +1497,301 @@ function renderHTMLComponentAboutUs2() {
       .getElementsByClassName("content-item")[i];
     contentItem.innerHTML = htmlItemAboutUs2;
   }
+}
+//function render html overall marketing
+function renderHTMLOverallMarketing() {
+  const contentOverallMarking = document.querySelectorAll(
+    ".content-overall-marketing"
+  );
+  const subTitleOverallMarketing = document.querySelectorAll(
+    ".subtitle-overall-marketing"
+  );
+  const placeholderOverallMarketing =
+    document.getElementsByName("phone-number");
+  const buttonSubmitPhone = document.querySelectorAll(".content-submit-phone");
+  for (let i = 0; i < contentOverallMarking.length; i++) {
+    contentOverallMarking[i].innerHTML =
+      dataOverallMarketing[localLanguage].title;
+  }
+  for (let i = 0; i < subTitleOverallMarketing.length; i++) {
+    subTitleOverallMarketing[i].innerHTML =
+      dataOverallMarketing[localLanguage].subTitle;
+  }
+  for (let i = 0; i < placeholderOverallMarketing.length; i++) {
+    placeholderOverallMarketing[i].placeholder =
+      dataOverallMarketing[localLanguage].placeholderAdvise;
+  }
+  for (let i = 0; i < buttonSubmitPhone.length; i++) {
+    buttonSubmitPhone[i].innerHTML =
+      dataOverallMarketing[localLanguage].buttonAdvise;
+  }
+}
+
+//function render html OverallMarketingStrategies dataOverallMarketingStrategies
+function renderHTMLOMStrategies() {
+  let title = document.getElementById("title-omstrategies");
+  let item = document
+    .getElementById("component-omstrategies")
+    .getElementsByTagName("li");
+  title.innerText = dataOverallMarketingStrategies[localLanguage].title;
+  for (
+    let i = 0;
+    i < dataOverallMarketingStrategies[localLanguage].item.length;
+    i++
+  ) {
+    item[i].innerText =
+      dataOverallMarketingStrategies[localLanguage].item[i].content;
+  }
+}
+
+//function render html why choose us dataWhyChooseUsOMS
+function renderHTMLWhyChooseUSOMS() {
+  let title = document.getElementById("title-service2");
+  let content = document.getElementById("content-sv2");
+  let button = document.getElementById("btn-sv2");
+  let item = document
+    .getElementById("service2-component")
+    .querySelectorAll(".title-sv2-item");
+  title.innerText = dataWhyChooseUsOMS[localLanguage].title;
+  content.innerHTML = dataWhyChooseUsOMS[localLanguage].content;
+  button.innerText = dataWhyChooseUsOMS[localLanguage].button;
+  for (let i = 0; i < dataWhyChooseUsOMS[localLanguage].item.length; i++) {
+    item[i].innerText = dataWhyChooseUsOMS[localLanguage].item[i].content;
+  }
+}
+//function render html ads overall marketing dataADSOverallMareting
+function renderHTMLADSOverallMarketing() {
+  let title = document.getElementById("title-sv3");
+  let titleItem = document
+    .getElementById("component-item-sv3")
+    .querySelectorAll(".title-item-sv3");
+  let contentItem = document
+    .getElementById("component-item-sv3")
+    .querySelectorAll(".content-item-sv3");
+  let button = document
+    .getElementById("component-item-sv3")
+    .querySelectorAll(".btn-item-sv3");
+
+  title.innerText = dataADSOverallMareting[localLanguage].title;
+  for (let i = 0; i < dataADSOverallMareting[localLanguage].item.length; i++) {
+    titleItem[i].innerText =
+      dataADSOverallMareting[localLanguage].item[i].title;
+    contentItem[i].innerText =
+      dataADSOverallMareting[localLanguage].item[i].content;
+    button[i].innerText = dataADSOverallMareting[localLanguage].allButton;
+  }
+}
+
+// render html marketing contact dataFrmMarketingContact
+function renderHTMLFrmMarketingContact() {
+  let title = document.getElementById("title-sv5");
+  let subTitle = document.getElementById("sub-title-sv5");
+  let button = document.getElementById("btn-sv5");
+  let inputPlaceholderName = document.getElementsByName("name")[0];
+  let inputPlaceholderPhone = document.getElementsByName("phone")[0];
+  let inputPlaceholderNote = document.getElementsByName("message")[0];
+  title.innerText = dataFrmMarketingContact[localLanguage].title;
+  subTitle.innerText = dataFrmMarketingContact[localLanguage].subTitle;
+  button.innerText = dataFrmMarketingContact[localLanguage].button;
+  let defaultOption = document.getElementById("default-option-sv5-om");
+  inputPlaceholderName.placeholder =
+    dataFrmMarketingContact[localLanguage].placeholder[0].title;
+  inputPlaceholderPhone.placeholder =
+    dataFrmMarketingContact[localLanguage].placeholder[1].title;
+  inputPlaceholderNote.placeholder =
+    dataFrmMarketingContact[localLanguage].placeholder[2].title;
+  defaultOption.innerText =
+    dataFrmMarketingContact[localLanguage].placeholder[3].title;
+}
+//render html web design
+function renderHTMLWebDesign() {
+  const contentWebDesign = document.querySelectorAll(".content-web-design");
+  const subTitleWebDesign = document.querySelectorAll(".subtitle-web-design");
+  const placeholderWebDesign = document.getElementsByName("phone-number");
+  const buttonSubmitPhone = document.querySelectorAll(".content-submit-phone");
+  for (let i = 0; i < contentWebDesign.length; i++) {
+    contentWebDesign[i].innerHTML = dataWebDesign[localLanguage].title;
+  }
+  for (let i = 0; i < subTitleWebDesign.length; i++) {
+    subTitleWebDesign[i].innerHTML = dataWebDesign[localLanguage].subTitle;
+  }
+  for (let i = 0; i < placeholderWebDesign.length; i++) {
+    placeholderWebDesign[i].placeholder =
+      dataWebDesign[localLanguage].placeholderAdvise;
+  }
+  for (let i = 0; i < buttonSubmitPhone.length; i++) {
+    buttonSubmitPhone[i].innerHTML = dataWebDesign[localLanguage].buttonAdvise;
+  }
+}
+//function render html OverallMarketingStrategies dataOverallMarketingStrategies
+function renderHTMLWebDesignStrategies() {
+  let title = document.getElementById("title-web-design-strategies");
+  let item = document
+    .getElementById("component-web-design-strategies")
+    .getElementsByTagName("li");
+  title.innerText = dataWebDesignStrategies[localLanguage].title;
+  for (let i = 0; i < dataWebDesignStrategies[localLanguage].item.length; i++) {
+    item[i].innerText = dataWebDesignStrategies[localLanguage].item[i].content;
+  }
+}
+function renderHTMLWhyChooseUSWebDesign() {
+  let title = document.getElementById("title-service2");
+  let content = document.getElementById("content-sv2");
+  let button = document.getElementById("btn-sv2");
+  let item = document
+    .getElementById("service2-component")
+    .querySelectorAll(".title-sv2-item");
+  title.innerText = dataWhyChooseUsWebDesign[localLanguage].title;
+  content.innerHTML = dataWhyChooseUsWebDesign[localLanguage].content;
+  button.innerText = dataWhyChooseUsWebDesign[localLanguage].button;
+  for (
+    let i = 0;
+    i < dataWhyChooseUsWebDesign[localLanguage].item.length;
+    i++
+  ) {
+    item[i].innerHTML = dataWhyChooseUsWebDesign[localLanguage].item[i].content;
+  }
+}
+
+//function render html ads WebDesign dataADSOverallMareting
+function renderHTMLADSWebDesign() {
+  let title = document.getElementById("title-sv3");
+  let titleItem = document
+    .getElementById("component-item-sv3")
+    .querySelectorAll(".title-item-sv3");
+  let contentItem = document
+    .getElementById("component-item-sv3")
+    .querySelectorAll(".content-item-sv3");
+  let button = document
+    .getElementById("component-item-sv3")
+    .querySelectorAll(".btn-item-sv3");
+
+  console.log(button);
+  title.innerText = dataADSWebDesign[localLanguage].title;
+  for (let i = 0; i < dataADSWebDesign[localLanguage].item.length; i++) {
+    titleItem[i].innerText = dataADSWebDesign[localLanguage].item[i].title;
+    contentItem[i].innerText = dataADSWebDesign[localLanguage].item[i].content;
+    button[i].innerHTML = dataADSWebDesign[localLanguage].allButton;
+  }
+}
+// render html marketing contact dataFrmMarketingContact
+function renderHTMLFrmWebDesign() {
+  let title = document.getElementById("title-sv5");
+  let subTitle = document.getElementById("sub-title-sv5");
+  let button = document.getElementById("btn-sv5");
+  let inputPlaceholderName = document.getElementsByName("name")[0];
+  let inputPlaceholderPhone = document.getElementsByName("phone")[0];
+  let inputPlaceholderNote = document.getElementsByName("message")[0];
+  title.innerText = dataFrmWebDesignContact[localLanguage].title;
+  subTitle.innerText = dataFrmWebDesignContact[localLanguage].subTitle;
+  button.innerText = dataFrmWebDesignContact[localLanguage].button;
+  let defaultOption = document.getElementById("default-option-sv5-om");
+  inputPlaceholderName.placeholder =
+    dataFrmWebDesignContact[localLanguage].placeholder[0].title;
+  inputPlaceholderPhone.placeholder =
+    dataFrmWebDesignContact[localLanguage].placeholder[1].title;
+  inputPlaceholderNote.placeholder =
+    dataFrmWebDesignContact[localLanguage].placeholder[2].title;
+  defaultOption.innerText =
+    dataFrmWebDesignContact[localLanguage].placeholder[3].title;
+}
+
+//render html web design
+function renderHTMLAmazonAccountManager() {
+  const contentWebDesign = document.querySelectorAll(".content-sv1");
+  const subTitleWebDesign = document.querySelectorAll(".subtitle-sv1");
+  const placeholderWebDesign = document.getElementsByName("phone-number");
+  const buttonSubmitPhone = document.querySelectorAll(".content-submit-phone");
+  for (let i = 0; i < contentWebDesign.length; i++) {
+    contentWebDesign[i].innerHTML = dataAAM[localLanguage].title;
+  }
+  for (let i = 0; i < subTitleWebDesign.length; i++) {
+    subTitleWebDesign[i].innerHTML = dataAAM[localLanguage].subTitle;
+  }
+  for (let i = 0; i < placeholderWebDesign.length; i++) {
+    placeholderWebDesign[i].placeholder =
+      dataAAM[localLanguage].placeholderAdvise;
+  }
+  for (let i = 0; i < buttonSubmitPhone.length; i++) {
+    buttonSubmitPhone[i].innerHTML = dataAAM[localLanguage].buttonAdvise;
+  }
+}
+//function render html OverallMarketingStrategies dataOverallMarketingStrategies
+function renderHTMLAAMStrategies() {
+  let title = document.getElementById("title-sv4-strategies");
+  let item = document
+    .getElementById("component-sv4-strategies")
+    .getElementsByTagName("li");
+  title.innerText = dataAAMStrategies[localLanguage].title;
+  for (let i = 0; i < dataAAMStrategies[localLanguage].item.length; i++) {
+    item[i].innerText = dataAAMStrategies[localLanguage].item[i].content;
+  }
+}
+function renderHTMLWhyChooseUSAAM() {
+  let title = document.getElementById("title-service2");
+  let content = document.getElementById("content-sv2");
+  let button = document.getElementById("btn-sv2");
+  let item = document
+    .getElementById("service2-component")
+    .querySelectorAll(".title-sv2-item");
+  title.innerText = dataWhyChooseUsAAM[localLanguage].title;
+  content.innerHTML = dataWhyChooseUsAAM[localLanguage].content;
+  button.innerText = dataWhyChooseUsAAM[localLanguage].button;
+  for (let i = 0; i < dataWhyChooseUsAAM[localLanguage].item.length; i++) {
+    item[i].innerHTML = dataWhyChooseUsAAM[localLanguage].item[i].content;
+  }
+}
+
+//function render html ads WebDesign dataADSOverallMareting
+function renderHTMLADSAAM() {
+  let title = document.getElementById("title-sv3");
+  let titleItem = document
+    .getElementById("component-item-sv3")
+    .querySelectorAll(".title-item-sv3");
+  let contentItem = document
+    .getElementById("component-item-sv3")
+    .querySelectorAll(".content-item-sv3");
+  let button = document
+    .getElementById("component-item-sv3")
+    .querySelectorAll(".btn-item-sv3");
+
+  console.log(button);
+  title.innerText = dataADSAAM[localLanguage].title;
+  for (let i = 0; i < dataADSAAM[localLanguage].item.length; i++) {
+    titleItem[i].innerText = dataADSAAM[localLanguage].item[i].title;
+    contentItem[i].innerText = dataADSAAM[localLanguage].item[i].content;
+    button[i].innerHTML = dataADSAAM[localLanguage].allButton;
+  }
+}
+// render html marketing contact dataFrmMarketingContact
+function renderHTMLFrmAAM() {
+  let title = document.getElementById("title-sv5");
+  let subTitle = document.getElementById("sub-title-sv5");
+  let button = document.getElementById("btn-sv5");
+  let inputPlaceholderName = document.getElementsByName("name")[0];
+  let inputPlaceholderPhone = document.getElementsByName("phone")[0];
+  let inputPlaceholderNote = document.getElementsByName("message")[0];
+  title.innerText = dataFrmAAMContact[localLanguage].title;
+  subTitle.innerText = dataFrmAAMContact[localLanguage].subTitle;
+  button.innerText = dataFrmAAMContact[localLanguage].button;
+  let defaultOption = document.getElementById("default-option-sv5-om");
+  inputPlaceholderName.placeholder =
+    dataFrmAAMContact[localLanguage].placeholder[0].title;
+  inputPlaceholderPhone.placeholder =
+    dataFrmAAMContact[localLanguage].placeholder[1].title;
+  inputPlaceholderNote.placeholder =
+    dataFrmAAMContact[localLanguage].placeholder[2].title;
+  defaultOption.innerText =
+    dataFrmAAMContact[localLanguage].placeholder[3].title;
+}
+//html render component hiring page hiringPage
+function renderHTMLHiringPage() {
+  let titleInfo = document.getElementById("title-info-hiring");
+  let contentInfo = document.getElementById("content-info-hiring");
+  let titleWorkEnvi = document.getElementById("title-work-envi");
+  let titleRecruitPost = document.getElementById("title-recruit-post");
+  titleInfo.innerText = hiringPage[localLanguage].titleInfo;
+  contentInfo.innerHTML = hiringPage[localLanguage].subTitleInfo;
+  titleWorkEnvi.innerText = hiringPage[localLanguage].titleWorkEnvi;
+  titleRecruitPost.innerText = hiringPage[localLanguage].titleHiringPost;
 }
