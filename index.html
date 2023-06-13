@@ -80,18 +80,14 @@
           <li>
             <a class="item-navbars" href="./page/Contact.html">
               <!-- <button class="btn-button"> -->
-                <!-- <p> -->
-                  Liên hệ
-                <!-- </p> -->
+              <!-- <p> -->
+              Liên hệ
+              <!-- </p> -->
               <!-- </button> -->
             </a>
           </li>
           <div class="switch">
-            <input
-              id="language-toggle"
-              class="check-toggle check-toggle-round-flat"
-              type="checkbox"
-            />
+            <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox" />
             <label for="language-toggle"></label>
             <span class="vi" language="vi">VI</span>
             <span class="en" language="en">EN</span>
@@ -142,7 +138,7 @@
                 </button></a>
             </div>
             <div class="title-home3">
-              <h2 class = "title-about-us">Về chúng tôi</h2>
+              <h2 class="title-about-us">Về chúng tôi</h2>
             </div>
             <div class="content-home3">
               <p class="content-about-us">
@@ -303,8 +299,8 @@
       <div class="all-home4">
         <div class="top-home4">
           <div class="title-home4">
-            <h2 id = "title-home-4">Quy trình công việc</h2>
-            <p id = "subtitle-home-4">
+            <h2 id="title-home-4">Quy trình công việc</h2>
+            <p id="subtitle-home-4">
               Các dự án tại Staspi được triển khai theo một quy trình nhất
               quán và chuyên nghiệp. Với 5 bước làm việc được liên kết chặt
               chẽ, chúng tôi cam kết chất lượng và hiệu quả công việc luôn ở
@@ -371,7 +367,7 @@
     <section class="home11">
       <div class="all-home11-dis">
         <div class="all-home11">
-          <h2 id = "title-us-different">Điều khác biệt ở Staspi</h2>
+          <h2 id="title-us-different">Điều khác biệt ở Staspi</h2>
           <div class="all-flex-home11" id="all-flex-home11">
             <div class="square-home11">
               <div class="img-home11">
@@ -415,8 +411,8 @@
       <div class="all-home5-item">
         <div class="all-home5">
           <div class="left-home5">
-            <h2 id="title-data-business" >Data doanh nghiệp</h2>
-            <p id="subtitle-data-business" >
+            <h2 id="title-data-business">Data doanh nghiệp</h2>
+            <p id="subtitle-data-business">
               Hơn 2 năm thành lập và phát triển, Staspi đã phục vụ hơn 100
               khách hàng và đối tác, trong đó có tới 99% khách hàng có đánh
               giá tốt và hài lòng với dịch vụ của chúng tôi. Ngoài ra, Staspi
@@ -477,7 +473,7 @@
         </div>
       </div>
     </section>
-    
+
     <!-- HOME 6 -->
     <section class="home6">
       <div class="all-home6">
@@ -527,7 +523,7 @@
                 <div class="flexbox-home6">
                   <div class="flex-item">
                     <div class="top-item" id="item4"></div>
-                    <a href="http://taymokhoinghiep.xyz/" target="_blank">
+                    <a href="https://pho79dc.com/" target="_blank">
                       <div class="bottom-item">
                         <h5>Phở 79 DC</h5>
                         <span>Website</span>
@@ -942,7 +938,7 @@
 <script>
   //get atribute tag
   const languageBtn = document.querySelector(".check-toggle");
-  const titleAboutUs = document.querySelector(".title-about-us"); 
+  const titleAboutUs = document.querySelector(".title-about-us");
   const contentAboutUs = document.querySelector(".content-about-us");
   const buttonAboutUs = document.querySelector(".content-button-about-us");
   const titleOurService = document.getElementById("title-our-service");
@@ -962,32 +958,12 @@
   const titleClientWeb = document.getElementById("title-client-web");
 
   const titleTestimonial = document.getElementById("title-testimonials");
-  
+
   const titleFormContact = document.getElementById("title-form-email-contact");
   //onload
-window.onload = function () {
+  window.onload = function () {
 
-  setStateButton();
-  renderHTMLAboutUs();
-  renderHTMLOurService();
-  renderHTMLOurWorkingProcess();
-  renderHTMLDifferent();
-  renderHTMLDataBusiness();
-  renderHTMLOurPartner();
-  renderHTMLOurWeb();
-  renderHTMLComponentTestimonial();
-  renderContactWithEmailForm();
-  renderHTMLNavbar();
-  renderFooter();
-  
-  languageBtn.onclick = () => {
-    if (localLanguage === "vi") {
-      localLanguage = "en";
-      localStorage.language = "en";
-    } else {
-      localLanguage = "vi";
-      localStorage.language = "vi";
-    }
+    setStateButton();
     renderHTMLAboutUs();
     renderHTMLOurService();
     renderHTMLOurWorkingProcess();
@@ -998,9 +974,29 @@ window.onload = function () {
     renderHTMLComponentTestimonial();
     renderContactWithEmailForm();
     renderHTMLNavbar();
-    renderFooter()
+    renderFooter();
+
+    languageBtn.onclick = () => {
+      if (localLanguage === "vi") {
+        localLanguage = "en";
+        localStorage.language = "en";
+      } else {
+        localLanguage = "vi";
+        localStorage.language = "vi";
+      }
+      renderHTMLAboutUs();
+      renderHTMLOurService();
+      renderHTMLOurWorkingProcess();
+      renderHTMLDifferent();
+      renderHTMLDataBusiness();
+      renderHTMLOurPartner();
+      renderHTMLOurWeb();
+      renderHTMLComponentTestimonial();
+      renderContactWithEmailForm();
+      renderHTMLNavbar();
+      renderFooter()
+    };
   };
-};
 </script>
 <!-- <script src="./service/testCallApi.js?v=12092022"></script> -->
 <script>
